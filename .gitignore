@@ -1,32 +1,16 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+tessdata/
+tessdata_fast/
+tessdata_best/
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+sizes/
+sizes/B_RUN_data-1001-000-0003-b-leveled
+sizes/B_RUN_data-1001-001-0003-b1
+sizes/B_RUN_data-1001-001-0003-b2
+sizes/B_RUN_data-1002-000-0003-b-leveled-s-curve
+sizes/B_RUN_data-1003-000-0003-b-processed-burned-no-s-curve-thresholded
+sizes/B_RUN_data-1004-000-0003-b-processed-burned-no-s-curve-thresholded-multiply-mix-50pct
+sizes/B_RUN_data-1005-000-0003-b-processed-not-thresholded
+sizes/data-1001-000-0003-b-leveled
+sizes/data-1020-000-0006-a-cleaned-w.pin-light+masked
+sizes/movie

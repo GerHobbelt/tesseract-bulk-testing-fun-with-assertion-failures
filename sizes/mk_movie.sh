@@ -40,6 +40,9 @@ rm -f movie.mp4
 # "${FFMPEG}"  -i movie/ffmpeg-input-list.txt  -vf fps=24,showinfo   -c:v libx265 -shortest -r 24 -an -x265-params crf=24 -pix_fmt yuv420p movie.mp4
 "${FFMPEG}"  -i movie/ffmpeg-input-list.txt  -vf fps=24   -c:v libx265 -shortest -r 24 -an -x265-params crf=28  -tag:v hvc1  movie.mp4
 
+if test -f movie/image-name.txt ; then
+	mv movie.mp4  $( cat movie/image-name.txt | tr -d '\r\n' )_movie.mp4
+fi
 
 # mkdir -p black
 # mogrify -path black -thumbnail 640x480 -background black -gravity center -extent 640x480 png/*.png

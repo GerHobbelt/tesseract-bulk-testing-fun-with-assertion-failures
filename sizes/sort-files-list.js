@@ -128,6 +128,9 @@ for f in $( find ./ -maxdepth 1 -type f -name '${srcimg}*' ) ; do
     ) &
 
     magick   $f  -background transparent  -gravity NorthWest -resize 500x500  -bordercolor black -border 5  -extent 3840x2160   png32:movie/pip.png
+	
+	echo "${image}" > movie/image-name.txt
+	echo "${srcimg}" > movie/srcimg-name.txt
 
     cat >> movie/ffmpeg-input-list.txt   <<EOT
 file   ${n - 1}.png

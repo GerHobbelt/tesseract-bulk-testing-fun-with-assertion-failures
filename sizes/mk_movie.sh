@@ -29,7 +29,6 @@ mkdir movie
 rm -f movie/*.png
 #node ./sort-files-list.js tmp-files-list 
 node ./sort-files-list.js tmp-files-list > tmp-files-list-process.sh 
-
 ./tmp-files-list-process.sh
 
 # "${FFMPEG}" -h full   > ffmpeg.help.txt

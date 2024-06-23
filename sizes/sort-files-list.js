@@ -26,7 +26,7 @@ let a = src.split('\n')
     return line.length > 0;
 });
 
-let re = /^(.*)\/tess([^/]*)\/OEM([^/]*)\/PSM(.*?)-([A-Z]*)SIZE-([^x]+)x([^.-]+)[.-]/;
+let re = /^(.*)\/tess([^/]*)\/OEM([^/]*)\/PSM(.*?)-TH(.*?)-([A-Z]*)SIZE-([^x]+)x([^.-]+)[.-]/;
 
 function strcmp(nameA, nameB) {
   if (nameA < nameB) {
@@ -47,25 +47,28 @@ a.sort(function (a, b) {
   //console.log({ am, bm });
 
   let rv = strcmp(am[1], bm[1]);
-  //console.log({ rv });
+  //console.log({ rv, a: am[1], b: bm[1] });
   if (rv === 0)
     rv = strcmp(am[2], bm[2]);
-  //console.log({ rv });
+  //console.log({ rv, a: am[2], b: bm[2] });
   if (rv === 0)
     rv = Math.sign(0 + am[3] - bm[3]);
-  //console.log({ rv });
+  //console.log({ rv, a: am[3], b: bm[3], delta: 0 + am[3] - bm[3] });
   if (rv === 0)
     rv = Math.sign(0 + am[4] - bm[4]);
-  //console.log({ rv });
+  //console.log({ rv, a: am[4], b: bm[4], delta: 0 + am[4] - bm[4] });
   if (rv === 0)
-    rv = strcmp(am[5], bm[5]);
-  //console.log({ rv });
+    rv = Math.sign(0 + am[5] - bm[5]);
+  //console.log({ rv, a: am[5], b: bm[5], delta: 0 + am[5] - bm[5] });
   if (rv === 0)
-    rv = Math.sign(0 + am[6] - bm[6]);
-  //console.log({ rv });
+    rv = strcmp(am[6], bm[6]);
+  //console.log({ rv, a: am[6], b: bm[6] });
   if (rv === 0)
     rv = Math.sign(0 + am[7] - bm[7]);
-  //console.log({ rv });
+  //console.log({ rv, a: am[7], b: bm[7], delta: 0 + am[7] - bm[7] });
+  if (rv === 0)
+    rv = Math.sign(0 + am[8] - bm[8]);
+  //console.log({ rv, a: am[8], b: bm[8], delta: 0 + am[8] - bm[8] });
   return rv;
 });
 
@@ -165,8 +168,8 @@ duration  1.5
 EOT
         `);
   }
-  if (m[4] != old_m[4]) {
-      style = ("PSM" + m[4]).replace(/-TH/, ", threshold mode ");
+  if (m[4] + "TH" + m[5] != old_m[4] + "TH" + old_m[5]) {
+      style = `PSM ${m[4]}, threshold mode ${m[5]}`;
       console.log("# new STYLE header:", style);
       console.log(`
 magick  -background transparent -fill black -font Liberation-Sans -pointsize 120  -fill black -stroke '#FFFFFF80' -strokewidth 10  -gravity center      label:'Style:\\n(Page Segmentation Mode + ...)\\n\\n${style}'   \\( +clone -channel RGB -opaque black -fill white   -channel RGBA  -blur 0x20 \\)   -compose dst-over -composite    -extent 3840x2160  miff:-  |  magick composite -gravity center -  movie/background.png   movie/style.png
@@ -179,8 +182,8 @@ duration  2
 EOT
         `);
   }
-  if (m[7] != old_m[7]) {
-      size = m[7];
+  if (m[8] != old_m[8]) {
+      size = m[8];
       console.log("# new SIZE overlay:", size);
   console.log(`
 magick  -background lightgrey -fill black -font Liberation-Sans -pointsize 32   -gravity west      label:'${image} | ${base} | ${oem} | ${style} | height: ${size}px'     -extent 3740x50 -splice 100x0   movie/size.png

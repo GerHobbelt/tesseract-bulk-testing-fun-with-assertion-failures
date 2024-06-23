@@ -55,7 +55,7 @@ a.sort(function (a, b) {
     rv = Math.sign(0 + am[3] - bm[3]);
   //console.log({ rv });
   if (rv === 0)
-    rv = strcmp(am[4], bm[4]);
+    rv = Math.sign(0 + am[4] - bm[4]);
   //console.log({ rv });
   if (rv === 0)
     rv = strcmp(am[5], bm[5]);

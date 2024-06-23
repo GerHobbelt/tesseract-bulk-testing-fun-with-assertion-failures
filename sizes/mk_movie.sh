@@ -8,7 +8,7 @@
 #
 # Example run:
 #
-#   find B_RUN_data-1001-000-0003-b-leveled/tessdata/OEM3/ -name '*.tif' | ./mk_movie.sh
+#   find B_RUN_data-1001-000-0003-b-leveled/tessdata/OEM3/ -name 'PSM[1,3]-*.tif' | ./mk_movie.sh
 #
 
 # quick hack: latest full-featured ffmpeg is here on my box:

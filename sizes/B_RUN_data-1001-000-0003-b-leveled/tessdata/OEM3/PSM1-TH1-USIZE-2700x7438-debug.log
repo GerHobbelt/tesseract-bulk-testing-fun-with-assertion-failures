@@ -1,0 +1,504 @@
+
+image width: 5622  height: 7438  ppi: 70
+tile size: 23  smooth_size: 0  score_fraction: 0.10
+Estimating resolution as 530
+OSD: Weak margin (5.85) for 10376 blob text block, but using orientation anyway: 0
+Detected 10157 diacritics
+cleanup_blocks: # rows = 0 / 0
+Row ending at (656,7278.02): R=3.5, dc=7, nc=2, REJECTED
+Row ending at (650,7218.01): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (824,7186.08): R=0.5, dc=4, nc=8, ACCEPTED
+cleanup_blocks: # rows = 2 / 3
+Row ending at (3514,6203.33): R=3, dc=15, nc=5, REJECTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (3697,6205.18): R=0.115385, dc=6, nc=52, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (3401,6174.13): R=0.625, dc=5, nc=8, ACCEPTED
+Row ending at (3616,6093.5): R=0.166667, dc=7, nc=42, ACCEPTED
+Row ending at (3642,6074.54): R=2.90909, dc=32, nc=11, REJECTED
+Row ending at (3624,5929.4): R=8.3, dc=83, nc=10, REJECTED
+Row ending at (3676,5896.15): R=1.62162, dc=60, nc=37, ACCEPTED
+Row ending at (3616,5779.42): R=13, dc=39, nc=3, REJECTED
+Row ending at (4216,5752.27): R=5.25, dc=84, nc=16, REJECTED
+Row ending at (3911,5675.46): R=1.5641, dc=61, nc=39, ACCEPTED
+Row ending at (4204,5616.73): R=0, dc=0, nc=18, ACCEPTED
+cleanup_blocks: # rows = 6 / 9
+Row ending at (1740,6188.6): R=0, dc=0, nc=1, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (3361,6058.03): R=1.5, dc=3, nc=2, ACCEPTED
+Row ending at (3404,6006.43): R=3.5, dc=7, nc=2, REJECTED
+Row ending at (3372,5958): R=0, dc=0, nc=2, ACCEPTED
+Row ending at (3396,5922): R=0.666667, dc=2, nc=3, ACCEPTED
+cleanup_blocks: # rows = 3 / 4
+Row ending at (4038,5775.22): R=9999, dc=1, nc=0, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (4002,5733.21): R=14, dc=14, nc=1, REJECTED
+Row ending at (3978,5702.11): R=5.25, dc=21, nc=4, REJECTED
+cleanup_blocks: # rows = 1 / 2
+cleanup_blocks: # rows = 0 / 0
+Row ending at (1861,4395.14): R=0, dc=0, nc=8, ACCEPTED
+Row ending at (1640,4373.02): R=0, dc=0, nc=2, ACCEPTED
+Row ending at (1976,4318.02): R=0.75, dc=6, nc=8, ACCEPTED
+cleanup_blocks: # rows = 3 / 3
+Row ending at (1850,4296.01): R=0.25, dc=1, nc=4, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (1432,4306.36): R=6.75, dc=27, nc=4, REJECTED
+Row ending at (1792,4265.49): R=2.85714, dc=20, nc=7, REJECTED
+Row ending at (1804,4243.91): R=5, dc=20, nc=4, REJECTED
+Row ending at (2120,4177.95): R=1.5, dc=21, nc=14, ACCEPTED
+Row ending at (2132,4140.96): R=1.9, dc=19, nc=10, ACCEPTED
+Row ending at (1976,4073.54): R=9999, dc=5, nc=0, REJECTED
+cleanup_blocks: # rows = 3 / 6
+Row ending at (1744,4119.24): R=11, dc=11, nc=1, REJECTED
+Row ending at (1086,4063.95): R=1.11111, dc=10, nc=9, ACCEPTED
+cleanup_blocks: # rows = 1 / 2
+Row ending at (2282,4390.68): R=0, dc=0, nc=10, ACCEPTED
+Row ending at (2232,4310): R=9999, dc=1, nc=0, ACCEPTED
+cleanup_blocks: # rows = 2 / 2
+Row ending at (1822,4064.46): R=0.529412, dc=9, nc=17, ACCEPTED
+Row ending at (1907,4011.01): R=0.5, dc=5, nc=10, ACCEPTED
+Row ending at (1915,3952.04): R=0.0909091, dc=3, nc=33, ACCEPTED
+cleanup_blocks: # rows = 3 / 3
+Row ending at (3427,3747.22): R=5.71429, dc=40, nc=7, REJECTED
+cleanup_blocks: # rows = 0 / 1
+Row ending at (1736,3668.01): R=6, dc=12, nc=2, REJECTED
+Row ending at (1702,3608.28): R=8.33333, dc=25, nc=3, REJECTED
+Row ending at (1560,3529.85): R=0.25, dc=1, nc=4, ACCEPTED
+cleanup_blocks: # rows = 1 / 3
+Row ending at (1572,3551): R=0, dc=0, nc=1, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (3540,3650.06): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (3500,3589.87): R=3, dc=3, nc=1, REJECTED
+Row ending at (3633,3574.01): R=0, dc=0, nc=3, ACCEPTED
+Row ending at (3657,3550.37): R=1.66667, dc=5, nc=3, ACCEPTED
+cleanup_blocks: # rows = 3 / 4
+cleanup_blocks: # rows = 0 / 0
+Row ending at (3904,3322.02): R=4.5, dc=27, nc=6, REJECTED
+Row ending at (3964,3272.34): R=3.75, dc=75, nc=20, REJECTED
+Row ending at (4056,3191.74): R=8.2, dc=123, nc=15, REJECTED
+Row ending at (4140,3123.52): R=9.05263, dc=172, nc=19, REJECTED
+Row ending at (4131,3074.65): R=43, dc=86, nc=2, REJECTED
+Row ending at (4188,3023.94): R=11.8462, dc=154, nc=13, REJECTED
+Row ending at (3732,2965.03): R=0, dc=0, nc=21, ACCEPTED
+cleanup_blocks: # rows = 4 / 7
+cleanup_blocks: # rows = 0 / 0
+Row ending at (2460,2902.19): R=3.25, dc=26, nc=8, REJECTED
+Row ending at (3986,2835.23): R=0.25, dc=13, nc=52, ACCEPTED
+cleanup_blocks: # rows = 1 / 2
+Row ending at (2296,2809.87): R=1.1, dc=11, nc=10, ACCEPTED
+Row ending at (2280,2728.01): R=1.27273, dc=14, nc=11, ACCEPTED
+Row ending at (454,2680.5): R=8, dc=16, nc=2, REJECTED
+Row ending at (4176,2580.55): R=1.55556, dc=14, nc=9, ACCEPTED
+cleanup_blocks: # rows = 3 / 4
+Row ending at (1596,2740.89): R=0.481481, dc=13, nc=27, ACCEPTED
+Row ending at (3580,2630.78): R=0.73913, dc=17, nc=23, ACCEPTED
+Row ending at (2540,2585.33): R=0.315789, dc=6, nc=19, ACCEPTED
+Row ending at (4071,2524.44): R=0.221053, dc=21, nc=95, ACCEPTED
+cleanup_blocks: # rows = 4 / 4
+Row ending at (356,2740.04): R=6, dc=6, nc=1, REJECTED
+Row ending at (346,2708.1): R=1.33333, dc=4, nc=3, ACCEPTED
+cleanup_blocks: # rows = 1 / 2
+Row ending at (1438,2582.38): R=0, dc=0, nc=11, ACCEPTED
+Row ending at (2300,2470): R=0, dc=0, nc=2, ACCEPTED
+Row ending at (1332,2298.95): R=0.26087, dc=6, nc=23, ACCEPTED
+Row ending at (2316,2206.03): R=3, dc=3, nc=1, REJECTED
+Row ending at (1308,2149.12): R=0, dc=0, nc=7, ACCEPTED
+cleanup_blocks: # rows = 4 / 5
+Row ending at (3887,2470.19): R=0.333333, dc=5, nc=15, ACCEPTED
+Row ending at (3814,2411.43): R=0.268657, dc=18, nc=67, ACCEPTED
+Row ending at (3664,2300.88): R=0.341463, dc=14, nc=41, ACCEPTED
+Row ending at (3474,2190.02): R=0.553571, dc=31, nc=56, ACCEPTED
+Row ending at (3496,2060.86): R=1.21875, dc=39, nc=32, ACCEPTED
+Row ending at (3458,1961.95): R=6, dc=24, nc=4, REJECTED
+cleanup_blocks: # rows = 5 / 6
+cleanup_blocks: # rows = 0 / 0
+Row ending at (2980,2002.01): R=3, dc=3, nc=1, REJECTED
+cleanup_blocks: # rows = 0 / 1
+cleanup_blocks: # rows = 0 / 0
+Row ending at (2184,1936.94): R=1.10345, dc=32, nc=29, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (4168,1941.16): R=14.5, dc=29, nc=2, REJECTED
+Row ending at (4100,1839.96): R=1.40351, dc=80, nc=57, ACCEPTED
+Row ending at (4036,1744.15): R=1.48936, dc=70, nc=47, ACCEPTED
+Row ending at (3952,1630.46): R=0.925, dc=37, nc=40, ACCEPTED
+Row ending at (2472,1522.46): R=0.818182, dc=27, nc=33, ACCEPTED
+Row ending at (2244,1414.19): R=0.451613, dc=14, nc=31, ACCEPTED
+cleanup_blocks: # rows = 5 / 6
+Row ending at (1300,1363.97): R=1.4, dc=7, nc=5, ACCEPTED
+Row ending at (1260,1311.47): R=0.0625, dc=1, nc=16, ACCEPTED
+cleanup_blocks: # rows = 2 / 2
+Row ending at (2157,810.004): R=0, dc=0, nc=1, ACCEPTED
+Row ending at (2556,791.001): R=2, dc=4, nc=2, ACCEPTED
+Row ending at (2806,774.078): R=9999, dc=5, nc=0, REJECTED
+Row ending at (2796,758.065): R=0.583333, dc=7, nc=12, ACCEPTED
+Row ending at (2752,718.937): R=1, dc=10, nc=10, ACCEPTED
+Row ending at (2736,699.363): R=1.75, dc=7, nc=4, ACCEPTED
+Row ending at (2600,676.007): R=2, dc=4, nc=2, ACCEPTED
+cleanup_blocks: # rows = 6 / 7
+Row ending at (4151,621.071): R=0, dc=0, nc=5, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (2184,675.938): R=2.28571, dc=16, nc=7, REJECTED
+Row ending at (3007,621.708): R=0.0285714, dc=2, nc=70, ACCEPTED
+cleanup_blocks: # rows = 1 / 2
+Row ending at (996,905.566): R=0.666667, dc=2, nc=3, ACCEPTED
+Row ending at (852,867.057): R=1.25, dc=5, nc=4, ACCEPTED
+Row ending at (900,838.016): R=1.11111, dc=10, nc=9, ACCEPTED
+Row ending at (532,812.048): R=2.5, dc=5, nc=2, REJECTED
+Row ending at (984,792.48): R=1.6, dc=8, nc=5, ACCEPTED
+Row ending at (971,774.61): R=1.22222, dc=11, nc=9, ACCEPTED
+Row ending at (876,724.275): R=1.5, dc=9, nc=6, ACCEPTED
+Row ending at (891,710.414): R=2, dc=4, nc=2, ACCEPTED
+Row ending at (929,681.786): R=0.142857, dc=1, nc=7, ACCEPTED
+Row ending at (499,658.202): R=5, dc=5, nc=1, REJECTED
+Row ending at (536,638.212): R=0.5, dc=1, nc=2, ACCEPTED
+Row ending at (348,612.002): R=0, dc=0, nc=1, ACCEPTED
+Row ending at (428,582.002): R=0, dc=0, nc=1, ACCEPTED
+Row ending at (400,566.003): R=0, dc=0, nc=1, ACCEPTED
+cleanup_blocks: # rows = 12 / 14
+Row ending at (2204,598.008): R=0, dc=0, nc=3, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (2358,561): R=9999, dc=1, nc=0, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (1532,561): R=0.25, dc=3, nc=12, ACCEPTED
+Row ending at (3000,509.979): R=0.125, dc=2, nc=16, ACCEPTED
+Row ending at (3042,469): R=0, dc=0, nc=9, ACCEPTED
+cleanup_blocks: # rows = 3 / 3
+Row ending at (1790,561.302): R=3, dc=3, nc=1, REJECTED
+Row ending at (2182,512.671): R=0.146341, dc=6, nc=41, ACCEPTED
+Row ending at (2645,452.18): R=0.285714, dc=2, nc=7, ACCEPTED
+Row ending at (2908,396.029): R=0.306122, dc=15, nc=49, ACCEPTED
+cleanup_blocks: # rows = 3 / 4
+Row ending at (3186,554.09): R=1.5, dc=3, nc=2, ACCEPTED
+Row ending at (3104,542.009): R=0, dc=0, nc=1, ACCEPTED
+Row ending at (3140,530.106): R=0.666667, dc=2, nc=3, ACCEPTED
+cleanup_blocks: # rows = 3 / 3
+Row ending at (690,394.008): R=9999, dc=0, nc=0, ACCEPTED
+Row ending at (1572,358.06): R=0.5, dc=2, nc=4, ACCEPTED
+Row ending at (2001,334.06): R=0, dc=0, nc=2, ACCEPTED
+cleanup_blocks: # rows = 3 / 3
+Row ending at (1724,300.736): R=3.28571, dc=23, nc=7, REJECTED
+Row ending at (1754,242): R=0, dc=0, nc=6, ACCEPTED
+Row ending at (1840,191.678): R=1.33333, dc=8, nc=6, ACCEPTED
+cleanup_blocks: # rows = 2 / 3
+Row ending at (4176,98): R=0, dc=0, nc=3, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (4276,6202.26): R=0.666667, dc=4, nc=6, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (4518,6152.42): R=3, dc=9, nc=3, REJECTED
+Row ending at (4624,6110.02): R=12.5, dc=25, nc=2, REJECTED
+cleanup_blocks: # rows = 0 / 2
+Row ending at (4228,3630.01): R=0, dc=0, nc=1, ACCEPTED
+Row ending at (4234,3598): R=0, dc=0, nc=1, ACCEPTED
+cleanup_blocks: # rows = 2 / 2
+Row ending at (4255,3792.47): R=5.66667, dc=17, nc=3, REJECTED
+Row ending at (4212,3769.32): R=8.66667, dc=26, nc=3, REJECTED
+Row ending at (4240,3721.92): R=2.72727, dc=30, nc=11, REJECTED
+Row ending at (4304,3653.99): R=1, dc=22, nc=22, ACCEPTED
+Row ending at (4268,3646.03): R=0.363636, dc=4, nc=11, ACCEPTED
+Row ending at (4220,3570.74): R=4.5, dc=27, nc=6, REJECTED
+Row ending at (3408,3542): R=0, dc=0, nc=2, ACCEPTED
+cleanup_blocks: # rows = 3 / 7
+Row ending at (4376,3334): R=1, dc=1, nc=1, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (4386,3257.84): R=1.33333, dc=4, nc=3, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (4212,2967.44): R=2.94118, dc=50, nc=17, REJECTED
+Row ending at (4206,2887): R=5, dc=50, nc=10, REJECTED
+Row ending at (4208,2853.3): R=2, dc=2, nc=1, ACCEPTED
+cleanup_blocks: # rows = 2 / 3
+Row ending at (4255,2832.16): R=0.25, dc=1, nc=4, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (4628,221.376): R=2.85714, dc=20, nc=7, REJECTED
+Row ending at (4618,164.62): R=1.38462, dc=18, nc=13, ACCEPTED
+Row ending at (4915,142): R=0, dc=0, nc=2, ACCEPTED
+Row ending at (4986,101): R=0.636364, dc=7, nc=11, ACCEPTED
+cleanup_blocks: # rows = 3 / 4
+Row ending at (4347,448): R=1, dc=4, nc=4, ACCEPTED
+Row ending at (4373,418): R=0.4, dc=2, nc=5, ACCEPTED
+Row ending at (4496,402): R=2.33333, dc=14, nc=6, REJECTED
+Row ending at (4398,390.153): R=1.125, dc=9, nc=8, ACCEPTED
+Row ending at (4488,362.014): R=1.3125, dc=21, nc=16, ACCEPTED
+Row ending at (4545,336.016): R=1.5, dc=24, nc=16, ACCEPTED
+Row ending at (4533,313.543): R=2, dc=32, nc=16, ACCEPTED
+Row ending at (4502,276.85): R=7.75, dc=31, nc=4, REJECTED
+Row ending at (4430,278.009): R=0.814815, dc=22, nc=27, ACCEPTED
+Row ending at (4480,247.9): R=0.7, dc=7, nc=10, ACCEPTED
+Row ending at (4495,234.624): R=2.05, dc=41, nc=20, REJECTED
+Row ending at (4004,213.833): R=0.833333, dc=5, nc=6, ACCEPTED
+Row ending at (4024,198.296): R=1.42105, dc=27, nc=19, ACCEPTED
+Row ending at (4072,177.721): R=0.5, dc=5, nc=10, ACCEPTED
+Row ending at (3884,156.935): R=0, dc=0, nc=22, ACCEPTED
+Row ending at (3732,126): R=0, dc=0, nc=7, ACCEPTED
+Row ending at (3447,106): R=0, dc=0, nc=1, ACCEPTED
+cleanup_blocks: # rows = 14 / 17
+Row ending at (5474,7391.53): R=9999, dc=0, nc=0, ACCEPTED
+Row ending at (5451,7345.89): R=1, dc=1, nc=1, ACCEPTED
+cleanup_blocks: # rows = 2 / 2
+Row ending at (4774,-5096): R=9999, dc=5, nc=0, REJECTED
+cleanup_blocks: # rows = 0 / 1
+Row ending at (4651,-5049.97): R=0, dc=0, nc=1, ACCEPTED
+Row ending at (4702,-5099.9): R=4, dc=4, nc=1, REJECTED
+cleanup_blocks: # rows = 1 / 2
+Row ending at (4766,-4903.9): R=11, dc=11, nc=1, REJECTED
+Row ending at (5694,-4935.86): R=0.75, dc=6, nc=8, ACCEPTED
+Row ending at (5682,-4944.38): R=1, dc=5, nc=5, ACCEPTED
+Row ending at (5758,-4964.22): R=8, dc=24, nc=3, REJECTED
+Row ending at (5542,-4979.75): R=1, dc=10, nc=10, ACCEPTED
+Row ending at (6026,-5001.36): R=1.90909, dc=21, nc=11, ACCEPTED
+Row ending at (6006,-5015.03): R=0.434783, dc=10, nc=23, ACCEPTED
+Row ending at (5726,-5030.65): R=1.33333, dc=20, nc=15, ACCEPTED
+Row ending at (5962,-5065.85): R=0.333333, dc=3, nc=9, ACCEPTED
+Row ending at (6022,-5075): R=9999, dc=2, nc=0, ACCEPTED
+Row ending at (5810,-5098): R=1, dc=3, nc=3, ACCEPTED
+Row ending at (4586,-5179.93): R=1, dc=2, nc=2, ACCEPTED
+cleanup_blocks: # rows = 10 / 12
+Row ending at (4463,-4990.98): R=0, dc=0, nc=1, ACCEPTED
+Row ending at (4454,-5034): R=0, dc=0, nc=2, ACCEPTED
+Row ending at (4539,-5099.2): R=3.66667, dc=11, nc=3, REJECTED
+Row ending at (4493,-5127.95): R=0, dc=0, nc=4, ACCEPTED
+Row ending at (4502,-5189.99): R=0, dc=0, nc=1, ACCEPTED
+cleanup_blocks: # rows = 4 / 5
+Row ending at (4426,-5127.81): R=0.666667, dc=2, nc=3, ACCEPTED
+Row ending at (4410,-5196.09): R=2, dc=4, nc=2, ACCEPTED
+cleanup_blocks: # rows = 2 / 2
+Row ending at (4426,-4914): R=0, dc=0, nc=1, ACCEPTED
+Row ending at (4436,-4990.98): R=5, dc=5, nc=1, REJECTED
+Row ending at (4370,-4971.99): R=0, dc=0, nc=5, ACCEPTED
+Row ending at (4441,-4987): R=1.33333, dc=4, nc=3, ACCEPTED
+Row ending at (4425,-5020): R=0.666667, dc=2, nc=3, ACCEPTED
+Row ending at (4438,-5060): R=0.5, dc=4, nc=8, ACCEPTED
+Row ending at (4445,-5148): R=0, dc=0, nc=2, ACCEPTED
+cleanup_blocks: # rows = 6 / 7
+Row ending at (4236,-5132.99): R=9999, dc=0, nc=0, ACCEPTED
+Row ending at (4247,-5211.99): R=0, dc=0, nc=1, ACCEPTED
+cleanup_blocks: # rows = 2 / 2
+Row ending at (4205,-5171.99): R=0, dc=0, nc=1, ACCEPTED
+Row ending at (4195,-5199.99): R=0, dc=0, nc=1, ACCEPTED
+cleanup_blocks: # rows = 2 / 2
+Row ending at (7251,-5015.44): R=1.66667, dc=10, nc=6, ACCEPTED
+Row ending at (7250,-5038.78): R=1.25, dc=10, nc=8, ACCEPTED
+Row ending at (7259,-5066.71): R=1.66667, dc=25, nc=15, ACCEPTED
+Row ending at (7241,-5105.92): R=1.39394, dc=46, nc=33, ACCEPTED
+Row ending at (7054,-5107.19): R=0.75, dc=15, nc=20, ACCEPTED
+Row ending at (7218,-5148.01): R=1.33333, dc=44, nc=33, ACCEPTED
+Row ending at (7286,-5146.72): R=1.32432, dc=49, nc=37, ACCEPTED
+Row ending at (7026,-5169.4): R=2.1, dc=21, nc=10, REJECTED
+Row ending at (7247,-5193.22): R=0.826087, dc=19, nc=23, ACCEPTED
+Row ending at (7282,-5206.02): R=2.375, dc=38, nc=16, REJECTED
+Row ending at (7132,-5229.6): R=0.787879, dc=26, nc=33, ACCEPTED
+Row ending at (7047,-5227.5): R=1.5, dc=12, nc=8, ACCEPTED
+Row ending at (7090,-5228.29): R=0.870968, dc=27, nc=31, ACCEPTED
+Row ending at (7106,-5245.38): R=0.833333, dc=15, nc=18, ACCEPTED
+Row ending at (7237,-5253.79): R=0.933333, dc=28, nc=30, ACCEPTED
+Row ending at (7266,-5275.95): R=1.09524, dc=23, nc=21, ACCEPTED
+Row ending at (7271,-5293.26): R=1.36111, dc=49, nc=36, ACCEPTED
+Row ending at (7066,-5327.96): R=2.04167, dc=49, nc=24, REJECTED
+Row ending at (7238,-5342.84): R=1.375, dc=22, nc=16, ACCEPTED
+Row ending at (7231,-5355.44): R=1.44444, dc=26, nc=18, ACCEPTED
+cleanup_blocks: # rows = 17 / 20
+Row ending at (4110,-5059.98): R=9999, dc=0, nc=0, ACCEPTED
+Row ending at (4140,-5174.01): R=1.33333, dc=4, nc=3, ACCEPTED
+Row ending at (4150,-5198.88): R=0.2, dc=1, nc=5, ACCEPTED
+Row ending at (4128,-5218.92): R=0, dc=0, nc=1, ACCEPTED
+cleanup_blocks: # rows = 4 / 4
+Row ending at (4178,-5059.99): R=9999, dc=0, nc=0, ACCEPTED
+Row ending at (4176,-5113.96): R=2, dc=4, nc=2, ACCEPTED
+Row ending at (4181,-5140): R=0, dc=0, nc=2, ACCEPTED
+Row ending at (4173,-5207.99): R=0, dc=0, nc=1, ACCEPTED
+cleanup_blocks: # rows = 4 / 4
+Row ending at (4074,-5053.99): R=9999, dc=0, nc=0, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (4043,-5059.99): R=9999, dc=0, nc=0, ACCEPTED
+Row ending at (4186,-5232): R=3.5, dc=14, nc=4, REJECTED
+Row ending at (4122,-5289.87): R=8, dc=8, nc=1, REJECTED
+cleanup_blocks: # rows = 1 / 3
+Row ending at (3990,-4988): R=0, dc=0, nc=1, ACCEPTED
+Row ending at (3968,-5051.92): R=9999, dc=1, nc=0, ACCEPTED
+Row ending at (4114,-5156.14): R=2.66667, dc=16, nc=6, REJECTED
+Row ending at (4025,-5215.91): R=6, dc=12, nc=2, REJECTED
+cleanup_blocks: # rows = 2 / 4
+Row ending at (3821,-5059.98): R=9999, dc=0, nc=0, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+cleanup_blocks: # rows = 0 / 0
+Row ending at (3874,-4919): R=1, dc=1, nc=1, ACCEPTED
+Row ending at (3839,-4947.94): R=2, dc=4, nc=2, ACCEPTED
+cleanup_blocks: # rows = 2 / 2
+Row ending at (3712,-4876): R=9999, dc=1, nc=0, ACCEPTED
+Row ending at (4126,-4904): R=9999, dc=3, nc=0, REJECTED
+Row ending at (4230,-4936.1): R=2.4, dc=12, nc=5, REJECTED
+Row ending at (4206,-4967.96): R=5, dc=20, nc=4, REJECTED
+Row ending at (4237,-4987.79): R=0.285714, dc=2, nc=7, ACCEPTED
+Row ending at (4198,-5001.65): R=1.75, dc=14, nc=8, ACCEPTED
+Row ending at (4256,-5048.02): R=4.75, dc=19, nc=4, REJECTED
+cleanup_blocks: # rows = 3 / 7
+Row ending at (3846,-4986.39): R=0.875, dc=7, nc=8, ACCEPTED
+Row ending at (3755,-5001.03): R=1, dc=1, nc=1, ACCEPTED
+cleanup_blocks: # rows = 2 / 2
+Row ending at (4476,3714): R=0.666667, dc=2, nc=3, ACCEPTED
+Row ending at (4559,3689.95): R=0, dc=0, nc=2, ACCEPTED
+Row ending at (4568,3654.14): R=0, dc=0, nc=3, ACCEPTED
+Row ending at (4500,3566.99): R=2, dc=2, nc=1, ACCEPTED
+Row ending at (4408,3610): R=0, dc=0, nc=1, ACCEPTED
+Row ending at (4504,3598.03): R=0, dc=0, nc=2, ACCEPTED
+Row ending at (4504,3586): R=0, dc=0, nc=2, ACCEPTED
+Row ending at (4543,3558.04): R=1, dc=2, nc=2, ACCEPTED
+cleanup_blocks: # rows = 8 / 8
+Row ending at (4278,3563.19): R=1.5, dc=3, nc=2, ACCEPTED
+Row ending at (4296,3542): R=0, dc=0, nc=2, ACCEPTED
+cleanup_blocks: # rows = 2 / 2
+Row ending at (4388,3349.6): R=0, dc=0, nc=3, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (4598,3344.99): R=0, dc=0, nc=1, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (4552,3274.07): R=0, dc=0, nc=4, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (4431,2958.02): R=4, dc=4, nc=1, REJECTED
+Row ending at (4484,2920.1): R=1.75, dc=7, nc=4, ACCEPTED
+cleanup_blocks: # rows = 1 / 2
+Row ending at (4548,2885.99): R=0.25, dc=1, nc=4, ACCEPTED
+Row ending at (4530,2860.82): R=3, dc=12, nc=4, REJECTED
+cleanup_blocks: # rows = 1 / 2
+cleanup_blocks: # rows = 0 / 0
+cleanup_blocks: # rows = 0 / 0
+Row ending at (4508,2807.17): R=4, dc=16, nc=4, REJECTED
+cleanup_blocks: # rows = 0 / 1
+Row ending at (4286,734.118): R=0.25, dc=1, nc=4, ACCEPTED
+Row ending at (4268,713.927): R=3, dc=3, nc=1, REJECTED
+Row ending at (4300,670.062): R=0.4, dc=2, nc=5, ACCEPTED
+Row ending at (4272,642.008): R=0, dc=0, nc=1, ACCEPTED
+Row ending at (4299,610.003): R=0, dc=0, nc=1, ACCEPTED
+cleanup_blocks: # rows = 4 / 5
+Row ending at (5101,158.147): R=3.75, dc=15, nc=4, REJECTED
+cleanup_blocks: # rows = 0 / 1
+cleanup_blocks: # rows = 0 / 0
+cleanup_blocks: # blocks = 74 / 90
+Processing word with lang eng at:Bounding box=(276,7218)->(366,7242)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 2 : R=1.5017, C=-8.52139, F=1, Perm=11, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	2
+state:	1 
+C	-1.217
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : sty : R=11.6309, C=-16.7557, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	s	t	y
+state:	1 	1 	1 
+C	-2.394	-1.258	-1.273
+1 new words better than 0 old words: r: 1.5017 v 0 c: -8.52139 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 11.6309 v 0 c: -16.7557 v 0 valid dict: 1 v 0
+sty (ocr took 0.01 sec)
+Pass1: sty [s [73 ]a t [74 ]a y [79 ]a ]
+Processing word with lang eng at:Bounding box=(540,7210)->(667,7254)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : RS : R=21.6003, C=-23.9969, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	R	S
+state:	1 	1 
+C	-1.516	-3.428
+1 new words better than 0 old words: r: 21.6003 v 0 c: -23.9969 v 0 valid dict: 1 v 0
+RS (ocr took 0.01 sec)
+Pass1: RS [R [52 ]A S [53 ]A ]
+Processing word with lang eng at:Bounding box=(300,7175)->(376,7203)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : oy : R=6.63598, C=-13.3031, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	o	y
+state:	1 	1 
+C	-1.711	-1.900
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : g : R=6.89119, C=-13.2849, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	g
+state:	1 
+C	-1.898
+1 new words better than 0 old words: r: 6.63598 v 0 c: -13.3031 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 6.89119 v 0 c: -13.2849 v 0 valid dict: 1 v 0
+g (ocr took 0.01 sec)
+Pass1: g [g [67 ]a ]
+Processing word with lang eng at:Bounding box=(400,7166)->(600,7285)
+Trying word using lang eng, oem 2
+AD Matches =  ¢ [a2 ]  Unichar-id=51, rating=0.339725, adapted=0, config=22, misses=1, 32 fonts
+{ [7b ]p  Unichar-id=68, rating=0.330658, adapted=0, config=15, misses=3, 32 fonts
+‘ [2018 ]p  Unichar-id=107, rating=0.326851, adapted=0, config=27, misses=6, 32 fonts
+€ [20ac ]  Unichar-id=106, rating=0.311497, adapted=0, config=9, misses=4, 31 fonts
+f [66 ]a  Unichar-id=38, rating=0.30228, adapted=0, config=29, misses=4, 32 fonts
+* [2a ]p  Unichar-id=63, rating=0.283676, adapted=0, config=29, misses=5, 32 fonts
+$ [24 ]  Unichar-id=64, rating=0.25803, adapted=0, config=15, misses=2, 32 fonts
+§ [a7 ]  Unichar-id=110, rating=0.248302, adapted=0, config=20, misses=3, 32 fonts
+% [25 ]p  Unichar-id=5, rating=0.243816, adapted=0, config=10, misses=1, 32 fonts
+AD Matches =  _ [5f ]p  Unichar-id=67, rating=0.475645, adapted=0, config=0, misses=0, 32 fonts
+- [2d ]p  Unichar-id=71, rating=0.375422, adapted=0, config=0, misses=0, 32 fonts
+— [2014 ]p  Unichar-id=101, rating=0.345552, adapted=0, config=6, misses=0, 32 fonts
+AD Matches =  P [50 ]A  Unichar-id=41, rating=0.462004, adapted=0, config=29, misses=6, 32 fonts
+? [3f ]p  Unichar-id=91, rating=0.451179, adapted=0, config=30, misses=6, 32 fonts
+F [46 ]A  Unichar-id=34, rating=0.41677, adapted=0, config=29, misses=9, 32 fonts
+# [23 ]p  Unichar-id=102, rating=0.390975, adapted=0, config=4, misses=5, 32 fonts
+% [25 ]p  Unichar-id=5, rating=0.336434, adapted=0, config=11, misses=0, 32 fonts
+AD Matches =  ' [27 ]p  Unichar-id=93, rating=0.655597, adapted=0, config=22, misses=0, 32 fonts
+I [49 ]A  Unichar-id=28, rating=0.628242, adapted=0, config=0, misses=0, 32 fonts
+l [6c ]a  Unichar-id=33, rating=0.614544, adapted=0, config=29, misses=0, 32 fonts
+[ [5b ]p  Unichar-id=50, rating=0.61123, adapted=0, config=18, misses=1, 32 fonts
+’ [2019 ]p  Unichar-id=112, rating=0.57243, adapted=0, config=12, misses=0, 32 fonts
+‘ [2018 ]p  Unichar-id=107, rating=0.551032, adapted=0, config=11, misses=0, 32 fonts
+] [5d ]p  Unichar-id=52, rating=0.541038, adapted=0, config=18, misses=0, 32 fonts
+! [21 ]p  Unichar-id=47, rating=0.530915, adapted=0, config=4, misses=0, 32 fonts
+i [69 ]a  Unichar-id=12, rating=0.522181, adapted=0, config=29, misses=0, 32 fonts
+AD Matches =  $ [24 ]  Unichar-id=64, rating=0.424347, adapted=0, config=17, misses=5, 32 fonts
+& [26 ]p  Unichar-id=60, rating=0.411488, adapted=0, config=28, misses=4, 32 fonts
+i [69 ]a  Unichar-id=12, rating=0.390231, adapted=0, config=18, misses=4, 32 fonts
+h [68 ]a  Unichar-id=21, rating=0.38496, adapted=0, config=18, misses=8, 32 fonts
+‘ [2018 ]p  Unichar-id=107, rating=0.354612, adapted=0, config=30, misses=5, 32 fonts
+“ [201c ]p  Unichar-id=19, rating=0.345254, adapted=0, config=5, misses=6, 32 fonts
+* [2a ]p  Unichar-id=63, rating=0.301829, adapted=0, config=4, misses=7, 32 fonts
+AD Matches =  ' [27 ]p  Unichar-id=93, rating=0.627821, adapted=0, config=5, misses=0, 32 fonts
+‘ [2018 ]p  Unichar-id=107, rating=0.594115, adapted=0, config=11, misses=0, 32 fonts
+AD Matches =  ! [21 ]p  Unichar-id=47, rating=0.382927, adapted=0, config=1, misses=0, 32 fonts
+¢ [a2 ]  Unichar-id=51, rating=0.37494, adapted=0, config=22, misses=0, 32 fonts
+( [28 ]p  Unichar-id=18, rating=0.355662, adapted=0, config=14, misses=6, 32 fonts
+‘ [2018 ]p  Unichar-id=107, rating=0.330912, adapted=0, config=11, misses=4, 32 fonts
+t [74 ]a  Unichar-id=37, rating=0.329273, adapted=0, config=15, misses=1, 32 fonts
+Q [51 ]A  Unichar-id=96, rating=0.328096, adapted=0, config=28, misses=0, 32 fonts
+< [3c ]  Unichar-id=90, rating=0.319496, adapted=0, config=21, misses=6, 32 fonts
+€ [20ac ]  Unichar-id=106, rating=0.318653, adapted=0, config=25, misses=0, 31 fonts
+q [71 ]a  Unichar-id=82, rating=0.31699, adapted=0, config=17, misses=1, 32 fonts
+1 [31 ]0  Unichar-id=16, rating=0.305587, adapted=0, config=22, misses=1, 32 fonts
+AD Matches =  i [69 ]a  Unichar-id=12, rating=0.17042, adapted=0, config=25, misses=1, 32 fonts
+AD Matches =  f [66 ]a  Unichar-id=38, rating=0.18409, adapted=0, config=4, misses=4, 32 fonts
+ﬂ [fb02 ]a  Unichar-id=92, rating=0.179841, adapted=0, config=7, misses=4, 32 fonts
+ﬁ [fb01 ]a  Unichar-id=108, rating=0.173928, adapted=0, config=15, misses=5, 32 fonts
+AD Matches =  j [6a ]a  Unichar-id=95, rating=0.224123, adapted=0, config=24, misses=10, 32 fonts
+i [69 ]a  Unichar-id=12, rating=0.188938, adapted=0, config=10, misses=10, 32 fonts
+} [7d ]p  Unichar-id=69, rating=0.153413, adapted=0, config=10, misses=6, 32 fonts
+AD Matches =  f [66 ]a  Unichar-id=38, rating=0.397685, adapted=0, config=8, misses=4, 32 fonts
+? [3f ]p  Unichar-id=91, rating=0.380666, adapted=0, config=30, misses=8, 32 fonts
+k [6b ]a  Unichar-id=48, rating=0.308547, adapted=0, config=17, misses=10, 32 fonts
+# [23 ]p  Unichar-id=102, rating=0.295609, adapted=0, config=3, misses=7, 32 fonts
+& [26 ]p  Unichar-id=60, rating=0.272828, adapted=0, config=24, misses=4, 32 fonts
+AD Matches =  ﬂ [fb02 ]a  Unichar-id=92, rating=0.230302, adapted=0, config=0, misses=4, 32 fonts
+q [71 ]a  Unichar-id=82, rating=0.213038, adapted=0, config=12, misses=6, 32 fonts
+1 [31 ]0  Unichar-id=16, rating=0.205432, adapted=0, config=1, misses=11, 32 fonts
+J [4a ]A  Unichar-id=85, rating=0.201006, adapted=0, config=11, misses=9, 32 fonts
+ﬁ [fb01 ]a  Unichar-id=108, rating=0.193409, adapted=0, config=1, misses=3, 32 fonts
+“ [201c ]p  Unichar-id=19, rating=0.186132, adapted=0, config=3, misses=9, 32 fonts
+f [66 ]a  Unichar-id=38, rating=0.183089, adapted=0, config=29, misses=6, 32 fonts
+j [6a ]a  Unichar-id=95, rating=0.180375, adapted=0, config=8, misses=7, 32 fonts
+@ [40 ]p  Unichar-id=49, rating=0.164105, adapted=0, config=5, misses=4, 32 fonts
+* [2a ]p  Unichar-id=63, rating=0.144761, adapted=0, config=19, misses=6, 32 fonts
+Final Ratings Matrix:
+Ratings Matrix (top 3 choices)
+col=0 row=0 m rat=10.6071 cert=-7.44357 k rat=11.5677 cert=-8.1177 
+col=0 row=1 Z rat=29.7124 cert=-13.2055 ; rat=30.1204 cert=-13.3868 k rat=30.2917 cert=-13.463 d rat=30.9826 cert=-13.7701 2 rat=31.3974 cert=-13.9544 : rat=32.2346 cert=-14.3265 6 rat=33.3887 cert=-14.8394 j rat=33.8264 cert=-15.034 E rat=34.0283 cert=-15.1237 
+col=0 row=2 2 rat=44.0591 cert=-16.3182 e rat=44.2886 cert=-16.4032 x rat=44.6079 cert=-16.5214 
+
+col=1 row=1 ~ rat=12.9585 cert=-12.3415 Z rat=13.1263 cert=-12.5012 ( rat=13.5311 cert=-12.8868 k rat=14.0508 cert=-13.3818 4 rat=14.0853 cert=-13.4145 g rat=14.11 cert=-13.4381 a rat=14.2906 cert=-13.6101 d rat=14.3083 cert=-13.6269 ¥ rat=14.3432 cert=-13.6602 F rat=14.5827 cert=-13.8883 
+col=1 row=2 G rat=24.8874 cert=-16.5916 
+col=1 row=3 e rat=68.1183 cert=-15.394 ¥ rat=69.6461 cert=-15.7392 F rat=70.3193 cert=-15.8914 i rat=70.7109 cert=-15.9799 x rat=71.3833 cert=-16.1318 / rat=72.0273 cert=-16.2774 2 rat=72.2967 cert=-16.3382 s rat=72.5368 cert=-16.3925 J rat=73.9767 cert=-16.7179 : rat=75.6886 cert=-17.1048 
+
+col=2 row=2 $ rat=4.71919 cert=-10.4871 ” rat=5.62121 cert=-12.4916 q rat=5.89003 cert=-13.089   rat=15.89 cert=-35.3112 
+col=2 row=3 s rat=51.2079 cert=-15.5175 G rat=53.5301 cert=-16.2212 \ rat=55.8747 cert=-16.9317 
+col=2 row=4 2 rat=85.8298 cert=-12.0463 t rat=88.2551 cert=-12.3867 ! rat=98.532 cert=-13.8291 f rat=100.376 cert=-14.0878 “ rat=103.622 cert=-14.5434 
+
+col=3 row=3 m rat=19.631 cert=-6.88806 M rat=21.1902 cert=-7.43515 9 rat=21.971 cert=-7.70912 Q rat=22.1599 cert=-7.77541 ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000025868b2d1d0 still has count 1 (id ../../../../tessdata/eng.traineddatapunc-dawg)
+ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000025868b2d390 still has count 1 (id ../../../../tessdata/eng.traineddataword-dawg)
+ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000025868b2cd00 still has count 1 (id ../../../../tessdata/eng.traineddatanumber-dawg)
+ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000025868b2d9b0 still has count 1 (id ../../../../tessdata/eng.traineddatabigram-dawg)
+ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000025868b2da20 still has count 1 (id ../../../../tessdata/eng.traineddatafreq-dawg)

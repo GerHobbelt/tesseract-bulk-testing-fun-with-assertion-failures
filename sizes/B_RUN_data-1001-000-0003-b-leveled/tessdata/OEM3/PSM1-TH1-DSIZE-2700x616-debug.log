@@ -1,0 +1,19 @@
+
+image width: 466  height: 616  ppi: 70
+tile size: 23  smooth_size: 0  score_fraction: 0.10
+Estimating resolution as 333
+Too few characters. Skipping this page
+OSD: Weak margin (0.00) for 13 blob text block, but using orientation anyway: 0
+cleanup_blocks: # blocks = 0 / 0
+Already done word with lang eng at:Bounding box=(13,610)->(356,612)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(0,27)->(463,615)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(13,5)->(457,8)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(13,610)->(356,612)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(0,27)->(463,615)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(13,5)->(457,8)
+Pass2:   [  [20 ] ]

@@ -89,3 +89,14 @@ tessdata_best: PSM12:
 tessdata_best: PSM13:
 213
 ```
+
+
+
+## NOTE: 
+
+the github repo now also carries a few choice samples for reviewers to inspect, without the need to run the heavy batch test scripts!
+
+> including several GOOD + BAD examples of the assertion failure for immediate review when someone else will try to reproduce this; as the batch scripts generate element command shell scripts these indicidual samples come each with their own little shell script which was used to produce them, so that should ease reproduction.
+
+
+

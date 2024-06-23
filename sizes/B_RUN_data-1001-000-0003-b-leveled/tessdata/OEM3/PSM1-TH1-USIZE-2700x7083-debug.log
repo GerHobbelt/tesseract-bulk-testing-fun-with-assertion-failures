@@ -1,0 +1,349 @@
+
+image width: 5354  height: 7083  ppi: 70
+tile size: 23  smooth_size: 0  score_fraction: 0.10
+Estimating resolution as 463
+OSD: Weak margin (0.12) for 7476 blob text block, but using orientation anyway: 0
+Detected 7172 diacritics
+Row ending at (1863,7036.93): R=9999, dc=0, nc=0, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (4924,7036.9): R=9999, dc=2, nc=0, ACCEPTED
+Row ending at (5290,6990.14): R=2.5, dc=20, nc=8, REJECTED
+Row ending at (3733,6981): R=1.58824, dc=27, nc=17, ACCEPTED
+cleanup_blocks: # rows = 2 / 3
+Row ending at (4753,6961.37): R=13, dc=52, nc=4, REJECTED
+Row ending at (5212,6923.9): R=1.37143, dc=48, nc=35, ACCEPTED
+Row ending at (5232,6899.23): R=6.82353, dc=116, nc=17, REJECTED
+Row ending at (5198,6878.2): R=0.108108, dc=4, nc=37, ACCEPTED
+Row ending at (5222,6869.19): R=1.64286, dc=23, nc=14, ACCEPTED
+Row ending at (5144,6853): R=2, dc=4, nc=2, ACCEPTED
+cleanup_blocks: # rows = 4 / 6
+Row ending at (3052,6006.96): R=4.83333, dc=29, nc=6, REJECTED
+Row ending at (3024,5956.86): R=0.136364, dc=9, nc=66, ACCEPTED
+cleanup_blocks: # rows = 1 / 2
+Row ending at (3010,5863.93): R=0.294118, dc=5, nc=17, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (3168,5810.34): R=0.327273, dc=18, nc=55, ACCEPTED
+Row ending at (2678,5731.02): R=7, dc=14, nc=2, REJECTED
+cleanup_blocks: # rows = 1 / 2
+Row ending at (4421,5404): R=13.5, dc=27, nc=2, REJECTED
+Row ending at (4376,5346.29): R=0.176471, dc=3, nc=17, ACCEPTED
+Row ending at (4318,5314.4): R=1.5, dc=6, nc=4, ACCEPTED
+Row ending at (4208,5289.86): R=5, dc=5, nc=1, REJECTED
+cleanup_blocks: # rows = 2 / 4
+Row ending at (1218,4084.22): R=1.6, dc=8, nc=5, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (1032,4097): R=1, dc=1, nc=1, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (1909,4138.99): R=0.833333, dc=5, nc=6, ACCEPTED
+Row ending at (4508,4017.89): R=3.19048, dc=67, nc=21, REJECTED
+Row ending at (4798,3960.92): R=4.31579, dc=164, nc=38, REJECTED
+Row ending at (4696,3923.4): R=6.91667, dc=83, nc=12, REJECTED
+Row ending at (4856,3886.35): R=2.98113, dc=158, nc=53, REJECTED
+Row ending at (4807,3810.69): R=7.92857, dc=111, nc=14, REJECTED
+Row ending at (4796,3784.06): R=2.34146, dc=96, nc=41, REJECTED
+Row ending at (4751,3746.57): R=4.55556, dc=82, nc=18, REJECTED
+Row ending at (4760,3687.58): R=4.625, dc=37, nc=8, REJECTED
+cleanup_blocks: # rows = 2 / 9
+Row ending at (1372,3553.14): R=0.583333, dc=7, nc=12, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (1134,3445.01): R=0.25, dc=3, nc=12, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (2352,2818.82): R=1.76471, dc=30, nc=17, ACCEPTED
+Row ending at (2284,2699.02): R=0.257143, dc=9, nc=35, ACCEPTED
+Row ending at (2347,2662.98): R=0, dc=0, nc=9, ACCEPTED
+Row ending at (2368,2610.02): R=0.961538, dc=25, nc=26, ACCEPTED
+Row ending at (4418,2496.99): R=0.638889, dc=23, nc=36, ACCEPTED
+Row ending at (4378,2459.73): R=0.166667, dc=7, nc=42, ACCEPTED
+cleanup_blocks: # rows = 6 / 6
+Row ending at (4483,2407.7): R=0.211538, dc=22, nc=104, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (4228,2387.32): R=0.2, dc=3, nc=15, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (3732,2354.5): R=2.18182, dc=24, nc=11, REJECTED
+Row ending at (3880,2299.35): R=0.325, dc=26, nc=80, ACCEPTED
+Row ending at (3768,2260.18): R=1.30435, dc=30, nc=23, ACCEPTED
+Row ending at (3832,2186.51): R=0.637931, dc=37, nc=58, ACCEPTED
+cleanup_blocks: # rows = 3 / 4
+Row ending at (796,2170.14): R=0, dc=0, nc=2, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (2166,2138.21): R=0.0625, dc=1, nc=16, ACCEPTED
+Row ending at (2386,2070.93): R=0.163265, dc=8, nc=49, ACCEPTED
+Row ending at (2380,2016.23): R=2, dc=12, nc=6, ACCEPTED
+Row ending at (2396,2000.55): R=0.702703, dc=26, nc=37, ACCEPTED
+Row ending at (2388,1943.09): R=1.8125, dc=29, nc=16, ACCEPTED
+Row ending at (2417,1877.08): R=0.945946, dc=35, nc=37, ACCEPTED
+cleanup_blocks: # rows = 6 / 6
+Row ending at (2728,1767.25): R=0.44186, dc=19, nc=43, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (1508,1724): R=0, dc=0, nc=5, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (2860,1662.93): R=0.346939, dc=17, nc=49, ACCEPTED
+Row ending at (2650,1558.95): R=0.0714286, dc=4, nc=56, ACCEPTED
+cleanup_blocks: # rows = 2 / 2
+Row ending at (2446,1514.05): R=0.25, dc=2, nc=8, ACCEPTED
+Row ending at (2420,1451.63): R=0.722222, dc=13, nc=18, ACCEPTED
+Row ending at (3148,1345.77): R=1.15789, dc=44, nc=38, ACCEPTED
+Row ending at (3132,1297.91): R=3.82353, dc=65, nc=17, REJECTED
+Row ending at (3192,1243.2): R=3.69231, dc=96, nc=26, REJECTED
+Row ending at (3239,1208.65): R=5.07143, dc=71, nc=14, REJECTED
+Row ending at (3017,1102.69): R=2.625, dc=21, nc=8, REJECTED
+cleanup_blocks: # rows = 3 / 7
+Row ending at (2858,1158.62): R=3, dc=27, nc=9, REJECTED
+Row ending at (3082,1118.01): R=1.95455, dc=43, nc=22, ACCEPTED
+Row ending at (2997,1070.03): R=4.6875, dc=75, nc=16, REJECTED
+Row ending at (2994,989.155): R=8.4, dc=84, nc=10, REJECTED
+Row ending at (2924,932.379): R=13.5, dc=27, nc=2, REJECTED
+cleanup_blocks: # rows = 2 / 5
+Row ending at (375,963.002): R=1, dc=1, nc=1, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (2912,686.025): R=3, dc=33, nc=11, REJECTED
+Row ending at (2876,591.092): R=0.0357143, dc=2, nc=56, ACCEPTED
+Row ending at (2892,555.054): R=0.588235, dc=10, nc=17, ACCEPTED
+Row ending at (2596,487.121): R=0.0923077, dc=6, nc=65, ACCEPTED
+Row ending at (1216,469.178): R=3, dc=3, nc=1, REJECTED
+cleanup_blocks: # rows = 3 / 5
+Row ending at (2772,470): R=9999, dc=2, nc=0, ACCEPTED
+Row ending at (2776,435.923): R=0.047619, dc=1, nc=21, ACCEPTED
+Row ending at (651,382.183): R=0, dc=0, nc=2, ACCEPTED
+Row ending at (576,350): R=1, dc=1, nc=1, ACCEPTED
+cleanup_blocks: # rows = 4 / 4
+Row ending at (2752,377.681): R=0.581395, dc=25, nc=43, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (2796,314.708): R=4, dc=12, nc=3, REJECTED
+Row ending at (2840,286.554): R=7.22222, dc=65, nc=9, REJECTED
+cleanup_blocks: # rows = 1 / 2
+Row ending at (585,326.967): R=2.42857, dc=17, nc=7, REJECTED
+Row ending at (928,226.826): R=6, dc=36, nc=6, REJECTED
+Row ending at (892,188.647): R=2.85714, dc=20, nc=7, REJECTED
+Row ending at (865,145.944): R=1.5, dc=6, nc=4, ACCEPTED
+cleanup_blocks: # rows = 1 / 4
+Row ending at (4234,97.1163): R=0.285714, dc=2, nc=7, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+cleanup_blocks: # blocks = 30 / 30
+Already done word with lang eng at:Bounding box=(437,7037)->(690,7060)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(1150,7037)->(1564,7060)
+Pass1:   [  [20 ] ]
+Processing word with lang eng at:Bounding box=(1588,7037)->(1863,7060)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : e : R=42.8214, C=-14.8885, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	e
+state:	1 
+C	-2.127
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : Al : R=17.1332, C=-18.7396, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	A	l
+state:	1 	1 
+C	-2.677	-1.278
+1 new words better than 0 old words: r: 42.8214 v 0 c: -14.8885 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 17.1332 v 0 c: -18.7396 v 0 valid dict: 1 v 0
+Al (ocr took 0.02 sec)
+Pass1: Al [A [41 ]A l [6c ]a ]
+Already done word with lang eng at:Bounding box=(1886,7037)->(2323,7060)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(2599,7037)->(2990,7060)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(4968,7037)->(5267,7060)
+Pass1:   [  [20 ] ]
+Processing word with lang eng at:Bounding box=(3036,7037)->(4364,7060)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : T : R=157.944, C=-20.0104, F=1, Perm=11, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	T
+state:	1 
+C	-2.652
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : —— : R=66.7916, C=-21.0866, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	—	—
+state:	1 	1 
+C	-3.012	-1.698
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : P : R=79.43, C=-16.4073, F=1, Perm=11, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	P
+state:	1 
+C	-2.344
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : S, : R=51.6062, C=-14.4921, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	S	,
+state:	1 	1 
+C	-2.070	-0.994
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : P : R=6.96497, C=-20.7213, F=1, Perm=11, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	P
+state:	1 
+C	-2.195
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : —— : R=53.8292, C=-30.5061, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	—	—
+state:	1 	1 
+C	-4.358	-1.148
+1 new words better than 0 old words: r: 157.944 v 0 c: -20.0104 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 66.7916 v 0 c: -21.0866 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 79.43 v 0 c: -16.4073 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 51.6062 v 0 c: -14.4921 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 6.96497 v 0 c: -20.7213 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 53.8292 v 0 c: -30.5061 v 0 valid dict: 0 v 0
+—— (ocr took 0.05 sec)
+Pass1: —— [— [2014 ]p — [2014 ]p ]
+Processing word with lang eng at:Bounding box=(4393,7008)->(4582,7060)
+Trying word using lang eng, oem 2
+AD Matches =  H [48 ]A  Unichar-id=54, rating=0.645217, adapted=0, config=29, misses=5, 32 fonts
+“ [201c ]p  Unichar-id=19, rating=0.615226, adapted=0, config=31, misses=11, 32 fonts
+m [6d ]a  Unichar-id=11, rating=0.604296, adapted=0, config=18, misses=5, 32 fonts
+n [6e ]a  Unichar-id=15, rating=0.600635, adapted=0, config=29, misses=10, 32 fonts
+M [4d ]A  Unichar-id=76, rating=0.564824, adapted=0, config=29, misses=8, 32 fonts
+ﬁ [fb01 ]a  Unichar-id=108, rating=0.561728, adapted=0, config=17, misses=4, 32 fonts
+ﬂ [fb02 ]a  Unichar-id=92, rating=0.547496, adapted=0, config=29, misses=9, 32 fonts
+E [45 ]A  Unichar-id=24, rating=0.541505, adapted=0, config=14, misses=8, 32 fonts
+w [77 ]a  Unichar-id=83, rating=0.53826, adapted=0, config=29, misses=10, 32 fonts
+” [201d ]p  Unichar-id=109, rating=0.532354, adapted=0, config=12, misses=11, 32 fonts
+Final Ratings Matrix:
+Ratings Matrix (top 3 choices)
+col=0 row=0 & rat=241.075 cert=-7.09566 / rat=261.454 cert=-7.69549 N rat=268.881 cert=-7.91408 5 rat=271.369 cert=-7.98731 % rat=295.702 cert=-8.70352 x rat=297.806 cert=-8.76544 e rat=307.476 cert=-9.05007 Y rat=311.548 cert=-9.16991 ¢ rat=313.752 cert=-9.23479 y rat=317.766 cert=-9.35293 
+
+
+	0
+0	& / N 	
+Permuter Type Flipped from 2 to 8
+set_done(): done=0
+ : H : R=301.344, C=-7.09566, F=1.5, Perm=8, xht=[8.50235,16.342], ambig=0
+pos	NORM
+str	H
+state:	1 
+C	-7.096
+Permuter Type = 8
+Certainty: -7.095656     Rating: 301.343658
+Dict word: 8
+Running word_adaptable() for H rating 301.3437 certainty -7.0957
+tess_would_adapt bit is false
+tess_accepted bit is false
+Best choice: accepted=0, adaptable=0, done=0 : Lang result : H : R=301.344, C=-7.09566, F=1.5, Perm=8, xht=[8.50235,16.342], ambig=0
+pos	NORM
+str	H
+state:	1 
+C	-7.096
+1 new words better than 0 old words: r: 301.344 v 0 c: -7.09566 v 0 valid dict: 1 v 0
+H (ocr took 0.00 sec)
+Pass1: H [H [48 ]A ]
+Processing word with lang eng at:Bounding box=(4656,7037)->(4853,7060)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : e : R=21.9326, C=-11.8737, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	e
+state:	1 
+C	-1.696
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : e : R=11.6384, C=-14.9415, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	e
+state:	1 
+C	-2.135
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : LS : R=16.6535, C=-19.3251, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	L	S
+state:	1 	1 
+C	-2.761	-1.849
+1 new words better than 0 old words: r: 21.9326 v 0 c: -11.8737 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 11.6384 v 0 c: -14.9415 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 16.6535 v 0 c: -19.3251 v 0 valid dict: 1 v 0
+LS (ocr took 0.01 sec)
+Pass1: LS [L [4c ]A S [53 ]A ]
+Processing word with lang eng at:Bounding box=(4864,7011)->(4924,7060)
+Trying word using lang eng, oem 2
+AD Matches =  ! [21 ]p  Unichar-id=47, rating=0.682052, adapted=0, config=29, misses=5, 32 fonts
+H [48 ]A  Unichar-id=54, rating=0.615639, adapted=0, config=29, misses=0, 32 fonts
+E [45 ]A  Unichar-id=24, rating=0.614842, adapted=0, config=28, misses=0, 32 fonts
+B [42 ]A  Unichar-id=59, rating=0.59198, adapted=0, config=0, misses=1, 32 fonts
+n [6e ]a  Unichar-id=15, rating=0.589251, adapted=0, config=29, misses=6, 32 fonts
+F [46 ]A  Unichar-id=34, rating=0.572844, adapted=0, config=22, misses=2, 32 fonts
+“ [201c ]p  Unichar-id=19, rating=0.569948, adapted=0, config=31, misses=8, 32 fonts
+u [75 ]a  Unichar-id=31, rating=0.564189, adapted=0, config=22, misses=8, 32 fonts
+ﬂ [fb02 ]a  Unichar-id=92, rating=0.551902, adapted=0, config=18, misses=3, 32 fonts
+g [67 ]a  Unichar-id=42, rating=0.539684, adapted=0, config=29, misses=0, 32 fonts
+Final Ratings Matrix:
+Ratings Matrix (top 3 choices)
+col=0 row=0 ~ rat=65.3382 cert=-6.35895 & rat=78.9861 cert=-7.68721 Y rat=79.1499 cert=-7.70316 ™ rat=83.8482 cert=-8.16041 5 rat=84.4089 cert=-8.21497 7 rat=87.7806 cert=-8.54312 / rat=88.3756 cert=-8.60103 [ rat=89.5592 cert=-8.71622 e rat=92.0841 cert=-8.96195 > rat=94.595 cert=-9.20632 
+
+
+	0
+0	~ & Y 	
+set_done(): done=0
+ : ! : R=81.6728, C=-6.35895, F=1.5, Perm=2, xht=[8.50235,16.342], ambig=0
+pos	NORM
+str	!
+state:	1 
+C	-6.359
+Permuter Type = 2
+Certainty: -6.358953     Rating: 81.672791
+Dict word: 0
+Running word_adaptable() for ! rating 81.6728 certainty -6.3590
+tess_would_adapt bit is false
+tess_accepted bit is false
+Best choice: accepted=0, adaptable=0, done=0 : Lang result : ! : R=81.6728, C=-6.35895, F=1.5, Perm=2, xht=[8.50235,16.342], ambig=0
+pos	NORM
+str	!
+state:	1 
+C	-6.359
+1 new words better than 0 old words: r: 81.6728 v 0 c: -6.35895 v 0 valid dict: 0 v 0
+! (ocr took 0.00 sec)
+Pass1: ! [! [21 ]p ]
+Processing word with lang eng at:Bounding box=(450,6935)->(543,6991)
+Trying word using lang eng, oem 2
+AD Matches =  w [77 ]a  Unichar-id=83, rating=0.589419, adapted=0, config=29, misses=4, 32 fonts
+W [57 ]A  Unichar-id=45, rating=0.578267, adapted=0, config=25, misses=4, 32 fonts
+ﬂ [fb02 ]a  Unichar-id=92, rating=0.546, adapted=0, config=29, misses=1, 32 fonts
+ﬁ [fb01 ]a  Unichar-id=108, rating=0.517895, adapted=0, config=28, misses=1, 32 fonts
+” [201d ]p  Unichar-id=109, rating=0.491203, adapted=0, config=12, misses=6, 32 fonts
+F [46 ]A  Unichar-id=34, rating=0.485314, adapted=0, config=22, misses=5, 32 fonts
+v [76 ]a  Unichar-id=7, rating=0.473624, adapted=0, config=25, misses=7, 32 fonts
+AD Matches =  ‘ [2018 ]p  Unichar-id=107, rating=0.604039, adapted=0, config=31, misses=4, 32 fonts
+l [6c ]a  Unichar-id=33, rating=0.576078, adapted=0, config=4, misses=1, 32 fonts
+1 [31 ]0  Unichar-id=16, rating=0.567449, adapted=0, config=25, misses=0, 32 fonts
+! [21 ]p  Unichar-id=47, rating=0.567229, adapted=0, config=1, misses=3, 32 fonts
+I [49 ]A  Unichar-id=28, rating=0.533029, adapted=0, config=25, misses=2, 32 fonts
+i [69 ]a  Unichar-id=12, rating=0.51608, adapted=0, config=12, misses=1, 32 fonts
+g [67 ]a  Unichar-id=42, rating=0.511075, adapted=0, config=28, misses=1, 32 fonts
+; [3b ]p  Unichar-id=89, rating=0.510955, adapted=0, config=25, misses=4, 32 fonts
+t [74 ]a  Unichar-id=37, rating=0.504576, adapted=0, config=22, misses=4, 32 fonts
+§ [a7 ]  Unichar-id=110, rating=0.478636, adapted=0, config=28, misses=1, 32 fonts
+AD Matches =  - [2d ]p  Unichar-id=71, rating=0.72945, adapted=0, config=0, misses=7, 32 fonts
+— [2014 ]p  Unichar-id=101, rating=0.727523, adapted=0, config=31, misses=7, 32 fonts
+_ [5f ]p  Unichar-id=67, rating=0.715383, adapted=0, config=0, misses=6, 32 fonts
+n [6e ]a  Unichar-id=15, rating=0.611795, adapted=0, config=29, misses=3, 32 fonts
+ﬂ [fb02 ]a  Unichar-id=92, rating=0.58516, adapted=0, config=1, misses=1, 32 fonts
+p [70 ]a  Unichar-id=30, rating=0.583509, adapted=0, config=29, misses=3, 32 fonts
+AD Matches =  w [77 ]a  Unichar-id=83, rating=0.668647, adapted=0, config=18, misses=2, 32 fonts
+W [57 ]A  Unichar-id=45, rating=0.639752, adapted=0, config=25, misses=0, 32 fonts
+“ [201c ]p  Unichar-id=19, rating=0.577058, adapted=0, config=31, misses=0, 32 fonts
+« [ab ]p  Unichar-id=84, rating=0.5599, adapted=0, config=5, misses=1, 32 fonts
+ﬁ [fb01 ]a  Unichar-id=108, rating=0.525783, adapted=0, config=29, misses=2, 32 fonts
+* [2a ]p  Unichar-id=63, rating=0.518954, adapted=0, config=18, misses=4, 32 fonts
+AD Matches =  v [76 ]a  Unichar-id=7, rating=0.620466, adapted=0, config=25, misses=2, 32 fonts
+w [77 ]a  Unichar-id=83, rating=0.569477, adapted=0, config=18, misses=2, 32 fonts
+W [57 ]A  Unichar-id=45, rating=0.547171, adapted=0, config=17, misses=1, 32 fonts
+! [21 ]p  Unichar-id=47, rating=0.541073, adapted=0, config=0, misses=7, 32 fonts
+1 [31 ]0  Unichar-id=16, rating=0.52035, adapted=0, config=21, misses=7, 32 fonts
+ﬂ [fb02 ]a  Unichar-id=92, rating=0.507945, adapted=0, config=1, misses=5, 32 fonts
+* [2a ]p  Unichar-id=63, rating=0.507448, adapted=0, config=26, misses=0, 32 fonts
+‘ [2018 ]p  Unichar-id=107, rating=0.502375, adapted=0, config=11, misses=6, 32 fonts
+U [55 ]A  Unichar-id=27, rating=0.488454, adapted=0, config=18, misses=8, 32 fonts
+ﬁ [fb01 ]a  Unichar-id=108, rating=0.487238, adapted=0, config=17, misses=2, 32 fonts
+AD Matches =  ' [27 ]p  Unichar-id=93, rating=0.768808, adapted=0, config=22, misses=0, 32 fonts
+~ [7e ]  Unichar-id=103, rating=0.725876, adapted=0, config=22, misses=1, 32 fonts
+v [76 ]a  Unichar-id=7, rating=0.716723, adapted=0, config=30, misses=1, 32 fonts
+t [74 ]a  Unichar-id=37, rating=0.712156, adapted=0, config=2, misses=0, 32 fonts
+i [69 ]a  Unichar-id=12, rating=0.700758, adapted=0, config=29, misses=0, 32 fonts
+’ [2019 ]p  Unichar-id=112, rating=0.665368, adapted=0, config=12, misses=0, 32 fonts
+Final Ratings Matrix:
+Ratings Matrix (top 3 choices)
+col=0 row=0 ” rat=23.9437 cert=-5.41101 q rat=24.1142 cert=-5.44954 $ rat=25.1886 cert=-5.69234 5 rat=34.3561 cert=-7.7641 e rat=36.7133 cert=-8.29679 P rat=36.8594 cert=-8.32981 
+col=0 row=2 ¢ rat=64.0507 cert=-8.21163 X rat=65.7903 cert=-8.43465 e rat=70.824 cert=-9.08 x rat=75.2084 cert=-9.6421 y rat=79.3723 cert=-10.1759 7 rat=80.291 cert=-10.2937 - rat=82.1146 cert=-10.5275 
+
+col=1 row=1 - rat=20.4948 cert=-7.59068 ¢ rat=23.2483 cert=-8.61047 X rat=24.4528 cert=-9.05658 ~ rat=24.7821 cert=-9.17855 F rat=25.9011 cert=-9.593 e rat=26.571 cert=-9.8411 : rat=26.5978 cert=-9.85105 k rat=26.8717 cert=-9.9525 A rat=27.6235 cert=-10.2309 x rat=27.6891 cert=-10.2552 
+col=1 row=2 ¢ rat=25.3485 cert=-6.62706 X rat=27.559 cert=-7.20496 / rat=32.3551 cert=-8.45884 ‘ rat=33.6676 cert=-8.80199 x rat=36.2776 cert=-9.48433 : rat=36.8 cert=-9.62091 
+
+col=2 row=2 m rat=8.66972 cert=-4.62385 r rat=10.2797 cert=-5.48248 - rat=10.6229 cert=-5.66555 4 rat=10.7941 cert=-5.75688 G rat=11.2216 cert=-5.98485 ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000020a3e4ed940 still has count 1 (id ../../../../tessdata/eng.traineddatapunc-dawg)
+ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000020a3e4ed8d0 still has count 1 (id ../../../../tessdata/eng.traineddataword-dawg)
+ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000020a3e4ed550 still has count 1 (id ../../../../tessdata/eng.traineddatanumber-dawg)
+ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000020a3e4ecde0 still has count 1 (id ../../../../tessdata/eng.traineddatabigram-dawg)
+ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000020a3e4ed240 still has count 1 (id ../../../../tessdata/eng.traineddatafreq-dawg)

@@ -1,0 +1,3093 @@
+Estimating resolution as 179
+Row ending at (1085,1371.92): R=0.175, dc=21, nc=120, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (726,1351.25): R=0.311688, dc=24, nc=77, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (402,1304.01): R=0.305556, dc=11, nc=36, ACCEPTED
+Row ending at (320,1279.29): R=0.304348, dc=7, nc=23, ACCEPTED
+Row ending at (611,1256.19): R=0.179104, dc=12, nc=67, ACCEPTED
+cleanup_blocks: # rows = 3 / 3
+Row ending at (564,973.033): R=0.434783, dc=20, nc=46, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (257,925.118): R=0.4375, dc=7, nc=16, ACCEPTED
+Row ending at (404,900.047): R=0.516129, dc=16, nc=31, ACCEPTED
+Row ending at (475,875.948): R=0.285714, dc=12, nc=42, ACCEPTED
+Row ending at (210,851.933): R=0.2, dc=1, nc=5, ACCEPTED
+Row ending at (319,826.89): R=0.444444, dc=8, nc=18, ACCEPTED
+Row ending at (308,802.656): R=0.2, dc=3, nc=15, ACCEPTED
+Row ending at (311,780.863): R=0.0555556, dc=1, nc=18, ACCEPTED
+Row ending at (260,753.819): R=0.0833333, dc=1, nc=12, ACCEPTED
+cleanup_blocks: # rows = 8 / 8
+Row ending at (689,695.922): R=0.125, dc=1, nc=8, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (674,679.95): R=0.631579, dc=12, nc=19, ACCEPTED
+Row ending at (487,631.152): R=0.6, dc=21, nc=35, ACCEPTED
+Row ending at (354,606.833): R=0.8, dc=20, nc=25, ACCEPTED
+Row ending at (436,581.806): R=1, dc=26, nc=26, ACCEPTED
+cleanup_blocks: # rows = 4 / 4
+Row ending at (512,583.538): R=0.2, dc=1, nc=5, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (812,1209.51): R=0.142857, dc=1, nc=7, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (1008,1243.64): R=0.181818, dc=2, nc=11, ACCEPTED
+Row ending at (997,1207.8): R=0, dc=0, nc=8, ACCEPTED
+Row ending at (965,1177.9): R=0.25, dc=1, nc=4, ACCEPTED
+Row ending at (962,1153.93): R=0.25, dc=1, nc=4, ACCEPTED
+Row ending at (964,1129.9): R=0.25, dc=1, nc=4, ACCEPTED
+Row ending at (964,1105.92): R=0.25, dc=1, nc=4, ACCEPTED
+Row ending at (965,1081.36): R=0.25, dc=1, nc=4, ACCEPTED
+Row ending at (965,1058): R=0.25, dc=1, nc=4, ACCEPTED
+Row ending at (966,1034): R=0.25, dc=1, nc=4, ACCEPTED
+Row ending at (965,1008.89): R=0.25, dc=1, nc=4, ACCEPTED
+Row ending at (966,984.883): R=0.25, dc=1, nc=4, ACCEPTED
+Row ending at (966,961.042): R=0.25, dc=1, nc=4, ACCEPTED
+Row ending at (967,935.902): R=0.25, dc=1, nc=4, ACCEPTED
+Row ending at (964,912.021): R=0.25, dc=1, nc=4, ACCEPTED
+Row ending at (966,887.967): R=0.25, dc=1, nc=4, ACCEPTED
+Row ending at (966,863.565): R=0.25, dc=1, nc=4, ACCEPTED
+Row ending at (967,838.351): R=0.2, dc=1, nc=5, ACCEPTED
+Row ending at (966,814.947): R=0.2, dc=1, nc=5, ACCEPTED
+Row ending at (967,790): R=0.2, dc=1, nc=5, ACCEPTED
+Row ending at (967,765.446): R=0.2, dc=1, nc=5, ACCEPTED
+Row ending at (967,742.021): R=0.2, dc=1, nc=5, ACCEPTED
+Row ending at (967,717.55): R=0.2, dc=1, nc=5, ACCEPTED
+Row ending at (968,693): R=0.2, dc=1, nc=5, ACCEPTED
+cleanup_blocks: # rows = 23 / 23
+Row ending at (1072,1208.07): R=0, dc=0, nc=2, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (1083,1177.3): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1084,1153.15): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1083,1128.8): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1084,1105.06): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1084,1081.29): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1082,1057.15): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1085,1033.6): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1084,1009.62): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1084,984.282): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1085,961.248): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1085,936.181): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1085,912.555): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1086,888.416): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1086,863.039): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1087,839.395): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1086,814.993): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1087,791): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1087,767.186): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1084,742.611): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1086,717.258): R=0.333333, dc=1, nc=3, ACCEPTED
+Row ending at (1086,693.418): R=0.333333, dc=1, nc=3, ACCEPTED
+cleanup_blocks: # rows = 21 / 21
+Row ending at (994,559.545): R=0.298969, dc=29, nc=97, ACCEPTED
+Row ending at (847,534.857): R=0.27381, dc=23, nc=84, ACCEPTED
+cleanup_blocks: # rows = 2 / 2
+Row ending at (605,508.728): R=0.25, dc=16, nc=64, ACCEPTED
+Row ending at (490,484.672): R=0.18, dc=9, nc=50, ACCEPTED
+Row ending at (520,459.458): R=0.270833, dc=13, nc=48, ACCEPTED
+Row ending at (427,435.806): R=0.305556, dc=11, nc=36, ACCEPTED
+Row ending at (614,410.512): R=0.274194, dc=17, nc=62, ACCEPTED
+Row ending at (666,387.129): R=0.205882, dc=14, nc=68, ACCEPTED
+Row ending at (638,362.851): R=0.238806, dc=16, nc=67, ACCEPTED
+Row ending at (490,337.847): R=0.285714, dc=12, nc=42, ACCEPTED
+Row ending at (342,314.191): R=0.135135, dc=5, nc=37, ACCEPTED
+Row ending at (263,290.357): R=0.421053, dc=8, nc=19, ACCEPTED
+cleanup_blocks: # rows = 10 / 10
+Row ending at (428,241.094): R=0.862069, dc=25, nc=29, ACCEPTED
+Row ending at (428,216.884): R=0.75, dc=12, nc=16, ACCEPTED
+cleanup_blocks: # rows = 2 / 2
+Row ending at (666,137.495): R=0.636364, dc=35, nc=55, ACCEPTED
+Row ending at (594,113.154): R=0.953488, dc=41, nc=43, ACCEPTED
+Row ending at (635,88.0108): R=0.54, dc=27, nc=50, ACCEPTED
+cleanup_blocks: # rows = 3 / 3
+Row ending at (276,12.5078): R=9999, dc=0, nc=0, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+cleanup_blocks: # blocks = 17 / 17
+Already done word with lang eng at:Bounding box=(21,1397)->(1225,1639)
+Pass1:   [  [20 ] ]
+Processing word with lang eng at:Bounding box=(134,1368)->(1085,1390)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Thanks : R=4.24123, C=-1.48454, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	T	h	a	n	k	s
+state:	1 	1 	1 	1 	1 	1 
+C	-0.200	-0.202	-0.192	-0.193	-0.192	-0.194
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : to : R=1.57686, C=-2.40714, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	t	o
+state:	1 	1 
+C	-0.344	-0.220
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : the : R=2.1483, C=-1.78416, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	t	h	e
+state:	1 	1 	1 
+C	-0.191	-0.228	-0.196
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Schachenmayr : R=9.13437, C=-1.67565, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	S	c	h	a	c	h	e	n	m	a	y	r
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.191	-0.194	-0.200	-0.205	-0.193	-0.192	-0.193	-0.193	-0.192	-0.217	-0.193	-0.239
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Company : R=5.23876, C=-1.59867, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	C	o	m	p	a	n	y
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.191	-0.192	-0.194	-0.228	-0.194	-0.217
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : for : R=1.73099, C=-1.42223, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	f	o	r
+state:	1 	1 	1 
+C	-0.195	-0.192	-0.195
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : their : R=3.12337, C=-2.59371, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	t	h	e	i	r
+state:	1 	1 	1 	1 	1 
+C	-0.192	-0.192	-0.195	-0.209	-0.212
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : helpful : R=4.03442, C=-2.59371, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	h	e	l	p	f	u	l
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.196	-0.192	-0.193	-0.192	-0.196	-0.192	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : support : R=4.50663, C=-1.56725, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	s	u	p	p	o	r	t
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.194	-0.192	-0.224	-0.194	-0.192	-0.217
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : of : R=0.960703, C=-1.46926, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	o	f
+state:	1 	1 
+C	-0.193	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : this : R=2.29872, C=-1.46926, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	t	h	i	s
+state:	1 	1 	1 	1 
+C	-0.192	-0.192	-0.193	-0.192
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : book, : R=3.66396, C=-2.81807, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	b	o	o	k	,
+state:	1 	1 	1 	1 	1 
+C	-0.276	-0.192	-0.403	-0.193	-0.267
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : and : R=1.97969, C=-1.76539, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	a	n	d
+state:	1 	1 	1 
+C	-0.191	-0.252	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : for : R=1.92552, C=-1.38115, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	f	o	r
+state:	1 	1 	1 
+C	-0.192	-0.196	-0.197
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : working : R=4.48844, C=-1.89076, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	w	o	r	k	i	n	g
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.196	-0.192	-0.192	-0.192	-0.270	-0.192	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : the : R=2.05297, C=-2.26094, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	t	h	e
+state:	1 	1 	1 
+C	-0.198	-0.323	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : clothes : R=4.45433, C=-1.62706, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	c	l	o	t	h	e	s
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.195	-0.192	-0.192	-0.232	-0.193	-0.191	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : and : R=1.72447, C=-1.75167, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	a	n	d
+state:	1 	1 	1 
+C	-0.191	-0.192	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : knitting : R=5.40163, C=-1.83774, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	k	n	i	t	t	i	n	g
+state:	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.195	-0.223	-0.205	-0.216	-0.263	-0.193	-0.230	-0.192
+1 new words better than 0 old words: r: 4.24123 v 0 c: -1.48454 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.57686 v 0 c: -2.40714 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.1483 v 0 c: -1.78416 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 9.13437 v 0 c: -1.67565 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.23876 v 0 c: -1.59867 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.73099 v 0 c: -1.42223 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.12337 v 0 c: -2.59371 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.03442 v 0 c: -2.59371 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.50663 v 0 c: -1.56725 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.960703 v 0 c: -1.46926 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.29872 v 0 c: -1.46926 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.66396 v 0 c: -2.81807 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.97969 v 0 c: -1.76539 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.92552 v 0 c: -1.38115 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.48844 v 0 c: -1.89076 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.05297 v 0 c: -2.26094 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.45433 v 0 c: -1.62706 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.72447 v 0 c: -1.75167 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.40163 v 0 c: -1.83774 v 0 valid dict: 0 v 0
+knitting (ocr took 0.08 sec)
+Pass1: knitting [k [6b ]a n [6e ]a i [69 ]a t [74 ]a t [74 ]a i [69 ]a n [6e ]a g [67 ]a ]
+Processing word with lang eng at:Bounding box=(129,1346)->(726,1366)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : patterns. : R=6.57196, C=-2.255, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	p	a	t	t	e	r	n	s	.
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.198	-0.192	-0.195	-0.212	-0.192	-0.322	-0.212	-0.192	-0.212
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : The : R=2.11866, C=-1.42276, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	T	h	e
+state:	1 	1 	1 
+C	-0.199	-0.191	-0.198
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : designs : R=4.77661, C=-1.85917, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	d	e	s	i	g	n	s
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.233	-0.192	-0.266	-0.192	-0.191	-0.245	-0.194
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : are : R=1.92729, C=-1.42036, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	a	r	e
+state:	1 	1 	1 
+C	-0.193	-0.203	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : by : R=0.682719, C=-1.42191, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	b	y
+state:	1 	1 
+C	-0.086	-0.085
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Elisabeth : R=6.22342, C=-1.67033, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	E	l	i	s	a	b	e	t	h
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.239	-0.199	-0.193	-0.192	-0.192	-0.192	-0.192	-0.213
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Kopff : R=3.46237, C=-2.0599, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	K	o	p	f	f
+state:	1 	1 	1 	1 	1 
+C	-0.191	-0.191	-0.294	-0.216	-0.225
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : (1) : R=0.960024, C=-1.34047, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	(	1	)
+state:	1 	1 	1 
+C	-0.088	-0.093	-0.089
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : and : R=2.55146, C=-1.76186, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	a	n	d
+state:	1 	1 	1 
+C	-0.203	-0.193	-0.240
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Barbara : R=5.03541, C=-1.76186, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	B	a	r	b	a	r	a
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.191	-0.228	-0.194	-0.194	-0.194	-0.199
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Schreyer : R=5.57083, C=-1.39354, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	S	c	h	r	e	y	e	r
+state:	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.191	-0.193	-0.194	-0.196	-0.194	-0.192	-0.198
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : (4). : R=2.51415, C=-1.46728, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	(	4	)	.
+state:	1 	1 	1 	1 
+C	-0.192	-0.193	-0.192	-0.210
+1 new words better than 0 old words: r: 6.57196 v 0 c: -2.255 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.11866 v 0 c: -1.42276 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.77661 v 0 c: -1.85917 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.92729 v 0 c: -1.42036 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.682719 v 0 c: -1.42191 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 6.22342 v 0 c: -1.67033 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.46237 v 0 c: -2.0599 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.960024 v 0 c: -1.34047 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 2.55146 v 0 c: -1.76186 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.03541 v 0 c: -1.76186 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.57083 v 0 c: -1.39354 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.51415 v 0 c: -1.46728 v 0 valid dict: 0 v 0
+(4). (ocr took 0.05 sec)
+Pass1: (4). [( [28 ]p 4 [34 ]0 ) [29 ]p . [2e ]p ]
+Processing word with lang eng at:Bounding box=(129,1300)->(402,1318)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Drawings: : R=6.86456, C=-1.83721, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	D	r	a	w	i	n	g	s	:
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.204	-0.262	-0.192	-0.197	-0.200	-0.201	-0.202	-0.195
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Sigrid : R=4.15796, C=-2.24674, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	S	i	g	r	i	d
+state:	1 	1 	1 	1 	1 	1 
+C	-0.194	-0.192	-0.192	-0.321	-0.194	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Witzig, : R=4.93445, C=-1.74098, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	W	i	t	z	i	g	,
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.197	-0.199	-0.249	-0.195	-0.199	-0.197	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Hamburg : R=5.78889, C=-1.5461, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	H	a	m	b	u	r	g
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.221	-0.193	-0.195	-0.192	-0.192	-0.193	-0.192
+1 new words better than 0 old words: r: 6.86456 v 0 c: -1.83721 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.15796 v 0 c: -2.24674 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.93445 v 0 c: -1.74098 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.78889 v 0 c: -1.5461 v 0 valid dict: 0 v 0
+Hamburg (ocr took 0.02 sec)
+Pass1: Hamburg [H [48 ]A a [61 ]a m [6d ]a b [62 ]a u [75 ]a r [72 ]a g [67 ]a ]
+Processing word with lang eng at:Bounding box=(128,1276)->(320,1294)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Cover : R=4.56533, C=-1.62301, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	C	o	v	e	r
+state:	1 	1 	1 	1 	1 
+C	-0.232	-0.224	-0.198	-0.206	-0.215
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : design: : R=5.22079, C=-1.43151, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	d	e	s	i	g	n	:
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.195	-0.192	-0.204	-0.192	-0.191	-0.194	-0.205
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Dirk : R=3.12346, C=-1.74656, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	D	i	r	k
+state:	1 	1 	1 	1 
+C	-0.193	-0.250	-0.193	-0.191
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Lieb : R=3.27934, C=-1.37963, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	L	i	e	b
+state:	1 	1 	1 	1 
+C	-0.193	-0.194	-0.195	-0.197
+1 new words better than 0 old words: r: 4.56533 v 0 c: -1.62301 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.22079 v 0 c: -1.43151 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.12346 v 0 c: -1.74656 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.27934 v 0 c: -1.37963 v 0 valid dict: 0 v 0
+Lieb (ocr took 0.01 sec)
+Pass1: Lieb [L [4c ]A i [69 ]a e [65 ]a b [62 ]a ]
+Processing word with lang eng at:Bounding box=(133,1252)->(611,1271)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : Translation: : R=7.87787, C=-2.53834, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	T	r	a	n	s	l	a	t	i	o	n	:
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.363	-0.196	-0.192	-0.257	-0.193	-0.225	-0.192	-0.192	-0.192	-0.193	-0.199	-0.238
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Ellen : R=3.31746, C=-1.45787, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	E	l	l	e	n
+state:	1 	1 	1 	1 	1 
+C	-0.192	-0.203	-0.208	-0.206	-0.197
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Riemschnieder—in : R=12.1479, C=-1.74677, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	R	i	e	m	s	c	h	n	i	e	d	e	r	—	i	n
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.192	-0.192	-0.193	-0.198	-0.250	-0.192	-0.198	-0.193	-0.208	-0.242	-0.196	-0.194	-0.204	-0.229	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : loving : R=4.43012, C=-1.43003, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	l	o	v	i	n	g
+state:	1 	1 	1 	1 	1 	1 
+C	-0.195	-0.191	-0.193	-0.192	-0.193	-0.202
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : memory : R=4.56789, C=-1.68613, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	m	e	m	o	r	y
+state:	1 	1 	1 	1 	1 	1 
+C	-0.197	-0.197	-0.241	-0.197	-0.199	-0.237
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : of : R=1.37507, C=-1.50987, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	o	f
+state:	1 	1 
+C	-0.209	-0.208
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Jim : R=2.331, C=-1.50987, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	J	i	m
+state:	1 	1 	1 
+C	-0.201	-0.198	-0.195
+1 new words better than 0 old words: r: 7.87787 v 0 c: -2.53834 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.31746 v 0 c: -1.45787 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 12.1479 v 0 c: -1.74677 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.43012 v 0 c: -1.43003 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.56789 v 0 c: -1.68613 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.37507 v 0 c: -1.50987 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.331 v 0 c: -1.50987 v 0 valid dict: 0 v 0
+Jim (ocr took 0.04 sec)
+Pass1: Jim [J [4a ]A i [69 ]a m [6d ]a ]
+Processing word with lang eng at:Bounding box=(127,969)->(564,989)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Library : R=5.19027, C=-1.39548, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	L	i	b	r	a	r	y
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.198	-0.193	-0.193	-0.199	-0.191	-0.192	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : of : R=1.59281, C=-1.69564, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	o	f
+state:	1 	1 
+C	-0.192	-0.242
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Congress : R=6.2384, C=-1.59874, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	C	o	n	g	r	e	s	s
+state:	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.228	-0.204	-0.199	-0.193	-0.193	-0.193	-0.192	-0.208
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Cataloging-in-Publication : R=18.3271, C=-2.22588, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	C	a	t	a	l	o	g	i	n	g	-	i	n	-	P	u	b	l	i	c	a	t	i	o	n
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.193	-0.191	-0.192	-0.193	-0.191	-0.192	-0.241	-0.196	-0.191	-0.193	-0.199	-0.195	-0.193	-0.196	-0.192	-0.192	-0.192	-0.192	-0.197	-0.318	-0.191	-0.192	-0.306	-0.203	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Data : R=3.25699, C=-1.35016, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	D	a	t	a
+state:	1 	1 	1 	1 
+C	-0.191	-0.192	-0.192	-0.193
+1 new words better than 0 old words: r: 5.19027 v 0 c: -1.39548 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.59281 v 0 c: -1.69564 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 6.2384 v 0 c: -1.59874 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 18.3271 v 0 c: -2.22588 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.25699 v 0 c: -1.35016 v 0 valid dict: 0 v 0
+Data (ocr took 0.04 sec)
+Pass1: Data [D [44 ]A a [61 ]a t [74 ]a a [61 ]a ]
+Processing word with lang eng at:Bounding box=(128,924)->(257,939)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Buss, : R=3.86596, C=-1.45131, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	B	u	s	s	,
+state:	1 	1 	1 	1 	1 
+C	-0.203	-0.192	-0.207	-0.193	-0.194
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Katharina. : R=7.37409, C=-1.64046, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	K	a	t	h	a	r	i	n	a	.
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.194	-0.195	-0.193	-0.192	-0.193	-0.192	-0.194	-0.208	-0.192	-0.234
+1 new words better than 0 old words: r: 3.86596 v 0 c: -1.45131 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 7.37409 v 0 c: -1.64046 v 0 valid dict: 0 v 0
+Katharina. (ocr took 0.01 sec)
+Pass1: Katharina. [K [4b ]A a [61 ]a t [74 ]a h [68 ]a a [61 ]a r [72 ]a i [69 ]a n [6e ]a a [61 ]a . [2e ]p ]
+Processing word with lang eng at:Bounding box=(153,897)->(404,915)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : [Urania-Ravensburger. : R=15.5602, C=-1.66309, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	[	U	r	a	n	i	a	-	R	a	v	e	n	s	b	u	r	g	e	r	.
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.229	-0.192	-0.196	-0.202	-0.210	-0.192	-0.192	-0.195	-0.192	-0.192	-0.196	-0.191	-0.192	-0.192	-0.210	-0.192	-0.212	-0.192	-0.205	-0.198	-0.217
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : English] : R=5.72602, C=-2.45176, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	E	n	g	l	i	s	h	]
+state:	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.192	-0.243	-0.192	-0.192	-0.191	-0.272	-0.350
+1 new words better than 0 old words: r: 15.5602 v 0 c: -1.66309 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.72602 v 0 c: -2.45176 v 0 valid dict: 0 v 0
+English] (ocr took 0.02 sec)
+Pass1: English] [E [45 ]A n [6e ]a g [67 ]a l [6c ]a i [69 ]a s [73 ]a h [68 ]a ] [5d ]p ]
+Processing word with lang eng at:Bounding box=(152,873)->(475,891)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Big : R=2.30355, C=-1.3587, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	B	i	g
+state:	1 	1 	1 
+C	-0.193	-0.194	-0.194
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : book : R=3.04525, C=-2.21082, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	b	o	o	k
+state:	1 	1 	1 	1 
+C	-0.214	-0.193	-0.197	-0.316
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : of : R=1.34788, C=-1.39787, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	o	f
+state:	1 	1 
+C	-0.196	-0.191
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : knitting : R=5.32098, C=-1.73593, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	k	n	i	t	t	i	n	g
+state:	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.196	-0.200	-0.197	-0.248	-0.192	-0.241	-0.191
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : / : R=0.578624, C=-1.39888, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	/
+state:	1 
+C	-0.195
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : by : R=0.73274, C=-1.33896, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	b	y
+state:	1 	1 
+C	-0.086	-0.136
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Katharina : R=6.399, C=-1.64838, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	K	a	t	h	a	r	i	n	a
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.206	-0.193	-0.192	-0.205	-0.192	-0.235	-0.192	-0.192
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : Buss. : R=3.54868, C=-2.78812, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	B	u	s	s	.
+state:	1 	1 	1 	1 	1 
+C	-0.192	-0.196	-0.205	-0.249	-0.398
+1 new words better than 0 old words: r: 2.30355 v 0 c: -1.3587 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.04525 v 0 c: -2.21082 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.34788 v 0 c: -1.39787 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.32098 v 0 c: -1.73593 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.578624 v 0 c: -1.39888 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.73274 v 0 c: -1.33896 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 6.399 v 0 c: -1.64838 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.54868 v 0 c: -2.78812 v 0 valid dict: 0 v 0
+Buss. (ocr took 0.03 sec)
+Pass1: Buss. [B [42 ]A u [75 ]a s [73 ]a s [73 ]a . [2e ]p ]
+Processing word with lang eng at:Bounding box=(162,847)->(210,860)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : p. : R=1.96275, C=-4.24887, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	p	.
+state:	1 	1 
+C	-0.243	-0.481
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : cm. : R=2.88223, C=-4.26215, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	c	m	.
+state:	1 	1 	1 
+C	-0.470	-0.197	-0.609
+1 new words better than 0 old words: r: 1.96275 v 0 c: -4.24887 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.88223 v 0 c: -4.26215 v 0 valid dict: 0 v 0
+cm. (ocr took 0.00 sec)
+Pass1: cm. [c [63 ]a m [6d ]a . [2e ]p ]
+Processing word with lang eng at:Bounding box=(152,827)->(319,841)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : ISBN : R=3.7081, C=-1.5231, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	I	S	B	N
+state:	1 	1 	1 	1 
+C	-0.218	-0.192	-0.192	-0.217
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 0-8069-6203-8 : R=10.7264, C=-1.66011, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	0	-	8	0	6	9	-	6	2	0	3	-	8
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.237	-0.228	-0.195	-0.192	-0.194	-0.192	-0.196	-0.192	-0.192	-0.220	-0.192	-0.197	-0.192
+1 new words better than 0 old words: r: 3.7081 v 0 c: -1.5231 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 10.7264 v 0 c: -1.66011 v 0 valid dict: 0 v 0
+0-8069-6203-8 (ocr took 0.01 sec)
+Pass1: 0-8069-6203-8 [0 [30 ]0 - [2d ]p 8 [38 ]0 0 [30 ]0 6 [36 ]0 9 [39 ]0 - [2d ]p 6 [36 ]0 2 [32 ]0 0 [30 ]0 3 [33 ]0 - [2d ]p 8 [38 ]0 ]
+Processing word with lang eng at:Bounding box=(154,801)->(308,817)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 1. : R=0.765644, C=-1.39281, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	1	.
+state:	1 	1 
+C	-0.187	-0.115
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Knitting. : R=6.06848, C=-2.37738, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	K	n	i	t	t	i	n	g	.
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.198	-0.193	-0.225	-0.340	-0.219	-0.192	-0.192	-0.244
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 1. : R=1.56101, C=-5.49862, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	1	.
+state:	1 	1 
+C	-0.786	-0.374
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Title. : R=3.47466, C=-2.2853, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	T	i	t	l	e	.
+state:	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.199	-0.227	-0.193	-0.206	-0.326
+1 new words better than 0 old words: r: 0.765644 v 0 c: -1.39281 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 6.06848 v 0 c: -2.37738 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.56101 v 0 c: -5.49862 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.47466 v 0 c: -2.2853 v 0 valid dict: 0 v 0
+Title. (ocr took 0.01 sec)
+Pass1: Title. [T [54 ]A i [69 ]a t [74 ]a l [6c ]a e [65 ]a . [2e ]p ]
+Processing word with lang eng at:Bounding box=(141,777)->(227,792)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : TT820.897 : R=8.8582, C=-6.60317, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	T	T	8	2	0	.	8	9	7
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.441	-0.425	-0.284	-0.200	-0.217	-0.207	-0.943	-0.240	-0.192
+1 new words better than 0 old words: r: 8.8582 v 0 c: -6.60317 v 0 valid dict: 0 v 0
+TT820.897 (ocr took 0.01 sec)
+Pass1: TT820.897 [T [54 ]A T [54 ]A 8 [38 ]0 2 [32 ]0 0 [30 ]0 . [2e ]p 8 [38 ]0 9 [39 ]0 7 [37 ]0 ]
+Processing word with lang eng at:Bounding box=(275,778)->(311,792)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 1999 : R=1.47795, C=-0.661651, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	1	9	9	9
+state:	1 	1 	1 	1 
+C	-0.095	-0.086	-0.087	-0.092
+1 new words better than 0 old words: r: 1.47795 v 0 c: -0.661651 v 0 valid dict: 0 v 0
+1999 (ocr took 0.00 sec)
+Pass1: 1999 [1 [31 ]0 9 [39 ]0 9 [39 ]0 9 [39 ]0 ]
+Processing word with lang eng at:Bounding box=(138,753)->(260,768)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 746.43'2—dc21 : R=13.2338, C=-4.85315, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	7	4	6	.	4	3	'	2	—	d	c	2	1
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.214	-0.193	-0.192	-0.241	-0.225	-0.196	-0.693	-0.436	-0.328	-0.215	-0.340	-0.390	-0.426
+1 new words better than 0 old words: r: 13.2338 v 0 c: -4.85315 v 0 valid dict: 0 v 0
+746.43'2—dc21 (ocr took 0.01 sec)
+Pass1: 746.43'2—dc21 [7 [37 ]0 4 [34 ]0 6 [36 ]0 . [2e ]p 4 [34 ]0 3 [33 ]0 ' [27 ]p 2 [32 ]0 — [2014 ]p d [64 ]a c [63 ]a 2 [32 ]0 1 [31 ]0 ]
+Already done word with lang eng at:Bounding box=(273,827)->(277,829)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(284,802)->(287,820)
+Pass1:   [  [20 ] ]
+Processing word with lang eng at:Bounding box=(613,696)->(689,711)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 99-20386 : R=6.93167, C=-1.45268, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	9	9	-	2	0	3	8	6
+state:	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.196	-0.192	-0.196	-0.192	-0.191	-0.193	-0.208	-0.195
+1 new words better than 0 old words: r: 6.93167 v 0 c: -1.45268 v 0 valid dict: 0 v 0
+99-20386 (ocr took 0.01 sec)
+Pass1: 99-20386 [9 [39 ]0 9 [39 ]0 - [2d ]p 2 [32 ]0 0 [30 ]0 3 [33 ]0 8 [38 ]0 6 [36 ]0 ]
+Processing word with lang eng at:Bounding box=(128,679)->(401,694)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 20 : R=0.830483, C=-5.4652, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	2	0
+state:	1 	1 
+C	-0.141	-0.092
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 19 : R=0.803768, C=-5.4652, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	1	9
+state:	1 	1 
+C	-0.089	-0.114
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 18 : R=0.703841, C=-3.5811, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	1	8
+state:	1 	1 
+C	-0.098	-0.089
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 17 : R=0.786441, C=-1.73545, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	1	7
+state:	1 	1 
+C	-0.098	-0.086
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 16 : R=0.780588, C=-1.73545, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	1	6
+state:	1 	1 
+C	-0.097	-0.086
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 15 : R=0.789578, C=-1.10497, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	1	5
+state:	1 	1 
+C	-0.091	-0.094
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 14 : R=0.696787, C=-1.77999, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	1	4
+state:	1 	1 
+C	-0.090	-0.089
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 13 : R=0.846104, C=-1.77999, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	1	3
+state:	1 	1 
+C	-0.143	-0.086
+1 new words better than 0 old words: r: 0.830483 v 0 c: -5.4652 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.803768 v 0 c: -5.4652 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 0.703841 v 0 c: -3.5811 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 0.786441 v 0 c: -1.73545 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.780588 v 0 c: -1.73545 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.789578 v 0 c: -1.10497 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 0.696787 v 0 c: -1.77999 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 0.846104 v 0 c: -1.77999 v 0 valid dict: 1 v 0
+13 (ocr took 0.02 sec)
+Pass1: 13 [1 [31 ]0 3 [33 ]0 ]
+Processing word with lang eng at:Bounding box=(643,672)->(674,687)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : CIp : R=6.36371, C=-13.9224, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	C	I	p
+state:	1 	1 	1 
+C	-1.989	-0.582	-0.923
+1 new words better than 0 old words: r: 6.36371 v 0 c: -13.9224 v 0 valid dict: 0 v 0
+CIp (ocr took 0.00 sec)
+Pass1: CIp [C [43 ]A I [49 ]A p [70 ]a ]
+Processing word with lang eng at:Bounding box=(128,627)->(487,646)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : First : R=2.36231, C=-5.1273, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	F	i	r	s	t
+state:	1 	1 	1 	1 	1 
+C	-0.192	-0.238	-0.194	-0.191	-0.203
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : paperback : R=5.46339, C=-5.7855, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	p	a	p	e	r	b	a	c	k
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.197	-0.195	-0.826	-0.193	-0.206	-0.200	-0.193	-0.192	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : edition : R=3.58865, C=-2.15636, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	e	d	i	t	i	o	n
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.193	-0.192	-0.202	-0.193	-0.196	-0.308	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : published : R=4.48686, C=-1.72458, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	p	u	b	l	i	s	h	e	d
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.204	-0.192	-0.192	-0.201	-0.192	-0.192	-0.246	-0.193	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : in : R=0.965834, C=-1.44418, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	i	n
+state:	1 	1 
+C	-0.196	-0.194
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 2001 : R=0.978883, C=-0.774627, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	2	0	0	1
+state:	1 	1 	1 	1 
+C	-0.088	-0.086	-0.111	-0.093
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : by : R=0.524529, C=-0.650432, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	b	y
+state:	1 	1 
+C	-0.087	-0.092
+1 new words better than 0 old words: r: 2.36231 v 0 c: -5.1273 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.46339 v 0 c: -5.7855 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.58865 v 0 c: -2.15636 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.48686 v 0 c: -1.72458 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.965834 v 0 c: -1.44418 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.978883 v 0 c: -0.774627 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.524529 v 0 c: -0.650432 v 0 valid dict: 1 v 0
+by (ocr took 0.02 sec)
+Pass1: by [b [62 ]a y [79 ]a ]
+Processing word with lang eng at:Bounding box=(128,605)->(354,622)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : Sterling : R=4.42072, C=-2.8316, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	S	t	e	r	l	i	n	g
+state:	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.196	-0.193	-0.194	-0.216	-0.405	-0.200	-0.313	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Publishing : R=5.11699, C=-2.06031, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	P	u	b	l	i	s	h	i	n	g
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.193	-0.294	-0.191	-0.205	-0.192	-0.192	-0.206	-0.195	-0.192	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Co., : R=2.19743, C=-2.01843, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	C	o	.	,
+state:	1 	1 	1 	1 
+C	-0.192	-0.232	-0.288	-0.286
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Inc. : R=2.20397, C=-1.54615, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	I	n	c	.
+state:	1 	1 	1 	1 
+C	-0.205	-0.193	-0.221	-0.205
+1 new words better than 0 old words: r: 4.42072 v 0 c: -2.8316 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.11699 v 0 c: -2.06031 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.19743 v 0 c: -2.01843 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.20397 v 0 c: -1.54615 v 0 valid dict: 0 v 0
+Inc. (ocr took 0.01 sec)
+Pass1: Inc. [I [49 ]A n [6e ]a c [63 ]a . [2e ]p ]
+Processing word with lang eng at:Bounding box=(131,581)->(436,597)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 387 : R=0.811727, C=-1.38483, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	3	8	7
+state:	1 	1 	1 
+C	-0.091	-0.109	-0.087
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Park : R=2.14238, C=-1.43486, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	P	a	r	k
+state:	1 	1 	1 	1 
+C	-0.205	-0.198	-0.193	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Avenue : R=3.6964, C=-1.46251, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	A	v	e	n	u	e
+state:	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.193	-0.192	-0.194	-0.205	-0.209
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : South, : R=3.27063, C=-1.40894, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	S	o	u	t	h	,
+state:	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.193	-0.193	-0.192	-0.201	-0.195
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : New : R=1.73432, C=-1.69461, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	N	e	w
+state:	1 	1 	1 
+C	-0.191	-0.193	-0.201
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : York, : R=3.10532, C=-2.33644, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	Y	o	r	k	,
+state:	1 	1 	1 	1 	1 
+C	-0.271	-0.334	-0.193	-0.192	-0.195
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : N : R=0.399401, C=-1.60414, F=1, Perm=11, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	N
+state:	1 
+C	-0.229
+1 new words better than 0 old words: r: 0.811727 v 0 c: -1.38483 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.14238 v 0 c: -1.43486 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.6964 v 0 c: -1.46251 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.27063 v 0 c: -1.40894 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.73432 v 0 c: -1.69461 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.10532 v 0 c: -2.33644 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.399401 v 0 c: -1.60414 v 0 valid dict: 1 v 0
+N (ocr took 0.02 sec)
+Pass1: N [N [4e ]A ]
+Already done word with lang eng at:Bounding box=(426,582)->(458,597)
+Pass1:   [  [20 ] ]
+Processing word with lang eng at:Bounding box=(451,582)->(512,597)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : (. : R=2.20834, C=-11.6959, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	(	.
+state:	1 	1 
+C	-1.671	-0.152
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 10016 : R=1.73092, C=-0.87813, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	1	0	0	1	6
+state:	1 	1 	1 	1 	1 
+C	-0.101	-0.086	-0.089	-0.086	-0.088
+1 new words better than 0 old words: r: 2.20834 v 0 c: -11.6959 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 1.73092 v 0 c: -0.87813 v 0 valid dict: 0 v 0
+10016 (ocr took 0.01 sec)
+Pass1: 10016 [1 [31 ]0 0 [30 ]0 0 [30 ]0 1 [31 ]0 6 [36 ]0 ]
+Already done word with lang eng at:Bounding box=(734,1279)->(1121,1289)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(732,662)->(740,1286)
+Pass1:   [  [20 ] ]
+Processing word with lang eng at:Bounding box=(761,1209)->(812,1224)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Inches : R=4.88118, C=-1.53062, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	I	n	c	h	e	s
+state:	1 	1 	1 	1 	1 	1 
+C	-0.201	-0.219	-0.193	-0.192	-0.193	-0.216
+1 new words better than 0 old words: r: 4.88118 v 0 c: -1.53062 v 0 valid dict: 0 v 0
+Inches (ocr took 0.01 sec)
+Pass1: Inches [I [49 ]A n [6e ]a c [63 ]a h [68 ]a e [65 ]a s [73 ]a ]
+Already done word with lang eng at:Bounding box=(770,1059)->(785,1122)
+Pass1:   [  [20 ] ]
+Processing word with lang eng at:Bounding box=(850,1240)->(1008,1260)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Metric : R=5.22559, C=-2.11972, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	M	e	t	r	i	c
+state:	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.289	-0.197	-0.193	-0.192	-0.303
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Equivalents : R=8.11776, C=-1.588, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	E	q	u	i	v	a	l	e	n	t	s
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.194	-0.195	-0.191	-0.192	-0.195	-0.191	-0.193	-0.192	-0.192	-0.227	-0.206
+1 new words better than 0 old words: r: 5.22559 v 0 c: -2.11972 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 8.11776 v 0 c: -1.588 v 0 valid dict: 0 v 0
+Equivalents (ocr took 0.01 sec)
+Pass1: Equivalents [E [45 ]A q [71 ]a u [75 ]a i [69 ]a v [76 ]a a [61 ]a l [6c ]a e [65 ]a n [6e ]a t [74 ]a s [73 ]a ]
+Processing word with lang eng at:Bounding box=(851,1209)->(874,1218)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : cm : R=2.90232, C=-3.8402, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	c	m
+state:	1 	1 
+C	-0.549	-0.218
+1 new words better than 0 old words: r: 2.90232 v 0 c: -3.8402 v 0 valid dict: 0 v 0
+cm (ocr took 0.00 sec)
+Pass1: cm [c [63 ]a m [6d ]a ]
+Processing word with lang eng at:Bounding box=(946,1208)->(997,1224)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Inches : R=4.447, C=-1.50395, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	I	n	c	h	e	s
+state:	1 	1 	1 	1 	1 	1 
+C	-0.199	-0.198	-0.192	-0.215	-0.192	-0.196
+1 new words better than 0 old words: r: 4.447 v 0 c: -1.50395 v 0 valid dict: 0 v 0
+Inches (ocr took 0.01 sec)
+Pass1: Inches [I [49 ]A n [6e ]a c [63 ]a h [68 ]a e [65 ]a s [73 ]a ]
+Processing word with lang eng at:Bounding box=(853,1179)->(877,1194)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 03 : R=1.27873, C=-1.44379, F=1, Perm=11, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	0	3
+state:	1 	1 
+C	-0.116	-0.206
+1 new words better than 0 old words: r: 1.27873 v 0 c: -1.44379 v 0 valid dict: 1 v 0
+03 (ocr took 0.00 sec)
+Pass1: 03 [0 [30 ]0 3 [33 ]0 ]
+Processing word with lang eng at:Bounding box=(948,1178)->(965,1193)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 10 : R=0.978247, C=-1.30035, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	1	0
+state:	1 	1 
+C	-0.106	-0.186
+1 new words better than 0 old words: r: 0.978247 v 0 c: -1.30035 v 0 valid dict: 1 v 0
+10 (ocr took 0.00 sec)
+Pass1: 10 [1 [31 ]0 0 [30 ]0 ]
+Processing word with lang eng at:Bounding box=(853,1155)->(877,1169)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 0.6 : R=1.2904, C=-0.841826, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	0	.	6
+state:	1 	1 	1 
+C	-0.101	-0.120	-0.118
+1 new words better than 0 old words: r: 1.2904 v 0 c: -0.841826 v 0 valid dict: 0 v 0
+0.6 (ocr took 0.00 sec)
+Pass1: 0.6 [0 [30 ]0 . [2e ]p 6 [36 ]0 ]
+Processing word with lang eng at:Bounding box=(949,1154)->(962,1169)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 11 : R=0.992025, C=-1.61492, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	1	1
+state:	1 	1 
+C	-0.231	-0.122
+1 new words better than 0 old words: r: 0.992025 v 0 c: -1.61492 v 0 valid dict: 0 v 0
+11 (ocr took 0.00 sec)
+Pass1: 11 [1 [31 ]0 1 [31 ]0 ]
+Processing word with lang eng at:Bounding box=(856,1130)->(878,1145)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 1.0 : R=1.14735, C=-0.727116, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	1	.	0
+state:	1 	1 	1 
+C	-0.090	-0.104	-0.097
+1 new words better than 0 old words: r: 1.14735 v 0 c: -0.727116 v 0 valid dict: 0 v 0
+1.0 (ocr took 0.00 sec)
+Pass1: 1.0 [1 [31 ]0 . [2e ]p 0 [30 ]0 ]
+Processing word with lang eng at:Bounding box=(949,1130)->(964,1145)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 12 : R=0.928237, C=-1.04396, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	1	2
+state:	1 	1 
+C	-0.149	-0.088
+1 new words better than 0 old words: r: 0.928237 v 0 c: -1.04396 v 0 valid dict: 0 v 0
+12 (ocr took 0.00 sec)
+Pass1: 12 [1 [31 ]0 2 [32 ]0 ]
+Processing word with lang eng at:Bounding box=(857,1107)->(877,1121)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 1.3 : R=2.37774, C=-5.191, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	1	.	3
+state:	1 	1 	1 
+C	-0.327	-0.742	-0.384
+1 new words better than 0 old words: r: 2.37774 v 0 c: -5.191 v 0 valid dict: 0 v 0
+1.3 (ocr took 0.00 sec)
+Pass1: 1.3 [1 [31 ]0 . [2e ]p 3 [33 ]0 ]
+Processing word with lang eng at:Bounding box=(949,1106)->(964,1121)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 13 : R=0.734924, C=-0.90798, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	1	3
+state:	1 	1 
+C	-0.130	-0.086
+1 new words better than 0 old words: r: 0.734924 v 0 c: -0.90798 v 0 valid dict: 1 v 0
+13 (ocr took 0.00 sec)
+Pass1: 13 [1 [31 ]0 3 [33 ]0 ]
+Processing word with lang eng at:Bounding box=(857,1082)->(878,1097)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 1.6 : R=2.37681, C=-5.12487, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	1	.	6
+state:	1 	1 	1 
+C	-0.348	-0.732	-0.100
+1 new words better than 0 old words: r: 2.37681 v 0 c: -5.12487 v 0 valid dict: 0 v 0
+1.6 (ocr took 0.00 sec)
+Pass1: 1.6 [1 [31 ]0 . [2e ]p 6 [36 ]0 ]
+Processing word with lang eng at:Bounding box=(949,1081)->(965,1096)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 14 : R=0.968562, C=-1.34487, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	1	4
+state:	1 	1 
+C	-0.192	-0.088
+1 new words better than 0 old words: r: 0.968562 v 0 c: -1.34487 v 0 valid dict: 1 v 0
+14 (ocr took 0.00 sec)
+Pass1: 14 [1 [31 ]0 4 [34 ]0 ]
+Processing word with lang eng at:Bounding box=(857,1058)->(878,1073)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 1.9 : R=1.62993, C=-4.32069, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	1	.	9
+state:	1 	1 	1 
+C	-0.137	-0.617	-0.087
+1 new words better than 0 old words: r: 1.62993 v 0 c: -4.32069 v 0 valid dict: 0 v 0
+1.9 (ocr took 0.00 sec)
+Pass1: 1.9 [1 [31 ]0 . [2e ]p 9 [39 ]0 ]
+Processing word with lang eng at:Bounding box=(949,1058)->(965,1073)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 15 : R=0.898172, C=-0.834583, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	1	5
+state:	1 	1 
+C	-0.119	-0.087
+1 new words better than 0 old words: r: 0.898172 v 0 c: -0.834583 v 0 valid dict: 1 v 0
+15 (ocr took 0.00 sec)
+Pass1: 15 [1 [31 ]0 5 [35 ]0 ]
+Processing word with lang eng at:Bounding box=(855,1034)->(878,1049)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : b : R=1.72365, C=-11.4401, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	b
+state:	1 
+C	-1.634
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 2 : R=7.555, C=-17.4099, F=1, Perm=11, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	2
+state:	1 
+C	-2.487
+1 new words better than 0 old words: r: 1.72365 v 0 c: -11.4401 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 7.555 v 0 c: -17.4099 v 0 valid dict: 1 v 0
+2 (ocr took 0.01 sec)
+Pass1: 2 [2 [32 ]0 ]
+Processing word with lang eng at:Bounding box=(950,1034)->(966,1048)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 16 : R=0.95004, C=-1.15936, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	1	6
+state:	1 	1 
+C	-0.166	-0.099
+1 new words better than 0 old words: r: 0.95004 v 0 c: -1.15936 v 0 valid dict: 0 v 0
+16 (ocr took 0.00 sec)
+Pass1: 16 [1 [31 ]0 6 [36 ]0 ]
+Processing word with lang eng at:Bounding box=(856,1009)->(877,1024)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 32 : R=2.22145, C=-4.13336, F=1, Perm=11, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	3	2
+state:	1 	1 
+C	-0.590	-0.512
+1 new words better than 0 old words: r: 2.22145 v 0 c: -4.13336 v 0 valid dict: 1 v 0
+32 (ocr took 0.00 sec)
+Pass1: 32 [3 [33 ]0 2 [32 ]0 ]
+Processing word with lang eng at:Bounding box=(950,1009)->(965,1024)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 17 : R=0.981104, C=-1.43797, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	1	7
+state:	1 	1 
+C	-0.205	-0.086
+1 new words better than 0 old words: r: 0.981104 v 0 c: -1.43797 v 0 valid dict: 0 v 0
+17 (ocr took 0.00 sec)
+Pass1: 17 [1 [31 ]0 7 [37 ]0 ]
+Processing word with lang eng at:Bounding box=(857,985)->(878,1000)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 38 : R=1.08894, C=-0.718662, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	3	8
+state:	1 	1 
+C	-0.100	-0.103
+1 new words better than 0 old words: r: 1.08894 v 0 c: -0.718662 v 0 valid dict: 1 v 0
+38 (ocr took 0.00 sec)
+Pass1: 38 [3 [33 ]0 8 [38 ]0 ]
+Processing word with lang eng at:Bounding box=(950,985)->(966,1000)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 18 : R=1.01813, C=-1.72179, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	1	8
+state:	1 	1 
+C	-0.246	-0.088
+1 new words better than 0 old words: r: 1.01813 v 0 c: -1.72179 v 0 valid dict: 1 v 0
+18 (ocr took 0.00 sec)
+Pass1: 18 [1 [31 ]0 8 [38 ]0 ]
+Processing word with lang eng at:Bounding box=(855,960)->(878,975)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 44 : R=1.19375, C=-0.873619, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	4	4
+state:	1 	1 
+C	-0.125	-0.102
+1 new words better than 0 old words: r: 1.19375 v 0 c: -0.873619 v 0 valid dict: 0 v 0
+44 (ocr took 0.00 sec)
+Pass1: 44 [4 [34 ]0 4 [34 ]0 ]
+Processing word with lang eng at:Bounding box=(950,961)->(966,976)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 19 : R=0.9669, C=-1.37053, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	1	9
+state:	1 	1 
+C	-0.196	-0.085
+1 new words better than 0 old words: r: 0.9669 v 0 c: -1.37053 v 0 valid dict: 1 v 0
+19 (ocr took 0.00 sec)
+Pass1: 19 [1 [31 ]0 9 [39 ]0 ]
+Processing word with lang eng at:Bounding box=(856,937)->(876,951)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 5.1 : R=3.59967, C=-7.5017, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	5	.	1
+state:	1 	1 	1 
+C	-1.072	-1.025	-0.174
+1 new words better than 0 old words: r: 3.59967 v 0 c: -7.5017 v 0 valid dict: 0 v 0
+5.1 (ocr took 0.00 sec)
+Pass1: 5.1 [5 [35 ]0 . [2e ]p 1 [31 ]0 ]
+Processing word with lang eng at:Bounding box=(948,936)->(967,951)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 20 : R=0.959393, C=-0.671851, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	2	0
+state:	1 	1 
+C	-0.092	-0.096
+1 new words better than 0 old words: r: 0.959393 v 0 c: -0.671851 v 0 valid dict: 0 v 0
+20 (ocr took 0.00 sec)
+Pass1: 20 [2 [32 ]0 0 [30 ]0 ]
+Processing word with lang eng at:Bounding box=(855,911)->(879,927)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 6.4 : R=1.4033, C=-2.50127, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	6	.	4
+state:	1 	1 	1 
+C	-0.095	-0.357	-0.086
+1 new words better than 0 old words: r: 1.4033 v 0 c: -2.50127 v 0 valid dict: 0 v 0
+6.4 (ocr took 0.00 sec)
+Pass1: 6.4 [6 [36 ]0 . [2e ]p 4 [34 ]0 ]
+Processing word with lang eng at:Bounding box=(949,912)->(964,927)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 21 : R=1.03979, C=-1.48708, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	2	1
+state:	1 	1 
+C	-0.103	-0.212
+1 new words better than 0 old words: r: 1.03979 v 0 c: -1.48708 v 0 valid dict: 0 v 0
+21 (ocr took 0.00 sec)
+Pass1: 21 [2 [32 ]0 1 [31 ]0 ]
+Processing word with lang eng at:Bounding box=(856,887)->(879,903)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 7.6 : R=1.86626, C=-3.02445, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	7	.	6
+state:	1 	1 	1 
+C	-0.432	-0.425	-0.087
+1 new words better than 0 old words: r: 1.86626 v 0 c: -3.02445 v 0 valid dict: 0 v 0
+7.6 (ocr took 0.00 sec)
+Pass1: 7.6 [7 [37 ]0 . [2e ]p 6 [36 ]0 ]
+Processing word with lang eng at:Bounding box=(949,888)->(966,903)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 2 : R=1.0193, C=-1.55671, F=1, Perm=11, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	2
+state:	1 
+C	-0.222
+1 new words better than 0 old words: r: 1.0193 v 0 c: -1.55671 v 0 valid dict: 1 v 0
+2 (ocr took 0.00 sec)
+Pass1: 2 [2 [32 ]0 ]
+Processing word with lang eng at:Bounding box=(855,863)->(879,878)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 89 : R=1.11224, C=-1.79204, F=1, Perm=11, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	8	9
+state:	1 	1 
+C	-0.086	-0.256
+1 new words better than 0 old words: r: 1.11224 v 0 c: -1.79204 v 0 valid dict: 1 v 0
+89 (ocr took 0.00 sec)
+Pass1: 89 [8 [38 ]0 9 [39 ]0 ]
+Processing word with lang eng at:Bounding box=(949,863)->(966,878)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 23 : R=2.73254, C=-5.68148, F=1, Perm=11, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	2	3
+state:	1 	1 
+C	-0.812	-0.692
+1 new words better than 0 old words: r: 2.73254 v 0 c: -5.68148 v 0 valid dict: 1 v 0
+23 (ocr took 0.00 sec)
+Pass1: 23 [2 [32 ]0 3 [33 ]0 ]
+Processing word with lang eng at:Bounding box=(848,839)->(878,854)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 10.2 : R=3.12058, C=-1.47096, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	1	0	.	2
+state:	1 	1 	1 	1 
+C	-0.210	-0.195	-0.209	-0.198
+1 new words better than 0 old words: r: 3.12058 v 0 c: -1.47096 v 0 valid dict: 0 v 0
+10.2 (ocr took 0.00 sec)
+Pass1: 10.2 [1 [31 ]0 0 [30 ]0 . [2e ]p 2 [32 ]0 ]
+Processing word with lang eng at:Bounding box=(949,838)->(967,854)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 24 : R=1.0449, C=-1.05444, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	2	4
+state:	1 	1 
+C	-0.151	-0.121
+1 new words better than 0 old words: r: 1.0449 v 0 c: -1.05444 v 0 valid dict: 1 v 0
+24 (ocr took 0.00 sec)
+Pass1: 24 [2 [32 ]0 4 [34 ]0 ]
+Processing word with lang eng at:Bounding box=(848,814)->(879,829)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 114 : R=1.98335, C=-3.65071, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	1	1	4
+state:	1 	1 	1 
+C	-0.209	-0.120	-0.522
+1 new words better than 0 old words: r: 1.98335 v 0 c: -3.65071 v 0 valid dict: 0 v 0
+114 (ocr took 0.00 sec)
+Pass1: 114 [1 [31 ]0 1 [31 ]0 4 [34 ]0 ]
+Processing word with lang eng at:Bounding box=(949,815)->(966,830)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 25 : R=0.966991, C=-1.24948, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	2	5
+state:	1 	1 
+C	-0.178	-0.123
+1 new words better than 0 old words: r: 0.966991 v 0 c: -1.24948 v 0 valid dict: 0 v 0
+25 (ocr took 0.00 sec)
+Pass1: 25 [2 [32 ]0 5 [35 ]0 ]
+Processing word with lang eng at:Bounding box=(848,790)->(879,805)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 12.7 : R=3.12212, C=-1.53734, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	1	2	.	7
+state:	1 	1 	1 	1 
+C	-0.212	-0.197	-0.220	-0.193
+1 new words better than 0 old words: r: 3.12212 v 0 c: -1.53734 v 0 valid dict: 0 v 0
+12.7 (ocr took 0.00 sec)
+Pass1: 12.7 [1 [31 ]0 2 [32 ]0 . [2e ]p 7 [37 ]0 ]
+Processing word with lang eng at:Bounding box=(949,790)->(967,805)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 26 : R=0.955726, C=-0.648152, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	2	6
+state:	1 	1 
+C	-0.089	-0.093
+1 new words better than 0 old words: r: 0.955726 v 0 c: -0.648152 v 0 valid dict: 0 v 0
+26 (ocr took 0.00 sec)
+Pass1: 26 [2 [32 ]0 6 [36 ]0 ]
+Processing word with lang eng at:Bounding box=(848,766)->(879,781)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 15.2 : R=3.15088, C=-1.78083, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	1	5	.	2
+state:	1 	1 	1 	1 
+C	-0.204	-0.196	-0.254	-0.193
+1 new words better than 0 old words: r: 3.15088 v 0 c: -1.78083 v 0 valid dict: 0 v 0
+15.2 (ocr took 0.00 sec)
+Pass1: 15.2 [1 [31 ]0 5 [35 ]0 . [2e ]p 2 [32 ]0 ]
+Processing word with lang eng at:Bounding box=(949,765)->(967,781)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : n : R=3.16593, C=-6.76574, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	n
+state:	1 
+C	-0.967
+1 new words better than 0 old words: r: 3.16593 v 0 c: -6.76574 v 0 valid dict: 0 v 0
+n (ocr took 0.00 sec)
+Pass1: n [n [6e ]a ]
+Processing word with lang eng at:Bounding box=(848,741)->(879,756)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 178 : R=2.53359, C=-8.9755, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	1	7	8
+state:	1 	1 	1 
+C	-0.099	-0.099	-1.282
+1 new words better than 0 old words: r: 2.53359 v 0 c: -8.9755 v 0 valid dict: 0 v 0
+178 (ocr took 0.00 sec)
+Pass1: 178 [1 [31 ]0 7 [37 ]0 8 [38 ]0 ]
+Processing word with lang eng at:Bounding box=(949,742)->(967,757)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 28 : R=0.900207, C=-1.04733, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	2	8
+state:	1 	1 
+C	-0.131	-0.150
+1 new words better than 0 old words: r: 0.900207 v 0 c: -1.04733 v 0 valid dict: 1 v 0
+28 (ocr took 0.00 sec)
+Pass1: 28 [2 [32 ]0 8 [38 ]0 ]
+Processing word with lang eng at:Bounding box=(847,717)->(879,732)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 203 : R=2.0419, C=-2.79159, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	2	0	3
+state:	1 	1 	1 
+C	-0.086	-0.085	-0.399
+1 new words better than 0 old words: r: 2.0419 v 0 c: -2.79159 v 0 valid dict: 0 v 0
+203 (ocr took 0.00 sec)
+Pass1: 203 [2 [32 ]0 0 [30 ]0 3 [33 ]0 ]
+Processing word with lang eng at:Bounding box=(949,717)->(967,732)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 29 : R=1.15391, C=-1.54703, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	2	9
+state:	1 	1 
+C	-0.221	-0.144
+1 new words better than 0 old words: r: 1.15391 v 0 c: -1.54703 v 0 valid dict: 1 v 0
+29 (ocr took 0.00 sec)
+Pass1: 29 [2 [32 ]0 9 [39 ]0 ]
+Processing word with lang eng at:Bounding box=(847,693)->(880,708)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 229 : R=1.63407, C=-1.18709, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	2	2	9
+state:	1 	1 	1 
+C	-0.170	-0.121	-0.101
+1 new words better than 0 old words: r: 1.63407 v 0 c: -1.18709 v 0 valid dict: 0 v 0
+229 (ocr took 0.00 sec)
+Pass1: 229 [2 [32 ]0 2 [32 ]0 9 [39 ]0 ]
+Processing word with lang eng at:Bounding box=(951,693)->(968,708)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 30 : R=0.866013, C=-0.651927, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	3	0
+state:	1 	1 
+C	-0.088	-0.093
+1 new words better than 0 old words: r: 0.866013 v 0 c: -0.651927 v 0 valid dict: 1 v 0
+30 (ocr took 0.00 sec)
+Pass1: 30 [3 [33 ]0 0 [30 ]0 ]
+Processing word with lang eng at:Bounding box=(1049,1207)->(1072,1217)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : cm : R=3.24531, C=-3.63755, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	c	m
+state:	1 	1 
+C	-0.520	-0.215
+1 new words better than 0 old words: r: 3.24531 v 0 c: -3.63755 v 0 valid dict: 0 v 0
+cm (ocr took 0.00 sec)
+Pass1: cm [c [63 ]a m [6d ]a ]
+Processing word with lang eng at:Bounding box=(1050,1177)->(1083,1193)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 254 : R=1.8205, C=-2.19365, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	2	5	4
+state:	1 	1 	1 
+C	-0.118	-0.091	-0.313
+1 new words better than 0 old words: r: 1.8205 v 0 c: -2.19365 v 0 valid dict: 0 v 0
+254 (ocr took 0.00 sec)
+Pass1: 254 [2 [32 ]0 5 [35 ]0 4 [34 ]0 ]
+Processing word with lang eng at:Bounding box=(1051,1153)->(1084,1169)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 219 : R=1.81869, C=-2.7107, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	2	1	9
+state:	1 	1 	1 
+C	-0.088	-0.129	-0.387
+1 new words better than 0 old words: r: 1.81869 v 0 c: -2.7107 v 0 valid dict: 0 v 0
+219 (ocr took 0.00 sec)
+Pass1: 219 [2 [32 ]0 1 [31 ]0 9 [39 ]0 ]
+Processing word with lang eng at:Bounding box=(1051,1129)->(1083,1145)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 30.5 : R=3.18638, C=-2.00405, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	3	0	.	5
+state:	1 	1 	1 	1 
+C	-0.193	-0.195	-0.286	-0.201
+1 new words better than 0 old words: r: 3.18638 v 0 c: -2.00405 v 0 valid dict: 0 v 0
+30.5 (ocr took 0.00 sec)
+Pass1: 30.5 [3 [33 ]0 0 [30 ]0 . [2e ]p 5 [35 ]0 ]
+Processing word with lang eng at:Bounding box=(1051,1105)->(1084,1120)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 33.0 : R=3.42204, C=-1.98176, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	3	3	.	0
+state:	1 	1 	1 	1 
+C	-0.195	-0.237	-0.283	-0.201
+1 new words better than 0 old words: r: 3.42204 v 0 c: -1.98176 v 0 valid dict: 0 v 0
+33.0 (ocr took 0.00 sec)
+Pass1: 33.0 [3 [33 ]0 3 [33 ]0 . [2e ]p 0 [30 ]0 ]
+Processing word with lang eng at:Bounding box=(1053,1081)->(1084,1096)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 35.6 : R=3.14396, C=-1.60794, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	3	5	.	6
+state:	1 	1 	1 	1 
+C	-0.195	-0.193	-0.230	-0.193
+1 new words better than 0 old words: r: 3.14396 v 0 c: -1.60794 v 0 valid dict: 0 v 0
+35.6 (ocr took 0.00 sec)
+Pass1: 35.6 [3 [33 ]0 5 [35 ]0 . [2e ]p 6 [36 ]0 ]
+Processing word with lang eng at:Bounding box=(1053,1057)->(1082,1072)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 38.1 : R=3.09299, C=-1.43245, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	3	8	.	1
+state:	1 	1 	1 	1 
+C	-0.193	-0.195	-0.195	-0.205
+1 new words better than 0 old words: r: 3.09299 v 0 c: -1.43245 v 0 valid dict: 0 v 0
+38.1 (ocr took 0.00 sec)
+Pass1: 38.1 [3 [33 ]0 8 [38 ]0 . [2e ]p 1 [31 ]0 ]
+Processing word with lang eng at:Bounding box=(1051,1032)->(1085,1048)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 40.6 : R=3.29335, C=-1.42342, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	4	0	.	6
+state:	1 	1 	1 	1 
+C	-0.196	-0.203	-0.201	-0.193
+1 new words better than 0 old words: r: 3.29335 v 0 c: -1.42342 v 0 valid dict: 0 v 0
+40.6 (ocr took 0.00 sec)
+Pass1: 40.6 [4 [34 ]0 0 [30 ]0 . [2e ]p 6 [36 ]0 ]
+Processing word with lang eng at:Bounding box=(1051,1008)->(1084,1024)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 43.2 : R=3.52427, C=-2.21502, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	4	3	.	2
+state:	1 	1 	1 	1 
+C	-0.220	-0.204	-0.316	-0.232
+1 new words better than 0 old words: r: 3.52427 v 0 c: -2.21502 v 0 valid dict: 0 v 0
+43.2 (ocr took 0.00 sec)
+Pass1: 43.2 [4 [34 ]0 3 [33 ]0 . [2e ]p 2 [32 ]0 ]
+Processing word with lang eng at:Bounding box=(1051,984)->(1084,1000)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 45.7 : R=4.03266, C=-4.56561, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	4	5	.	7
+state:	1 	1 	1 	1 
+C	-0.220	-0.199	-0.342	-0.652
+1 new words better than 0 old words: r: 4.03266 v 0 c: -4.56561 v 0 valid dict: 0 v 0
+45.7 (ocr took 0.00 sec)
+Pass1: 45.7 [4 [34 ]0 5 [35 ]0 . [2e ]p 7 [37 ]0 ]
+Processing word with lang eng at:Bounding box=(1052,960)->(1085,975)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 483 : R=2.96321, C=-10.4795, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	4	8	3
+state:	1 	1 	1 
+C	-0.087	-0.087	-1.497
+1 new words better than 0 old words: r: 2.96321 v 0 c: -10.4795 v 0 valid dict: 0 v 0
+483 (ocr took 0.00 sec)
+Pass1: 483 [4 [34 ]0 8 [38 ]0 3 [33 ]0 ]
+Processing word with lang eng at:Bounding box=(1053,936)->(1085,951)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 50.8 : R=3.39473, C=-2.27137, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	5	0	.	8
+state:	1 	1 	1 	1 
+C	-0.194	-0.191	-0.324	-0.192
+1 new words better than 0 old words: r: 3.39473 v 0 c: -2.27137 v 0 valid dict: 0 v 0
+50.8 (ocr took 0.00 sec)
+Pass1: 50.8 [5 [35 ]0 0 [30 ]0 . [2e ]p 8 [38 ]0 ]
+Processing word with lang eng at:Bounding box=(1053,912)->(1085,927)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 53.3 : R=3.45334, C=-2.59244, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	5	3	.	3
+state:	1 	1 	1 	1 
+C	-0.194	-0.196	-0.370	-0.194
+1 new words better than 0 old words: r: 3.45334 v 0 c: -2.59244 v 0 valid dict: 0 v 0
+53.3 (ocr took 0.00 sec)
+Pass1: 53.3 [5 [35 ]0 3 [33 ]0 . [2e ]p 3 [33 ]0 ]
+Processing word with lang eng at:Bounding box=(1053,888)->(1086,903)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 55.9 : R=3.3061, C=-1.48337, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	5	5	.	9
+state:	1 	1 	1 	1 
+C	-0.194	-0.194	-0.212	-0.205
+1 new words better than 0 old words: r: 3.3061 v 0 c: -1.48337 v 0 valid dict: 0 v 0
+55.9 (ocr took 0.00 sec)
+Pass1: 55.9 [5 [35 ]0 5 [35 ]0 . [2e ]p 9 [39 ]0 ]
+Processing word with lang eng at:Bounding box=(1054,863)->(1086,879)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 58.4 : R=3.10494, C=-1.42979, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	5	8	.	4
+state:	1 	1 	1 	1 
+C	-0.204	-0.199	-0.195	-0.201
+1 new words better than 0 old words: r: 3.10494 v 0 c: -1.42979 v 0 valid dict: 0 v 0
+58.4 (ocr took 0.00 sec)
+Pass1: 58.4 [5 [35 ]0 8 [38 ]0 . [2e ]p 4 [34 ]0 ]
+Processing word with lang eng at:Bounding box=(1053,839)->(1087,854)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 61.0 : R=3.49602, C=-1.43484, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	6	1	.	0
+state:	1 	1 	1 	1 
+C	-0.193	-0.194	-0.205	-0.204
+1 new words better than 0 old words: r: 3.49602 v 0 c: -1.43484 v 0 valid dict: 0 v 0
+61.0 (ocr took 0.00 sec)
+Pass1: 61.0 [6 [36 ]0 1 [31 ]0 . [2e ]p 0 [30 ]0 ]
+Processing word with lang eng at:Bounding box=(1053,815)->(1086,830)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 63.5 : R=3.28894, C=-1.40539, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	6	3	.	5
+state:	1 	1 	1 	1 
+C	-0.194	-0.196	-0.201	-0.192
+1 new words better than 0 old words: r: 3.28894 v 0 c: -1.40539 v 0 valid dict: 0 v 0
+63.5 (ocr took 0.00 sec)
+Pass1: 63.5 [6 [36 ]0 3 [33 ]0 . [2e ]p 5 [35 ]0 ]
+Processing word with lang eng at:Bounding box=(1053,791)->(1087,806)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 66.0 : R=3.30884, C=-1.50413, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	6	6	.	0
+state:	1 	1 	1 	1 
+C	-0.196	-0.197	-0.215	-0.192
+1 new words better than 0 old words: r: 3.30884 v 0 c: -1.50413 v 0 valid dict: 0 v 0
+66.0 (ocr took 0.00 sec)
+Pass1: 66.0 [6 [36 ]0 6 [36 ]0 . [2e ]p 0 [30 ]0 ]
+Processing word with lang eng at:Bounding box=(1053,766)->(1087,781)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 68.6 : R=3.37078, C=-1.92956, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	6	8	.	6
+state:	1 	1 	1 	1 
+C	-0.210	-0.193	-0.276	-0.192
+1 new words better than 0 old words: r: 3.37078 v 0 c: -1.92956 v 0 valid dict: 0 v 0
+68.6 (ocr took 0.00 sec)
+Pass1: 68.6 [6 [36 ]0 8 [38 ]0 . [2e ]p 6 [36 ]0 ]
+Processing word with lang eng at:Bounding box=(1054,741)->(1084,757)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 711 : R=3.42209, C=-5.78529, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	7	1	1
+state:	1 	1 	1 
+C	-0.335	-0.826	-0.726
+1 new words better than 0 old words: r: 3.42209 v 0 c: -5.78529 v 0 valid dict: 0 v 0
+711 (ocr took 0.00 sec)
+Pass1: 711 [7 [37 ]0 1 [31 ]0 1 [31 ]0 ]
+Processing word with lang eng at:Bounding box=(1054,717)->(1086,733)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 3.7 : R=2.20097, C=-3.16927, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	3	.	7
+state:	1 	1 	1 
+C	-0.453	-0.115	-0.169
+1 new words better than 0 old words: r: 2.20097 v 0 c: -3.16927 v 0 valid dict: 0 v 0
+3.7 (ocr took 0.00 sec)
+Pass1: 3.7 [3 [33 ]0 . [2e ]p 7 [37 ]0 ]
+Processing word with lang eng at:Bounding box=(1054,693)->(1086,708)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 76.2 : R=3.44263, C=-1.99492, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	7	6	.	2
+state:	1 	1 	1 	1 
+C	-0.285	-0.191	-0.226	-0.202
+1 new words better than 0 old words: r: 3.44263 v 0 c: -1.99492 v 0 valid dict: 0 v 0
+76.2 (ocr took 0.00 sec)
+Pass1: 76.2 [7 [37 ]0 6 [36 ]0 . [2e ]p 2 [32 ]0 ]
+Already done word with lang eng at:Bounding box=(737,660)->(1127,667)
+Pass1:   [  [20 ] ]
+Processing word with lang eng at:Bounding box=(127,554)->(994,575)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : Originally : R=6.46392, C=-2.5729, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	O	r	i	g	i	n	a	l	l	y
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.203	-0.196	-0.236	-0.192	-0.201	-0.195	-0.193	-0.202	-0.204	-0.368
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : published : R=5.62928, C=-1.71817, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	p	u	b	l	i	s	h	e	d
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.233	-0.212	-0.192	-0.192	-0.193	-0.192	-0.192	-0.192	-0.204
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : in : R=1.34662, C=-1.71817, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	i	n
+state:	1 	1 
+C	-0.194	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Germany : R=5.059, C=-1.75273, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	G	e	r	m	a	n	y
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.198	-0.193	-0.192	-0.192	-0.250	-0.192	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : by : R=0.681357, C=-1.35924, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	b	y
+state:	1 	1 
+C	-0.086	-0.085
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Urania-Ravensburger : R=12.7835, C=-1.68775, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	U	r	a	n	i	a	-	R	a	v	e	n	s	b	u	r	g	e	r
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.191	-0.194	-0.191	-0.200	-0.199	-0.192	-0.194	-0.192	-0.192	-0.205	-0.192	-0.193	-0.192	-0.229	-0.192	-0.193	-0.192	-0.241	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : under : R=3.07345, C=-1.37755, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	u	n	d	e	r
+state:	1 	1 	1 	1 	1 
+C	-0.194	-0.197	-0.192	-0.192	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : the : R=1.72499, C=-1.364, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	t	h	e
+state:	1 	1 	1 
+C	-0.193	-0.192	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : title : R=3.06098, C=-2.42211, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	t	i	t	l	e
+state:	1 	1 	1 	1 	1 
+C	-0.197	-0.194	-0.195	-0.346	-0.202
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Das : R=1.73583, C=-1.40142, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	D	a	s
+state:	1 	1 	1 
+C	-0.192	-0.200	-0.192
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : grofie : R=4.05969, C=-5.83571, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	g	r	o	f	i	e
+state:	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.304	-0.192	-0.204	-0.834	-0.214
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : Ravensburger : R=9.22016, C=-14.4298, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	R	a	v	e	n	s	b	u	r	g	e	r
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.191	-0.199	-0.192	-0.198	-0.222	-0.192	-0.227	-0.202	-2.061	-0.199	-0.192	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Strickbuch : R=6.11689, C=-2.1463, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	S	t	r	i	c	k	b	u	c	h
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.201	-0.307	-0.192	-0.192	-0.192	-0.216	-0.199	-0.194	-0.192
+1 new words better than 0 old words: r: 6.46392 v 0 c: -2.5729 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.62928 v 0 c: -1.71817 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.34662 v 0 c: -1.71817 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.059 v 0 c: -1.75273 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.681357 v 0 c: -1.35924 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 12.7835 v 0 c: -1.68775 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.07345 v 0 c: -1.37755 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.72499 v 0 c: -1.364 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.06098 v 0 c: -2.42211 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.73583 v 0 c: -1.40142 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.05969 v 0 c: -5.83571 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 9.22016 v 0 c: -14.4298 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 6.11689 v 0 c: -2.1463 v 0 valid dict: 0 v 0
+Strickbuch (ocr took 0.06 sec)
+Pass1: Strickbuch [S [53 ]A t [74 ]a r [72 ]a i [69 ]a c [63 ]a k [6b ]a b [62 ]a u [75 ]a c [63 ]a h [68 ]a ]
+Processing word with lang eng at:Bounding box=(131,531)->(847,549)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : © : R=1.06542, C=-1.61615, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	©
+state:	1 
+C	-0.231
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 1996 : R=1.3921, C=-1.1003, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	1	9	9	6
+state:	1 	1 	1 	1 
+C	-0.110	-0.086	-0.086	-0.087
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : by : R=0.721033, C=-1.33978, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	b	y
+state:	1 	1 
+C	-0.087	-0.122
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Urania-Ravensburger : R=13.6727, C=-2.01713, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	U	r	a	n	i	a	-	R	a	v	e	n	s	b	u	r	g	e	r
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.193	-0.193	-0.194	-0.192	-0.193	-0.203	-0.197	-0.191	-0.192	-0.203	-0.202	-0.208	-0.206	-0.231	-0.192	-0.288	-0.192	-0.191	-0.192
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : in : R=1.5442, C=-2.71388, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	i	n
+state:	1 	1 
+C	-0.388	-0.194
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : the : R=2.29715, C=-1.54435, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	t	h	e
+state:	1 	1 	1 
+C	-0.192	-0.191	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Dornier : R=5.32302, C=-1.76864, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	D	o	r	n	i	e	r
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.198	-0.197	-0.207	-0.199	-0.193	-0.192	-0.253
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Medienholding : R=9.99958, C=-2.39102, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	M	e	d	i	e	n	h	o	l	d	i	n	g
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.192	-0.192	-0.342	-0.192	-0.192	-0.192	-0.192	-0.198	-0.228	-0.212	-0.193	-0.196
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : GmbH : R=3.45517, C=-1.40383, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	G	m	b	H
+state:	1 	1 	1 	1 
+C	-0.193	-0.192	-0.194	-0.193
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : Berlin, : R=5.20227, C=-3.45555, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	B	e	r	l	i	n	,
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.191	-0.254	-0.212	-0.192	-0.494	-0.193	-0.195
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Germany. : R=5.78336, C=-1.42272, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	G	e	r	m	a	n	y	.
+state:	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.193	-0.197	-0.194	-0.191	-0.192	-0.195	-0.192	-0.203
+1 new words better than 0 old words: r: 1.06542 v 0 c: -1.61615 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.3921 v 0 c: -1.1003 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.721033 v 0 c: -1.33978 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 13.6727 v 0 c: -2.01713 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.5442 v 0 c: -2.71388 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.29715 v 0 c: -1.54435 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.32302 v 0 c: -1.76864 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 9.99958 v 0 c: -2.39102 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.45517 v 0 c: -1.40383 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.20227 v 0 c: -3.45555 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.78336 v 0 c: -1.42272 v 0 valid dict: 0 v 0
+Germany. (ocr took 0.05 sec)
+Pass1: Germany. [G [47 ]A e [65 ]a r [72 ]a m [6d ]a a [61 ]a n [6e ]a y [79 ]a . [2e ]p ]
+Processing word with lang eng at:Bounding box=(128,506)->(605,524)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : English : R=4.87331, C=-3.32392, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	E	n	g	l	i	s	h
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.241	-0.193	-0.224	-0.191	-0.192	-0.192	-0.191
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : translation : R=7.79406, C=-3.32392, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	t	r	a	n	s	l	a	t	i	o	n
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.202	-0.192	-0.216	-0.194	-0.192	-0.258	-0.192	-0.193	-0.192	-0.192	-0.196
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : © : R=0.765857, C=-1.41632, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	©
+state:	1 
+C	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 1999 : R=1.42943, C=-0.926635, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	1	9	9	9
+state:	1 	1 	1 	1 
+C	-0.095	-0.088	-0.132	-0.087
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : by : R=0.681897, C=-1.73543, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	b	y
+state:	1 	1 
+C	-0.086	-0.086
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Sterling : R=5.41787, C=-1.73543, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	S	t	e	r	l	i	n	g
+state:	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.197	-0.192	-0.198	-0.222	-0.193	-0.193	-0.192
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : Publishing : R=6.92278, C=-2.83192, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	P	u	b	l	i	s	h	i	n	g
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.192	-0.193	-0.193	-0.405	-0.193	-0.191	-0.192	-0.193	-0.191
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Co., : R=2.96183, C=-2.38933, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	C	o	.	,
+state:	1 	1 	1 	1 
+C	-0.201	-0.199	-0.341	-0.196
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Inc. : R=2.78076, C=-1.64519, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	I	n	c	.
+state:	1 	1 	1 	1 
+C	-0.192	-0.194	-0.235	-0.204
+1 new words better than 0 old words: r: 4.87331 v 0 c: -3.32392 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 7.79406 v 0 c: -3.32392 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.765857 v 0 c: -1.41632 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.42943 v 0 c: -0.926635 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.681897 v 0 c: -1.73543 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 5.41787 v 0 c: -1.73543 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 6.92278 v 0 c: -2.83192 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.96183 v 0 c: -2.38933 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.78076 v 0 c: -1.64519 v 0 valid dict: 0 v 0
+Inc. (ocr took 0.03 sec)
+Pass1: Inc. [I [49 ]A n [6e ]a c [63 ]a . [2e ]p ]
+Processing word with lang eng at:Bounding box=(128,482)->(490,500)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Distributed : R=7.39082, C=-1.59967, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	D	i	s	t	r	i	b	u	t	e	d
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.194	-0.229	-0.193	-0.201	-0.197	-0.208	-0.191	-0.198	-0.203	-0.192	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : in : R=1.59343, C=-1.63425, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	i	n
+state:	1 	1 
+C	-0.201	-0.233
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Canada : R=4.23438, C=-1.52071, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	C	a	n	a	d	a
+state:	1 	1 	1 	1 	1 	1 
+C	-0.193	-0.191	-0.193	-0.193	-0.194	-0.202
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : by : R=0.600429, C=-1.36634, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	b	y
+state:	1 	1 
+C	-0.085	-0.089
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Sterling : R=5.32444, C=-1.78373, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	S	t	e	r	l	i	n	g
+state:	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.194	-0.255	-0.192	-0.194	-0.192	-0.208	-0.191	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Publishing : R=6.7653, C=-1.70188, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	P	u	b	l	i	s	h	i	n	g
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.243	-0.192	-0.191	-0.192	-0.192	-0.198	-0.192	-0.192	-0.195
+1 new words better than 0 old words: r: 7.39082 v 0 c: -1.59967 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.59343 v 0 c: -1.63425 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.23438 v 0 c: -1.52071 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.600429 v 0 c: -1.36634 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 5.32444 v 0 c: -1.78373 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 6.7653 v 0 c: -1.70188 v 0 valid dict: 0 v 0
+Publishing (ocr took 0.02 sec)
+Pass1: Publishing [P [50 ]A u [75 ]a b [62 ]a l [6c ]a i [69 ]a s [73 ]a h [68 ]a i [69 ]a n [6e ]a g [67 ]a ]
+Processing word with lang eng at:Bounding box=(148,456)->(520,475)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Canadian : R=6.98598, C=-1.61797, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	C	a	n	a	d	i	a	n
+state:	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.218	-0.202	-0.194	-0.227	-0.191	-0.193	-0.191	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Manda : R=4.22355, C=-1.61797, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	M	a	n	d	a
+state:	1 	1 	1 	1 	1 
+C	-0.192	-0.192	-0.193	-0.197	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Group, : R=4.47294, C=-1.7466, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	G	r	o	u	p	,
+state:	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.192	-0.192	-0.193	-0.250	-0.199
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 165 : R=1.0324, C=-1.34072, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	1	6	5
+state:	1 	1 	1 
+C	-0.088	-0.086	-0.089
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Dufferin : R=5.84835, C=-2.34747, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	D	u	f	f	e	r	i	n
+state:	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.222	-0.296	-0.203	-0.194	-0.335	-0.194	-0.192
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : Street, : R=4.93676, C=-2.87906, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	S	t	r	e	e	t	,
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.241	-0.202	-0.192	-0.411	-0.209	-0.217
+1 new words better than 0 old words: r: 6.98598 v 0 c: -1.61797 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.22355 v 0 c: -1.61797 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.47294 v 0 c: -1.7466 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.0324 v 0 c: -1.34072 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.84835 v 0 c: -2.34747 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.93676 v 0 c: -2.87906 v 0 valid dict: 0 v 0
+Street, (ocr took 0.03 sec)
+Pass1: Street, [S [53 ]A t [74 ]a r [72 ]a e [65 ]a e [65 ]a t [74 ]a , [2c ]p ]
+Processing word with lang eng at:Bounding box=(132,435)->(427,451)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Toronto, : R=5.82282, C=-1.44618, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	T	o	r	o	n	t	o	,
+state:	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.207	-0.197	-0.201	-0.192	-0.195	-0.198	-0.193	-0.202
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Ontario, : R=5.92483, C=-2.04986, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	O	n	t	a	r	i	o	,
+state:	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.192	-0.293	-0.194	-0.192	-0.199	-0.203	-0.194
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Canada : R=5.2615, C=-1.83117, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	C	a	n	a	d	a
+state:	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.191	-0.192	-0.210	-0.192	-0.262
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : M6K : R=2.69469, C=-1.78414, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	M	6	K
+state:	1 	1 	1 
+C	-0.191	-0.201	-0.195
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 3H6 : R=3.42016, C=-1.79703, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	3	H	6
+state:	1 	1 	1 
+C	-0.218	-0.192	-0.257
+1 new words better than 0 old words: r: 5.82282 v 0 c: -1.44618 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.92483 v 0 c: -2.04986 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.2615 v 0 c: -1.83117 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.69469 v 0 c: -1.78414 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.42016 v 0 c: -1.79703 v 0 valid dict: 0 v 0
+3H6 (ocr took 0.02 sec)
+Pass1: 3H6 [3 [33 ]0 H [48 ]A 6 [36 ]0 ]
+Processing word with lang eng at:Bounding box=(129,407)->(614,426)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Distributed : R=7.65243, C=-2.14294, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	D	i	s	t	r	i	b	u	t	e	d
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.193	-0.306	-0.194	-0.234	-0.192	-0.192	-0.200	-0.191	-0.194	-0.193	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : in : R=1.60151, C=-1.63505, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	i	n
+state:	1 	1 
+C	-0.234	-0.211
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : Great : R=3.85059, C=-4.01118, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	G	r	e	a	t
+state:	1 	1 	1 	1 	1 
+C	-0.193	-0.195	-0.201	-0.192	-0.573
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Britain : R=4.55335, C=-2.03225, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	B	r	i	t	a	i	n
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.197	-0.290	-0.198	-0.196	-0.192	-0.220	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : by : R=0.681324, C=-1.35278, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	b	y
+state:	1 	1 
+C	-0.086	-0.085
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Chrysalis : R=6.22158, C=-1.61929, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	C	h	r	y	s	a	l	i	s
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.203	-0.191	-0.231	-0.194	-0.193	-0.192	-0.192	-0.222	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Books : R=3.67006, C=-1.89939, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	B	o	o	k	s
+state:	1 	1 	1 	1 	1 
+C	-0.202	-0.192	-0.191	-0.192	-0.205
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Group : R=4.03978, C=-1.89939, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	G	r	o	u	p
+state:	1 	1 	1 	1 	1 
+C	-0.207	-0.194	-0.191	-0.193	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : PLC, : R=3.29145, C=-1.61711, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	P	L	C	,
+state:	1 	1 	1 	1 
+C	-0.202	-0.192	-0.192	-0.210
+1 new words better than 0 old words: r: 7.65243 v 0 c: -2.14294 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.60151 v 0 c: -1.63505 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.85059 v 0 c: -4.01118 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.55335 v 0 c: -2.03225 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.681324 v 0 c: -1.35278 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 6.22158 v 0 c: -1.61929 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.67006 v 0 c: -1.89939 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.03978 v 0 c: -1.89939 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.29145 v 0 c: -1.61711 v 0 valid dict: 0 v 0
+PLC, (ocr took 0.03 sec)
+Pass1: PLC, [P [50 ]A L [4c ]A C [43 ]A , [2c ]p ]
+Processing word with lang eng at:Bounding box=(132,384)->(666,402)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : The : R=2.79886, C=-1.63723, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	T	h	e
+state:	1 	1 	1 
+C	-0.234	-0.230	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Chrysalis : R=6.30408, C=-2.33152, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	C	h	r	y	s	a	l	i	s
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.234	-0.193	-0.219	-0.195	-0.192	-0.194	-0.316	-0.333	-0.196
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Building, : R=6.02648, C=-1.81704, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	B	u	i	l	d	i	n	g	,
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.193	-0.193	-0.192	-0.194	-0.206	-0.192	-0.191	-0.260
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Bramley : R=5.1955, C=-1.43878, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	B	r	a	m	l	e	y
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.206	-0.192	-0.191	-0.194	-0.193	-0.196
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Road, : R=3.84483, C=-1.41563, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	R	o	a	d	,
+state:	1 	1 	1 	1 	1 
+C	-0.191	-0.192	-0.192	-0.192	-0.202
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : London : R=5.03605, C=-1.52262, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	L	o	n	d	o	n
+state:	1 	1 	1 	1 	1 	1 
+C	-0.218	-0.193	-0.192	-0.193	-0.213	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : W10 : R=1.27218, C=-1.37939, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	W	1	0
+state:	1 	1 	1 
+C	-0.087	-0.122	-0.092
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 6SP, : R=6.59109, C=-15.3975, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	6	S	P	,
+state:	1 	1 	1 	1 
+C	-0.192	-0.199	-2.200	-1.146
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : England : R=5.39683, C=-1.51712, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	E	n	g	l	a	n	d
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.193	-0.195	-0.191	-0.217	-0.194	-0.192	-0.193
+1 new words better than 0 old words: r: 2.79886 v 0 c: -1.63723 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 6.30408 v 0 c: -2.33152 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 6.02648 v 0 c: -1.81704 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.1955 v 0 c: -1.43878 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.84483 v 0 c: -1.41563 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.03605 v 0 c: -1.52262 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.27218 v 0 c: -1.37939 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 6.59109 v 0 c: -15.3975 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.39683 v 0 c: -1.51712 v 0 valid dict: 0 v 0
+England (ocr took 0.04 sec)
+Pass1: England [E [45 ]A n [6e ]a g [67 ]a l [6c ]a a [61 ]a n [6e ]a d [64 ]a ]
+Processing word with lang eng at:Bounding box=(129,359)->(638,378)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Distributed : R=7.61378, C=-1.95494, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	D	i	s	t	r	i	b	u	t	e	d
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.208	-0.204	-0.279	-0.194	-0.192	-0.194	-0.192	-0.193	-0.197	-0.192	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : in : R=1.57212, C=-1.52342, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	i	n
+state:	1 	1 
+C	-0.218	-0.194
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Australia : R=5.98966, C=-1.43604, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	A	u	s	t	r	a	l	i	a
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.193	-0.205	-0.193	-0.200	-0.193	-0.191	-0.192	-0.203	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : by : R=0.68341, C=-1.4201, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	b	y
+state:	1 	1 
+C	-0.086	-0.087
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Capricorn : R=6.36245, C=-1.47053, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	C	a	p	r	i	c	o	r	n
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.192	-0.199	-0.192	-0.193	-0.210	-0.192	-0.199	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Link : R=2.87811, C=-1.38217, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	L	i	n	k
+state:	1 	1 	1 	1 
+C	-0.193	-0.192	-0.192	-0.194
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : (Australia) : R=7.34163, C=-1.58702, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	(	A	u	s	t	r	a	l	i	a	)
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.195	-0.192	-0.193	-0.193	-0.193	-0.194	-0.192	-0.227	-0.201	-0.195	-0.194
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Pty : R=1.06584, C=-1.39819, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	P	t	y
+state:	1 	1 	1 
+C	-0.087	-0.200	-0.085
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : Ltd. : R=4.06381, C=-9.77254, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	L	t	d	.
+state:	1 	1 	1 	1 
+C	-0.220	-1.396	-0.260	-0.220
+1 new words better than 0 old words: r: 7.61378 v 0 c: -1.95494 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.57212 v 0 c: -1.52342 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.98966 v 0 c: -1.43604 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.68341 v 0 c: -1.4201 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 6.36245 v 0 c: -1.47053 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.87811 v 0 c: -1.38217 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 7.34163 v 0 c: -1.58702 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.06584 v 0 c: -1.39819 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 4.06381 v 0 c: -9.77254 v 0 valid dict: 0 v 0
+Ltd. (ocr took 0.03 sec)
+Pass1: Ltd. [L [4c ]A t [74 ]a d [64 ]a . [2e ]p ]
+Processing word with lang eng at:Bounding box=(129,337)->(490,353)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : PO. : R=3.20203, C=-2.13344, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	P	O	.
+state:	1 	1 	1 
+C	-0.305	-0.247	-0.250
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Box : R=2.33467, C=-1.51906, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	B	o	x
+state:	1 	1 	1 
+C	-0.192	-0.193	-0.217
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 704, : R=1.49347, C=-1.33885, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	7	0	4	,
+state:	1 	1 	1 	1 
+C	-0.090	-0.085	-0.087	-0.119
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Windsor, : R=6.16453, C=-1.43908, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	W	i	n	d	s	o	r	,
+state:	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.203	-0.192	-0.192	-0.192	-0.192	-0.196	-0.206	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : NSW : R=2.55833, C=-1.60581, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	N	S	W
+state:	1 	1 	1 
+C	-0.196	-0.229	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 2756 : R=1.58638, C=-1.33995, F=1, Perm=6, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	2	7	5	6
+state:	1 	1 	1 	1 
+C	-0.085	-0.086	-0.085	-0.138
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Australia : R=6.48268, C=-2.27432, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	A	u	s	t	r	a	l	i	a
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.193	-0.194	-0.194	-0.206	-0.193	-0.191	-0.192	-0.325	-0.195
+1 new words better than 0 old words: r: 3.20203 v 0 c: -2.13344 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.33467 v 0 c: -1.51906 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.49347 v 0 c: -1.33885 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 6.16453 v 0 c: -1.43908 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.55833 v 0 c: -1.60581 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.58638 v 0 c: -1.33995 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 6.48268 v 0 c: -2.27432 v 0 valid dict: 0 v 0
+Australia (ocr took 0.02 sec)
+Pass1: Australia [A [41 ]A u [75 ]a s [73 ]a t [74 ]a r [72 ]a a [61 ]a l [6c ]a i [69 ]a a [61 ]a ]
+Processing word with lang eng at:Bounding box=(129,314)->(342,330)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Printed : R=4.60347, C=-1.37645, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	P	r	i	n	t	e	d
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.193	-0.193	-0.194	-0.192	-0.192	-0.192	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : and : R=2.3049, C=-1.37645, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	a	n	d
+state:	1 	1 	1 
+C	-0.194	-0.196	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Bound : R=3.912, C=-1.62478, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	B	o	u	n	d
+state:	1 	1 	1 	1 	1 
+C	-0.192	-0.191	-0.232	-0.192	-0.230
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : in : R=1.39318, C=-1.60149, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	i	n
+state:	1 	1 
+C	-0.229	-0.199
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : China : R=3.67111, C=-1.46904, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	C	h	i	n	a
+state:	1 	1 	1 	1 	1 
+C	-0.210	-0.191	-0.195	-0.194	-0.193
+1 new words better than 0 old words: r: 4.60347 v 0 c: -1.37645 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.3049 v 0 c: -1.37645 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.912 v 0 c: -1.62478 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.39318 v 0 c: -1.60149 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.67111 v 0 c: -1.46904 v 0 valid dict: 0 v 0
+China (ocr took 0.01 sec)
+Pass1: China [C [43 ]A h [68 ]a i [69 ]a n [6e ]a a [61 ]a ]
+Processing word with lang eng at:Bounding box=(128,288)->(263,306)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : All : R=2.42998, C=-2.87709, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	A	l	l
+state:	1 	1 	1 
+C	-0.195	-0.249	-0.411
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : rights : R=4.35428, C=-8.70347, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	r	i	g	h	t	s
+state:	1 	1 	1 	1 	1 	1 
+C	-1.243	-0.193	-0.192	-0.192	-0.195	-0.215
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : reserved : R=5.94091, C=-5.87779, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	r	e	s	e	r	v	e	d
+state:	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.840	-0.192	-0.192	-0.192	-0.221	-0.192	-0.192	-0.204
+1 new words better than 0 old words: r: 2.42998 v 0 c: -2.87709 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.35428 v 0 c: -8.70347 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.94091 v 0 c: -5.87779 v 0 valid dict: 0 v 0
+reserved (ocr took 0.01 sec)
+Pass1: reserved [r [72 ]a e [65 ]a s [73 ]a e [65 ]a r [72 ]a v [76 ]a e [65 ]a d [64 ]a ]
+Already done word with lang eng at:Bounding box=(321,339)->(333,352)
+Pass1:   [  [20 ] ]
+Processing word with lang eng at:Bounding box=(129,241)->(428,257)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : Sterling : R=5.01153, C=-4.15255, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	S	t	e	r	l	i	n	g
+state:	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.196	-0.193	-0.200	-0.222	-0.225	-0.193	-0.511
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : ISBN : R=3.23973, C=-6.33538, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	I	S	B	N
+state:	1 	1 	1 	1 
+C	-0.905	-0.193	-0.215	-0.193
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : 0-8069-6203-8 : R=8.1652, C=-2.25896, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	0	-	8	0	6	9	-	6	2	0	3	-	8
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.197	-0.201	-0.194	-0.191	-0.192	-0.193	-0.206	-0.192	-0.193	-0.212	-0.202	-0.207	-0.194
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Trade : R=3.40183, C=-2.25896, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	T	r	a	d	e
+state:	1 	1 	1 	1 	1 
+C	-0.320	-0.193	-0.193	-0.194	-0.192
+1 new words better than 0 old words: r: 5.01153 v 0 c: -4.15255 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.23973 v 0 c: -6.33538 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 8.1652 v 0 c: -2.25896 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.40183 v 0 c: -2.25896 v 0 valid dict: 0 v 0
+Trade (ocr took 0.02 sec)
+Pass1: Trade [T [54 ]A r [72 ]a a [61 ]a d [64 ]a e [65 ]a ]
+Processing word with lang eng at:Bounding box=(252,213)->(428,232)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 0-8069-6317-4 : R=8.47133, C=-3.51884, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	0	-	8	0	6	9	-	6	3	1	7	-	4
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.277	-0.201	-0.194	-0.191	-0.210	-0.192	-0.197	-0.194	-0.195	-0.196	-0.212	-0.233	-0.193
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : Paper : R=3.37783, C=-3.51884, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	P	a	p	e	r
+state:	1 	1 	1 	1 	1 
+C	-0.280	-0.203	-0.192	-0.193	-0.198
+1 new words better than 0 old words: r: 8.47133 v 0 c: -3.51884 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.37783 v 0 c: -3.51884 v 0 valid dict: 0 v 0
+Paper (ocr took 0.01 sec)
+Pass1: Paper [P [50 ]A a [61 ]a p [70 ]a e [65 ]a r [72 ]a ]
+Processing word with lang eng at:Bounding box=(131,133)->(666,153)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : For : R=1.95032, C=-1.60474, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	F	o	r
+state:	1 	1 	1 
+C	-0.201	-0.195	-0.196
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : information : R=6.16583, C=-1.60474, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	i	n	f	o	r	m	a	t	i	o	n
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.197	-0.214	-0.192	-0.192	-0.192	-0.195	-0.194	-0.193	-0.192	-0.192	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : about : R=2.88666, C=-1.43116, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	a	b	o	u	t
+state:	1 	1 	1 	1 	1 
+C	-0.193	-0.194	-0.193	-0.192	-0.193
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : custom : R=3.84986, C=-3.86597, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	c	u	s	t	o	m
+state:	1 	1 	1 	1 	1 	1 
+C	-0.218	-0.552	-0.195	-0.193	-0.192	-0.194
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : editions, : R=5.07605, C=-4.4665, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	e	d	i	t	i	o	n	s	,
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.194	-0.193	-0.200	-0.192	-0.196	-0.192	-0.638	-0.192	-0.202
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : special : R=3.91805, C=-4.00065, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	s	p	e	c	i	a	l
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.572	-0.192	-0.197	-0.193	-0.233	-0.228	-0.192
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : sales, : R=3.20217, C=-2.91568, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	s	a	l	e	s	,
+state:	1 	1 	1 	1 	1 	1 
+C	-0.197	-0.192	-0.287	-0.194	-0.417	-0.192
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : premium : R=4.8138, C=-4.36393, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	p	r	e	m	i	u	m
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.623	-0.212	-0.193	-0.194	-0.288	-0.209	-0.204
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : and : R=2.15696, C=-1.67223, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM
+str	a	n	d
+state:	1 	1 	1 
+C	-0.239	-0.194	-0.192
+1 new words better than 0 old words: r: 1.95032 v 0 c: -1.60474 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 6.16583 v 0 c: -1.60474 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.88666 v 0 c: -1.43116 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.84986 v 0 c: -3.86597 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.07605 v 0 c: -4.4665 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.91805 v 0 c: -4.00065 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.20217 v 0 c: -2.91568 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.8138 v 0 c: -4.36393 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.15696 v 0 c: -1.67223 v 0 valid dict: 0 v 0
+and (ocr took 0.03 sec)
+Pass1: and [a [61 ]a n [6e ]a d [64 ]a ]
+Processing word with lang eng at:Bounding box=(132,109)->(594,128)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : corporate : R=5.52977, C=-1.81711, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	c	o	r	p	o	r	a	t	e
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.260	-0.193	-0.219	-0.191	-0.194	-0.200	-0.193	-0.194	-0.203
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : purchases, : R=5.64375, C=-2.68064, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	p	u	r	c	h	a	s	e	s	,
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.236	-0.193	-0.196	-0.194	-0.193	-0.196	-0.201	-0.199	-0.194	-0.383
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : please : R=3.13466, C=-1.75707, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	p	l	e	a	s	e
+state:	1 	1 	1 	1 	1 	1 
+C	-0.251	-0.195	-0.193	-0.192	-0.196	-0.193
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : contact : R=4.23508, C=-3.99781, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	c	o	n	t	a	c	t
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.194	-0.191	-0.193	-0.196	-0.192	-0.196	-0.571
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Sterling : R=4.3219, C=-1.67747, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	S	t	e	r	l	i	n	g
+state:	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.197	-0.200	-0.240	-0.204	-0.199	-0.192	-0.192
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Special : R=3.66132, C=-1.45289, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	S	p	e	c	i	a	l
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.192	-0.192	-0.195	-0.199	-0.192	-0.202
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Sales : R=2.93323, C=-1.68829, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	S	a	l	e	s
+state:	1 	1 	1 	1 	1 
+C	-0.192	-0.195	-0.241	-0.193	-0.195
+1 new words better than 0 old words: r: 5.52977 v 0 c: -1.81711 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.64375 v 0 c: -2.68064 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.13466 v 0 c: -1.75707 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.23508 v 0 c: -3.99781 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.3219 v 0 c: -1.67747 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.66132 v 0 c: -1.45289 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.93323 v 0 c: -1.68829 v 0 valid dict: 0 v 0
+Sales (ocr took 0.03 sec)
+Pass1: Sales [S [53 ]A a [61 ]a l [6c ]a e [65 ]a s [73 ]a ]
+Processing word with lang eng at:Bounding box=(131,84)->(635,103)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Department : R=6.68253, C=-1.90657, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	D	e	p	a	r	t	m	e	n	t
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.213	-0.198	-0.203	-0.192	-0.194	-0.196	-0.192	-0.194	-0.193	-0.272
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : at : R=1.16715, C=-1.44977, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	a	t
+state:	1 	1 
+C	-0.192	-0.204
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : 800-805-5489 : R=7.68819, C=-4.76528, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	8	0	0	-	8	0	5	-	5	4	8	9
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.193	-0.192	-0.681	-0.199	-0.194	-0.191	-0.213	-0.210	-0.193	-0.193	-0.192	-0.197
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : or : R=0.979304, C=-3.55346, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	o	r
+state:	1 	1 
+C	-0.195	-0.207
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : specialsales(@sterlingpub.com : R=17.5764, C=-5.90754, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	s	p	e	c	i	a	l	s	a	l	e	s	(	@	s	t	e	r	l	i	n	g	p	u	b	.	c	o	m
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.194	-0.645	-0.192	-0.192	-0.204	-0.192	-0.200	-0.192	-0.225	-0.193	-0.193	-0.194	-0.844	-0.192	-0.241	-0.277	-0.196	-0.241	-0.226	-0.194	-0.192	-0.196	-0.194	-0.192	-0.193	-0.240	-0.207	-0.191	-0.265
+1 new words better than 0 old words: r: 6.68253 v 0 c: -1.90657 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 1.16715 v 0 c: -1.44977 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 7.68819 v 0 c: -4.76528 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 0.979304 v 0 c: -3.55346 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 17.5764 v 0 c: -5.90754 v 0 valid dict: 0 v 0
+specialsales(@sterlingpub.com (ocr took 0.03 sec)
+Pass1: specialsales(@sterlingpub.com [s [73 ]a p [70 ]a e [65 ]a c [63 ]a i [69 ]a a [61 ]a l [6c ]a s [73 ]a a [61 ]a l [6c ]a e [65 ]a s [73 ]a ( [28 ]p @ [40 ]p s [73 ]a t [74 ]a e [65 ]a r [72 ]a l [6c ]a i [69 ]a n [6e ]a g [67 ]a p [70 ]a u [75 ]a b [62 ]a . [2e ]p c [63 ]a o [6f ]a m [6d ]a ]
+Processing word with lang eng at:Bounding box=(25,13)->(276,31)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : L : R=40.5035, C=-14.4318, F=1, Perm=11, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	L
+state:	1 
+C	-1.531
+1 new words better than 0 old words: r: 40.5035 v 0 c: -14.4318 v 0 valid dict: 1 v 0
+L (ocr took 0.02 sec)
+Pass1: L [L [4c ]A ]
+Already done word with lang eng at:Bounding box=(276,10)->(712,18)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(1119,663)->(1129,1284)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(21,1397)->(1225,1639)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(134,1374)->(188,1388)
+Pass2: Thanks [T [54 ]A h [68 ]a a [61 ]a n [6e ]a k [6b ]a s [73 ]a ]
+Already done word with lang eng at:Bounding box=(196,1374)->(210,1384)
+Pass2: to [t [74 ]a o [6f ]a ]
+Already done word with lang eng at:Bounding box=(218,1375)->(239,1389)
+Pass2: the [t [74 ]a h [68 ]a e [65 ]a ]
+Already done word with lang eng at:Bounding box=(249,1374)->(366,1389)
+Pass2: Schachenmayr [S [53 ]A c [63 ]a h [68 ]a a [61 ]a c [63 ]a h [68 ]a e [65 ]a n [6e ]a m [6d ]a a [61 ]a y [79 ]a r [72 ]a ]
+Already done word with lang eng at:Bounding box=(373,1371)->(449,1388)
+Pass2: Company [C [43 ]A o [6f ]a m [6d ]a p [70 ]a a [61 ]a n [6e ]a y [79 ]a ]
+Already done word with lang eng at:Bounding box=(456,1375)->(477,1388)
+Pass2: for [f [66 ]a o [6f ]a r [72 ]a ]
+Already done word with lang eng at:Bounding box=(484,1375)->(521,1390)
+Pass2: their [t [74 ]a h [68 ]a e [65 ]a i [69 ]a r [72 ]a ]
+Already done word with lang eng at:Bounding box=(528,1371)->(582,1390)
+Pass2: helpful [h [68 ]a e [65 ]a l [6c ]a p [70 ]a f [66 ]a u [75 ]a l [6c ]a ]
+Already done word with lang eng at:Bounding box=(589,1371)->(648,1385)
+Pass2: support [s [73 ]a u [75 ]a p [70 ]a p [70 ]a o [6f ]a r [72 ]a t [74 ]a ]
+Already done word with lang eng at:Bounding box=(654,1375)->(671,1390)
+Pass2: of [o [6f ]a f [66 ]a ]
+Already done word with lang eng at:Bounding box=(676,1375)->(704,1390)
+Pass2: this [t [74 ]a h [68 ]a i [69 ]a s [73 ]a ]
+Already done word with lang eng at:Bounding box=(711,1373)->(754,1390)
+Pass2: book, [b [62 ]a o [6f ]a o [6f ]a k [6b ]a , [2c ]p ]
+Already done word with lang eng at:Bounding box=(761,1374)->(790,1389)
+Pass2: and [a [61 ]a n [6e ]a d [64 ]a ]
+Already done word with lang eng at:Bounding box=(797,1375)->(818,1389)
+Pass2: for [f [66 ]a o [6f ]a r [72 ]a ]
+Already done word with lang eng at:Bounding box=(824,1370)->(888,1389)
+Pass2: working [w [77 ]a o [6f ]a r [72 ]a k [6b ]a i [69 ]a n [6e ]a g [67 ]a ]
+Already done word with lang eng at:Bounding box=(894,1373)->(919,1389)
+Pass2: the [t [74 ]a h [68 ]a e [65 ]a ]
+Already done word with lang eng at:Bounding box=(925,1373)->(981,1389)
+Pass2: clothes [c [63 ]a l [6c ]a o [6f ]a t [74 ]a h [68 ]a e [65 ]a s [73 ]a ]
+Already done word with lang eng at:Bounding box=(988,1373)->(1016,1388)
+Pass2: and [a [61 ]a n [6e ]a d [64 ]a ]
+Already done word with lang eng at:Bounding box=(1023,1368)->(1085,1388)
+Pass2: knitting [k [6b ]a n [6e ]a i [69 ]a t [74 ]a t [74 ]a i [69 ]a n [6e ]a g [67 ]a ]
+Already done word with lang eng at:Bounding box=(129,1346)->(197,1360)
+Pass2: patterns. [p [70 ]a a [61 ]a t [74 ]a t [74 ]a e [65 ]a r [72 ]a n [6e ]a s [73 ]a . [2e ]p ]
+Already done word with lang eng at:Bounding box=(209,1351)->(236,1365)
+Pass2: The [T [54 ]A h [68 ]a e [65 ]a ]
+Already done word with lang eng at:Bounding box=(243,1348)->(299,1365)
+Pass2: designs [d [64 ]a e [65 ]a s [73 ]a i [69 ]a g [67 ]a n [6e ]a s [73 ]a ]
+Already done word with lang eng at:Bounding box=(306,1351)->(329,1360)
+Pass2: are [a [61 ]a r [72 ]a e [65 ]a ]
+Already done word with lang eng at:Bounding box=(337,1351)->(351,1366)
+Pass2: by [b [62 ]a y [79 ]a ]
+Already done word with lang eng at:Bounding box=(361,1351)->(432,1366)
+Pass2: Elisabeth [E [45 ]A l [6c ]a i [69 ]a s [73 ]a a [61 ]a b [62 ]a e [65 ]a t [74 ]a h [68 ]a ]
+Already done word with lang eng at:Bounding box=(440,1348)->(481,1366)
+Pass2: Kopff [K [4b ]A o [6f ]a p [70 ]a f [66 ]a f [66 ]a ]
+Already done word with lang eng at:Bounding box=(490,1349)->(510,1365)
+Pass2: (1) [( [28 ]p 1 [31 ]0 ) [29 ]p ]
+Already done word with lang eng at:Bounding box=(519,1351)->(547,1366)
+Pass2: and [a [61 ]a n [6e ]a d [64 ]a ]
+Already done word with lang eng at:Bounding box=(555,1351)->(615,1366)
+Pass2: Barbara [B [42 ]A a [61 ]a r [72 ]a b [62 ]a a [61 ]a r [72 ]a a [61 ]a ]
+Already done word with lang eng at:Bounding box=(623,1351)->(692,1366)
+Pass2: Schreyer [S [53 ]A c [63 ]a h [68 ]a r [72 ]a e [65 ]a y [79 ]a e [65 ]a r [72 ]a ]
+Already done word with lang eng at:Bounding box=(700,1349)->(726,1365)
+Pass2: (4). [( [28 ]p 4 [34 ]0 ) [29 ]p . [2e ]p ]
+Already done word with lang eng at:Bounding box=(129,1301)->(202,1316)
+Pass2: Drawings: [D [44 ]A r [72 ]a a [61 ]a w [77 ]a i [69 ]a n [6e ]a g [67 ]a s [73 ]a : [3a ]p ]
+Already done word with lang eng at:Bounding box=(215,1300)->(259,1318)
+Pass2: Sigrid [S [53 ]A i [69 ]a g [67 ]a r [72 ]a i [69 ]a d [64 ]a ]
+Already done word with lang eng at:Bounding box=(267,1300)->(320,1317)
+Pass2: Witzig, [W [57 ]A i [69 ]a t [74 ]a z [7a ]a i [69 ]a g [67 ]a , [2c ]p ]
+Already done word with lang eng at:Bounding box=(329,1300)->(402,1318)
+Pass2: Hamburg [H [48 ]A a [61 ]a m [6d ]a b [62 ]a u [75 ]a r [72 ]a g [67 ]a ]
+Already done word with lang eng at:Bounding box=(128,1278)->(173,1289)
+Pass2: Cover [C [43 ]A o [6f ]a v [76 ]a e [65 ]a r [72 ]a ]
+Already done word with lang eng at:Bounding box=(182,1276)->(231,1293)
+Pass2: design: [d [64 ]a e [65 ]a s [73 ]a i [69 ]a g [67 ]a n [6e ]a : [3a ]p ]
+Already done word with lang eng at:Bounding box=(245,1279)->(279,1294)
+Pass2: Dirk [D [44 ]A i [69 ]a r [72 ]a k [6b ]a ]
+Already done word with lang eng at:Bounding box=(287,1279)->(320,1294)
+Pass2: Lieb [L [4c ]A i [69 ]a e [65 ]a b [62 ]a ]
+Already done word with lang eng at:Bounding box=(133,1255)->(217,1269)
+Pass2: Translation: [T [54 ]A r [72 ]a a [61 ]a n [6e ]a s [73 ]a l [6c ]a a [61 ]a t [74 ]a i [69 ]a o [6f ]a n [6e ]a : [3a ]p ]
+Already done word with lang eng at:Bounding box=(230,1255)->(269,1270)
+Pass2: Ellen [E [45 ]A l [6c ]a l [6c ]a e [65 ]a n [6e ]a ]
+Already done word with lang eng at:Bounding box=(277,1255)->(431,1270)
+Pass2: Riemschnieder—in [R [52 ]A i [69 ]a e [65 ]a m [6d ]a s [73 ]a c [63 ]a h [68 ]a n [6e ]a i [69 ]a e [65 ]a d [64 ]a e [65 ]a r [72 ]a — [2014 ]p i [69 ]a n [6e ]a ]
+Already done word with lang eng at:Bounding box=(439,1253)->(487,1270)
+Pass2: loving [l [6c ]a o [6f ]a v [76 ]a i [69 ]a n [6e ]a g [67 ]a ]
+Already done word with lang eng at:Bounding box=(494,1252)->(555,1265)
+Pass2: memory [m [6d ]a e [65 ]a m [6d ]a o [6f ]a r [72 ]a y [79 ]a ]
+Already done word with lang eng at:Bounding box=(564,1256)->(578,1268)
+Pass2: of [o [6f ]a f [66 ]a ]
+Already done word with lang eng at:Bounding box=(579,1252)->(611,1271)
+Pass2: Jim [J [4a ]A i [69 ]a m [6d ]a ]
+Already done word with lang eng at:Bounding box=(127,973)->(184,987)
+Pass2: Library [L [4c ]A i [69 ]a b [62 ]a r [72 ]a a [61 ]a r [72 ]a y [79 ]a ]
+Already done word with lang eng at:Bounding box=(194,973)->(210,988)
+Pass2: of [o [6f ]a f [66 ]a ]
+Already done word with lang eng at:Bounding box=(216,969)->(292,988)
+Pass2: Congress [C [43 ]A o [6f ]a n [6e ]a g [67 ]a r [72 ]a e [65 ]a s [73 ]a s [73 ]a ]
+Already done word with lang eng at:Bounding box=(300,970)->(517,989)
+Pass2: Cataloging-in-Publication [C [43 ]A a [61 ]a t [74 ]a a [61 ]a l [6c ]a o [6f ]a g [67 ]a i [69 ]a n [6e ]a g [67 ]a - [2d ]p i [69 ]a n [6e ]a - [2d ]p P [50 ]A u [75 ]a b [62 ]a l [6c ]a i [69 ]a c [63 ]a a [61 ]a t [74 ]a i [69 ]a o [6f ]a n [6e ]a ]
+Already done word with lang eng at:Bounding box=(525,973)->(564,988)
+Pass2: Data [D [44 ]A a [61 ]a t [74 ]a a [61 ]a ]
+Already done word with lang eng at:Bounding box=(128,924)->(166,938)
+Pass2: Buss, [B [42 ]A u [75 ]a s [73 ]a s [73 ]a , [2c ]p ]
+Already done word with lang eng at:Bounding box=(174,924)->(257,939)
+Pass2: Katharina. [K [4b ]A a [61 ]a t [74 ]a h [68 ]a a [61 ]a r [72 ]a i [69 ]a n [6e ]a a [61 ]a . [2e ]p ]
+Already done word with lang eng at:Bounding box=(153,897)->(332,915)
+Pass2: [Urania-Ravensburger. [[ [5b ]p U [55 ]A r [72 ]a a [61 ]a n [6e ]a i [69 ]a a [61 ]a - [2d ]p R [52 ]A a [61 ]a v [76 ]a e [65 ]a n [6e ]a s [73 ]a b [62 ]a u [75 ]a r [72 ]a g [67 ]a e [65 ]a r [72 ]a . [2e ]p ]
+Already done word with lang eng at:Bounding box=(341,897)->(404,915)
+Pass2: English] [E [45 ]A n [6e ]a g [67 ]a l [6c ]a i [69 ]a s [73 ]a h [68 ]a ] [5d ]p ]
+Already done word with lang eng at:Bounding box=(152,874)->(175,890)
+Pass2: Big [B [42 ]A i [69 ]a g [67 ]a ]
+Already done word with lang eng at:Bounding box=(182,876)->(219,890)
+Pass2: book [b [62 ]a o [6f ]a o [6f ]a k [6b ]a ]
+Already done word with lang eng at:Bounding box=(227,876)->(240,887)
+Pass2: of [o [6f ]a f [66 ]a ]
+Already done word with lang eng at:Bounding box=(249,873)->(311,890)
+Pass2: knitting [k [6b ]a n [6e ]a i [69 ]a t [74 ]a t [74 ]a i [69 ]a n [6e ]a g [67 ]a ]
+Already done word with lang eng at:Bounding box=(318,867)->(326,895)
+Pass2: / [/ [2f ]p ]
+Already done word with lang eng at:Bounding box=(330,876)->(344,891)
+Pass2: by [b [62 ]a y [79 ]a ]
+Already done word with lang eng at:Bounding box=(354,876)->(433,891)
+Pass2: Katharina [K [4b ]A a [61 ]a t [74 ]a h [68 ]a a [61 ]a r [72 ]a i [69 ]a n [6e ]a a [61 ]a ]
+Already done word with lang eng at:Bounding box=(441,876)->(475,890)
+Pass2: Buss. [B [42 ]A u [75 ]a s [73 ]a s [73 ]a . [2e ]p ]
+Already done word with lang eng at:Bounding box=(162,847)->(170,860)
+Pass2: p. [p [70 ]a . [2e ]p ]
+Already done word with lang eng at:Bounding box=(188,851)->(210,860)
+Pass2: cm. [c [63 ]a m [6d ]a . [2e ]p ]
+Already done word with lang eng at:Bounding box=(152,827)->(192,841)
+Pass2: ISBN [I [49 ]A S [53 ]A B [42 ]A N [4e ]A ]
+Already done word with lang eng at:Bounding box=(201,827)->(319,841)
+Pass2: 0-8069-6203-8 [0 [30 ]0 - [2d ]p 8 [38 ]0 0 [30 ]0 6 [36 ]0 9 [39 ]0 - [2d ]p 6 [36 ]0 2 [32 ]0 0 [30 ]0 3 [33 ]0 - [2d ]p 8 [38 ]0 ]
+Already done word with lang eng at:Bounding box=(154,803)->(156,816)
+Pass2: 1. [1 [31 ]0 . [2e ]p ]
+Already done word with lang eng at:Bounding box=(172,801)->(237,817)
+Pass2: Knitting. [K [4b ]A n [6e ]a i [69 ]a t [74 ]a t [74 ]a i [69 ]a n [6e ]a g [67 ]a . [2e ]p ]
+Already done word with lang eng at:Bounding box=(255,803)->(258,817)
+Pass2: 1. [1 [31 ]0 . [2e ]p ]
+Already done word with lang eng at:Bounding box=(271,802)->(308,817)
+Pass2: Title. [T [54 ]A i [69 ]a t [74 ]a l [6c ]a e [65 ]a . [2e ]p ]
+Already done word with lang eng at:Bounding box=(141,777)->(227,792)
+Pass2: TT820.897 [T [54 ]A T [54 ]A 8 [38 ]0 2 [32 ]0 0 [30 ]0 . [2e ]p 8 [38 ]0 9 [39 ]0 7 [37 ]0 ]
+Already done word with lang eng at:Bounding box=(275,778)->(311,792)
+Pass2: 1999 [1 [31 ]0 9 [39 ]0 9 [39 ]0 9 [39 ]0 ]
+Already done word with lang eng at:Bounding box=(138,753)->(260,768)
+Pass2: 746.43'2—dc21 [7 [37 ]0 4 [34 ]0 6 [36 ]0 . [2e ]p 4 [34 ]0 3 [33 ]0 ' [27 ]p 2 [32 ]0 — [2014 ]p d [64 ]a c [63 ]a 2 [32 ]0 1 [31 ]0 ]
+Already done word with lang eng at:Bounding box=(273,827)->(277,829)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(284,802)->(287,820)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(613,696)->(689,711)
+Pass2: 99-20386 [9 [39 ]0 9 [39 ]0 - [2d ]p 2 [32 ]0 0 [30 ]0 3 [33 ]0 8 [38 ]0 6 [36 ]0 ]
+Already done word with lang eng at:Bounding box=(128,680)->(145,694)
+Pass2: 20 [2 [32 ]0 0 [30 ]0 ]
+Already done word with lang eng at:Bounding box=(166,680)->(181,694)
+Pass2: 19 [1 [31 ]0 9 [39 ]0 ]
+Already done word with lang eng at:Bounding box=(203,680)->(217,694)
+Pass2: 18 [1 [31 ]0 8 [38 ]0 ]
+Already done word with lang eng at:Bounding box=(239,680)->(254,694)
+Pass2: 17 [1 [31 ]0 7 [37 ]0 ]
+Already done word with lang eng at:Bounding box=(276,680)->(291,694)
+Pass2: 16 [1 [31 ]0 6 [36 ]0 ]
+Already done word with lang eng at:Bounding box=(312,680)->(327,694)
+Pass2: 15 [1 [31 ]0 5 [35 ]0 ]
+Already done word with lang eng at:Bounding box=(349,679)->(364,694)
+Pass2: 14 [1 [31 ]0 4 [34 ]0 ]
+Already done word with lang eng at:Bounding box=(386,680)->(401,694)
+Pass2: 13 [1 [31 ]0 3 [33 ]0 ]
+Already done word with lang eng at:Bounding box=(643,672)->(674,687)
+Pass2: CIp [C [43 ]A I [49 ]A p [70 ]a ]
+Already done word with lang eng at:Bounding box=(128,632)->(159,645)
+Pass2: First [F [46 ]A i [69 ]a r [72 ]a s [73 ]a t [74 ]a ]
+Already done word with lang eng at:Bounding box=(168,627)->(248,646)
+Pass2: paperback [p [70 ]a a [61 ]a p [70 ]a e [65 ]a r [72 ]a b [62 ]a a [61 ]a c [63 ]a k [6b ]a ]
+Already done word with lang eng at:Bounding box=(256,631)->(311,646)
+Pass2: edition [e [65 ]a d [64 ]a i [69 ]a t [74 ]a i [69 ]a o [6f ]a n [6e ]a ]
+Already done word with lang eng at:Bounding box=(319,627)->(395,646)
+Pass2: published [p [70 ]a u [75 ]a b [62 ]a l [6c ]a i [69 ]a s [73 ]a h [68 ]a e [65 ]a d [64 ]a ]
+Already done word with lang eng at:Bounding box=(403,631)->(416,640)
+Pass2: in [i [69 ]a n [6e ]a ]
+Already done word with lang eng at:Bounding box=(425,631)->(460,646)
+Pass2: 2001 [2 [32 ]0 0 [30 ]0 0 [30 ]0 1 [31 ]0 ]
+Already done word with lang eng at:Bounding box=(470,631)->(487,646)
+Pass2: by [b [62 ]a y [79 ]a ]
+Already done word with lang eng at:Bounding box=(128,605)->(188,622)
+Pass2: Sterling [S [53 ]A t [74 ]a e [65 ]a r [72 ]a l [6c ]a i [69 ]a n [6e ]a g [67 ]a ]
+Already done word with lang eng at:Bounding box=(196,605)->(278,621)
+Pass2: Publishing [P [50 ]A u [75 ]a b [62 ]a l [6c ]a i [69 ]a s [73 ]a h [68 ]a i [69 ]a n [6e ]a g [67 ]a ]
+Already done word with lang eng at:Bounding box=(285,606)->(317,620)
+Pass2: Co., [C [43 ]A o [6f ]a . [2e ]p , [2c ]p ]
+Already done word with lang eng at:Bounding box=(325,607)->(354,621)
+Pass2: Inc. [I [49 ]A n [6e ]a c [63 ]a . [2e ]p ]
+Already done word with lang eng at:Bounding box=(131,582)->(154,597)
+Pass2: 387 [3 [33 ]0 8 [38 ]0 7 [37 ]0 ]
+Already done word with lang eng at:Bounding box=(163,583)->(196,597)
+Pass2: Park [P [50 ]A a [61 ]a r [72 ]a k [6b ]a ]
+Already done word with lang eng at:Bounding box=(210,582)->(265,596)
+Pass2: Avenue [A [41 ]A v [76 ]a e [65 ]a n [6e ]a u [75 ]a e [65 ]a ]
+Already done word with lang eng at:Bounding box=(273,581)->(325,597)
+Pass2: South, [S [53 ]A o [6f ]a u [75 ]a t [74 ]a h [68 ]a , [2c ]p ]
+Already done word with lang eng at:Bounding box=(333,582)->(366,597)
+Pass2: New [N [4e ]A e [65 ]a w [77 ]a ]
+Already done word with lang eng at:Bounding box=(376,581)->(416,597)
+Pass2: York, [Y [59 ]A o [6f ]a r [72 ]a k [6b ]a , [2c ]p ]
+Already done word with lang eng at:Bounding box=(434,594)->(436,597)
+Pass2: N [N [4e ]A ]
+Already done word with lang eng at:Bounding box=(426,582)->(458,597)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(451,594)->(453,597)
+Pass2: (. [( [28 ]p . [2e ]p ]
+Already done word with lang eng at:Bounding box=(466,582)->(512,597)
+Pass2: 10016 [1 [31 ]0 0 [30 ]0 0 [30 ]0 1 [31 ]0 6 [36 ]0 ]
+Already done word with lang eng at:Bounding box=(734,1279)->(1121,1289)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(732,662)->(740,1286)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(761,1209)->(812,1224)
+Pass2: Inches [I [49 ]A n [6e ]a c [63 ]a h [68 ]a e [65 ]a s [73 ]a ]
+Already done word with lang eng at:Bounding box=(770,1059)->(785,1122)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(850,1244)->(904,1260)
+Pass2: Metric [M [4d ]A e [65 ]a t [74 ]a r [72 ]a i [69 ]a c [63 ]a ]
+Already done word with lang eng at:Bounding box=(911,1240)->(1008,1260)
+Pass2: Equivalents [E [45 ]A q [71 ]a u [75 ]a i [69 ]a v [76 ]a a [61 ]a l [6c ]a e [65 ]a n [6e ]a t [74 ]a s [73 ]a ]
+Already done word with lang eng at:Bounding box=(851,1209)->(874,1218)
+Pass2: cm [c [63 ]a m [6d ]a ]
+Already done word with lang eng at:Bounding box=(946,1208)->(997,1224)
+Pass2: Inches [I [49 ]A n [6e ]a c [63 ]a h [68 ]a e [65 ]a s [73 ]a ]
+Already done word with lang eng at:Bounding box=(853,1179)->(877,1194)
+Pass2: 03 [0 [30 ]0 3 [33 ]0 ]
+Already done word with lang eng at:Bounding box=(948,1178)->(965,1193)
+Pass2: 10 [1 [31 ]0 0 [30 ]0 ]
+Already done word with lang eng at:Bounding box=(853,1155)->(877,1169)
+Pass2: 0.6 [0 [30 ]0 . [2e ]p 6 [36 ]0 ]
+Already done word with lang eng at:Bounding box=(949,1154)->(962,1169)
+Pass2: 11 [1 [31 ]0 1 [31 ]0 ]
+Already done word with lang eng at:Bounding box=(856,1130)->(878,1145)
+Pass2: 1.0 [1 [31 ]0 . [2e ]p 0 [30 ]0 ]
+Already done word with lang eng at:Bounding box=(949,1130)->(964,1145)
+Pass2: 12 [1 [31 ]0 2 [32 ]0 ]
+Already done word with lang eng at:Bounding box=(857,1107)->(877,1121)
+Pass2: 1.3 [1 [31 ]0 . [2e ]p 3 [33 ]0 ]
+Already done word with lang eng at:Bounding box=(949,1106)->(964,1121)
+Pass2: 13 [1 [31 ]0 3 [33 ]0 ]
+Already done word with lang eng at:Bounding box=(857,1082)->(878,1097)
+Pass2: 1.6 [1 [31 ]0 . [2e ]p 6 [36 ]0 ]
+Already done word with lang eng at:Bounding box=(949,1081)->(965,1096)
+Pass2: 14 [1 [31 ]0 4 [34 ]0 ]
+Already done word with lang eng at:Bounding box=(857,1058)->(878,1073)
+Pass2: 1.9 [1 [31 ]0 . [2e ]p 9 [39 ]0 ]
+Already done word with lang eng at:Bounding box=(949,1058)->(965,1073)
+Pass2: 15 [1 [31 ]0 5 [35 ]0 ]
+Already done word with lang eng at:Bounding box=(851,1025)->(856,1053)
+Pass2: b [b [62 ]a ]
+Already done word with lang eng at:Bounding box=(862,1034)->(878,1049)
+Pass2: 2 [2 [32 ]0 ]
+Already done word with lang eng at:Bounding box=(950,1034)->(966,1048)
+Pass2: 16 [1 [31 ]0 6 [36 ]0 ]
+Already done word with lang eng at:Bounding box=(856,1009)->(877,1024)
+Pass2: 32 [3 [33 ]0 2 [32 ]0 ]
+Already done word with lang eng at:Bounding box=(950,1009)->(965,1024)
+Pass2: 17 [1 [31 ]0 7 [37 ]0 ]
+Already done word with lang eng at:Bounding box=(857,985)->(878,1000)
+Pass2: 38 [3 [33 ]0 8 [38 ]0 ]
+Already done word with lang eng at:Bounding box=(950,985)->(966,1000)
+Pass2: 18 [1 [31 ]0 8 [38 ]0 ]
+Already done word with lang eng at:Bounding box=(855,960)->(878,975)
+Pass2: 44 [4 [34 ]0 4 [34 ]0 ]
+Already done word with lang eng at:Bounding box=(950,961)->(966,976)
+Pass2: 19 [1 [31 ]0 9 [39 ]0 ]
+Already done word with lang eng at:Bounding box=(856,937)->(876,951)
+Pass2: 5.1 [5 [35 ]0 . [2e ]p 1 [31 ]0 ]
+Already done word with lang eng at:Bounding box=(948,936)->(967,951)
+Pass2: 20 [2 [32 ]0 0 [30 ]0 ]
+Already done word with lang eng at:Bounding box=(855,911)->(879,927)
+Pass2: 6.4 [6 [36 ]0 . [2e ]p 4 [34 ]0 ]
+Already done word with lang eng at:Bounding box=(949,912)->(964,927)
+Pass2: 21 [2 [32 ]0 1 [31 ]0 ]
+Already done word with lang eng at:Bounding box=(856,887)->(879,903)
+Pass2: 7.6 [7 [37 ]0 . [2e ]p 6 [36 ]0 ]
+Already done word with lang eng at:Bounding box=(949,888)->(966,903)
+Pass2: 2 [2 [32 ]0 ]
+Already done word with lang eng at:Bounding box=(855,863)->(879,878)
+Pass2: 89 [8 [38 ]0 9 [39 ]0 ]
+Already done word with lang eng at:Bounding box=(949,863)->(966,878)
+Pass2: 23 [2 [32 ]0 3 [33 ]0 ]
+Already done word with lang eng at:Bounding box=(848,839)->(878,854)
+Pass2: 10.2 [1 [31 ]0 0 [30 ]0 . [2e ]p 2 [32 ]0 ]
+Already done word with lang eng at:Bounding box=(949,838)->(967,854)
+Pass2: 24 [2 [32 ]0 4 [34 ]0 ]
+Already done word with lang eng at:Bounding box=(848,814)->(879,829)
+Pass2: 114 [1 [31 ]0 1 [31 ]0 4 [34 ]0 ]
+Already done word with lang eng at:Bounding box=(949,815)->(966,830)
+Pass2: 25 [2 [32 ]0 5 [35 ]0 ]
+Already done word with lang eng at:Bounding box=(848,790)->(879,805)
+Pass2: 12.7 [1 [31 ]0 2 [32 ]0 . [2e ]p 7 [37 ]0 ]
+Already done word with lang eng at:Bounding box=(949,790)->(967,805)
+Pass2: 26 [2 [32 ]0 6 [36 ]0 ]
+Already done word with lang eng at:Bounding box=(848,766)->(879,781)
+Pass2: 15.2 [1 [31 ]0 5 [35 ]0 . [2e ]p 2 [32 ]0 ]
+Already done word with lang eng at:Bounding box=(949,765)->(967,781)
+Pass2: n [n [6e ]a ]
+Already done word with lang eng at:Bounding box=(848,741)->(879,756)
+Pass2: 178 [1 [31 ]0 7 [37 ]0 8 [38 ]0 ]
+Already done word with lang eng at:Bounding box=(949,742)->(967,757)
+Pass2: 28 [2 [32 ]0 8 [38 ]0 ]
+Already done word with lang eng at:Bounding box=(847,717)->(879,732)
+Pass2: 203 [2 [32 ]0 0 [30 ]0 3 [33 ]0 ]
+Already done word with lang eng at:Bounding box=(949,717)->(967,732)
+Pass2: 29 [2 [32 ]0 9 [39 ]0 ]
+Already done word with lang eng at:Bounding box=(847,693)->(880,708)
+Pass2: 229 [2 [32 ]0 2 [32 ]0 9 [39 ]0 ]
+Already done word with lang eng at:Bounding box=(951,693)->(968,708)
+Pass2: 30 [3 [33 ]0 0 [30 ]0 ]
+Already done word with lang eng at:Bounding box=(1049,1207)->(1072,1217)
+Pass2: cm [c [63 ]a m [6d ]a ]
+Already done word with lang eng at:Bounding box=(1050,1177)->(1083,1193)
+Pass2: 254 [2 [32 ]0 5 [35 ]0 4 [34 ]0 ]
+Already done word with lang eng at:Bounding box=(1051,1153)->(1084,1169)
+Pass2: 219 [2 [32 ]0 1 [31 ]0 9 [39 ]0 ]
+Already done word with lang eng at:Bounding box=(1051,1129)->(1083,1145)
+Pass2: 30.5 [3 [33 ]0 0 [30 ]0 . [2e ]p 5 [35 ]0 ]
+Already done word with lang eng at:Bounding box=(1051,1105)->(1084,1120)
+Pass2: 33.0 [3 [33 ]0 3 [33 ]0 . [2e ]p 0 [30 ]0 ]
+Already done word with lang eng at:Bounding box=(1053,1081)->(1084,1096)
+Pass2: 35.6 [3 [33 ]0 5 [35 ]0 . [2e ]p 6 [36 ]0 ]
+Already done word with lang eng at:Bounding box=(1053,1057)->(1082,1072)
+Pass2: 38.1 [3 [33 ]0 8 [38 ]0 . [2e ]p 1 [31 ]0 ]
+Already done word with lang eng at:Bounding box=(1051,1032)->(1085,1048)
+Pass2: 40.6 [4 [34 ]0 0 [30 ]0 . [2e ]p 6 [36 ]0 ]
+Already done word with lang eng at:Bounding box=(1051,1008)->(1084,1024)
+Pass2: 43.2 [4 [34 ]0 3 [33 ]0 . [2e ]p 2 [32 ]0 ]
+Already done word with lang eng at:Bounding box=(1051,984)->(1084,1000)
+Pass2: 45.7 [4 [34 ]0 5 [35 ]0 . [2e ]p 7 [37 ]0 ]
+Already done word with lang eng at:Bounding box=(1052,960)->(1085,975)
+Pass2: 483 [4 [34 ]0 8 [38 ]0 3 [33 ]0 ]
+Already done word with lang eng at:Bounding box=(1053,936)->(1085,951)
+Pass2: 50.8 [5 [35 ]0 0 [30 ]0 . [2e ]p 8 [38 ]0 ]
+Already done word with lang eng at:Bounding box=(1053,912)->(1085,927)
+Pass2: 53.3 [5 [35 ]0 3 [33 ]0 . [2e ]p 3 [33 ]0 ]
+Already done word with lang eng at:Bounding box=(1053,888)->(1086,903)
+Pass2: 55.9 [5 [35 ]0 5 [35 ]0 . [2e ]p 9 [39 ]0 ]
+Already done word with lang eng at:Bounding box=(1054,863)->(1086,879)
+Pass2: 58.4 [5 [35 ]0 8 [38 ]0 . [2e ]p 4 [34 ]0 ]
+Already done word with lang eng at:Bounding box=(1053,839)->(1087,854)
+Pass2: 61.0 [6 [36 ]0 1 [31 ]0 . [2e ]p 0 [30 ]0 ]
+Already done word with lang eng at:Bounding box=(1053,815)->(1086,830)
+Pass2: 63.5 [6 [36 ]0 3 [33 ]0 . [2e ]p 5 [35 ]0 ]
+Already done word with lang eng at:Bounding box=(1053,791)->(1087,806)
+Pass2: 66.0 [6 [36 ]0 6 [36 ]0 . [2e ]p 0 [30 ]0 ]
+Already done word with lang eng at:Bounding box=(1053,766)->(1087,781)
+Pass2: 68.6 [6 [36 ]0 8 [38 ]0 . [2e ]p 6 [36 ]0 ]
+Already done word with lang eng at:Bounding box=(1054,741)->(1084,757)
+Pass2: 711 [7 [37 ]0 1 [31 ]0 1 [31 ]0 ]
+Already done word with lang eng at:Bounding box=(1054,717)->(1086,733)
+Pass2: 3.7 [3 [33 ]0 . [2e ]p 7 [37 ]0 ]
+Already done word with lang eng at:Bounding box=(1054,693)->(1086,708)
+Pass2: 76.2 [7 [37 ]0 6 [36 ]0 . [2e ]p 2 [32 ]0 ]
+Already done word with lang eng at:Bounding box=(737,660)->(1127,667)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(127,557)->(203,573)
+Pass2: Originally [O [4f ]A r [72 ]a i [69 ]a g [67 ]a i [69 ]a n [6e ]a a [61 ]a l [6c ]a l [6c ]a y [79 ]a ]
+Already done word with lang eng at:Bounding box=(213,554)->(288,573)
+Pass2: published [p [70 ]a u [75 ]a b [62 ]a l [6c ]a i [69 ]a s [73 ]a h [68 ]a e [65 ]a d [64 ]a ]
+Already done word with lang eng at:Bounding box=(297,558)->(310,567)
+Pass2: in [i [69 ]a n [6e ]a ]
+Already done word with lang eng at:Bounding box=(317,557)->(388,571)
+Pass2: Germany [G [47 ]A e [65 ]a r [72 ]a m [6d ]a a [61 ]a n [6e ]a y [79 ]a ]
+Already done word with lang eng at:Bounding box=(398,557)->(412,573)
+Pass2: by [b [62 ]a y [79 ]a ]
+Already done word with lang eng at:Bounding box=(423,555)->(595,573)
+Pass2: Urania-Ravensburger [U [55 ]A r [72 ]a a [61 ]a n [6e ]a i [69 ]a a [61 ]a - [2d ]p R [52 ]A a [61 ]a v [76 ]a e [65 ]a n [6e ]a s [73 ]a b [62 ]a u [75 ]a r [72 ]a g [67 ]a e [65 ]a r [72 ]a ]
+Already done word with lang eng at:Bounding box=(603,558)->(648,573)
+Pass2: under [u [75 ]a n [6e ]a d [64 ]a e [65 ]a r [72 ]a ]
+Already done word with lang eng at:Bounding box=(656,558)->(680,573)
+Pass2: the [t [74 ]a h [68 ]a e [65 ]a ]
+Already done word with lang eng at:Bounding box=(688,558)->(718,573)
+Pass2: title [t [74 ]a i [69 ]a t [74 ]a l [6c ]a e [65 ]a ]
+Already done word with lang eng at:Bounding box=(726,558)->(754,573)
+Pass2: Das [D [44 ]A a [61 ]a s [73 ]a ]
+Already done word with lang eng at:Bounding box=(760,555)->(801,574)
+Pass2: grofie [g [67 ]a r [72 ]a o [6f ]a f [66 ]a i [69 ]a e [65 ]a ]
+Already done word with lang eng at:Bounding box=(808,555)->(910,574)
+Pass2: Ravensburger [R [52 ]A a [61 ]a v [76 ]a e [65 ]a n [6e ]a s [73 ]a b [62 ]a u [75 ]a r [72 ]a g [67 ]a e [65 ]a r [72 ]a ]
+Already done word with lang eng at:Bounding box=(916,559)->(994,575)
+Pass2: Strickbuch [S [53 ]A t [74 ]a r [72 ]a i [69 ]a c [63 ]a k [6b ]a b [62 ]a u [75 ]a c [63 ]a h [68 ]a ]
+Already done word with lang eng at:Bounding box=(131,538)->(132,543)
+Pass2: © [© [a9 ] ]
+Already done word with lang eng at:Bounding box=(152,534)->(187,548)
+Pass2: 1996 [1 [31 ]0 9 [39 ]0 9 [39 ]0 6 [36 ]0 ]
+Already done word with lang eng at:Bounding box=(195,534)->(209,548)
+Pass2: by [b [62 ]a y [79 ]a ]
+Already done word with lang eng at:Bounding box=(219,531)->(391,548)
+Pass2: Urania-Ravensburger [U [55 ]A r [72 ]a a [61 ]a n [6e ]a i [69 ]a a [61 ]a - [2d ]p R [52 ]A a [61 ]a v [76 ]a e [65 ]a n [6e ]a s [73 ]a b [62 ]a u [75 ]a r [72 ]a g [67 ]a e [65 ]a r [72 ]a ]
+Already done word with lang eng at:Bounding box=(398,533)->(412,542)
+Pass2: in [i [69 ]a n [6e ]a ]
+Already done word with lang eng at:Bounding box=(420,533)->(444,548)
+Pass2: the [t [74 ]a h [68 ]a e [65 ]a ]
+Already done word with lang eng at:Bounding box=(452,533)->(514,548)
+Pass2: Dornier [D [44 ]A o [6f ]a r [72 ]a n [6e ]a i [69 ]a e [65 ]a r [72 ]a ]
+Already done word with lang eng at:Bounding box=(522,531)->(644,549)
+Pass2: Medienholding [M [4d ]A e [65 ]a d [64 ]a i [69 ]a e [65 ]a n [6e ]a h [68 ]a o [6f ]a l [6c ]a d [64 ]a i [69 ]a n [6e ]a g [67 ]a ]
+Already done word with lang eng at:Bounding box=(650,534)->(704,549)
+Pass2: GmbH [G [47 ]A m [6d ]a b [62 ]a H [48 ]A ]
+Already done word with lang eng at:Bounding box=(712,533)->(764,549)
+Pass2: Berlin, [B [42 ]A e [65 ]a r [72 ]a l [6c ]a i [69 ]a n [6e ]a , [2c ]p ]
+Already done word with lang eng at:Bounding box=(771,531)->(847,549)
+Pass2: Germany. [G [47 ]A e [65 ]a r [72 ]a m [6d ]a a [61 ]a n [6e ]a y [79 ]a . [2e ]p ]
+Already done word with lang eng at:Bounding box=(128,508)->(184,524)
+Pass2: English [E [45 ]A n [6e ]a g [67 ]a l [6c ]a i [69 ]a s [73 ]a h [68 ]a ]
+Already done word with lang eng at:Bounding box=(192,509)->(277,524)
+Pass2: translation [t [74 ]a r [72 ]a a [61 ]a n [6e ]a s [73 ]a l [6c ]a a [61 ]a t [74 ]a i [69 ]a o [6f ]a n [6e ]a ]
+Already done word with lang eng at:Bounding box=(289,511)->(290,519)
+Pass2: © [© [a9 ] ]
+Already done word with lang eng at:Bounding box=(310,509)->(345,523)
+Pass2: 1999 [1 [31 ]0 9 [39 ]0 9 [39 ]0 9 [39 ]0 ]
+Already done word with lang eng at:Bounding box=(352,509)->(367,524)
+Pass2: by [b [62 ]a y [79 ]a ]
+Already done word with lang eng at:Bounding box=(377,506)->(439,524)
+Pass2: Sterling [S [53 ]A t [74 ]a e [65 ]a r [72 ]a l [6c ]a i [69 ]a n [6e ]a g [67 ]a ]
+Already done word with lang eng at:Bounding box=(446,506)->(529,524)
+Pass2: Publishing [P [50 ]A u [75 ]a b [62 ]a l [6c ]a i [69 ]a s [73 ]a h [68 ]a i [69 ]a n [6e ]a g [67 ]a ]
+Already done word with lang eng at:Bounding box=(536,508)->(568,523)
+Pass2: Co., [C [43 ]A o [6f ]a . [2e ]p , [2c ]p ]
+Already done word with lang eng at:Bounding box=(576,509)->(605,524)
+Pass2: Inc. [I [49 ]A n [6e ]a c [63 ]a . [2e ]p ]
+Already done word with lang eng at:Bounding box=(128,485)->(216,500)
+Pass2: Distributed [D [44 ]A i [69 ]a s [73 ]a t [74 ]a r [72 ]a i [69 ]a b [62 ]a u [75 ]a t [74 ]a e [65 ]a d [64 ]a ]
+Already done word with lang eng at:Bounding box=(225,485)->(238,493)
+Pass2: in [i [69 ]a n [6e ]a ]
+Already done word with lang eng at:Bounding box=(245,484)->(306,499)
+Pass2: Canada [C [43 ]A a [61 ]a n [6e ]a a [61 ]a d [64 ]a a [61 ]a ]
+Already done word with lang eng at:Bounding box=(314,485)->(328,499)
+Pass2: by [b [62 ]a y [79 ]a ]
+Already done word with lang eng at:Bounding box=(338,482)->(400,499)
+Pass2: Sterling [S [53 ]A t [74 ]a e [65 ]a r [72 ]a l [6c ]a i [69 ]a n [6e ]a g [67 ]a ]
+Already done word with lang eng at:Bounding box=(407,482)->(490,499)
+Pass2: Publishing [P [50 ]A u [75 ]a b [62 ]a l [6c ]a i [69 ]a s [73 ]a h [68 ]a i [69 ]a n [6e ]a g [67 ]a ]
+Already done word with lang eng at:Bounding box=(148,461)->(224,475)
+Pass2: Canadian [C [43 ]A a [61 ]a n [6e ]a a [61 ]a d [64 ]a i [69 ]a a [61 ]a n [6e ]a ]
+Already done word with lang eng at:Bounding box=(233,460)->(287,475)
+Pass2: Manda [M [4d ]A a [61 ]a n [6e ]a d [64 ]a a [61 ]a ]
+Already done word with lang eng at:Bounding box=(295,456)->(350,474)
+Pass2: Group, [G [47 ]A r [72 ]a o [6f ]a u [75 ]a p [70 ]a , [2c ]p ]
+Already done word with lang eng at:Bounding box=(361,460)->(385,474)
+Pass2: 165 [1 [31 ]0 6 [36 ]0 5 [35 ]0 ]
+Already done word with lang eng at:Bounding box=(394,460)->(460,474)
+Pass2: Dufferin [D [44 ]A u [75 ]a f [66 ]a f [66 ]a e [65 ]a r [72 ]a i [69 ]a n [6e ]a ]
+Already done word with lang eng at:Bounding box=(468,459)->(520,474)
+Pass2: Street, [S [53 ]A t [74 ]a r [72 ]a e [65 ]a e [65 ]a t [74 ]a , [2c ]p ]
+Already done word with lang eng at:Bounding box=(132,436)->(195,450)
+Pass2: Toronto, [T [54 ]A o [6f ]a r [72 ]a o [6f ]a n [6e ]a t [74 ]a o [6f ]a , [2c ]p ]
+Already done word with lang eng at:Bounding box=(205,435)->(270,445)
+Pass2: Ontario, [O [4f ]A n [6e ]a t [74 ]a a [61 ]a r [72 ]a i [69 ]a o [6f ]a , [2c ]p ]
+Already done word with lang eng at:Bounding box=(277,436)->(338,451)
+Pass2: Canada [C [43 ]A a [61 ]a n [6e ]a a [61 ]a d [64 ]a a [61 ]a ]
+Already done word with lang eng at:Bounding box=(346,436)->(385,450)
+Pass2: M6K [M [4d ]A 6 [36 ]0 K [4b ]A ]
+Already done word with lang eng at:Bounding box=(395,436)->(427,450)
+Pass2: 3H6 [3 [33 ]0 H [48 ]A 6 [36 ]0 ]
+Already done word with lang eng at:Bounding box=(129,412)->(217,426)
+Pass2: Distributed [D [44 ]A i [69 ]a s [73 ]a t [74 ]a r [72 ]a i [69 ]a b [62 ]a u [75 ]a t [74 ]a e [65 ]a d [64 ]a ]
+Already done word with lang eng at:Bounding box=(225,412)->(238,420)
+Pass2: in [i [69 ]a n [6e ]a ]
+Already done word with lang eng at:Bounding box=(246,411)->(289,424)
+Pass2: Great [G [47 ]A r [72 ]a e [65 ]a a [61 ]a t [74 ]a ]
+Already done word with lang eng at:Bounding box=(299,411)->(352,426)
+Pass2: Britain [B [42 ]A r [72 ]a i [69 ]a t [74 ]a a [61 ]a i [69 ]a n [6e ]a ]
+Already done word with lang eng at:Bounding box=(359,411)->(376,426)
+Pass2: by [b [62 ]a y [79 ]a ]
+Already done word with lang eng at:Bounding box=(383,411)->(455,426)
+Pass2: Chrysalis [C [43 ]A h [68 ]a r [72 ]a y [79 ]a s [73 ]a a [61 ]a l [6c ]a i [69 ]a s [73 ]a ]
+Already done word with lang eng at:Bounding box=(463,411)->(510,426)
+Pass2: Books [B [42 ]A o [6f ]a o [6f ]a k [6b ]a s [73 ]a ]
+Already done word with lang eng at:Bounding box=(517,407)->(568,425)
+Pass2: Group [G [47 ]A r [72 ]a o [6f ]a u [75 ]a p [70 ]a ]
+Already done word with lang eng at:Bounding box=(576,410)->(614,426)
+Pass2: PLC, [P [50 ]A L [4c ]A C [43 ]A , [2c ]p ]
+Already done word with lang eng at:Bounding box=(132,388)->(156,402)
+Pass2: The [T [54 ]A h [68 ]a e [65 ]a ]
+Already done word with lang eng at:Bounding box=(166,388)->(238,402)
+Pass2: Chrysalis [C [43 ]A h [68 ]a r [72 ]a y [79 ]a s [73 ]a a [61 ]a l [6c ]a i [69 ]a s [73 ]a ]
+Already done word with lang eng at:Bounding box=(246,385)->(315,402)
+Pass2: Building, [B [42 ]A u [75 ]a i [69 ]a l [6c ]a d [64 ]a i [69 ]a n [6e ]a g [67 ]a , [2c ]p ]
+Already done word with lang eng at:Bounding box=(324,387)->(387,402)
+Pass2: Bramley [B [42 ]A r [72 ]a a [61 ]a m [6d ]a l [6c ]a e [65 ]a y [79 ]a ]
+Already done word with lang eng at:Bounding box=(395,385)->(440,402)
+Pass2: Road, [R [52 ]A o [6f ]a a [61 ]a d [64 ]a , [2c ]p ]
+Already done word with lang eng at:Bounding box=(449,387)->(510,402)
+Pass2: London [L [4c ]A o [6f ]a n [6e ]a d [64 ]a o [6f ]a n [6e ]a ]
+Already done word with lang eng at:Bounding box=(517,387)->(556,402)
+Pass2: W10 [W [57 ]A 1 [31 ]0 0 [30 ]0 ]
+Already done word with lang eng at:Bounding box=(563,386)->(594,402)
+Pass2: 6SP, [6 [36 ]0 S [53 ]A P [50 ]A , [2c ]p ]
+Already done word with lang eng at:Bounding box=(601,384)->(666,402)
+Pass2: England [E [45 ]A n [6e ]a g [67 ]a l [6c ]a a [61 ]a n [6e ]a d [64 ]a ]
+Already done word with lang eng at:Bounding box=(129,363)->(217,378)
+Pass2: Distributed [D [44 ]A i [69 ]a s [73 ]a t [74 ]a r [72 ]a i [69 ]a b [62 ]a u [75 ]a t [74 ]a e [65 ]a d [64 ]a ]
+Already done word with lang eng at:Bounding box=(225,363)->(239,372)
+Pass2: in [i [69 ]a n [6e ]a ]
+Already done word with lang eng at:Bounding box=(247,363)->(318,378)
+Pass2: Australia [A [41 ]A u [75 ]a s [73 ]a t [74 ]a r [72 ]a a [61 ]a l [6c ]a i [69 ]a a [61 ]a ]
+Already done word with lang eng at:Bounding box=(326,363)->(340,377)
+Pass2: by [b [62 ]a y [79 ]a ]
+Already done word with lang eng at:Bounding box=(349,359)->(430,376)
+Pass2: Capricorn [C [43 ]A a [61 ]a p [70 ]a r [72 ]a i [69 ]a c [63 ]a o [6f ]a r [72 ]a n [6e ]a ]
+Already done word with lang eng at:Bounding box=(438,363)->(472,378)
+Pass2: Link [L [4c ]A i [69 ]a n [6e ]a k [6b ]a ]
+Already done word with lang eng at:Bounding box=(482,360)->(566,378)
+Pass2: (Australia) [( [28 ]p A [41 ]A u [75 ]a s [73 ]a t [74 ]a r [72 ]a a [61 ]a l [6c ]a i [69 ]a a [61 ]a ) [29 ]p ]
+Already done word with lang eng at:Bounding box=(575,360)->(599,377)
+Pass2: Pty [P [50 ]A t [74 ]a y [79 ]a ]
+Already done word with lang eng at:Bounding box=(607,363)->(638,378)
+Pass2: Ltd. [L [4c ]A t [74 ]a d [64 ]a . [2e ]p ]
+Already done word with lang eng at:Bounding box=(129,340)->(154,353)
+Pass2: PO. [P [50 ]A O [4f ]A . [2e ]p ]
+Already done word with lang eng at:Bounding box=(166,339)->(194,353)
+Pass2: Box [B [42 ]A o [6f ]a x [78 ]a ]
+Already done word with lang eng at:Bounding box=(203,338)->(235,353)
+Pass2: 704, [7 [37 ]0 0 [30 ]0 4 [34 ]0 , [2c ]p ]
+Already done word with lang eng at:Bounding box=(243,337)->(312,353)
+Pass2: Windsor, [W [57 ]A i [69 ]a n [6e ]a d [64 ]a s [73 ]a o [6f ]a r [72 ]a , [2c ]p ]
+Already done word with lang eng at:Bounding box=(336,339)->(364,353)
+Pass2: NSW [N [4e ]A S [53 ]A W [57 ]A ]
+Already done word with lang eng at:Bounding box=(373,338)->(411,353)
+Pass2: 2756 [2 [32 ]0 7 [37 ]0 5 [35 ]0 6 [36 ]0 ]
+Already done word with lang eng at:Bounding box=(418,338)->(490,353)
+Pass2: Australia [A [41 ]A u [75 ]a s [73 ]a t [74 ]a r [72 ]a a [61 ]a l [6c ]a i [69 ]a a [61 ]a ]
+Already done word with lang eng at:Bounding box=(129,315)->(180,330)
+Pass2: Printed [P [50 ]A r [72 ]a i [69 ]a n [6e ]a t [74 ]a e [65 ]a d [64 ]a ]
+Already done word with lang eng at:Bounding box=(187,315)->(214,329)
+Pass2: and [a [61 ]a n [6e ]a d [64 ]a ]
+Already done word with lang eng at:Bounding box=(222,315)->(270,329)
+Pass2: Bound [B [42 ]A o [6f ]a u [75 ]a n [6e ]a d [64 ]a ]
+Already done word with lang eng at:Bounding box=(277,315)->(289,323)
+Pass2: in [i [69 ]a n [6e ]a ]
+Already done word with lang eng at:Bounding box=(297,314)->(342,329)
+Pass2: China [C [43 ]A h [68 ]a i [69 ]a n [6e ]a a [61 ]a ]
+Already done word with lang eng at:Bounding box=(128,291)->(150,306)
+Pass2: All [A [41 ]A l [6c ]a l [6c ]a ]
+Already done word with lang eng at:Bounding box=(158,288)->(195,305)
+Pass2: rights [r [72 ]a i [69 ]a g [67 ]a h [68 ]a t [74 ]a s [73 ]a ]
+Already done word with lang eng at:Bounding box=(204,290)->(263,305)
+Pass2: reserved [r [72 ]a e [65 ]a s [73 ]a e [65 ]a r [72 ]a v [76 ]a e [65 ]a d [64 ]a ]
+Already done word with lang eng at:Bounding box=(321,339)->(333,352)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(129,241)->(190,257)
+Pass2: Sterling [S [53 ]A t [74 ]a e [65 ]a r [72 ]a l [6c ]a i [69 ]a n [6e ]a g [67 ]a ]
+Already done word with lang eng at:Bounding box=(204,242)->(244,256)
+Pass2: ISBN [I [49 ]A S [53 ]A B [42 ]A N [4e ]A ]
+Already done word with lang eng at:Bounding box=(252,242)->(371,256)
+Pass2: 0-8069-6203-8 [0 [30 ]0 - [2d ]p 8 [38 ]0 0 [30 ]0 6 [36 ]0 9 [39 ]0 - [2d ]p 6 [36 ]0 2 [32 ]0 0 [30 ]0 3 [33 ]0 - [2d ]p 8 [38 ]0 ]
+Already done word with lang eng at:Bounding box=(383,241)->(428,256)
+Pass2: Trade [T [54 ]A r [72 ]a a [61 ]a d [64 ]a e [65 ]a ]
+Already done word with lang eng at:Bounding box=(252,216)->(371,232)
+Pass2: 0-8069-6317-4 [0 [30 ]0 - [2d ]p 8 [38 ]0 0 [30 ]0 6 [36 ]0 9 [39 ]0 - [2d ]p 6 [36 ]0 3 [33 ]0 1 [31 ]0 7 [37 ]0 - [2d ]p 4 [34 ]0 ]
+Already done word with lang eng at:Bounding box=(385,213)->(428,232)
+Pass2: Paper [P [50 ]A a [61 ]a p [70 ]a e [65 ]a r [72 ]a ]
+Already done word with lang eng at:Bounding box=(131,138)->(155,152)
+Pass2: For [F [46 ]A o [6f ]a r [72 ]a ]
+Already done word with lang eng at:Bounding box=(163,138)->(255,148)
+Pass2: information [i [69 ]a n [6e ]a f [66 ]a o [6f ]a r [72 ]a m [6d ]a a [61 ]a t [74 ]a i [69 ]a o [6f ]a n [6e ]a ]
+Already done word with lang eng at:Bounding box=(263,138)->(306,152)
+Pass2: about [a [61 ]a b [62 ]a o [6f ]a u [75 ]a t [74 ]a ]
+Already done word with lang eng at:Bounding box=(314,137)->(371,147)
+Pass2: custom [c [63 ]a u [75 ]a s [73 ]a t [74 ]a o [6f ]a m [6d ]a ]
+Already done word with lang eng at:Bounding box=(378,136)->(445,152)
+Pass2: editions, [e [65 ]a d [64 ]a i [69 ]a t [74 ]a i [69 ]a o [6f ]a n [6e ]a s [73 ]a , [2c ]p ]
+Already done word with lang eng at:Bounding box=(453,134)->(505,152)
+Pass2: special [s [73 ]a p [70 ]a e [65 ]a c [63 ]a i [69 ]a a [61 ]a l [6c ]a ]
+Already done word with lang eng at:Bounding box=(512,136)->(553,146)
+Pass2: sales, [s [73 ]a a [61 ]a l [6c ]a e [65 ]a s [73 ]a , [2c ]p ]
+Already done word with lang eng at:Bounding box=(560,133)->(631,147)
+Pass2: premium [p [70 ]a r [72 ]a e [65 ]a m [6d ]a i [69 ]a u [75 ]a m [6d ]a ]
+Already done word with lang eng at:Bounding box=(638,137)->(666,153)
+Pass2: and [a [61 ]a n [6e ]a d [64 ]a ]
+Already done word with lang eng at:Bounding box=(132,110)->(204,123)
+Pass2: corporate [c [63 ]a o [6f ]a r [72 ]a p [70 ]a o [6f ]a r [72 ]a a [61 ]a t [74 ]a e [65 ]a ]
+Already done word with lang eng at:Bounding box=(213,110)->(295,128)
+Pass2: purchases, [p [70 ]a u [75 ]a r [72 ]a c [63 ]a h [68 ]a a [61 ]a s [73 ]a e [65 ]a s [73 ]a , [2c ]p ]
+Already done word with lang eng at:Bounding box=(303,109)->(349,128)
+Pass2: please [p [70 ]a l [6c ]a e [65 ]a a [61 ]a s [73 ]a e [65 ]a ]
+Already done word with lang eng at:Bounding box=(355,113)->(414,123)
+Pass2: contact [c [63 ]a o [6f ]a n [6e ]a t [74 ]a a [61 ]a c [63 ]a t [74 ]a ]
+Already done word with lang eng at:Bounding box=(422,111)->(484,128)
+Pass2: Sterling [S [53 ]A t [74 ]a e [65 ]a r [72 ]a l [6c ]a i [69 ]a n [6e ]a g [67 ]a ]
+Already done word with lang eng at:Bounding box=(492,109)->(547,128)
+Pass2: Special [S [53 ]A p [70 ]a e [65 ]a c [63 ]a i [69 ]a a [61 ]a l [6c ]a ]
+Already done word with lang eng at:Bounding box=(555,113)->(594,128)
+Pass2: Sales [S [53 ]A a [61 ]a l [6c ]a e [65 ]a s [73 ]a ]
+Already done word with lang eng at:Bounding box=(131,85)->(226,103)
+Pass2: Department [D [44 ]A e [65 ]a p [70 ]a a [61 ]a r [72 ]a t [74 ]a m [6d ]a e [65 ]a n [6e ]a t [74 ]a ]
+Already done word with lang eng at:Bounding box=(234,89)->(246,98)
+Pass2: at [a [61 ]a t [74 ]a ]
+Already done word with lang eng at:Bounding box=(255,87)->(367,102)
+Pass2: 800-805-5489 [8 [38 ]0 0 [30 ]0 0 [30 ]0 - [2d ]p 8 [38 ]0 0 [30 ]0 5 [35 ]0 - [2d ]p 5 [35 ]0 4 [34 ]0 8 [38 ]0 9 [39 ]0 ]
+Already done word with lang eng at:Bounding box=(373,88)->(389,96)
+Pass2: or [o [6f ]a r [72 ]a ]
+Already done word with lang eng at:Bounding box=(396,84)->(635,102)
+Pass2: specialsales(@sterlingpub.com [s [73 ]a p [70 ]a e [65 ]a c [63 ]a i [69 ]a a [61 ]a l [6c ]a s [73 ]a a [61 ]a l [6c ]a e [65 ]a s [73 ]a ( [28 ]p @ [40 ]p s [73 ]a t [74 ]a e [65 ]a r [72 ]a l [6c ]a i [69 ]a n [6e ]a g [67 ]a p [70 ]a u [75 ]a b [62 ]a . [2e ]p c [63 ]a o [6f ]a m [6d ]a ]
+Already done word with lang eng at:Bounding box=(25,13)->(276,31)
+Pass2: L [L [4c ]A ]
+Already done word with lang eng at:Bounding box=(276,10)->(712,18)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(1119,663)->(1129,1284)
+Pass2:   [  [20 ] ]
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL] rword[widthSEL] [lmarg,lind;rind,rmarg] model text                                                                                                               
+0    7        Thanks[54Sel]   knitting[62sel] [   0,    0;    0,   0] U:0   Thanks to the Schachenmayr Company for their helpful support of this book, and for working the clothes and knitting
+Active Paragraph Models:
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL]  rword[widthSEL] [lmarg,lind;rind,rmarg] model text                                                                      
+0    8        patterns.[68sel] (4).[26SEL]     [   0,    0;    0,   0] U:0   patterns. The designs are by Elisabeth Kopff (1) and Barbara Schreyer (4).
+Active Paragraph Models:
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL]     rword[widthSEL] [lmarg,lind;rind,rmarg] model text                                                    
+0    9        Drawings:[73Sel]    Hamburg[73sel]  [   1,    0;  208,   1] U:0   Drawings: Sigrid Witzig, Hamburg                        
+1    9        Cover[45Sel]        Lieb[33sel]     [   1,   -1;  290,   1] U:0   Cover design: Dirk Lieb                                 
+2    8        Translation:[84Sel] Jim[32sel]      [   1,    4;   -1,   1] U:0   Translation: Ellen Riemschnieder—in loving memory of Jim
+Active Paragraph Models:
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL] rword[widthSEL] [lmarg,lind;rind,rmarg] model text                                              
+0    8        Library[57Sel]  Data[39sel]     [   0,    0;    0,   0] U:0   Library of Congress Cataloging-in-Publication Data
+Active Paragraph Models:
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL]               rword[widthSEL]       [lmarg,lind;rind,rmarg] model text                                       
+0    10       Buss,[38Sel]                  Katharina.[83sEl]     [   1,   -1;  216,   1] S:1   Buss, Katharina.                           
+1    9        [Urania-Ravensburger.[179SEl] English][63sEl]       [   1,   24;   69,   1] C:1     [Urania-Ravensburger. English]           
+2    9        Big[23Sel]                    Buss.[34sEl]          [   1,   22;   -1,   1] C:1     Big book of knitting / by Katharina Buss.
+3    10       p.[8SEL]                      cm.[22sEl]            [   1,   32;  264,   1] C:1      p. cm.                                  
+4    10       ISBN[40Sel]                   0-8069-6203-8[118sel] [   1,   22;  155,   1] C:1     ISBN 0-8069-6203-8                       
+5    9        1.[2SEL]                      Title.[37sEl]         [   1,   24;  166,   1] C:1     1. Knitting. 1. Title.                   
+6    11       TT820.897[86Sel]              1999[36SeL]           [   1,   10;  164,   1] S:1    TT820.897 1999                            
+7    9        746.43'2—dc21[122sel]       746.43'2—dc21[122sel] [   1,    7;  215,   1] S:1   746.43'2—dc21                            
+Active Paragraph Models:
+ 1: margin: 4, first_indent: 0, body_indent: 24, alignment: LEFT
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL] rword[widthSEL] [lmarg,lind;rind,rmarg] model text    
+0    7        99-20386[76SEL] 99-20386[76SeL] [   0,    0;    0,   0] U:0   99-20386
+Active Paragraph Models:
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL] rword[widthSEL] [lmarg,lind;rind,rmarg] model text                                        
+0    22       20[17SEL]       CIp[31sel]      [   1,   -1;    0,   0] S:1   20 19 18 17 16 15 14 13 CIp                 
+1    8        First[31Sel]    by[17sel]       [   1,    0;  188,   0] C:1   First paperback edition published in 2001 by
+2    8        Sterling[60Sel] Inc.[29sEl]     [   1,    0;   82,   0] S:1   Sterling Publishing Co., Inc.               
+3    8        387[23SEL]      N[2SeL]         [   1,    2;    0,   0] S:1   387 Park Avenue South, New York, N          
+Active Paragraph Models:
+ 1: margin: 1, first_indent: 0, body_indent: 0, alignment: LEFT
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL] rword[widthSEL] [lmarg,lind;rind,rmarg] model text    
+0    13       (.[2SEl]        10016[46SeL]    [   0,    0;    0,   0] U:0   (. 10016
+Active Paragraph Models:
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL] rword[widthSEL] [lmarg,lind;rind,rmarg] model text  
+0    5        Inches[51Sel]   Inches[51sel]   [   0,    0;    0,   0] U:0   Inches
+Active Paragraph Models:
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL] rword[widthSEL]    [lmarg,lind;rind,rmarg] model text               
+0    7        Metric[54Sel]   Equivalents[97sel] [   1,    6;  -43,  43] U:0    Metric Equivalents
+1    5        cm[23sel]       Inches[51sel]      [   1,    7;  -32,  43] U:0    cm Inches         
+2    7        03[24SEL]       10[17SeL]          [   1,    9;    1,  43] U:0    03 10             
+3    7        0.6[24SEL]      11[13SeL]          [   1,    8;    4,  43] U:0    0.6 11            
+4    7        1.0[22SEL]      12[15SeL]          [   1,   11;    2,  43] U:0    1.0 12            
+5    5        1.3[20SEL]      13[15SeL]          [   1,   12;    2,  43] U:0     1.3 13           
+6    7        1.6[21SEL]      14[16SeL]          [   1,   12;    1,  43] U:0    1.6 14            
+7    7        1.9[21SEL]      15[16SeL]          [   1,   12;    1,  43] U:0    1.9 15            
+8    5        b[5SEL]         16[16SeL]          [   1,    9;    1,  43] U:0     b 2 16           
+9    7        32[21SEL]       17[15SeL]          [   1,   10;    2,  43] U:0    32 17             
+10   7        38[21SEL]       18[16SeL]          [   1,   11;    1,  43] U:0    38 18             
+11   7        44[23SEL]       19[16SeL]          [   1,    9;    1,  43] U:0    44 19             
+12   7        5.1[20SEL]      20[19SeL]          [   1,   10;    0,  43] U:0    5.1 20            
+13   7        6.4[24SEL]      21[15SeL]          [   1,    9;    3,  43] U:0    6.4 21            
+14   7        7.6[23SEL]      2[17SeL]           [   1,    9;    2,  43] U:0    7.6 2             
+15   7        89[24SEL]       23[17SeL]          [   1,    8;    2,  43] U:0    89 23             
+16   7        10.2[30SEL]     24[18SeL]          [   1,    1;    1,  43] U:0   10.2 24            
+17   7        114[31SEL]      25[17SeL]          [   1,    1;    2,  43] U:0   114 25             
+18   7        12.7[31SEL]     26[18SeL]          [   1,    1;    1,  43] U:0   12.7 26            
+19   7        15.2[31SEL]     n[18SeL]           [   1,    1;    1,  43] U:0   15.2 n             
+20   7        178[31SEL]      28[18SeL]          [   1,    0;    2,  43] U:0   178 28             
+21   7        203[32SEL]      29[18SeL]          [   1,   -1;    2,  43] U:0   203 29             
+22   7        229[33SEL]      30[17SeL]          [   1,   -1;    1,  43] U:0   229 30             
+Active Paragraph Models:
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL] rword[widthSEL] [lmarg,lind;rind,rmarg] model text
+0    12       cm[23sel]       cm[23sel]       [   0,    0;    0,   0] U:0   cm  
+Active Paragraph Models:
+# Not enough variety for simple outline classification.
+======================================
+254
+219
+30.5
+33.0
+35.6
+38.1
+40.6
+43.2
+45.7
+483
+50.8
+53.3
+55.9
+58.4
+61.0
+63.5
+66.0
+68.6
+711
+3.7
+76.2
+======================================
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL] rword[widthSEL] [lmarg,lind;rind,rmarg] model text
+0    5        254[33SEL]      254[33SeL]      [   0,    0;    2,   0] U:0   254 
+1    5        219[33SEL]      219[33SeL]      [   0,    1;    1,   0] U:0   219 
+2    7        30.5[32SEL]     30.5[32SeL]     [   0,    1;    2,   0] U:0   30.5
+3    7        33.0[33SEL]     33.0[33SeL]     [   0,    1;    1,   0] U:0   33.0
+4    7        35.6[31SEL]     35.6[31SeL]     [   0,    2;    2,   0] U:0   35.6
+5    7        38.1[29SEL]     38.1[29SeL]     [   0,    2;    4,   0] U:0   38.1
+6    5        40.6[34SEL]     40.6[34SeL]     [   0,    0;    1,   0] U:0   40.6
+7    7        43.2[33SEL]     43.2[33SeL]     [   0,    0;    2,   0] U:0   43.2
+8    7        45.7[33SEL]     45.7[33SeL]     [   0,    0;    2,   0] U:0   45.7
+9    7        483[33SEL]      483[33SeL]      [   0,    1;    1,   0] U:0   483 
+10   5        50.8[32SEL]     50.8[32SeL]     [   0,    2;    1,   0] U:0   50.8
+11   7        53.3[32SEL]     53.3[32SeL]     [   0,    1;    2,   0] U:0   53.3
+12   7        55.9[33SEL]     55.9[33SeL]     [   0,    1;    1,   0] U:0   55.9
+13   5        58.4[32SEL]     58.4[32SeL]     [   0,    2;    1,   0] U:0   58.4
+14   7        61.0[34SEL]     61.0[34SeL]     [   0,    1;    0,   0] U:0   61.0
+15   7        63.5[33SEL]     63.5[33SeL]     [   0,    1;    1,   0] U:0   63.5
+16   5        66.0[34SEL]     66.0[34SeL]     [   0,    1;    0,   0] U:0   66.0
+17   7        68.6[34SEL]     68.6[34SeL]     [   0,    1;    0,   0] U:0   68.6
+18   5        711[30SEL]      711[30SeL]      [   0,    1;    4,   0] U:0   711 
+19   7        3.7[32SEL]      3.7[32SeL]      [   0,    1;    2,   0] U:0   3.7 
+20   7        76.2[32SEL]     76.2[32SeL]     [   0,    1;    2,   0] U:0   76.2
+Active Paragraph Models:
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL]   rword[widthSEL]   [lmarg,lind;rind,rmarg] model text                                                                                                     
+0    8        Originally[76Sel] Strickbuch[78sel] [   1,   -1;    0,   0] U:0   Originally published in Germany by Urania-Ravensburger under the title Das grofie Ravensburger Strickbuch
+1    8        ©[1sel]          Germany.[76sEl]   [   1,    3;    0,   0] U:0   © 1996 by Urania-Ravensburger in the Dornier Medienholding GmbH Berlin, Germany.                        
+Active Paragraph Models:
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL]    rword[widthSEL]   [lmarg,lind;rind,rmarg] model text                                                           
+0    8        English[56Sel]     Inc.[29sEl]       [   1,    1;   59,   1] S:1   English translation © 1999 by Sterling Publishing Co., Inc.   
+1    9        Distributed[88Sel] Publishing[83sel] [   1,    1;  174,   1] C:1   Distributed in Canada by Sterling Publishing                   
+2    9        Canadian[76Sel]    Street,[52sEl]    [   1,   21;  144,   1] S:1     Canadian Manda Group, 165 Dufferin Street,                   
+3    9        Toronto,[63Sel]    3H6[32sel]        [   1,    4;  238,   1] C:1   Toronto, Ontario, Canada M6K 3H6                               
+4    8        Distributed[88Sel] PLC,[38sEl]       [   1,    1;   51,   1] C:1   Distributed in Great Britain by Chrysalis Books Group PLC,     
+5    8        The[24Sel]         England[65sel]    [   1,    4;   -1,   1] C:1   The Chrysalis Building, Bramley Road, London W10 6SP, England  
+6    8        Distributed[88Sel] Ltd.[31sEl]       [   1,    1;   27,   1] C:1   Distributed in Australia by Capricorn Link (Australia) Pty Ltd.
+7    9        PO.[25Sel]         Australia[72sel]  [   1,    1;  176,   1] C:1   PO. Box 704, Windsor, NSW 2756 Australia                       
+8    8        Printed[51Sel]     China[45sel]      [   1,    0;  324,   1] C:1   Printed and Bound in China                                     
+9    9        All[22Sel]         reserved[59sel]   [   1,   -1;  403,   1] C:1   All rights reserved                                            
+Active Paragraph Models:
+ 1: margin: 2, first_indent: 20, body_indent: 0, alignment: LEFT
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL]       rword[widthSEL] [lmarg,lind;rind,rmarg] model text                             
+0    12       Sterling[61Sel]       Trade[45sel]    [   1,   -1;   -1,   1] U:0   Sterling ISBN 0-8069-6203-8 Trade
+1    14       0-8069-6317-4[119sel] Paper[43sel]    [   1,  121;    0,   1] U:0           0-8069-6317-4 Paper      
+Active Paragraph Models:
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL]   rword[widthSEL]                       [lmarg,lind;rind,rmarg] model text                                                             
+0    8        For[24Sel]        and[28sel]                            [   0,    0;   -1,   1] U:0   For information about custom editions, special sales, premium and
+1    8        corporate[72sel]  Sales[39sel]                          [   0,    1;   71,   1] U:0   corporate purchases, please contact Sterling Special Sales       
+2    7        Department[95Sel] specialsales(@sterlingpub.com[239sel] [   0,    0;   30,   1] U:0   Department at 800-805-5489 or specialsales(@sterlingpub.com      
+Active Paragraph Models:
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL] rword[widthSEL] [lmarg,lind;rind,rmarg] model text
+0    192      L[251SEL]       L[251SeL]       [   0,    0;    0,   0] U:0   L   
+Active Paragraph Models:

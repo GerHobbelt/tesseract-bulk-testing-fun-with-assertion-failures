@@ -1,0 +1,478 @@
+
+image width: 1246  height: 1648  ppi: 70
+tile size: 23  smooth_size: 0  score_fraction: 0.10
+Estimating resolution as 180
+Detected 281 diacritics
+Test blob assigned to no row on pass 2
+Test blob assigned to no row on pass 3
+Row ending at (403,1303.95): R=0.21875, dc=7, nc=32, ACCEPTED
+Row ending at (320,1278.96): R=0.208333, dc=5, nc=24, ACCEPTED
+Row ending at (416,1255.74): R=0.297297, dc=11, nc=37, ACCEPTED
+cleanup_blocks: # rows = 3 / 3
+Row ending at (1007,1244.82): R=0.421053, dc=8, nc=19, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (998,1207.58): R=1.11111, dc=10, nc=9, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+Row ending at (485,658.81): R=0, dc=0, nc=3, ACCEPTED
+Row ending at (487,631.075): R=0.457143, dc=16, nc=35, ACCEPTED
+Row ending at (556,606.626): R=0.24, dc=6, nc=25, ACCEPTED
+Row ending at (720,581.35): R=0.3125, dc=10, nc=32, ACCEPTED
+Row ending at (994,559.811): R=0, dc=0, nc=106, ACCEPTED
+Row ending at (843,534.486): R=0.232877, dc=17, nc=73, ACCEPTED
+Row ending at (660,509.049): R=0.333333, dc=16, nc=48, ACCEPTED
+Row ending at (508,484.755): R=0.340909, dc=15, nc=44, ACCEPTED
+Row ending at (506,459.902): R=0.276596, dc=13, nc=47, ACCEPTED
+Row ending at (508,436.348): R=0.461538, dc=12, nc=26, ACCEPTED
+cleanup_blocks: # rows = 10 / 10
+Row ending at (631,386.408): R=0.12069, dc=7, nc=58, ACCEPTED
+Row ending at (340,362.483): R=0.178571, dc=5, nc=28, ACCEPTED
+cleanup_blocks: # rows = 2 / 2
+Row ending at (270,314.694): R=1.36364, dc=15, nc=11, ACCEPTED
+Row ending at (283,290.178): R=1.07143, dc=15, nc=14, ACCEPTED
+cleanup_blocks: # rows = 2 / 2
+Row ending at (450,241.385): R=0.612903, dc=19, nc=31, ACCEPTED
+Row ending at (428,217.892): R=0.4375, dc=7, nc=16, ACCEPTED
+cleanup_blocks: # rows = 2 / 2
+Row ending at (211,152.814): R=2, dc=2, nc=1, ACCEPTED
+Row ending at (505,137.508): R=0.0877193, dc=5, nc=57, ACCEPTED
+Row ending at (573,112.988): R=0.265306, dc=13, nc=49, ACCEPTED
+Row ending at (595,87.9483): R=0.207547, dc=11, nc=53, ACCEPTED
+cleanup_blocks: # rows = 4 / 4
+cleanup_blocks: # blocks = 8 / 8
+Already done word with lang eng at:Bounding box=(52,1629)->(580,1639)
+Pass1:   [  [20 ] ]
+Processing word with lang eng at:Bounding box=(130,1300)->(403,1318)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Drawings: : R=6.78773, C=-1.52766, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	D	r	a	w	i	n	g	s	:
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.203	-0.200	-0.195	-0.201	-0.192	-0.204	-0.195	-0.218
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Sigrid : R=4.03848, C=-1.38174, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	S	i	g	r	i	d
+state:	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.197	-0.194	-0.192	-0.192	-0.194
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : Witzig, : R=5.15299, C=-2.85585, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	W	i	t	z	i	g	,
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.224	-0.223	-0.408	-0.193	-0.192	-0.192	-0.207
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Hamburg : R=5.75873, C=-1.36274, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	H	a	m	b	u	r	g
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.193	-0.192	-0.192	-0.193	-0.194	-0.193
+1 new words better than 0 old words: r: 6.78773 v 0 c: -1.52766 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.03848 v 0 c: -1.38174 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.15299 v 0 c: -2.85585 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 5.75873 v 0 c: -1.36274 v 0 valid dict: 0 v 0
+Hamburg (ocr took 0.02 sec)
+Pass1: Hamburg [H [48 ]A a [61 ]a m [6d ]a b [62 ]a u [75 ]a r [72 ]a g [67 ]a ]
+Processing word with lang eng at:Bounding box=(108,1276)->(320,1294)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : - : R=5.0546, C=-16.2669, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	-
+state:	1 
+C	-2.324
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : Cover : R=3.95075, C=-4.07764, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	C	o	v	e	r
+state:	1 	1 	1 	1 	1 
+C	-0.252	-0.226	-0.198	-0.193	-0.195
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : design: : R=4.88925, C=-1.59135, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	d	e	s	i	g	n	:
+state:	1 	1 	1 	1 	1 	1 	1 
+C	-0.218	-0.192	-0.227	-0.192	-0.193	-0.192	-0.209
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : Dirk : R=2.90684, C=-2.85864, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	D	i	r	k
+state:	1 	1 	1 	1 
+C	-0.192	-0.408	-0.194	-0.197
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Lieb : R=3.17884, C=-1.80712, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM
+str	L	i	e	b
+state:	1 	1 	1 	1 
+C	-0.194	-0.193	-0.196	-0.258
+1 new words better than 0 old words: r: 5.0546 v 0 c: -16.2669 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 3.95075 v 0 c: -4.07764 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 4.88925 v 0 c: -1.59135 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 2.90684 v 0 c: -2.85864 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.17884 v 0 c: -1.80712 v 0 valid dict: 0 v 0
+Lieb (ocr took 0.02 sec)
+Pass1: Lieb [L [4c ]A i [69 ]a e [65 ]a b [62 ]a ]
+Processing word with lang eng at:Bounding box=(112,1254)->(416,1270)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : - : R=3.91114, C=-17.029, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	-
+state:	1 
+C	-2.433
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : Translation: : R=8.15024, C=-3.15291, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	T	r	a	n	s	l	a	t	i	o	n	:
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.287	-0.200	-0.192	-0.199	-0.192	-0.219	-0.216	-0.193	-0.192	-0.208	-0.197	-0.203
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Ellen : R=3.49783, C=-1.48583, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM
+str	E	l	l	e	n
+state:	1 	1 	1 	1 	1 
+C	-0.193	-0.192	-0.212	-0.212	-0.194
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : Riemschnieder—i : R=12.4412, C=-5.44754, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	R	i	e	m	s	c	h	n	i	e	d	e	r	—	i
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.205	-0.201	-0.194	-0.193	-0.216	-0.205	-0.208	-0.207	-0.194	-0.197	-0.193	-0.192	-0.197	-0.215	-0.778
+1 new words better than 0 old words: r: 3.91114 v 0 c: -17.029 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 8.15024 v 0 c: -3.15291 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 3.49783 v 0 c: -1.48583 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 12.4412 v 0 c: -5.44754 v 0 valid dict: 0 v 0
+Riemschnieder—i (ocr took 0.03 sec)
+Pass1: Riemschnieder—i [R [52 ]A i [69 ]a e [65 ]a m [6d ]a s [73 ]a c [63 ]a h [68 ]a n [6e ]a i [69 ]a e [65 ]a d [64 ]a e [65 ]a r [72 ]a — [2014 ]p i [69 ]a ]
+Already done word with lang eng at:Bounding box=(734,1280)->(1104,1288)
+Pass1:   [  [20 ] ]
+Processing word with lang eng at:Bounding box=(849,1241)->(1007,1260)
+Trying word using lang eng, oem 2
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Metric : R=5.23717, C=-2.25974, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM
+str	M	e	t	r	i	c
+state:	1 	1 	1 	1 	1 	1 
+C	-0.201	-0.204	-0.203	-0.197	-0.192	-0.323
+Best choice: accepted=1, adaptable=0, done=1 : Lang result : Equivalents : R=7.48897, C=-1.46222, F=1, Perm=2, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM	NORM
+str	E	q	u	i	v	a	l	e	n	t	s
+state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 
+C	-0.192	-0.193	-0.191	-0.193	-0.191	-0.192	-0.192	-0.193	-0.191	-0.209	-0.192
+1 new words better than 0 old words: r: 5.23717 v 0 c: -2.25974 v 0 valid dict: 0 v 0
+1 new words better than 0 old words: r: 7.48897 v 0 c: -1.46222 v 0 valid dict: 0 v 0
+Equivalents (ocr took 0.01 sec)
+Pass1: Equivalents [E [45 ]A q [71 ]a u [75 ]a i [69 ]a v [76 ]a a [61 ]a l [6c ]a e [65 ]a n [6e ]a t [74 ]a s [73 ]a ]
+Processing word with lang eng at:Bounding box=(805,1173)->(943,1234)
+Trying word using lang eng, oem 2
+AD Matches =  k [6b ]a  Unichar-id=48, rating=0.562495, adapted=0, config=14, misses=5, 32 fonts
+R [52 ]A  Unichar-id=58, rating=0.498639, adapted=0, config=13, misses=9, 32 fonts
+t [74 ]a  Unichar-id=37, rating=0.491863, adapted=0, config=12, misses=12, 32 fonts
+K [4b ]A  Unichar-id=43, rating=0.482203, adapted=0, config=16, misses=8, 32 fonts
+h [68 ]a  Unichar-id=21, rating=0.468753, adapted=0, config=26, misses=8, 32 fonts
+& [26 ]p  Unichar-id=60, rating=0.450662, adapted=0, config=29, misses=8, 32 fonts
+ﬁ [fb01 ]a  Unichar-id=108, rating=0.424736, adapted=0, config=14, misses=4, 32 fonts
+AD Matches =  | [7c ]  Unichar-id=57, rating=0.910477, adapted=0, config=9, misses=0, 32 fonts
+l [6c ]a  Unichar-id=33, rating=0.794133, adapted=0, config=28, misses=0, 32 fonts
+n [6e ]a  Unichar-id=15, rating=0.766603, adapted=0, config=18, misses=0, 32 fonts
+u [75 ]a  Unichar-id=31, rating=0.763789, adapted=0, config=29, misses=0, 32 fonts
+AD Matches =  | [7c ]  Unichar-id=57, rating=0.827859, adapted=0, config=28, misses=2, 32 fonts
+\ [5c ]p  Unichar-id=111, rating=0.779509, adapted=0, config=19, misses=5, 32 fonts
+1 [31 ]0  Unichar-id=16, rating=0.704686, adapted=0, config=18, misses=0, 32 fonts
+AD Matches =  ; [3b ]p  Unichar-id=89, rating=0.562003, adapted=0, config=23, misses=6, 32 fonts
+£ [a3 ]  Unichar-id=65, rating=0.424464, adapted=0, config=11, misses=3, 32 fonts
+AD Matches =  f [66 ]a  Unichar-id=38, rating=0.430502, adapted=0, config=27, misses=10, 32 fonts
+5 [35 ]0  Unichar-id=3, rating=0.427759, adapted=0, config=21, misses=12, 32 fonts
+§ [a7 ]  Unichar-id=110, rating=0.413511, adapted=0, config=25, misses=6, 32 fonts
+F [46 ]A  Unichar-id=34, rating=0.405639, adapted=0, config=13, misses=6, 32 fonts
+E [45 ]A  Unichar-id=24, rating=0.399643, adapted=0, config=17, misses=7, 32 fonts
+} [7d ]p  Unichar-id=69, rating=0.383726, adapted=0, config=19, misses=11, 32 fonts
+? [3f ]p  Unichar-id=91, rating=0.382844, adapted=0, config=24, misses=5, 32 fonts
+g [67 ]a  Unichar-id=42, rating=0.367061, adapted=0, config=25, misses=2, 32 fonts
+ﬁ [fb01 ]a  Unichar-id=108, rating=0.366251, adapted=0, config=10, misses=3, 32 fonts
+y [79 ]a  Unichar-id=9, rating=0.354744, adapted=0, config=9, misses=1, 32 fonts
+AD Matches =  % [25 ]p  Unichar-id=5, rating=0.515685, adapted=0, config=30, misses=9, 32 fonts
+m [6d ]a  Unichar-id=11, rating=0.515334, adapted=0, config=13, misses=17, 32 fonts
+M [4d ]A  Unichar-id=76, rating=0.495191, adapted=0, config=15, misses=21, 32 fonts
+w [77 ]a  Unichar-id=83, rating=0.48904, adapted=0, config=12, misses=15, 32 fonts
+W [57 ]A  Unichar-id=45, rating=0.474755, adapted=0, config=28, misses=20, 32 fonts
+@ [40 ]p  Unichar-id=49, rating=0.41503, adapted=0, config=28, misses=22, 32 fonts
+® [ae ]  Unichar-id=105, rating=0.401114, adapted=0, config=4, misses=27, 32 fonts
+ﬁ [fb01 ]a  Unichar-id=108, rating=0.383452, adapted=0, config=13, misses=15, 32 fonts
+AD Matches =  k [6b ]a  Unichar-id=48, rating=0.407022, adapted=0, config=10, misses=3, 32 fonts
+i [69 ]a  Unichar-id=12, rating=0.346857, adapted=0, config=9, misses=8, 32 fonts
+AD Matches =  § [a7 ]  Unichar-id=110, rating=0.310242, adapted=0, config=26, misses=4, 32 fonts
+% [25 ]p  Unichar-id=5, rating=0.285643, adapted=0, config=11, misses=2, 32 fonts
+a [61 ]a  Unichar-id=14, rating=0.285402, adapted=0, config=29, misses=9, 32 fonts
+: [3a ]p  Unichar-id=78, rating=0.274864, adapted=0, config=8, misses=19, 32 fonts
+g [67 ]a  Unichar-id=42, rating=0.269036, adapted=0, config=6, misses=7, 32 fonts
+ﬁ [fb01 ]a  Unichar-id=108, rating=0.247422, adapted=0, config=28, misses=7, 32 fonts
+é [e9 ]a  Unichar-id=100, rating=0.219253, adapted=0, config=30, misses=10, 32 fonts
+h [68 ]a  Unichar-id=21, rating=0.216952, adapted=0, config=3, misses=12, 32 fonts
+AD Matches =  ; [3b ]p  Unichar-id=89, rating=0.432902, adapted=0, config=23, misses=15, 32 fonts
+$ [24 ]  Unichar-id=64, rating=0.380636, adapted=0, config=24, misses=6, 32 fonts
+¢ [a2 ]  Unichar-id=51, rating=0.37189, adapted=0, config=16, misses=3, 32 fonts
+4 [34 ]0  Unichar-id=74, rating=0.30131, adapted=0, config=25, misses=11, 32 fonts
+AD Matches =  - [2d ]p  Unichar-id=71, rating=0.487019, adapted=0, config=11, misses=1, 32 fonts
+' [27 ]p  Unichar-id=93, rating=0.463143, adapted=0, config=0, misses=0, 32 fonts
+’ [2019 ]p  Unichar-id=112, rating=0.427275, adapted=0, config=1, misses=0, 32 fonts
+‘ [2018 ]p  Unichar-id=107, rating=0.379082, adapted=0, config=30, misses=0, 32 fonts
+AD Matches =  ; [3b ]p  Unichar-id=89, rating=0.615148, adapted=0, config=25, misses=4, 32 fonts
+1 [31 ]0  Unichar-id=16, rating=0.600618, adapted=0, config=17, misses=0, 32 fonts
+) [29 ]p  Unichar-id=66, rating=0.590784, adapted=0, config=25, misses=2, 32 fonts
+\ [5c ]p  Unichar-id=111, rating=0.589355, adapted=0, config=19, misses=5, 32 fonts
+x [78 ]a  Unichar-id=61, rating=0.576847, adapted=0, config=25, misses=6, 32 fonts
+y [79 ]a  Unichar-id=9, rating=0.531157, adapted=0, config=9, misses=1, 32 fonts
+u [75 ]a  Unichar-id=31, rating=0.524981, adapted=0, config=8, misses=4, 32 fonts
+] [5d ]p  Unichar-id=52, rating=0.515503, adapted=0, config=18, misses=0, 32 fonts
+‘ [2018 ]p  Unichar-id=107, rating=0.50517, adapted=0, config=8, misses=1, 32 fonts
+} [7d ]p  Unichar-id=69, rating=0.499569, adapted=0, config=4, misses=1, 32 fonts
+AD Matches =  ; [3b ]p  Unichar-id=89, rating=0.476272, adapted=0, config=4, misses=5, 32 fonts
+L [4c ]A  Unichar-id=94, rating=0.465311, adapted=0, config=24, misses=4, 32 fonts
+: [3a ]p  Unichar-id=78, rating=0.387279, adapted=0, config=21, misses=11, 32 fonts
+1 [31 ]0  Unichar-id=16, rating=0.359716, adapted=0, config=28, misses=8, 32 fonts
+£ [a3 ]  Unichar-id=65, rating=0.357548, adapted=0, config=21, misses=8, 32 fonts
+i [69 ]a  Unichar-id=12, rating=0.354366, adapted=0, config=18, misses=3, 32 fonts
+$ [24 ]  Unichar-id=64, rating=0.334755, adapted=0, config=24, misses=5, 32 fonts
+AD Matches =  ; [3b ]p  Unichar-id=89, rating=0.491054, adapted=0, config=17, misses=5, 32 fonts
+L [4c ]A  Unichar-id=94, rating=0.383832, adapted=0, config=29, misses=2, 32 fonts
+Q [51 ]A  Unichar-id=96, rating=0.359628, adapted=0, config=25, misses=6, 32 fonts
+AD Matches =  ” [201d ]p  Unichar-id=109, rating=0.56488, adapted=0, config=20, misses=5, 32 fonts
+‘ [2018 ]p  Unichar-id=107, rating=0.561085, adapted=0, config=12, misses=15, 32 fonts
+AD Matches =  i [69 ]a  Unichar-id=12, rating=0.654248, adapted=0, config=5, misses=6, 32 fonts
+1 [31 ]0  Unichar-id=16, rating=0.596887, adapted=0, config=18, misses=5, 32 fonts
+ﬂ [fb02 ]a  Unichar-id=92, rating=0.57255, adapted=0, config=17, misses=5, 32 fonts
+ﬁ [fb01 ]a  Unichar-id=108, rating=0.562382, adapted=0, config=5, misses=3, 32 fonts
+§ [a7 ]  Unichar-id=110, rating=0.557995, adapted=0, config=28, misses=3, 32 fonts
+l [6c ]a  Unichar-id=33, rating=0.534285, adapted=0, config=4, misses=18, 32 fonts
+? [3f ]p  Unichar-id=91, rating=0.513033, adapted=0, config=24, misses=13, 32 fonts
+AD Matches =  L [4c ]A  Unichar-id=94, rating=0.510849, adapted=0, config=1, misses=0, 32 fonts
+» [bb ]p  Unichar-id=99, rating=0.476816, adapted=0, config=2, misses=4, 32 fonts
+; [3b ]p  Unichar-id=89, rating=0.435354, adapted=0, config=25, misses=9, 32 fonts
+\ [5c ]p  Unichar-id=111, rating=0.426472, adapted=0, config=15, misses=10, 32 fonts
+n [6e ]a  Unichar-id=15, rating=0.420234, adapted=0, config=17, misses=2, 32 fonts
+y [79 ]a  Unichar-id=9, rating=0.404271, adapted=0, config=29, misses=6, 32 fonts
+x [78 ]a  Unichar-id=61, rating=0.384554, adapted=0, config=19, misses=5, 32 fonts
+t [74 ]a  Unichar-id=37, rating=0.363249, adapted=0, config=4, misses=2, 32 fonts
+¥ [a5 ]  Unichar-id=72, rating=0.361778, adapted=0, config=29, misses=4, 32 fonts
+& [26 ]p  Unichar-id=60, rating=0.361005, adapted=0, config=8, misses=2, 32 fonts
+AD Matches =  ‘ [2018 ]p  Unichar-id=107, rating=0.566735, adapted=0, config=12, misses=0, 32 fonts
+l [6c ]a  Unichar-id=33, rating=0.418138, adapted=0, config=30, misses=0, 32 fonts
+AD Matches =  k [6b ]a  Unichar-id=48, rating=0.524577, adapted=0, config=6, misses=5, 32 fonts
+b [62 ]a  Unichar-id=32, rating=0.520485, adapted=0, config=4, misses=4, 32 fonts
+ﬁ [fb01 ]a  Unichar-id=108, rating=0.484642, adapted=0, config=27, misses=6, 32 fonts
+h [68 ]a  Unichar-id=21, rating=0.484375, adapted=0, config=16, misses=10, 32 fonts
+# [23 ]p  Unichar-id=102, rating=0.465088, adapted=0, config=8, misses=8, 32 fonts
+& [26 ]p  Unichar-id=60, rating=0.445452, adapted=0, config=21, misses=2, 32 fonts
+p [70 ]a  Unichar-id=30, rating=0.444952, adapted=0, config=24, misses=12, 32 fonts
+F [46 ]A  Unichar-id=34, rating=0.424781, adapted=0, config=23, misses=4, 32 fonts
+% [25 ]p  Unichar-id=5, rating=0.415225, adapted=0, config=25, misses=0, 32 fonts
+} [7d ]p  Unichar-id=69, rating=0.401065, adapted=0, config=9, misses=9, 32 fonts
+AD Matches =  ' [27 ]p  Unichar-id=93, rating=0.410156, adapted=0, config=7, misses=8, 32 fonts
+} [7d ]p  Unichar-id=69, rating=0.389028, adapted=0, config=26, misses=3, 32 fonts
+P [50 ]A  Unichar-id=41, rating=0.388407, adapted=0, config=18, misses=1, 32 fonts
+’ [2019 ]p  Unichar-id=112, rating=0.380147, adapted=0, config=10, misses=7, 32 fonts
+) [29 ]p  Unichar-id=66, rating=0.34908, adapted=0, config=26, misses=6, 32 fonts
+* [2a ]p  Unichar-id=63, rating=0.336416, adapted=0, config=26, misses=6, 32 fonts
+; [3b ]p  Unichar-id=89, rating=0.335286, adapted=0, config=29, misses=6, 32 fonts
+F [46 ]A  Unichar-id=34, rating=0.333008, adapted=0, config=27, misses=0, 32 fonts
+? [3f ]p  Unichar-id=91, rating=0.332581, adapted=0, config=23, misses=2, 32 fonts
+t [74 ]a  Unichar-id=37, rating=0.328125, adapted=0, config=20, misses=6, 32 fonts
+AD Matches =  ’ [2019 ]p  Unichar-id=112, rating=0.842104, adapted=0, config=8, misses=1, 32 fonts
+' [27 ]p  Unichar-id=93, rating=0.836258, adapted=0, config=20, misses=7, 32 fonts
+AD Matches =  ' [27 ]p  Unichar-id=93, rating=0.447544, adapted=0, config=29, misses=0, 32 fonts
+. [2e ]p  Unichar-id=55, rating=0.437629, adapted=0, config=28, misses=0, 32 fonts
+I [49 ]A  Unichar-id=28, rating=0.408976, adapted=0, config=0, misses=0, 32 fonts
+‘ [2018 ]p  Unichar-id=107, rating=0.3848, adapted=0, config=30, misses=0, 32 fonts
+’ [2019 ]p  Unichar-id=112, rating=0.361118, adapted=0, config=1, misses=0, 32 fonts
+AD Matches =  A [41 ]A  Unichar-id=10, rating=0.401005, adapted=0, config=1, misses=7, 32 fonts
+» [bb ]p  Unichar-id=99, rating=0.394402, adapted=0, config=5, misses=10, 32 fonts
+4 [34 ]0  Unichar-id=74, rating=0.382653, adapted=0, config=28, misses=6, 32 fonts
+J [4a ]A  Unichar-id=85, rating=0.337254, adapted=0, config=21, misses=7, 32 fonts
+) [29 ]p  Unichar-id=66, rating=0.333087, adapted=0, config=20, misses=11, 32 fonts
+; [3b ]p  Unichar-id=89, rating=0.319187, adapted=0, config=17, misses=9, 32 fonts
+é [e9 ]a  Unichar-id=100, rating=0.291957, adapted=0, config=1, misses=3, 32 fonts
+¢ [a2 ]  Unichar-id=51, rating=0.280207, adapted=0, config=8, misses=5, 32 fonts
+} [7d ]p  Unichar-id=69, rating=0.256473, adapted=0, config=6, misses=8, 32 fonts
+AD Matches =  3 [33 ]0  Unichar-id=79, rating=0.498825, adapted=0, config=31, misses=3, 32 fonts
+f [66 ]a  Unichar-id=38, rating=0.446131, adapted=0, config=27, misses=6, 32 fonts
+; [3b ]p  Unichar-id=89, rating=0.443742, adapted=0, config=16, misses=4, 32 fonts
+E [45 ]A  Unichar-id=24, rating=0.437421, adapted=0, config=24, misses=4, 32 fonts
+§ [a7 ]  Unichar-id=110, rating=0.416253, adapted=0, config=24, misses=3, 32 fonts
+? [3f ]p  Unichar-id=91, rating=0.398899, adapted=0, config=30, misses=5, 32 fonts
+£ [a3 ]  Unichar-id=65, rating=0.392354, adapted=0, config=15, misses=5, 32 fonts
+g [67 ]a  Unichar-id=42, rating=0.389385, adapted=0, config=7, misses=0, 32 fonts
+} [7d ]p  Unichar-id=69, rating=0.385241, adapted=0, config=24, misses=7, 32 fonts
+: [3a ]p  Unichar-id=78, rating=0.379975, adapted=0, config=24, misses=7, 32 fonts
+AD Matches =  } [7d ]p  Unichar-id=69, rating=0.494245, adapted=0, config=19, misses=1, 32 fonts
+3 [33 ]0  Unichar-id=79, rating=0.446231, adapted=0, config=20, misses=6, 32 fonts
+f [66 ]a  Unichar-id=38, rating=0.39917, adapted=0, config=27, misses=3, 32 fonts
+j [6a ]a  Unichar-id=95, rating=0.380069, adapted=0, config=23, misses=2, 32 fonts
+) [29 ]p  Unichar-id=66, rating=0.354515, adapted=0, config=16, misses=9, 32 fonts
+; [3b ]p  Unichar-id=89, rating=0.351783, adapted=0, config=19, misses=7, 32 fonts
+AD Matches =  = [3d ]  Unichar-id=88, rating=0.421767, adapted=0, config=28, misses=4, 32 fonts
+ﬁ [fb01 ]a  Unichar-id=108, rating=0.31972, adapted=0, config=17, misses=0, 32 fonts
+AD Matches =  ? [3f ]p  Unichar-id=91, rating=0.424057, adapted=0, config=6, misses=2, 32 fonts
+y [79 ]a  Unichar-id=9, rating=0.392392, adapted=0, config=9, misses=4, 32 fonts
+AD Matches =  3 [33 ]0  Unichar-id=79, rating=0.442057, adapted=0, config=12, misses=9, 32 fonts
+E [45 ]A  Unichar-id=24, rating=0.416972, adapted=0, config=17, misses=6, 32 fonts
+? [3f ]p  Unichar-id=91, rating=0.4115, adapted=0, config=6, misses=6, 32 fonts
+y [79 ]a  Unichar-id=9, rating=0.379935, adapted=0, config=16, misses=5, 32 fonts
+§ [a7 ]  Unichar-id=110, rating=0.359578, adapted=0, config=28, misses=9, 32 fonts
+¥ [a5 ]  Unichar-id=72, rating=0.33105, adapted=0, config=5, misses=10, 32 fonts
+AD Matches =  } [7d ]p  Unichar-id=69, rating=0.476481, adapted=0, config=21, misses=5, 32 fonts
+2 [32 ]0  Unichar-id=86, rating=0.447129, adapted=0, config=21, misses=6, 32 fonts
+; [3b ]p  Unichar-id=89, rating=0.438308, adapted=0, config=4, misses=8, 32 fonts
+Z [5a ]A  Unichar-id=98, rating=0.424168, adapted=0, config=21, misses=7, 32 fonts
+l [6c ]a  Unichar-id=33, rating=0.410288, adapted=0, config=8, misses=11, 32 fonts
+z [7a ]a  Unichar-id=77, rating=0.407965, adapted=0, config=12, misses=8, 32 fonts
+E [45 ]A  Unichar-id=24, rating=0.388846, adapted=0, config=28, misses=6, 32 fonts
+? [3f ]p  Unichar-id=91, rating=0.352495, adapted=0, config=7, misses=6, 32 fonts
+¥ [a5 ]  Unichar-id=72, rating=0.351966, adapted=0, config=4, misses=6, 32 fonts
+AD Matches =  ; [3b ]p  Unichar-id=89, rating=0.450321, adapted=0, config=17, misses=8, 32 fonts
+& [26 ]p  Unichar-id=60, rating=0.390656, adapted=0, config=12, misses=2, 32 fonts
+§ [a7 ]  Unichar-id=110, rating=0.37615, adapted=0, config=12, misses=3, 32 fonts
+g [67 ]a  Unichar-id=42, rating=0.359272, adapted=0, config=13, misses=11, 32 fonts
+Q [51 ]A  Unichar-id=96, rating=0.345443, adapted=0, config=25, misses=10, 32 fonts
+é [e9 ]a  Unichar-id=100, rating=0.333468, adapted=0, config=9, misses=6, 32 fonts
+AD Matches =  ; [3b ]p  Unichar-id=89, rating=0.54091, adapted=0, config=23, misses=1, 32 fonts
+AD Matches =  ; [3b ]p  Unichar-id=89, rating=0.472347, adapted=0, config=19, misses=1, 32 fonts
+: [3a ]p  Unichar-id=78, rating=0.421161, adapted=0, config=23, misses=2, 32 fonts
+{ [7b ]p  Unichar-id=68, rating=0.335381, adapted=0, config=3, misses=2, 32 fonts
+AD Matches =  : [3a ]p  Unichar-id=78, rating=0.578231, adapted=0, config=21, misses=8, 32 fonts
+; [3b ]p  Unichar-id=89, rating=0.513258, adapted=0, config=14, misses=5, 32 fonts
+£ [a3 ]  Unichar-id=65, rating=0.500042, adapted=0, config=31, misses=3, 32 fonts
+i [69 ]a  Unichar-id=12, rating=0.434034, adapted=0, config=26, misses=3, 32 fonts
+$ [24 ]  Unichar-id=64, rating=0.430416, adapted=0, config=24, misses=4, 32 fonts
+AD Matches =  n [6e ]a  Unichar-id=15, rating=0.833224, adapted=0, config=22, misses=1, 32 fonts
+u [75 ]a  Unichar-id=31, rating=0.819639, adapted=0, config=18, misses=0, 32 fonts
+“ [201c ]p  Unichar-id=19, rating=0.73125, adapted=0, config=11, misses=0, 32 fonts
+h [68 ]a  Unichar-id=21, rating=0.703139, adapted=0, config=28, misses=2, 32 fonts
+" [22 ]p  Unichar-id=44, rating=0.697194, adapted=0, config=29, misses=2, 32 fonts
+AD Matches =  h [68 ]a  Unichar-id=21, rating=0.570692, adapted=0, config=5, misses=5, 32 fonts
+M [4d ]A  Unichar-id=76, rating=0.554091, adapted=0, config=5, misses=4, 32 fonts
+b [62 ]a  Unichar-id=32, rating=0.512627, adapted=0, config=9, misses=6, 32 fonts
+k [6b ]a  Unichar-id=48, rating=0.464884, adapted=0, config=14, misses=11, 32 fonts
+% [25 ]p  Unichar-id=5, rating=0.443319, adapted=0, config=29, misses=3, 32 fonts
+H [48 ]A  Unichar-id=54, rating=0.424764, adapted=0, config=9, misses=9, 32 fonts
+AD Matches =  J [4a ]A  Unichar-id=85, rating=0.337119, adapted=0, config=4, misses=7, 32 fonts
+; [3b ]p  Unichar-id=89, rating=0.314322, adapted=0, config=7, misses=10, 32 fonts
+ﬁ [fb01 ]a  Unichar-id=108, rating=0.312975, adapted=0, config=10, misses=2, 32 fonts
+K [4b ]A  Unichar-id=43, rating=0.303877, adapted=0, config=12, misses=6, 32 fonts
+& [26 ]p  Unichar-id=60, rating=0.298296, adapted=0, config=11, misses=3, 32 fonts
+G [47 ]A  Unichar-id=36, rating=0.292419, adapted=0, config=23, misses=8, 32 fonts
+ﬂ [fb02 ]a  Unichar-id=92, rating=0.289647, adapted=0, config=18, misses=11, 32 fonts
+“ [201c ]p  Unichar-id=19, rating=0.2867, adapted=0, config=18, misses=10, 32 fonts
+‘ [2018 ]p  Unichar-id=107, rating=0.283591, adapted=0, config=6, misses=10, 32 fonts
+{ [7b ]p  Unichar-id=68, rating=0.281546, adapted=0, config=30, misses=7, 32 fonts
+AD Matches =  J [4a ]A  Unichar-id=85, rating=0.421336, adapted=0, config=6, misses=9, 32 fonts
+; [3b ]p  Unichar-id=89, rating=0.409394, adapted=0, config=23, misses=11, 32 fonts
+¢ [a2 ]  Unichar-id=51, rating=0.373263, adapted=0, config=16, misses=9, 32 fonts
+§ [a7 ]  Unichar-id=110, rating=0.362744, adapted=0, config=20, misses=5, 32 fonts
+£ [a3 ]  Unichar-id=65, rating=0.347885, adapted=0, config=27, misses=8, 32 fonts
+$ [24 ]  Unichar-id=64, rating=0.340994, adapted=0, config=24, misses=5, 32 fonts
+é [e9 ]a  Unichar-id=100, rating=0.323794, adapted=0, config=31, misses=13, 32 fonts
+¥ [a5 ]  Unichar-id=72, rating=0.320444, adapted=0, config=30, misses=11, 32 fonts
+& [26 ]p  Unichar-id=60, rating=0.300346, adapted=0, config=10, misses=8, 32 fonts
+ﬁ [fb01 ]a  Unichar-id=108, rating=0.279827, adapted=0, config=29, misses=3, 32 fonts
+AD Matches =  n [6e ]a  Unichar-id=15, rating=0.874983, adapted=0, config=28, misses=1, 32 fonts
+u [75 ]a  Unichar-id=31, rating=0.860024, adapted=0, config=22, misses=0, 32 fonts
+" [22 ]p  Unichar-id=44, rating=0.771286, adapted=0, config=28, misses=1, 32 fonts
+“ [201c ]p  Unichar-id=19, rating=0.761679, adapted=0, config=30, misses=0, 32 fonts
+ﬂ [fb02 ]a  Unichar-id=92, rating=0.740212, adapted=0, config=18, misses=1, 32 fonts
+AD Matches =  m [6d ]a  Unichar-id=11, rating=0.85432, adapted=0, config=29, misses=0, 32 fonts
+AD Matches =  M [4d ]A  Unichar-id=76, rating=0.351629, adapted=0, config=3, misses=8, 32 fonts
+J [4a ]A  Unichar-id=85, rating=0.250831, adapted=0, config=18, misses=11, 32 fonts
+AD Matches =  ; [3b ]p  Unichar-id=89, rating=0.517275, adapted=0, config=17, misses=14, 32 fonts
+g [67 ]a  Unichar-id=42, rating=0.45824, adapted=0, config=18, misses=7, 32 fonts
+& [26 ]p  Unichar-id=60, rating=0.438777, adapted=0, config=12, misses=4, 32 fonts
+§ [a7 ]  Unichar-id=110, rating=0.393029, adapted=0, config=28, misses=6, 32 fonts
+2 [32 ]0  Unichar-id=86, rating=0.385555, adapted=0, config=13, misses=13, 32 fonts
+£ [a3 ]  Unichar-id=65, rating=0.384208, adapted=0, config=21, misses=15, 32 fonts
+Q [51 ]A  Unichar-id=96, rating=0.381496, adapted=0, config=19, misses=9, 32 fonts
+% [25 ]p  Unichar-id=5, rating=0.377746, adapted=0, config=11, misses=0, 32 fonts
+AD Matches =  ; [3b ]p  Unichar-id=89, rating=0.438696, adapted=0, config=1, misses=14, 32 fonts
+g [67 ]a  Unichar-id=42, rating=0.430258, adapted=0, config=18, misses=6, 32 fonts
+S [53 ]A  Unichar-id=56, rating=0.413086, adapted=0, config=28, misses=11, 32 fonts
+& [26 ]p  Unichar-id=60, rating=0.412679, adapted=0, config=12, misses=4, 32 fonts
+Q [51 ]A  Unichar-id=96, rating=0.404629, adapted=0, config=19, misses=10, 32 fonts
+2 [32 ]0  Unichar-id=86, rating=0.403465, adapted=0, config=12, misses=11, 32 fonts
+a [61 ]a  Unichar-id=14, rating=0.397461, adapted=0, config=12, misses=10, 32 fonts
+$ [24 ]  Unichar-id=64, rating=0.394846, adapted=0, config=17, misses=5, 32 fonts
+£ [a3 ]  Unichar-id=65, rating=0.392668, adapted=0, config=13, misses=11, 32 fonts
+§ [a7 ]  Unichar-id=110, rating=0.38519, adapted=0, config=12, misses=12, 32 fonts
+AD Matches =  E [45 ]A  Unichar-id=24, rating=0.420502, adapted=0, config=28, misses=16, 32 fonts
+B [42 ]A  Unichar-id=59, rating=0.412647, adapted=0, config=27, misses=13, 32 fonts
+& [26 ]p  Unichar-id=60, rating=0.397871, adapted=0, config=12, misses=3, 32 fonts
+g [67 ]a  Unichar-id=42, rating=0.391403, adapted=0, config=22, misses=9, 32 fonts
+Q [51 ]A  Unichar-id=96, rating=0.380307, adapted=0, config=11, misses=10, 32 fonts
+3 [33 ]0  Unichar-id=79, rating=0.376656, adapted=0, config=18, misses=16, 32 fonts
+; [3b ]p  Unichar-id=89, rating=0.370471, adapted=0, config=24, misses=18, 32 fonts
+ﬁ [fb01 ]a  Unichar-id=108, rating=0.364937, adapted=0, config=8, misses=5, 32 fonts
+a [61 ]a  Unichar-id=14, rating=0.364881, adapted=0, config=12, misses=12, 32 fonts
+$ [24 ]  Unichar-id=64, rating=0.364159, adapted=0, config=10, misses=7, 32 fonts
+AD Matches =  ; [3b ]p  Unichar-id=89, rating=0.452342, adapted=0, config=17, misses=17, 32 fonts
+L [4c ]A  Unichar-id=94, rating=0.407566, adapted=0, config=13, misses=15, 32 fonts
+& [26 ]p  Unichar-id=60, rating=0.399907, adapted=0, config=12, misses=6, 32 fonts
+Q [51 ]A  Unichar-id=96, rating=0.384946, adapted=0, config=19, misses=8, 32 fonts
+@ [40 ]p  Unichar-id=49, rating=0.384444, adapted=0, config=21, misses=8, 32 fonts
+# [23 ]p  Unichar-id=102, rating=0.379851, adapted=0, config=19, misses=19, 32 fonts
+g [67 ]a  Unichar-id=42, rating=0.370082, adapted=0, config=18, misses=10, 32 fonts
+£ [a3 ]  Unichar-id=65, rating=0.366973, adapted=0, config=21, misses=13, 32 fonts
+§ [a7 ]  Unichar-id=110, rating=0.35736, adapted=0, config=30, misses=5, 32 fonts
+% [25 ]p  Unichar-id=5, rating=0.353549, adapted=0, config=11, misses=7, 32 fonts
+AD Matches =  £ [a3 ]  Unichar-id=65, rating=0.405851, adapted=0, config=15, misses=13, 32 fonts
+Q [51 ]A  Unichar-id=96, rating=0.400477, adapted=0, config=19, misses=10, 32 fonts
+¥ [a5 ]  Unichar-id=72, rating=0.39222, adapted=0, config=11, misses=10, 32 fonts
+g [67 ]a  Unichar-id=42, rating=0.386509, adapted=0, config=22, misses=11, 32 fonts
+& [26 ]p  Unichar-id=60, rating=0.383799, adapted=0, config=12, misses=5, 32 fonts
+§ [a7 ]  Unichar-id=110, rating=0.380902, adapted=0, config=26, misses=10, 32 fonts
+; [3b ]p  Unichar-id=89, rating=0.377507, adapted=0, config=24, misses=18, 32 fonts
+ﬁ [fb01 ]a  Unichar-id=108, rating=0.349008, adapted=0, config=18, misses=10, 32 fonts
+¢ [a2 ]  Unichar-id=51, rating=0.311946, adapted=0, config=11, misses=11, 32 fonts
+% [25 ]p  Unichar-id=5, rating=0.288593, adapted=0, config=15, misses=4, 32 fonts
+AD Matches =  E [45 ]A  Unichar-id=24, rating=0.438787, adapted=0, config=24, misses=11, 32 fonts
+£ [a3 ]  Unichar-id=65, rating=0.426999, adapted=0, config=15, misses=7, 32 fonts
+; [3b ]p  Unichar-id=89, rating=0.41589, adapted=0, config=17, misses=11, 32 fonts
+g [67 ]a  Unichar-id=42, rating=0.411568, adapted=0, config=13, misses=9, 32 fonts
+¥ [a5 ]  Unichar-id=72, rating=0.411409, adapted=0, config=11, misses=8, 32 fonts
+$ [24 ]  Unichar-id=64, rating=0.380017, adapted=0, config=10, misses=5, 32 fonts
+5 [35 ]0  Unichar-id=3, rating=0.371497, adapted=0, config=14, misses=10, 32 fonts
+§ [a7 ]  Unichar-id=110, rating=0.370683, adapted=0, config=16, misses=8, 32 fonts
+Q [51 ]A  Unichar-id=96, rating=0.36477, adapted=0, config=19, misses=13, 32 fonts
+s [73 ]a  Unichar-id=35, rating=0.362788, adapted=0, config=31, misses=13, 32 fonts
+AD Matches =  : [3a ]p  Unichar-id=78, rating=0.604334, adapted=0, config=17, misses=5, 32 fonts
+; [3b ]p  Unichar-id=89, rating=0.545819, adapted=0, config=4, misses=2, 32 fonts
+£ [a3 ]  Unichar-id=65, rating=0.503273, adapted=0, config=28, misses=2, 32 fonts
+f [66 ]a  Unichar-id=38, rating=0.501359, adapted=0, config=8, misses=6, 32 fonts
+¢ [a2 ]  Unichar-id=51, rating=0.466282, adapted=0, config=11, misses=3, 32 fonts
+S [53 ]A  Unichar-id=56, rating=0.455593, adapted=0, config=30, misses=4, 32 fonts
+Final Ratings Matrix:
+Ratings Matrix (top 3 choices)
+col=0 row=0 G rat=21.7824 cert=-6.91505 F rat=25.3961 cert=-8.06225 e rat=26.9293 cert=-8.54899 x rat=27.5699 cert=-8.75236 j rat=27.8463 cert=-8.8401 9 rat=29.3401 cert=-9.31431 t rat=30.6789 cert=-9.73933 
+col=0 row=1 ! rat=38.0629 cert=-8.7501 € rat=43.6184 cert=-10.0272 4 rat=44.208 cert=-10.1627 " rat=45.0483 cert=-10.3559 T rat=46.2185 cert=-10.6249 “ rat=47.7924 cert=-10.9867 x rat=50.0479 cert=-11.5053 
+col=0 row=2 T rat=51.5169 cert=-8.58615 % rat=53.5091 cert=-8.91819 ] rat=58.4847 cert=-9.74745 ! rat=64.2139 cert=-10.7023 E rat=66.8018 cert=-11.1336 & rat=69.0283 cert=-11.5047 
+
+col=1 row=1 o rat=16.8757 cert=-9.78302 z rat=18.0498 cert=-10.4637 l rat=19.4803 cert=-11.2929 é rat=19.7867 cert=-11.4706 5 rat=20.0019 cert=-11.5953 I rat=20.5527 cert=-11.9146 | rat=21.2329 cert=-12.3089 4 rat=21.9679 cert=-12.735 * rat=22.0187 cert=-12.7644 “ rat=22.0453 cert=-12.7799 
+
+col=2 row=2 _ rat=2.95427 cert=-1.79047 9 rat=6.7936 cert=-4.11734 5 rat=7.70209 cert=-4.66793 [ rat=7.79496 cert=-4.72422 
+col=2 row=3 5 rat=8.43862 cert=-2.50033 [ rat=9.44837 cert=-2.79952 V rat=15.4382 cert=-4.57428 / rat=16.0867 cert=-4.76643 e rat=17.5357 cert=-5.19576 
+col=2 row=4 N rat=15.0778 cert=-2.91359 
+col=2 row=5 % rat=79.7496 cert=-12.9674 i rat=92.1478 cert=-14.9834 
+
+col=3 row=3 _ rat=5.93888 cert=-3.44283 é rat=7.60694 cert=-4.40982 F rat=10.1883 cert=-5.90628 
+col=3 row=4 5 rat=11.7577 cert=-3.33553 [ rat=12.7155 cert=-3.60723 / rat=18.9469 cert=-5.375 T rat=20.9287 cert=-5.93721 V rat=21.3478 cert=-6.05613 
+col=3 row=5 i rat=59.6593 cert=-13.2576 l rat=61.711 cert=-13.7136 x rat=61.8322 cert=-13.7405 " rat=62.6511 cert=-13.9225 “ rat=63.1533 cert=-14.0341 1 rat=63.6823 cert=-14.1516 e rat=63.9318 cert=-14.2071 / rat=64.197 cert=-14.266 k rat=64.4768 cert=-14.3282 ; rat=64.6608 cert=-14.3691 
+col=3 row=7 i rat=88.5356 cert=-11.5733 l rat=90.3628 cert=-11.8121 Z rat=95.8908 cert=-12.5347 j rat=97.5002 cert=-12.7451 { rat=99.7736 cert=-13.0423 6 rat=100.828 cert=-13.1801 v rat=103.459 cert=-13.5241 * rat=103.972 cert=-13.5911 “ rat=107.047 cert=-13.9931 x rat=110.187 cert=-14.4035 
+
+col=4 row=4 l rat=13.8547 cert=-7.69704 F rat=14.3777 cert=-7.98764 } rat=14.7318 cert=-8.18431 é rat=14.7832 cert=-8.21289 | rat=15.2335 cert=-8.46306 I rat=16.8784 cert=-9.37687 [ rat=17.1007 cert=-9.50037 + rat=17.4419 cert=-9.68994 k rat=17.8139 cert=-9.8966 \ rat=18.0155 cert=-10.0086 
+col=4 row=5 l rat=29.2847 cert=-10.5531 « rat=32.1256 cert=-11.5768 ; rat=36.8864 cert=-13.2924 
+col=4 row=6 l rat=56.1427 cert=-11.342 6 rat=61.3171 cert=-12.3873 Z rat=62.1829 cert=-12.5622 » rat=69.1703 cert=-13.9738 
+col=4 row=7 l rat=47.9606 cert=-8.75993 { rat=63.0211 cert=-11.5107 
+col=4 row=10 l rat=95.2925 cert=-10.9532 o rat=103.083 cert=-11.8487 “ rat=104.416 cert=-12.0019 g rat=107.019 cert=-12.3011 J rat=107.107 cert=-12.3111 f rat=107.906 cert=-12.403 > rat=109.606 cert=-12.5984 { rat=110.147 cert=-12.6605 j rat=111.819 cert=-12.8528 E rat=112.482 cert=-12.929 
+
+col=5 row=5 k rat=10.3984 cert=-8.6653 9 rat=13.9647 cert=-11.6372 
+col=5 row=6 l rat=37.7084 cert=-10.4746 o rat=38.4976 cert=-10.6938 « rat=44.1159 cert=-12.2544 F rat=46.1005 cert=-12.8057 { rat=46.2565 cert=-12.849 G rat=46.4857 cert=-12.9127 6 rat=47.8977 cert=-13.3049 
+col=5 row=7 « rat=38.5919 cert=-8.43538 l rat=44.5369 cert=-9.73485 { rat=45.7461 cert=-9.99915 G rat=51.7859 cert=-11.3193 6 rat=52.1169 cert=-11.3917 
+col=5 row=8 « rat=37.984 cert=-7.91332 l rat=43.6013 cert=-9.08361 { rat=47.6858 cert=-9.93454 2 rat=47.8695 cert=-9.97281 Z rat=51.2369 cert=-10.6744 = rat=52.2631 cert=-10.8881 
+col=5 row=10 l rat=71.6846 cert=-9.65449 > rat=80.4513 cert=-10.8352 “ rat=83.3416 cert=-11.2245 j rat=90.1352 cert=-12.1394 n rat=91.2451 cert=-12.2889 { rat=91.4451 cert=-12.3158 g rat=91.8478 cert=-12.3701 E rat=92.4047 cert=-12.4451 
+col=5 row=11 l rat=100.193 cert=-11.2261 > rat=101.699 cert=-11.3948 = rat=104.764 cert=-11.7383 “ rat=104.837 cert=-11.7464 g rat=106.274 cert=-11.9074 n rat=106.481 cert=-11.9307 8 rat=107.553 cert=-12.0508 6 rat=108.02 cert=-12.1031 { rat=108.409 cert=-12.1466 j rat=109.743 cert=-12.2962 
+col=5 row=12 Y rat=111.264 cert=-11.59 ™ rat=112.772 cert=-11.7471 “ rat=115.609 cert=-12.0426 > rat=116.851 cert=-12.1719 g rat=118.981 cert=-12.3939 ° rat=119.682 cert=-12.4669 l rat=120.87 cert=-12.5906 x rat=121.932 cert=-12.7013 8 rat=121.943 cert=-12.7024 6 rat=122.082 cert=-12.7168 
+
+col=6 row=6 ! rat=22.8203 cert=-9.50846 ] rat=23.0167 cert=-9.59031 x rat=24.7372 cert=-10.3072 T rat=24.75 cert=-10.3125 f rat=25.6758 cert=-10.6982 “ rat=26.6183 cert=-11.091 P rat=26.6423 cert=-11.101 7 rat=27.6105 cert=-11.5044 E rat=28.0692 cert=-11.6955 \ rat=28.7489 cert=-11.9787 
+col=6 row=7 l rat=30.9886 cert=-9.1818 
+col=6 row=10 l rat=70.0841 cert=-10.9936 “ rat=77.6913 cert=-12.1869 j rat=79.5409 cert=-12.477 > rat=81.6928 cert=-12.8146 g rat=83.456 cert=-13.0911 v rat=84.9828 cert=-13.3306 
+col=6 row=11 Y rat=89.2329 cert=-11.2243 { rat=91.1072 cert=-11.46 l rat=92.8734 cert=-11.6822 > rat=93.5607 cert=-11.7686 * rat=93.5859 cert=-11.7718 6 rat=98.5773 cert=-12.3997 C rat=99.9319 cert=-12.5701 j rat=100.061 cert=-12.5863 g rat=101.002 cert=-12.7046 0 rat=101.317 cert=-12.7442 
+col=6 row=12 { rat=102.491 cert=-11.883 g rat=103.418 cert=-11.9905 * rat=104.842 cert=-12.1556 > rat=105.827 cert=-12.2698 “ rat=106.295 cert=-12.324 j rat=106.794 cert=-12.382 l rat=107.38 cert=-12.4499 x rat=112.296 cert=-13.0198 Z rat=118.689 cert=-13.7611 E rat=122.718 cert=-14.2281 
+
+col=7 row=7 ” rat=10.0031 cert=-10.2596 m rat=10.4687 cert=-10.7371 ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 00000156b9c1cde0 still has count 1 (id ../../../../tessdata/eng.traineddatapunc-dawg)
+ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 00000156b9c1d630 still has count 1 (id ../../../../tessdata/eng.traineddataword-dawg)
+ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 00000156b9c1d7f0 still has count 1 (id ../../../../tessdata/eng.traineddatanumber-dawg)
+ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 00000156b9c1d010 still has count 1 (id ../../../../tessdata/eng.traineddatabigram-dawg)
+ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 00000156b9c1d550 still has count 1 (id ../../../../tessdata/eng.traineddatafreq-dawg)

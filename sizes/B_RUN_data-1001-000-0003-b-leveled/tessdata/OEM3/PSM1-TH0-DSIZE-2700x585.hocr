@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>tessdata-PSM1-OEM3-TH0-1001-000-0003-b-leveled</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <meta name='ocr-system' content='tesseract v5.4.0.20240519' />
+  <meta name='ocr-capabilities' content='ocr_page ocr_carea ocr_par ocr_line ocrx_word ocrp_wconf'/>
+ </head>
+ <body>
+  <div class='ocr_page' id='page_1' title='image "../../DERIVSRC-1001-000-0003-b-leveled-DSIZE-2700x585.webp"; bbox 0 0 442 585; ppageno 0; scan_res 70 70'>
+   <div class='ocr_photo' id='block_1_1' title="bbox 8 4 434 87"></div>
+   <div class='ocr_carea' id='block_1_2' title="bbox 47 91 385 107">
+    <p class='ocr_par' id='par_1_1' lang='eng' title="bbox 47 91 385 107">
+     <span class='ocr_line' id='line_1_1' title="bbox 47 91 385 107; textangle 90; x_size 20; x_descenders 5; x_ascenders 5">
+      <span class='ocrx_word' id='word_1_1' title='bbox 47 92 49 97; x_wconf 0'>
+       <span class='ocrx_cinfo' title='x_bboxes 47 92 49 97; x_conf 85.219109'>b</span>
+      </span>
+      <span class='ocrx_word' id='word_1_2' title='bbox 91 92 126 106; x_wconf 17'>
+       <span class='ocrx_cinfo' title='x_bboxes 91 92 126 106; x_conf 88.280663'>S</span>
+      </span>
+      <span class='ocrx_word' id='word_1_3' title='bbox 168 91 182 107; x_wconf 41'>
+       <span class='ocrx_cinfo' title='x_bboxes 168 91 182 107; x_conf 91.638313'>o</span>
+      </span>
+      <span class='ocrx_word' id='word_1_4' title='bbox 200 91 225 106; x_wconf 43'>
+       <span class='ocrx_cinfo' title='x_bboxes 200 91 225 106; x_conf 91.959175'>o</span>
+      </span>
+      <span class='ocrx_word' id='word_1_5' title='bbox 248 92 289 106; x_wconf 37'>
+       <span class='ocrx_cinfo' title='x_bboxes 248 92 268 106; x_conf 91.418884'>k</span>
+       <span class='ocrx_cinfo' title='x_bboxes 270 92 289 97; x_conf 91.138573'>b</span>
+      </span>
+      <span class='ocrx_word' id='word_1_6' title='bbox 299 92 313 99; x_wconf 47'>
+       <span class='ocrx_cinfo' title='x_bboxes 299 92 313 99; x_conf 92.564774'>o</span>
+      </span>
+      <span class='ocrx_word' id='word_1_7' title='bbox 320 92 326 98; x_wconf 60'>
+       <span class='ocrx_cinfo' title='x_bboxes 320 92 326 98; x_conf 95.851486'>e</span>
+      </span>
+      <span class='ocrx_word' id='word_1_8' title='bbox 333 92 385 99; x_wconf 38'>
+       <span class='ocrx_cinfo' title='x_bboxes 333 92 348 98; x_conf 91.229454'>e</span>
+       <span class='ocrx_cinfo' title='x_bboxes 350 92 385 99; x_conf 91.395203'>l</span>
+      </span>
+     </span>
+    </p>
+   </div>
+   <div class='ocr_carea' id='block_1_3' title="bbox 45 126 217 141">
+    <p class='ocr_par' id='par_1_2' lang='eng' title="bbox 45 126 217 141">
+     <span class='ocr_line' id='line_1_2' title="bbox 45 126 217 141; textangle 90; x_size 20; x_descenders 5; x_ascenders 5">
+      <span class='ocrx_word' id='word_1_9' title='bbox 45 126 130 140; x_wconf 9'>
+       <span class='ocrx_cinfo' title='x_bboxes 45 126 130 140; x_conf 87.034828'>e</span>
+      </span>
+     </span>
+    </p>
+   </div>
+   <div class='ocr_photo' id='block_1_4' title="bbox 62 248 77 261"></div>
+   <div class='ocr_photo' id='block_1_5' title="bbox 91 271 107 274"></div>
+   <div class='ocr_photo' id='block_1_6' title="bbox 257 124 403 354"></div>
+   <div class='ocr_photo' id='block_1_7' title="bbox 58 382 162 397"></div>
+   <div class='ocr_photo' id='block_1_8' title="bbox 83 416 121 423"></div>
+   <div class='ocr_photo' id='block_1_9' title="bbox 145 434 162 439"></div>
+   <div class='ocr_photo' id='block_1_10' title="bbox 119 487 126 499"></div>
+   <div class='ocr_carea' id='block_1_11' title="bbox 46 534 225 556">
+    <p class='ocr_par' id='par_1_3' lang='eng' title="bbox 46 534 225 556">
+     <span class='ocr_line' id='line_1_3' title="bbox 52 534 211 547; textangle 90; x_size 20; x_descenders 5; x_ascenders 5">
+      <span class='ocrx_word' id='word_1_10' title='bbox 52 542 64 545; x_wconf 19'>
+       <span class='ocrx_cinfo' title='x_bboxes 52 542 64 545; x_conf 88.446175'>o</span>
+      </span>
+      <span class='ocrx_word' id='word_1_11' title='bbox 116 542 124 545; x_wconf 41'>
+       <span class='ocrx_cinfo' title='x_bboxes 116 542 124 545; x_conf 91.699554'>e</span>
+      </span>
+      <span class='ocrx_word' id='word_1_12' title='bbox 160 540 172 545; x_wconf 29'>
+       <span class='ocrx_cinfo' title='x_bboxes 160 540 172 545; x_conf 92.496468'>s</span>
+      </span>
+     </span>
+     <span class='ocr_line' id='line_1_4' title="bbox 46 549 225 556; textangle 90; x_size 20; x_descenders 5; x_ascenders 5">
+      <span class='ocrx_word' id='word_1_13' title='bbox 46 549 73 554; x_wconf 23'>
+       <span class='ocrx_cinfo' title='x_bboxes 46 549 73 554; x_conf 89.006767'>e</span>
+      </span>
+      <span class='ocrx_word' id='word_1_14' title='bbox 91 549 101 554; x_wconf 5'>
+       <span class='ocrx_cinfo' title='x_bboxes 91 549 101 554; x_conf 86.482765'>S</span>
+      </span>
+      <span class='ocrx_word' id='word_1_15' title='bbox 116 549 129 554; x_wconf 43'>
+       <span class='ocrx_cinfo' title='x_bboxes 116 549 129 554; x_conf 91.979614'>T</span>
+      </span>
+      <span class='ocrx_word' id='word_1_16' title='bbox 135 549 225 556; x_wconf 29'>
+       <span class='ocrx_cinfo' title='x_bboxes 135 549 225 556; x_conf 89.997925'>b</span>
+      </span>
+     </span>
+    </p>
+   </div>
+   <div class='ocr_photo' id='block_1_12' title="bbox 149 533 156 536"></div>
+   <div class='ocr_separator' id='block_1_13' title="bbox 22 575 330 585"></div>
+   <div class='ocr_separator' id='block_1_14' title="bbox 396 129 402 350"></div>
+  </div>
+ </body>
+</html>

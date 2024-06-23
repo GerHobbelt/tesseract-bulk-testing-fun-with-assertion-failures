@@ -1,0 +1,24 @@
+
+image width: 442  height: 585  ppi: 70
+tile size: 23  smooth_size: 0  score_fraction: 0.10
+Estimating resolution as 309
+Too few characters. Skipping this page
+OSD: Weak margin (0.00) for 9 blob text block, but using orientation anyway: 0
+Detected 18 diacritics
+cleanup_blocks: # blocks = 0 / 0
+Already done word with lang eng at:Bounding box=(23,578)->(360,582)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(260,235)->(263,457)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(0,26)->(437,584)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(9,4)->(433,7)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(23,578)->(360,582)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(260,235)->(263,457)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(0,26)->(437,584)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(9,4)->(433,7)
+Pass2:   [  [20 ] ]

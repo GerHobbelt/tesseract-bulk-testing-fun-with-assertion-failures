@@ -1,0 +1,218 @@
+Estimating resolution as 99
+Row ending at (385,486.556): R=0.888889, dc=16, nc=18, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+cleanup_blocks: # rows = 0 / 0
+Row ending at (217,446.477): R=1.05882, dc=18, nc=17, ACCEPTED
+cleanup_blocks: # rows = 1 / 1
+cleanup_blocks: # rows = 0 / 0
+cleanup_blocks: # rows = 0 / 0
+cleanup_blocks: # rows = 0 / 0
+cleanup_blocks: # rows = 0 / 0
+Row ending at (353,188.69): R=3.28571, dc=23, nc=7, REJECTED
+cleanup_blocks: # rows = 0 / 1
+cleanup_blocks: # rows = 0 / 0
+Row ending at (211,40.1699): R=1.3, dc=13, nc=10, ACCEPTED
+Row ending at (225,31.4707): R=1.5, dc=12, nc=8, ACCEPTED
+cleanup_blocks: # rows = 2 / 2
+cleanup_blocks: # blocks = 3 / 10
+Already done word with lang eng at:Bounding box=(8,498)->(434,581)
+Pass1:   [  [20 ] ]
+Processing word with lang eng at:Bounding box=(47,478)->(385,494)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : b : R=19.4157, C=-20.6932, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	b
+state:	1 
+C	-2.956
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : S : R=26.2306, C=-16.4071, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	S
+state:	1 
+C	-2.344
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : o : R=8.54165, C=-11.7064, F=1, Perm=11, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	o
+state:	1 
+C	-1.672
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : o : R=15.0113, C=-11.2572, F=1, Perm=11, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	o
+state:	1 
+C	-1.608
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : kb : R=19.3278, C=-12.406, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	k	b
+state:	1 	1 
+C	-1.716	-1.772
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : o : R=7.13938, C=-10.4093, F=1, Perm=11, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	o
+state:	1 
+C	-1.487
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : e : R=2.19104, C=-7.91041, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	e
+state:	1 
+C	-0.830
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : el : R=21.1719, C=-12.2788, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM	NORM
+str	e	l
+state:	1 	1 
+C	-1.754	-1.721
+1 new words better than 0 old words: r: 19.4157 v 0 c: -20.6932 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 26.2306 v 0 c: -16.4071 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 8.54165 v 0 c: -11.7064 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 15.0113 v 0 c: -11.2572 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 19.3278 v 0 c: -12.406 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 7.13938 v 0 c: -10.4093 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 2.19104 v 0 c: -7.91041 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 21.1719 v 0 c: -12.2788 v 0 valid dict: 1 v 0
+el (ocr took 0.03 sec)
+Pass1: el [e [65 ]a l [6c ]a ]
+Processing word with lang eng at:Bounding box=(45,444)->(217,459)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : e : R=34.0314, C=-18.1512, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	e
+state:	1 
+C	-2.593
+1 new words better than 0 old words: r: 34.0314 v 0 c: -18.1512 v 0 valid dict: 1 v 0
+e (ocr took 0.02 sec)
+Pass1: e [e [65 ]a ]
+Already done word with lang eng at:Bounding box=(62,324)->(77,337)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(91,311)->(107,314)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(257,231)->(403,461)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(58,188)->(162,203)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(83,162)->(121,169)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(145,146)->(162,151)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(119,86)->(126,98)
+Pass1:    [  [20 ]   [20 ] ]
+Processing word with lang eng at:Bounding box=(52,38)->(211,51)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : o : R=24.0675, C=-16.1754, F=1, Perm=11, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	o
+state:	1 
+C	-2.311
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : e : R=16.0105, C=-11.6206, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	e
+state:	1 
+C	-1.660
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : s : R=8.78012, C=-14.1705, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	s
+state:	1 
+C	-1.501
+1 new words better than 0 old words: r: 24.0675 v 0 c: -16.1754 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 16.0105 v 0 c: -11.6206 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 8.78012 v 0 c: -14.1705 v 0 valid dict: 1 v 0
+s (ocr took 0.02 sec)
+Pass1: s [s [73 ]a ]
+Processing word with lang eng at:Bounding box=(46,29)->(225,36)
+Trying word using lang eng, oem 2
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : e : R=20.6996, C=-15.3905, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	e
+state:	1 
+C	-2.199
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : S : R=13.346, C=-18.9241, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	S
+state:	1 
+C	-2.703
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : T : R=9.30662, C=-11.2285, F=1, Perm=11, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	T
+state:	1 
+C	-1.604
+Best choice: accepted=0, adaptable=0, done=1 : Lang result : b : R=36.6763, C=-14.0029, F=1, Perm=8, xht=[0,3.40282e+38], ambig=0
+pos	NORM
+str	b
+state:	1 
+C	-2.000
+1 new words better than 0 old words: r: 20.6996 v 0 c: -15.3905 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 13.346 v 0 c: -18.9241 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 9.30662 v 0 c: -11.2285 v 0 valid dict: 1 v 0
+1 new words better than 0 old words: r: 36.6763 v 0 c: -14.0029 v 0 valid dict: 1 v 0
+b (ocr took 0.02 sec)
+Pass1: b [b [62 ]a ]
+Already done word with lang eng at:Bounding box=(149,49)->(156,52)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(22,0)->(330,10)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(396,235)->(402,456)
+Pass1:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(8,498)->(434,581)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(47,488)->(49,493)
+Pass2: b [b [62 ]a ]
+Already done word with lang eng at:Bounding box=(91,479)->(126,493)
+Pass2: S [S [53 ]A ]
+Already done word with lang eng at:Bounding box=(168,478)->(182,494)
+Pass2: o [o [6f ]a ]
+Already done word with lang eng at:Bounding box=(200,479)->(225,494)
+Pass2: o [o [6f ]a ]
+Already done word with lang eng at:Bounding box=(248,479)->(289,493)
+Pass2: kb [k [6b ]a b [62 ]a ]
+Already done word with lang eng at:Bounding box=(299,486)->(313,493)
+Pass2: o [o [6f ]a ]
+Already done word with lang eng at:Bounding box=(320,487)->(326,493)
+Pass2: e [e [65 ]a ]
+Already done word with lang eng at:Bounding box=(333,486)->(385,493)
+Pass2: el [e [65 ]a l [6c ]a ]
+Already done word with lang eng at:Bounding box=(45,445)->(130,459)
+Pass2: e [e [65 ]a ]
+Already done word with lang eng at:Bounding box=(62,324)->(77,337)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(91,311)->(107,314)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(257,231)->(403,461)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(58,188)->(162,203)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(83,162)->(121,169)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(145,146)->(162,151)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(119,86)->(126,98)
+Pass2:    [  [20 ]   [20 ] ]
+Already done word with lang eng at:Bounding box=(52,40)->(64,43)
+Pass2: o [o [6f ]a ]
+Already done word with lang eng at:Bounding box=(116,40)->(124,43)
+Pass2: e [e [65 ]a ]
+Already done word with lang eng at:Bounding box=(160,40)->(172,45)
+Pass2: s [s [73 ]a ]
+Already done word with lang eng at:Bounding box=(46,31)->(73,36)
+Pass2: e [e [65 ]a ]
+Already done word with lang eng at:Bounding box=(91,31)->(101,36)
+Pass2: S [S [53 ]A ]
+Already done word with lang eng at:Bounding box=(116,31)->(129,36)
+Pass2: T [T [54 ]A ]
+Already done word with lang eng at:Bounding box=(135,29)->(225,36)
+Pass2: b [b [62 ]a ]
+Already done word with lang eng at:Bounding box=(149,49)->(156,52)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(22,0)->(330,10)
+Pass2:   [  [20 ] ]
+Already done word with lang eng at:Bounding box=(396,235)->(402,456)
+Pass2:   [  [20 ] ]
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL] rword[widthSEL] [lmarg,lind;rind,rmarg] model text             
+0    5        b[2SEL]         el[52sel]       [   0,    0;    0,   0] U:0   b S o o kb o e el
+Active Paragraph Models:
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL] rword[widthSEL] [lmarg,lind;rind,rmarg] model text
+0    5        e[85SEL]        e[85SeL]        [   0,    0;    0,   0] U:0   e   
+Active Paragraph Models:
+# Final Paragraph Segmentation
+#row space .. lword[widthSEL] rword[widthSEL] [lmarg,lind;rind,rmarg] model text   
+0    11       o[12SEL]        s[12SeL]        [   1,    5;   12,   1] U:0   o e s  
+1    13       e[27SEL]        b[90SeL]        [   1,   -1;   -1,   1] U:0   e S T b
+Active Paragraph Models:

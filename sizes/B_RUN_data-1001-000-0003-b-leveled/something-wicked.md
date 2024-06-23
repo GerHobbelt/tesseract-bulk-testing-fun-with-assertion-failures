@@ -109,7 +109,7 @@ _That's not what this is about_; **check the numbers for PSM 1,3,6,11,13**: **th
 
 the github repo now also carries a few choice samples for reviewers to inspect, without the need to run the heavy batch test scripts!
 
-> commit SHA-1: aadc0ede8daafec7b9da9b88946c50ca10f9a117 : including several GOOD + BAD examples of the assertion failure for immediate review when someone else will try to reproduce this; as the batch scripts generate element command shell scripts these indicidual samples come each with their own little shell script which was used to produce them, so that should ease reproduction.
+> [commit SHA-1: aadc0ede8daafec7b9da9b88946c50ca10f9a117](https://github.com/GerHobbelt/tesseract-bulk-testing-fun-with-assertion-failures/commit/aadc0ede8daafec7b9da9b88946c50ca10f9a117) : including several GOOD + BAD examples of the assertion failure for immediate review when someone else will try to reproduce this; as the batch scripts generate element command shell scripts these indicidual samples come each with their own little shell script which was used to produce them, so that should ease reproduction.
 
 
 

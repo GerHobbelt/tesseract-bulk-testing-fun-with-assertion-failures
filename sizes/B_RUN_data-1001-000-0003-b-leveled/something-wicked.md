@@ -100,7 +100,8 @@ tessdata_best: PSM13:
 
 This is a sample extracted from the B_RUN. That one only executed all PSM 1,3,6,11,13 tests, none of the others -- which explains the 0 counts for the other PSMs reported here. 
 
-_That's not what this is about_; **check the numbers for PSM 1,3,6,11,13**: **they should all be the same: 213. Any PSM slot not reporting that number for its `wc -l` count has assertion failures** -- or possibly other fatalities, such as 3 minutes timeout aborts, but I haven't observed those yet during my sampled investigation of the test output data. Just so ye know there's another 0.1% culprit hiding in a corner somewhere -- we may uncover one such occurrence later, but this here is all about tesseract assertion failures galore when you turn on certain debug features (and thus have some tesseract analysis code traverse the same objects as the mainline; the assert fatality is indicative of a deeper bug lurking IMO.
+_That's not what this is about_; **check the numbers for PSM 1,3,6,11,13**: **they should all be the same: 213. Any PSM slot not reporting that number for its `wc -l` count has assertion failures**
+<sub>-- or possibly other fatalities, such as 3 minutes timeout aborts, but I haven't observed those yet during my sampled investigation of the test output data. Just so ye know there's another 0.1% culprit hiding in a corner somewhere -- we may uncover one such occurrence later, but this here is all about tesseract assertion failures galore when you turn on certain debug features (and thus have some tesseract analysis code traverse the same objects as the mainline); the assert fatality is indicative of a deeper bug lurking IMO</sub>.
 
 
 

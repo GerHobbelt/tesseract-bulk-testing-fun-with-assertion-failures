@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "7cd292ece16cb94d",
+    "type": "split",
+    "children": [
+      {
+        "id": "4577eaad7091bcad",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Progress in Development/Considering the Way Forward/Full Text Search - Exit Lucene.NET, Enter SOLR/Why it might be smart to treat 64-bit document id integer as a 63-bit one instead.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "75559dc7f76e2509",
+    "type": "split",
+    "children": [
+      {
+        "id": "c71ea9b811b4afee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e789328758fc1ad5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1bb894bdd7e6660c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "blake3",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fa18e0847a79840a",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 559
+  },
+  "right": {
+    "id": "0f91d8b06be635fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b2b5cb718050952",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6415e7e49aaf2c43",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Progress in Development/Considering the Way Forward/Full Text Search - Exit Lucene.NET, Enter SOLR/Why it might be smart to treat 64-bit document id integer as a 63-bit one instead.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "005d08644fb47331",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Progress in Development/Considering the Way Forward/Full Text Search - Exit Lucene.NET, Enter SOLR/Why it might be smart to treat 64-bit document id integer as a 63-bit one instead.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "b826cee7ae5a04da",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a385e90729a05d80",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Progress in Development/Considering the Way Forward/Full Text Search - Exit Lucene.NET, Enter SOLR/Why it might be smart to treat 64-bit document id integer as a 63-bit one instead.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 393
+  },
+  "active": "4577eaad7091bcad",
+  "lastOpenFiles": [
+    "Progress in Development/Considering the Way Forward/Full Text Search - Exit Lucene.NET, Enter SOLR/[Number.MAX_SAFE_INTEGER.md",
+    "Progress in Development/Considering the Way Forward/Full Text Search - Exit Lucene.NET, Enter SOLR/Why it might be smart to treat 64-bit document id integer as a 63-bit one instead.md",
+    "Progress in Development/Considering the Way Forward/Database Design/Old single-table NoSQL-like vs. new - what's speaking against going Boyce-Codd on this one.md",
+    "Progress in Development/Considering the Way Forward/Fingerprinting Documents/Fingerprinting - moving forward and away from b0rked SHA1.md",
+    "Progress in Development/Considering the Way Forward/Database Design/Considering the Database Design - we want ... PDF and BibTeX metadata versioning, conflict resolution on sync=merge, etc.md",
+    "Progress in Development/Considering the Way Forward/Database Design/Considering the database design - the trouble with a string UUID.md",
+    "Progress in Development/Considering the Way Forward/Multi-user, Multi-node, Sync-Across and Remote-Backup Considerations.md",
+    "Progress in Development/Considering the Way Forward/Fingerprinting Documents/Compressing document and other hashes to uin32_t or uint64_t.md",
+    "Progress in Development/Considering the Way Forward/Full Text Search - Exit Lucene.NET, Enter SOLR/Can and should we use our BLAKE3+BASE58X based unique identifier as unique document id.md",
+    "BLAKE3+BASE58X - Qiqqa Fingerprint 2.0.md"
+  ]
+}

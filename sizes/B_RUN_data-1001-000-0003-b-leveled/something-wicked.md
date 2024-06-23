@@ -3,7 +3,11 @@ Thanks to the asserts thrown by tesseract we've fragmented runs:
 
 
 ```sh
-$ for t in tessdata tessdata_fast tessdata_best ; do for f in 0 1 2 3 4 5 6 7 8 9 10 11 12 13 ; do echo "$t: PSM$f:" ; ( find B_RUN_data-1001-000-0003-b-leveled/$t/OEM3/ -name "PSM$f*.tif" | wc -l ) ; done ; done
+$ for t in tessdata tessdata_fast tessdata_best ; do for f in 0 1 2 3 4 5 6 7 8 9 10 11 12 13 ; do \
+      echo "$t: PSM$f:" ; \
+      ( find B_RUN_data-1001-000-0003-b-leveled/$t/OEM3/ -name "PSM$f*.tif" | wc -l ) ; \
+  done ; done
+-->
 tessdata: PSM0:
 0
 tessdata: PSM1:

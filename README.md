@@ -66,4 +66,10 @@ So I fiddled with the scripts some more, added a bit of a 'restartable' behaviou
 
 
   
+## Observations
 
+- tesseract has a rather haphazard habit to abort on an assertion failure: [see the lab notes](https://github.com/GerHobbelt/tesseract-bulk-testing-fun-with-assertion-failures/blob/main/sizes/B_RUN_data-1001-000-0003-b-leveled/something-wicked.md) ans check that directory to see some GOOD and BAD entries' outputs from the large batch B_RUN test run; the quick rule of thumb there is: when it's got a TIF file (threshold image) it GOOD, otherwise BAD.
+
+- initial sampling inspection leads me to the guess that tesseract is rather finicky about the text line height: I interpreted previous research as "*tesseract slowly deteriorates in quality as image rez increses beyond the optimum*" but it seems at larger scale factors that the machine gets lost utterly.
+  - corrolary to this guestimate: it sure doesn't help that one of the threshold algos' exhibits "*fading out*" style behaviour for these larger scales, as if the text gets 'interpreted' as background fluctuations, rather than *foreground*. This suggests another round of investigation of these algos as I was unable to make this observation before -- only due to this new designed large span batch test does this pattern become aparent.
+    

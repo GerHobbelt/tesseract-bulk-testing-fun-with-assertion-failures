@@ -3,19 +3,15 @@
 # tessdata_fast/
 # tessdata_best/
 
-sizes/B_RUN_data-1001-000-0003-b-leveled/
-sizes/B_RUN_data-1001-001-0003-b1/
-sizes/B_RUN_data-1001-001-0003-b2/
-sizes/B_RUN_data-1002-000-0003-b-leveled-s-curve/
-sizes/B_RUN_data-1003-000-0003-b-processed-burned-no-s-curve-thresholded/
-sizes/B_RUN_data-1004-000-0003-b-processed-burned-no-s-curve-thresholded-multiply-mix-50pct/
-sizes/B_RUN_data-1005-000-0003-b-processed-not-thresholded/
-sizes/data-1001-000-0003-b-leveled/
-sizes/data-1020-000-0006-a-cleaned-w.pin-light+masked/
 sizes/movie/
+
 /sizes/dump.pdf
 /sizes/movie.mp4
+
 /sizes/ffmpeg.help.txt
 /sizes/tmp-ffmpeg-files-list
 /sizes/tmp-files-list
 /sizes/tmp-files-list.lst
+
+/sizes/B_RUN_data-*
+/sizes/data-*

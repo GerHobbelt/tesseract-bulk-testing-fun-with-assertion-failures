@@ -95,7 +95,7 @@ EOT
 
             echo "Waiting for the tesseract runs to finish..."
             while true ; do
-                if test $( ps ax | grep -e tesseract | wc -l ) -eq 0 ; then
+                if test $( ps ax | grep -e tesseract | wc -l ) -le 2 ; then
                     break
                 fi
                 echo "sleep..."
@@ -103,7 +103,7 @@ EOT
             done
 
             echo "Reducing log files to reasonable size; only keeping their tails..."
-            for f in $( find . -name '*.log' -type f -size +1M -print ) ; do
+            for f in $( find . -name '*.log' -type f -mmin +15 -size +1M -print ) ; do
                 if test -f $f ; then
                     tail -n  8000 $f > $f.8Klines-reduced
                     rm $f
@@ -116,6 +116,17 @@ EOT
         done
         popd
     done
+done
+
+# wait for the last dregs to completely finish, before we call it The End...
+
+echo "Waiting for the tesseract runs to finish..."
+while true ; do
+	if test $( ps ax | grep -e tesseract | wc -l ) -eq 0 ; then
+		break
+	fi
+	echo "sleep..."
+	sleep 1
 done
 
 # rm DERIVSRC-*

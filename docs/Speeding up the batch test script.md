@@ -16,3 +16,8 @@ Risks?
 By keeping this number at 2, very slow `tesseract` runs might accumulate, but the same "max 2" check is done at the end of the next mini-batch kick-off, so we won't risk an increasing overdraft; just 2 more than originally estimated 'good behaviour'. 
 
 This should plug those long low valleys some, we hope...
+
+
+## Post Scriptum
+
+One caveat I hadn't considered when the idea popped up: the log files are size-restricted (if they overrun the 1MByte boundary) and we SHOULD only apply thus snipping to already completed logs, so we had to refine the `find` search/scan to only include logs which are at least a multiple of the built-in `timeout` of 3 minutes old. We choose `-mmin +15` = at least 15 minutes old as a safe margin for that.

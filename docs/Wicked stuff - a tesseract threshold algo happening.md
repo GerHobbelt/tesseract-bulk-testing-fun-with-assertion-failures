@@ -1,0 +1,3 @@
+# Wicked stuff :: a `tesseract` threshold algo happening
+
+TBD: describe the movies we make; what we can observe and what might be going on behind the curtain...

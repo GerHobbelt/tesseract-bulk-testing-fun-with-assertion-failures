@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "d1152f54fe3bc724",
+        "id": "73db3edcfcbf6a93",
         "type": "tabs",
         "children": [
           {
-            "id": "31677cb4444adc27",
+            "id": "8e13e0066220a9db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "B_RUN_data-1001-000-0003-b-leveled---something-wicked.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac24cd47d797b147",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Speeding up the batch test script.md",
+                "file": "Wicked stuff - a tesseract threshold algo happening.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Speeding up the batch test script.md",
+                "file": "Wicked stuff - a tesseract threshold algo happening.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Speeding up the batch test script.md",
+                "file": "Wicked stuff - a tesseract threshold algo happening.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Speeding up the batch test script.md"
+                "file": "Wicked stuff - a tesseract threshold algo happening.md"
               }
             }
           },
@@ -179,11 +165,13 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ac24cd47d797b147",
+  "active": "8e13e0066220a9db",
   "lastOpenFiles": [
+    "Wicked stuff - a tesseract threshold algo happening.md",
     "B_RUN_data-1001-000-0003-b-leveled---something-wicked.md",
-    "Speeding up the batch test script.md",
     "wicked-timeouts-happening.md",
+    "Speeding up the batch test script.md",
+    "assets/B_RUN_data-1001-000-0003-b-leveled-movie.mp4",
     "Aside/Testing - nasty filenames - also on UNIX.md",
     "Aside/How to get the page images for google books.md",
     "Aside/Testing - retry connections after a while as user may be running application firewall.md",
@@ -200,7 +188,6 @@
     "Aside/pack-33dee1e1ce82b2028ce3b7e8e7720d08c4f4ca42.pack",
     "Aside/pack-9ff17088e0b58e6a5956883ba528daf674bacf4e.pack",
     "Aside/pack-335a121b7adfdfb0e549d1313f306b2c404d7573.pack",
-    "Aside/pack-a04ab200b97955f9b986f5a1246fdd88688f9ae5.pack",
     "Aside/Installing R + TeX-live + R bookdown for producing documentation.md",
     "Aside/Another possibly stupid idea to reduce the number of references in a unigram, bigram, trigram inverted index.md",
     "Aside/Searching PDFs on archive.org anno 2023,2024 after the bloody publishers' lawsuit(s).md",
@@ -216,7 +203,6 @@
     "How to build Qiqqa from source.md",
     "Technology/Odds 'n' Ends/libglob - does not fare well when traversing non-Unicode-legal filenames.md",
     "Technology/Odds 'n' Ends/Unicode - useful arrows.md",
-    "Technology/Odds 'n' Ends/Linux - hitting Ctrl-C on a mv or cp command can leave a partial,b0rked destination file.md",
     "Progress in Development/Testing & Evaluating/Collected RAW logbook notes - PDF bulktest + mutool_ex PDF + URL tests/Pasted image 20240227174308.png",
     "assets/tesseract-workflow-diagram.svg",
     "Progress in Development/Considering the Way Forward/assets/wavedrom16.png",

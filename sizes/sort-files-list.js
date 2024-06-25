@@ -108,7 +108,7 @@ a.map(function (line) {
       let srcimg = image.replace(/B_RUN_data-/, '').replace(/^data-/, '');
       console.log("# new image header:", image);
       console.log(`
-magick  -background transparent -fill black -font Liberation-Sans -pointsize 120  -fill black -stroke '#FFFFFF80' -strokewidth 10  -gravity center      label:'Source image:\\n\\n${image}'   \\( +clone -channel RGB -opaque black -fill white   -channel RGBA  -blur 0x20 \\)   -compose dst-over -composite    -extent 3840x2160  miff:-  |  magick composite -gravity center -  movie/background.png   movie/image.png
+magick  -background transparent -fill black -font Liberation-Sans -pointsize 120  -fill black -stroke '#FFFFFF80' -strokewidth 10  -gravity center      label:'Source image:\\n\\n${image}'   \\( +clone -channel RGB -opaque black -fill white   -channel RGBA  -blur 0x20 \\)   -compose dst-over -composite     miff:-  |  magick -  -background transparent -gravity center   -resize '3750x2100>'       -extent 3840x2160   miff:-  |  magick composite -gravity center -  movie/background.png   movie/image.png
 cp movie/image.png  movie/${n++}.png
 
 cat >> movie/ffmpeg-input-list.txt   <<EOT
@@ -131,6 +131,10 @@ for f in $( find ./ -maxdepth 1 -type f -name '${srcimg}*' ) ; do
 	
 	echo "${image}" > movie/image-name.txt
 	echo "${srcimg}" > movie/srcimg-name.txt
+	
+	if test "$1" = "TITLE" ; then
+		exit 0
+	fi
 
     cat >> movie/ffmpeg-input-list.txt   <<EOT
 file   ${n - 1}.png

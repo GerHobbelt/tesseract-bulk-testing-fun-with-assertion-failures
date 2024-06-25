@@ -12,8 +12,10 @@ sizes/movie/
 /sizes/tmp-ffmpeg-files-list
 /sizes/tmp-files-list
 /sizes/tmp-files-list.lst
+/sizes/tmp-files-list-process.sh
 
 /sizes/B_RUN_data-*
 /sizes/data-*
 /sizes/B_RUN_data_*
 /sizes/data_*
+

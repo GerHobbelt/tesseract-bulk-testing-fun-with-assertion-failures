@@ -6,9 +6,11 @@
 #
 #
 #
-# Example run:
+# Examples:
 #
 #   find B_RUN_data-1001-000-0003-b-leveled/tessdata/OEM3/ -name 'PSM[1,3]-*.tif' | ./mk_movie.sh
+#
+#   for f in B_RUN_data-1004*/ ; do echo "$f" ; ( find $f/tessdata/OEM3/ -name 'PSM1-*.tif' | ./mk_movie.sh ) ; done
 #
 
 # quick hack: latest full-featured ffmpeg is here on my box:
@@ -16,27 +18,45 @@ FFMPEG='/d/ffmpeg-master-latest-win64-gpl/bin/ffmpeg.exe'
 
 # imagemagick is on the PATH, so that's OK.
 
-echo "$@"
+echo "Processing... $@"
 
 rm -f tmp-files-list
 while IFS= read -r line; do
-  printf '%s\n' "$line"       >> tmp-files-list
+  printf '%s\n' "$line"       | sed -E -e 's#//#/#g'    >> tmp-files-list
 done
+head -n 2 tmp-files-list
+echo "   ..."
+tail -n 2 tmp-files-list
 
 echo ">>> Processing $( wc -l tmp-files-list ) images into an animated movie for inspection."
 
+
 mkdir movie
 rm -f movie/*.png
+rm -f movie.mp4
+
 #node ./sort-files-list.js tmp-files-list 
 node ./sort-files-list.js tmp-files-list > tmp-files-list-process.sh 
-./tmp-files-list-process.sh
+
+./tmp-files-list-process.sh  TITLE
+
+echo ""
+echo ""
+echo "### Checking if movie exists:     $( cat movie/image-name.txt | tr -d '\r\n' )_movie.mp4"
+if test -f $( cat movie/image-name.txt | tr -d '\r\n' )_movie.mp4 ; then
+	echo ">>> Movie has already been produced previously:    $( cat movie/image-name.txt | tr -d '\r\n' )_movie.mp4"
+	exit 1
+fi
+
+./tmp-files-list-process.sh  TITLE
+
 
 # "${FFMPEG}" -h full   > ffmpeg.help.txt
 
 # https://superuser.com/questions/1337972/ffmpeg-becomes-super-slow-when-using-duration-instead-of-r/1337998#1337998
 # concat is fixed at 25 fps it seems...
 # https://trac.ffmpeg.org/wiki/Encode/H.265
-rm -f movie.mp4
+
 # "${FFMPEG}"  -i movie/ffmpeg-input-list.txt  -vf fps=24,showinfo   -c:v libx265 -shortest -r 24 -an -x265-params crf=24 -pix_fmt yuv420p movie.mp4
 "${FFMPEG}"  -i movie/ffmpeg-input-list.txt  -vf fps=12   -c:v libx265 -shortest -r 12 -an -x265-params crf=28  -tag:v hvc1  movie.mp4
 

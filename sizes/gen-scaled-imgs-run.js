@@ -18,7 +18,11 @@ const px_step = 5;
 
 let height = height0;
 
-console.log(`cp ${src}   DERIVSRC-${dstname}-RSIZE-${width}x${height}${dstext}`);
+console.log(`
+if ! test -f DERIVSRC-${dstname}-RSIZE-${width}x${height}${dstext} ; then
+	cp ${src}   DERIVSRC-${dstname}-RSIZE-${width}x${height}${dstext}
+fi
+`);
 
 let nh = height;
 let n = 0;
@@ -28,9 +32,11 @@ let count = 0;
 while (nh > 10 && nh >= height0 / 8) {
 	if (n > 0) {
 		console.log("# target:", { width, nh, bottom: height0 / 8 });
-		console.log(`if ! test -f DERIVSRC-${dstname}-DSIZE-${width}x${nh}${dstext} ; then
-			magick ${src}   -resize 'x${nh}' -quality 95   DERIVSRC-${dstname}-DSIZE-${width}x${nh}${dstext}   &
-		fi`);
+		console.log(`
+if ! test -f DERIVSRC-${dstname}-DSIZE-${width}x${nh}${dstext} ; then
+	magick ${src}   -resize 'x${nh}' -quality 95   DERIVSRC-${dstname}-DSIZE-${width}x${nh}${dstext}   &
+fi
+		`);
 	}
 
 	let h2 = height - px_step;
@@ -56,9 +62,11 @@ n = 0;
 while (nh <= 16000 && nh <= 5 * height0) {
 	if (n > 0) {
 		console.log("# target:", { width, nh, top: 5 * height0 });
-		console.log(`if ! test -f DERIVSRC-${dstname}-USIZE-${width}x${nh}${dstext} ; then
-			magick ${src}   -resize 'x${nh}' -quality 95   DERIVSRC-${dstname}-USIZE-${width}x${nh}${dstext}   &
-		fi`);
+		console.log(`
+if ! test -f DERIVSRC-${dstname}-USIZE-${width}x${nh}${dstext} ; then
+	magick ${src}   -resize 'x${nh}' -quality 95   DERIVSRC-${dstname}-USIZE-${width}x${nh}${dstext}   &
+fi
+		`);
 	}
 	
 	let h2 = height + px_step;

@@ -58,7 +58,7 @@ for IMG in DERIVSRC-* ; do
             REDUCE=0
             for PSM in  6     1 3 11 13 ; do
                 for THRESH in 1 0 2 ; do
-                    if ! test -f ./PSM${PSM}-TH${THRESH}-${SIZE}-cmdline.sh ; then
+                    if ! test -f ./PSM${PSM}-TH${THRESH}-${SIZE}-cmdline.sh  ||  ! test -f ./PSM${PSM}-TH${THRESH}-${SIZE}-debug-2.log ; then
                         REDUCE=1
                         cat > ./PSM${PSM}-TH${THRESH}-${SIZE}-cmdline.sh  <<EOT
 if ! test -f ./PSM${PSM}-TH${THRESH}-${SIZE}-debug-2.log ; then

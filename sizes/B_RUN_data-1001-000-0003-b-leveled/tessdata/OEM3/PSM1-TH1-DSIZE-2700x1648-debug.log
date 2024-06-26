@@ -471,8 +471,8 @@ col=6 row=10 l rat=70.0841 cert=-10.9936 “ rat=77.6913 cert=-12.1869 j rat=79.
 col=6 row=11 Y rat=89.2329 cert=-11.2243 { rat=91.1072 cert=-11.46 l rat=92.8734 cert=-11.6822 > rat=93.5607 cert=-11.7686 * rat=93.5859 cert=-11.7718 6 rat=98.5773 cert=-12.3997 C rat=99.9319 cert=-12.5701 j rat=100.061 cert=-12.5863 g rat=101.002 cert=-12.7046 0 rat=101.317 cert=-12.7442 
 col=6 row=12 { rat=102.491 cert=-11.883 g rat=103.418 cert=-11.9905 * rat=104.842 cert=-12.1556 > rat=105.827 cert=-12.2698 “ rat=106.295 cert=-12.324 j rat=106.794 cert=-12.382 l rat=107.38 cert=-12.4499 x rat=112.296 cert=-13.0198 Z rat=118.689 cert=-13.7611 E rat=122.718 cert=-14.2281 
 
-col=7 row=7 ” rat=10.0031 cert=-10.2596 m rat=10.4687 cert=-10.7371 ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 00000156b9c1cde0 still has count 1 (id ../../../../tessdata/eng.traineddatapunc-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 00000156b9c1d630 still has count 1 (id ../../../../tessdata/eng.traineddataword-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 00000156b9c1d7f0 still has count 1 (id ../../../../tessdata/eng.traineddatanumber-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 00000156b9c1d010 still has count 1 (id ../../../../tessdata/eng.traineddatabigram-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 00000156b9c1d550 still has count 1 (id ../../../../tessdata/eng.traineddatafreq-dawg)
+col=7 row=7 ” rat=10.0031 cert=-10.2596 m rat=10.4687 cert=-10.7371 ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001de5e13bcd0 still has count 1 (id ../../../../tessdata/eng.traineddatapunc-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001de5e13bdb0 still has count 1 (id ../../../../tessdata/eng.traineddataword-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001de5e13c050 still has count 1 (id ../../../../tessdata/eng.traineddatanumber-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001de5e13b950 still has count 1 (id ../../../../tessdata/eng.traineddatabigram-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001de5e13c130 still has count 1 (id ../../../../tessdata/eng.traineddatafreq-dawg)

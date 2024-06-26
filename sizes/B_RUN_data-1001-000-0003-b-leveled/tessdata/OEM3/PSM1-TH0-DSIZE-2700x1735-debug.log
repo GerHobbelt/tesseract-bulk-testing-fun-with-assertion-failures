@@ -175,7 +175,7 @@ C	-0.199	-0.217	-0.195	-0.198	-0.206	-0.207	-0.192	-0.211
 1 new words better than 0 old words: r: 4.42377 v 0 c: -1.38312 v 0 valid dict: 0 v 0
 1 new words better than 0 old words: r: 1.92528 v 0 c: -1.51051 v 0 valid dict: 0 v 0
 1 new words better than 0 old words: r: 5.49965 v 0 c: -1.52224 v 0 valid dict: 0 v 0
-knitting (ocr took 0.08 sec)
+knitting (ocr took 0.09 sec)
 Pass1: knitting [k [6b ]a n [6e ]a i [69 ]a t [74 ]a t [74 ]a i [69 ]a n [6e ]a g [67 ]a ]
 Processing word with lang eng at:Bounding box=(136,1417)->(764,1439)
 Trying word using lang eng, oem 2
@@ -357,7 +357,7 @@ C	-0.222	-0.194	-0.195
 1 new words better than 0 old words: r: 4.2067 v 0 c: -6.00381 v 0 valid dict: 0 v 0
 1 new words better than 0 old words: r: 0.770008 v 0 c: -1.52441 v 0 valid dict: 0 v 0
 1 new words better than 0 old words: r: 1.78723 v 0 c: -1.55137 v 0 valid dict: 0 v 0
-Jim (ocr took 0.03 sec)
+Jim (ocr took 0.04 sec)
 Pass1: Jim [J [4a ]A i [69 ]a m [6d ]a ]
 Processing word with lang eng at:Bounding box=(894,1306)->(1060,1326)
 Trying word using lang eng, oem 2
@@ -719,7 +719,7 @@ str	3	2
 state:	1 	1 
 C	-0.094	-0.142
 1 new words better than 0 old words: r: 0.870973 v 0 c: -0.993784 v 0 valid dict: 1 v 0
-32 (ocr took 0.01 sec)
+32 (ocr took 0.00 sec)
 Pass1: 32 [3 [33 ]0 2 [32 ]0 ]
 Processing word with lang eng at:Bounding box=(999,1062)->(1016,1078)
 Trying word using lang eng, oem 2
@@ -873,8 +873,8 @@ col=0 row=2 { rat=70.6323 cert=-11.9211 x rat=71.4154 cert=-12.0532 | rat=76.224
 col=0 row=3 " rat=83.9975 cert=-11.4282 > rat=89.4962 cert=-12.1764 | rat=91.6662 cert=-12.4716 x rat=93.2064 cert=-12.6811 ° rat=93.6399 cert=-12.7401 € rat=93.8475 cert=-12.7684 ! rat=96.3531 cert=-13.1093 I rat=96.4546 cert=-13.1231 e rat=96.5091 cert=-13.1305 
 col=0 row=4 " rat=114.824 cert=-11.4252 x rat=125.327 cert=-12.4703 E rat=125.611 cert=-12.4986 ¢ rat=127.747 cert=-12.7111 “ rat=128.254 cert=-12.7616 6 rat=130.302 cert=-12.9654 
 
-col=1 row=1 ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 000002561dd9cc20 still has count 1 (id ../../../../tessdata/eng.traineddatapunc-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 000002561dd9d390 still has count 1 (id ../../../../tessdata/eng.traineddataword-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 000002561dd9d550 still has count 1 (id ../../../../tessdata/eng.traineddatanumber-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 000002561dd9d8d0 still has count 1 (id ../../../../tessdata/eng.traineddatabigram-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 000002561dd9d940 still has count 1 (id ../../../../tessdata/eng.traineddatafreq-dawg)
+col=1 row=1 ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001b3812eb870 still has count 1 (id ../../../../tessdata/eng.traineddatapunc-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001b3812eb790 still has count 1 (id ../../../../tessdata/eng.traineddataword-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001b3812ebe20 still has count 1 (id ../../../../tessdata/eng.traineddatanumber-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001b3812eb250 still has count 1 (id ../../../../tessdata/eng.traineddatabigram-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001b3812eb800 still has count 1 (id ../../../../tessdata/eng.traineddatafreq-dawg)

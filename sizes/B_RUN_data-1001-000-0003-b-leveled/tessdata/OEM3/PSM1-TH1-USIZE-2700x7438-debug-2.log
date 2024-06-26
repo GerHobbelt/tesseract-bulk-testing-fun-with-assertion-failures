@@ -58,6 +58,6 @@ Illegal unichar ü in ambiguity specification
 Illegal ambiguity specification on line 86
 static_cast<unsigned>(id) < this->size():Error:Assert failed:in file ../../../src/ccutil/unicharset.cpp, line 283
 
-real	0m14.738s
+real	0m19.555s
 user	0m0.000s
-sys	0m0.000s
+sys	0m0.045s

@@ -172,7 +172,7 @@ C	-0.192	-0.199	-0.194	-0.203	-0.308	-0.192	-0.192	-0.192
 1 new words better than 0 old words: r: 5.68775 v 0 c: -1.75884 v 0 valid dict: 0 v 0
 1 new words better than 0 old words: r: 2.7316 v 0 c: -1.64743 v 0 valid dict: 0 v 0
 1 new words better than 0 old words: r: 6.28473 v 0 c: -2.15934 v 0 valid dict: 0 v 0
-knitting (ocr took 0.22 sec)
+knitting (ocr took 0.26 sec)
 Pass1: knitting [k [6b ]a n [6e ]a i [69 ]a t [74 ]a t [74 ]a i [69 ]a n [6e ]a g [67 ]a ]
 Processing word with lang eng at:Bounding box=(555,5786)->(3120,5873)
 Trying word using lang eng, oem 2
@@ -248,7 +248,7 @@ C	-0.247	-0.194	-0.196	-0.194
 1 new words better than 0 old words: r: 6.62097 v 0 c: -1.98875 v 0 valid dict: 0 v 0
 1 new words better than 0 old words: r: 7.17551 v 0 c: -1.64004 v 0 valid dict: 0 v 0
 1 new words better than 0 old words: r: 3.13412 v 0 c: -1.72894 v 0 valid dict: 0 v 0
-(4). (ocr took 0.13 sec)
+(4). (ocr took 0.17 sec)
 Pass1: (4). [( [28 ]p 4 [34 ]0 ) [29 ]p . [2e ]p ]
 Processing word with lang eng at:Bounding box=(556,5588)->(1729,5665)
 Trying word using lang eng, oem 2
@@ -276,7 +276,7 @@ C	-0.223	-0.223	-0.192	-0.293	-0.194	-0.232	-0.212
 1 new words better than 0 old words: r: 5.92394 v 0 c: -1.78211 v 0 valid dict: 0 v 0
 1 new words better than 0 old words: r: 8.20921 v 0 c: -8.04114 v 0 valid dict: 0 v 0
 1 new words better than 0 old words: r: 7.91262 v 0 c: -2.04996 v 0 valid dict: 0 v 0
-Hamburg (ocr took 0.06 sec)
+Hamburg (ocr took 0.08 sec)
 Pass1: Hamburg [H [48 ]A a [61 ]a m [6d ]a b [62 ]a u [75 ]a r [72 ]a g [67 ]a ]
 Processing word with lang eng at:Bounding box=(549,5484)->(1375,5562)
 Trying word using lang eng, oem 2
@@ -304,7 +304,7 @@ C	-0.196	-0.233	-0.217	-0.205
 1 new words better than 0 old words: r: 6.8106 v 0 c: -2.36957 v 0 valid dict: 0 v 0
 1 new words better than 0 old words: r: 4.27187 v 0 c: -2.06929 v 0 valid dict: 0 v 0
 1 new words better than 0 old words: r: 4.11994 v 0 c: -1.63096 v 0 valid dict: 0 v 0
-Lieb (ocr took 0.04 sec)
+Lieb (ocr took 0.09 sec)
 Pass1: Lieb [L [4c ]A i [69 ]a e [65 ]a b [62 ]a ]
 Processing word with lang eng at:Bounding box=(570,5381)->(2624,5461)
 Trying word using lang eng, oem 2
@@ -350,7 +350,7 @@ C	-0.463	-0.207	-0.225
 1 new words better than 0 old words: r: 6.4919 v 0 c: -1.82439 v 0 valid dict: 0 v 0
 1 new words better than 0 old words: r: 1.81628 v 0 c: -2.18176 v 0 valid dict: 0 v 0
 1 new words better than 0 old words: r: 3.34753 v 0 c: -3.23958 v 0 valid dict: 0 v 0
-Jim (ocr took 0.10 sec)
+Jim (ocr took 0.15 sec)
 Pass1: Jim [J [4a ]A i [69 ]a m [6d ]a ]
 Processing word with lang eng at:Bounding box=(3652,5332)->(4331,5414)
 Trying word using lang eng, oem 2
@@ -366,7 +366,7 @@ state:	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1
 C	-0.204	-0.202	-0.191	-0.214	-0.206	-0.196	-0.191	-0.192	-0.242	-0.191	-0.198
 1 new words better than 0 old words: r: 6.63324 v 0 c: -2.03715 v 0 valid dict: 0 v 0
 1 new words better than 0 old words: r: 10.2749 v 0 c: -1.69196 v 0 valid dict: 0 v 0
-Equivalents (ocr took 0.03 sec)
+Equivalents (ocr took 0.04 sec)
 Pass1: Equivalents [E [45 ]A q [71 ]a u [75 ]a i [69 ]a v [76 ]a a [61 ]a l [6c ]a e [65 ]a n [6e ]a t [74 ]a s [73 ]a ]
 Processing word with lang eng at:Bounding box=(3271,5196)->(3490,5263)
 Trying word using lang eng, oem 2
@@ -386,7 +386,7 @@ str	c	m
 state:	1 	1 
 C	-0.502	-0.208
 1 new words better than 0 old words: r: 3.20499 v 0 c: -3.51192 v 0 valid dict: 0 v 0
-cm (ocr took 0.00 sec)
+cm (ocr took 0.01 sec)
 Pass1: cm [c [63 ]a m [6d ]a ]
 Processing word with lang eng at:Bounding box=(4065,5192)->(4284,5259)
 Trying word using lang eng, oem 2
@@ -434,8 +434,8 @@ AD Matches =  ’ [2019 ]p  Unichar-id=112, rating=0.699161, adapted=0, config=2
 ‘ [2018 ]p  Unichar-id=107, rating=0.641052, adapted=0, config=23, misses=3, 32 fonts
 Final Ratings Matrix:
 Ratings Matrix (top 3 choices)
-col=0 row=0 ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 00000155caa9d240 still has count 1 (id ../../../../tessdata/eng.traineddatapunc-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 00000155caa9d780 still has count 1 (id ../../../../tessdata/eng.traineddataword-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 00000155caa9d470 still has count 1 (id ../../../../tessdata/eng.traineddatanumber-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 00000155caa9d4e0 still has count 1 (id ../../../../tessdata/eng.traineddatabigram-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 00000155caa9d940 still has count 1 (id ../../../../tessdata/eng.traineddatafreq-dawg)
+col=0 row=0 ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 0000025dd764be20 still has count 1 (id ../../../../tessdata/eng.traineddatapunc-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 0000025dd764b640 still has count 1 (id ../../../../tessdata/eng.traineddataword-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 0000025dd764bb80 still has count 1 (id ../../../../tessdata/eng.traineddatanumber-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 0000025dd764b560 still has count 1 (id ../../../../tessdata/eng.traineddatabigram-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 0000025dd764baa0 still has count 1 (id ../../../../tessdata/eng.traineddatafreq-dawg)

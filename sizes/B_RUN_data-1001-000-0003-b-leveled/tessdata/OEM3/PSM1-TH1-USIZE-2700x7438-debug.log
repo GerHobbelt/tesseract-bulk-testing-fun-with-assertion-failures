@@ -386,7 +386,7 @@ state:	1 	1 	1
 C	-2.394	-1.258	-1.273
 1 new words better than 0 old words: r: 1.5017 v 0 c: -8.52139 v 0 valid dict: 1 v 0
 1 new words better than 0 old words: r: 11.6309 v 0 c: -16.7557 v 0 valid dict: 1 v 0
-sty (ocr took 0.01 sec)
+sty (ocr took 0.03 sec)
 Pass1: sty [s [73 ]a t [74 ]a y [79 ]a ]
 Processing word with lang eng at:Bounding box=(540,7210)->(667,7254)
 Trying word using lang eng, oem 2
@@ -497,8 +497,8 @@ col=2 row=2 $ rat=4.71919 cert=-10.4871 ” rat=5.62121 cert=-12.4916 q rat=5.89
 col=2 row=3 s rat=51.2079 cert=-15.5175 G rat=53.5301 cert=-16.2212 \ rat=55.8747 cert=-16.9317 
 col=2 row=4 2 rat=85.8298 cert=-12.0463 t rat=88.2551 cert=-12.3867 ! rat=98.532 cert=-13.8291 f rat=100.376 cert=-14.0878 “ rat=103.622 cert=-14.5434 
 
-col=3 row=3 m rat=19.631 cert=-6.88806 M rat=21.1902 cert=-7.43515 9 rat=21.971 cert=-7.70912 Q rat=22.1599 cert=-7.77541 ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000025868b2d1d0 still has count 1 (id ../../../../tessdata/eng.traineddatapunc-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000025868b2d390 still has count 1 (id ../../../../tessdata/eng.traineddataword-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000025868b2cd00 still has count 1 (id ../../../../tessdata/eng.traineddatanumber-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000025868b2d9b0 still has count 1 (id ../../../../tessdata/eng.traineddatabigram-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000025868b2da20 still has count 1 (id ../../../../tessdata/eng.traineddatafreq-dawg)
+col=3 row=3 m rat=19.631 cert=-6.88806 M rat=21.1902 cert=-7.43515 9 rat=21.971 cert=-7.70912 Q rat=22.1599 cert=-7.77541 ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001d593a9bcd0 still has count 1 (id ../../../../tessdata/eng.traineddatapunc-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001d593a9b5d0 still has count 1 (id ../../../../tessdata/eng.traineddataword-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001d593a9b480 still has count 1 (id ../../../../tessdata/eng.traineddatanumber-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001d593a9bf70 still has count 1 (id ../../../../tessdata/eng.traineddatabigram-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001d593a9bd40 still has count 1 (id ../../../../tessdata/eng.traineddatafreq-dawg)

@@ -83,7 +83,7 @@ C	-2.241
 1 new words better than 0 old words: r: 2.56576 v 0 c: -14.8533 v 0 valid dict: 0 v 0
 1 new words better than 0 old words: r: 8.823 v 0 c: -15.1497 v 0 valid dict: 1 v 0
 1 new words better than 0 old words: r: 13.6065 v 0 c: -15.688 v 0 valid dict: 1 v 0
-g (ocr took 0.04 sec)
+g (ocr took 0.05 sec)
 Pass1: g [g [67 ]a ]
 Processing word with lang eng at:Bounding box=(48,503)->(270,511)
 Trying word using lang eng, oem 2
@@ -117,7 +117,7 @@ C	-1.340	-1.541	-2.163
 1 new words better than 0 old words: r: 10.8995 v 0 c: -16.5701 v 0 valid dict: 1 v 0
 1 new words better than 0 old words: r: 15.9482 v 0 c: -15.3617 v 0 valid dict: 1 v 0
 1 new words better than 0 old words: r: 22.2447 v 0 c: -15.1426 v 0 valid dict: 1 v 0
-kSt (ocr took 0.02 sec)
+kSt (ocr took 0.03 sec)
 Pass1: kSt [k [6b ]a S [53 ]A t [74 ]a ]
 Already done word with lang eng at:Bounding box=(123,514)->(134,517)
 Pass1:   [  [20 ] ]
@@ -497,8 +497,8 @@ col=12 row=12 U rat=14.7174 cert=-11.543 - rat=14.7499 cert=-11.5685 r rat=15.33
 col=12 row=13 c rat=15.5693 cert=-6.69647 - rat=16.9753 cert=-7.30119 R rat=17.1591 cert=-7.38027 « rat=17.456 cert=-7.50796 ¢ rat=18.2901 cert=-7.86672 t rat=18.4899 cert=-7.95266 I rat=19.8248 cert=-8.52678 l rat=20.5261 cert=-8.82842 2 rat=21.1207 cert=-9.08415 G rat=21.7512 cert=-9.35537 
 col=12 row=14 o rat=28.3578 cert=-9.69498 P rat=29.5206 cert=-10.0925 5 rat=29.6627 cert=-10.1411 8 rat=31.2992 cert=-10.7006 T rat=33.4416 cert=-11.433 4 rat=33.6661 cert=-11.5098 x rat=34.8062 cert=-11.8996 e rat=35.512 cert=-12.1408 ! rat=36.0936 cert=-12.3397 { rat=36.1793 cert=-12.369 
 
-col=13 row=13 m rat=12.4806 cert=-9.24489 ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 000001bcd14fd3a0 still has count 1 (id ../../../../tessdata/eng.traineddatapunc-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 000001bcd14fcd10 still has count 1 (id ../../../../tessdata/eng.traineddataword-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 000001bcd14fcbc0 still has count 1 (id ../../../../tessdata/eng.traineddatanumber-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 000001bcd14fd330 still has count 1 (id ../../../../tessdata/eng.traineddatabigram-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 000001bcd14fcca0 still has count 1 (id ../../../../tessdata/eng.traineddatafreq-dawg)
+col=13 row=13 m rat=12.4806 cert=-9.24489 ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001b65791b2c0 still has count 1 (id ../../../../tessdata/eng.traineddatapunc-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001b65791b250 still has count 1 (id ../../../../tessdata/eng.traineddataword-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001b65791b560 still has count 1 (id ../../../../tessdata/eng.traineddatanumber-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001b65791bc60 still has count 1 (id ../../../../tessdata/eng.traineddatabigram-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 000001b65791b5d0 still has count 1 (id ../../../../tessdata/eng.traineddatafreq-dawg)

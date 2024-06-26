@@ -138,7 +138,7 @@ state:	1 	1
 C	-2.677	-1.278
 1 new words better than 0 old words: r: 42.8214 v 0 c: -14.8885 v 0 valid dict: 1 v 0
 1 new words better than 0 old words: r: 17.1332 v 0 c: -18.7396 v 0 valid dict: 1 v 0
-Al (ocr took 0.02 sec)
+Al (ocr took 0.03 sec)
 Pass1: Al [A [41 ]A l [6c ]a ]
 Already done word with lang eng at:Bounding box=(1886,7037)->(2323,7060)
 Pass1:   [  [20 ] ]
@@ -184,7 +184,7 @@ C	-4.358	-1.148
 1 new words better than 0 old words: r: 51.6062 v 0 c: -14.4921 v 0 valid dict: 1 v 0
 1 new words better than 0 old words: r: 6.96497 v 0 c: -20.7213 v 0 valid dict: 1 v 0
 1 new words better than 0 old words: r: 53.8292 v 0 c: -30.5061 v 0 valid dict: 0 v 0
-—— (ocr took 0.05 sec)
+—— (ocr took 0.08 sec)
 Pass1: —— [— [2014 ]p — [2014 ]p ]
 Processing word with lang eng at:Bounding box=(4393,7008)->(4582,7060)
 Trying word using lang eng, oem 2
@@ -246,7 +246,7 @@ C	-2.761	-1.849
 1 new words better than 0 old words: r: 21.9326 v 0 c: -11.8737 v 0 valid dict: 1 v 0
 1 new words better than 0 old words: r: 11.6384 v 0 c: -14.9415 v 0 valid dict: 1 v 0
 1 new words better than 0 old words: r: 16.6535 v 0 c: -19.3251 v 0 valid dict: 1 v 0
-LS (ocr took 0.01 sec)
+LS (ocr took 0.02 sec)
 Pass1: LS [L [4c ]A S [53 ]A ]
 Processing word with lang eng at:Bounding box=(4864,7011)->(4924,7060)
 Trying word using lang eng, oem 2
@@ -342,8 +342,8 @@ col=0 row=2 ¢ rat=64.0507 cert=-8.21163 X rat=65.7903 cert=-8.43465 e rat=70.82
 col=1 row=1 - rat=20.4948 cert=-7.59068 ¢ rat=23.2483 cert=-8.61047 X rat=24.4528 cert=-9.05658 ~ rat=24.7821 cert=-9.17855 F rat=25.9011 cert=-9.593 e rat=26.571 cert=-9.8411 : rat=26.5978 cert=-9.85105 k rat=26.8717 cert=-9.9525 A rat=27.6235 cert=-10.2309 x rat=27.6891 cert=-10.2552 
 col=1 row=2 ¢ rat=25.3485 cert=-6.62706 X rat=27.559 cert=-7.20496 / rat=32.3551 cert=-8.45884 ‘ rat=33.6676 cert=-8.80199 x rat=36.2776 cert=-9.48433 : rat=36.8 cert=-9.62091 
 
-col=2 row=2 m rat=8.66972 cert=-4.62385 r rat=10.2797 cert=-5.48248 - rat=10.6229 cert=-5.66555 4 rat=10.7941 cert=-5.75688 G rat=11.2216 cert=-5.98485 ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000020a3e4ed940 still has count 1 (id ../../../../tessdata/eng.traineddatapunc-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000020a3e4ed8d0 still has count 1 (id ../../../../tessdata/eng.traineddataword-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000020a3e4ed550 still has count 1 (id ../../../../tessdata/eng.traineddatanumber-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000020a3e4ecde0 still has count 1 (id ../../../../tessdata/eng.traineddatabigram-dawg)
-ObjectCache(00007ff8819a4600)::~ObjectCache(): WARNING! LEAK! object 0000020a3e4ed240 still has count 1 (id ../../../../tessdata/eng.traineddatafreq-dawg)
+col=2 row=2 m rat=8.66972 cert=-4.62385 r rat=10.2797 cert=-5.48248 - rat=10.6229 cert=-5.66555 4 rat=10.7941 cert=-5.75688 G rat=11.2216 cert=-5.98485 ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 00000253cfe8b720 still has count 1 (id ../../../../tessdata/eng.traineddatapunc-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 00000253cfe8b480 still has count 1 (id ../../../../tessdata/eng.traineddataword-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 00000253cfe8b640 still has count 1 (id ../../../../tessdata/eng.traineddatanumber-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 00000253cfe8b790 still has count 1 (id ../../../../tessdata/eng.traineddatabigram-dawg)
+ObjectCache(00007ff8ae934560)::~ObjectCache(): WARNING! LEAK! object 00000253cfe8b800 still has count 1 (id ../../../../tessdata/eng.traineddatafreq-dawg)

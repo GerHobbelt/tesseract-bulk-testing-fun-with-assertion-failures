@@ -35,8 +35,8 @@ mkdir movie
 rm -f movie/*.png
 rm -f movie.mp4
 
-#node ./sort-files-list.js tmp-files-list 
-node ./sort-files-list.js tmp-files-list > tmp-files-list-process.sh 
+#node ./sort-files-list.js tmp-files-list
+node ./sort-files-list.js tmp-files-list > tmp-files-list-process.sh
 
 ./tmp-files-list-process.sh  TITLE
 
@@ -44,11 +44,26 @@ echo ""
 echo ""
 echo "### Checking if movie exists:     $( cat movie/image-name.txt | tr -d '\r\n' )_movie.mp4"
 if test -f $( cat movie/image-name.txt | tr -d '\r\n' )_movie.mp4 ; then
-	echo ">>> Movie has already been produced previously:    $( cat movie/image-name.txt | tr -d '\r\n' )_movie.mp4"
-	exit 1
+    echo ">>> Movie has already been produced previously:    $( cat movie/image-name.txt | tr -d '\r\n' )_movie.mp4"
+    echo ""
+    echo ""
+    exit 1
 fi
 
-./tmp-files-list-process.sh  TITLE
+FILECOUNT=$( cat ./tmp-files-list-process.sh | grep -E -e '^file   ' | wc -l )
+
+cat <<EOT
+
+#############################################################################################
+
+Producing animation movie $( cat movie/image-name.txt | tr -d '\r\n' )_movie.mp4
+from ${FILECOUNT} images.
+
+#############################################################################################
+
+EOT
+
+./tmp-files-list-process.sh
 
 
 # "${FFMPEG}" -h full   > ffmpeg.help.txt
@@ -61,7 +76,7 @@ fi
 "${FFMPEG}"  -i movie/ffmpeg-input-list.txt  -vf fps=12   -c:v libx265 -shortest -r 12 -an -x265-params crf=28  -tag:v hvc1  movie.mp4
 
 if test -f movie/image-name.txt ; then
-	mv movie.mp4  $( cat movie/image-name.txt | tr -d '\r\n' )_movie.mp4
+    mv movie.mp4  $( cat movie/image-name.txt | tr -d '\r\n' )_movie.mp4
 fi
 
 # mkdir -p black
@@ -70,10 +85,10 @@ fi
 
 
 # magick \
-#	example.png -set option:wxh "%wx%h" \
-#	( -size "%[wxh]" tile:pattern:checkerboard -brightness-contrast 40,10 ) \
-#	+swap -compose over -composite \
-#	-thumbnail 340x -quality 80 -filter Lanczos example_tn.jpg
+#   example.png -set option:wxh "%wx%h" \
+#   ( -size "%[wxh]" tile:pattern:checkerboard -brightness-contrast 40,10 ) \
+#   +swap -compose over -composite \
+#   -thumbnail 340x -quality 80 -filter Lanczos example_tn.jpg
 
-# ffmpeg -y -i input -c:v libx265 -b:v 2600k -x265-params pass=1 -an -f null /dev/null 
+# ffmpeg -y -i input -c:v libx265 -b:v 2600k -x265-params pass=1 -an -f null /dev/null
 # ffmpeg -i input -c:v libx265 -b:v 2600k -x265-params pass=2 -c:a aac -b:a 128k output.mp4

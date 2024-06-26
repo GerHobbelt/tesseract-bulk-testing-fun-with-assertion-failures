@@ -55,22 +55,27 @@ for IMG in DERIVSRC-* ; do
         for OEM in 0 1 2 3 ; do
             mkdir OEM${OEM}
             pushd OEM${OEM}
+            REDUCE=0
             for PSM in  6  0 1 3 4 5  7 8 9 10 11 12 13 ; do
                 for THRESH in 1 0 2 ; do
-                    cat >  ${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-cmdline.sh  <<EOT
-                    if ! test -f ${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug-2.log ; then
-                    (
-                        # sometimes a tesseract run hangs; haven't found a decent clue why, so we apply a fixed timeout/abort to keep the run going, no matter what happens.
-                        (  time timeout -v -k 1s 3m   "${TESS}"  --loglevel ALL -l eng --psm ${PSM} --oem ${OEM} --tessdata-dir ../../../../${DATADIR} -c debug_file=${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug.log -c thresholding_method=${THRESH} -c document_title=${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SRCNAME}  ../../${IMG} ${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}  hocr     txt tsv  ../../../tess_run_01.conf )    > ${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug-1.log   2> ${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug-2.log
-                    ) &
-                    fi
+                    if ! test -f ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-cmdline.sh ; then
+                        REDUCE=1
+                        cat >  ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-cmdline.sh  <<EOT
+if ! test -f ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug-2.log ; then
+(
+    # sometimes a tesseract run hangs; haven't found a decent clue why, so we apply a fixed timeout/abort to keep the run going, no matter what happens.
+    (  time timeout -v -k 1s 3m   "${TESS}"  --loglevel ALL -l eng --psm ${PSM} --oem ${OEM} --tessdata-dir ../../../../${DATADIR} -c debug_file=${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug.log -c thresholding_method=${THRESH} -c document_title=${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SRCNAME}  ../../${IMG} ${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}  hocr     txt tsv  ../../../tess_run_01.conf )    > ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug-1.log   2> ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug-2.log
+) &
+fi
 EOT
-                    cat ${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-cmdline.sh
-                    ${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-cmdline.sh
+                    cat ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-cmdline.sh
+                    ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-cmdline.sh
+                    fi
                 done
             done
 
-            cat <<EOT
+            if test ${REDUCE} != 0 ; then
+                cat <<EOT
 
 
 ######################################################################################
@@ -93,24 +98,25 @@ EOT
 
 EOT
 
-            echo "Waiting for the tesseract runs to finish..."
-            while true ; do
-                if test $( ps ax | grep -e tesseract | wc -l ) -le 2 ; then
-                    break
-                fi
-                echo "sleep..."
-                sleep 1
-            done
+                echo "Waiting for the tesseract runs to finish..."
+                while true ; do
+                    if test $( ps ax | grep -e tesseract | wc -l ) -le 2 ; then
+                        break
+                    fi
+                    echo "sleep..."
+                    sleep 1
+                done
 
-            echo "Reducing log files to reasonable size; only keeping their tails..."
-            for f in $( find . -name '*.log' -type f -mmin +15 -size +1M -print ) ; do
-                if test -f $f ; then
-                    tail -n  8000 $f > $f.8Klines-reduced
-                    rm $f
-                fi
-            done
+                echo "Reducing log files to reasonable size; only keeping their tails..."
+                for f in $( find . -name '*.log' -type f -mmin +15 -size +1M -print ) ; do
+                    if test -f $f ; then
+                        tail -n  8000 $f > $f.8Klines-reduced
+                        rm $f
+                    fi
+                done
 
-            rm *.pdf
+                rm *.pdf
+            fi
 
             popd
         done
@@ -122,11 +128,11 @@ done
 
 echo "Waiting for the tesseract runs to finish..."
 while true ; do
-	if test $( ps ax | grep -e tesseract | wc -l ) -eq 0 ; then
-		break
-	fi
-	echo "sleep..."
-	sleep 1
+    if test $( ps ax | grep -e tesseract | wc -l ) -eq 0 ; then
+        break
+    fi
+    echo "sleep..."
+    sleep 1
 done
 
 # rm DERIVSRC-*

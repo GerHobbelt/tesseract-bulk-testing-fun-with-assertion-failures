@@ -91,7 +91,8 @@ magick movie/solid-background.png    -channel A +level 0,15%   -background light
 
 
 let old_m = {};
-let n = 1000000;
+const start_n = 1000000;
+let n = start_n;
 let task_n = n;
 let image = null;
 let base = null;

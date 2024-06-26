@@ -28,10 +28,9 @@ for f in $( find ./ -maxdepth 1 -type f -name '*.mp4' ) ; do
 	echo "INPUT: $f --> H265-720p/$g"
 	
 	if ! test -f "H265-720p/$g" ; then
-		${FFMPEG}  -i "$f"   -vf "scale=-2:720:flags=lanczos+accurate_rnd" -c:v libx265   -x265-params "aq-mode=3" -crf 29   -preset slower   -tag:v hvc1  -sws_flags lanczos    "H265-720p/$g"
+		${FFMPEG}  -i "$f"   -vf "scale=-2:720:flags=bicubic+accurate_rnd:param0=1/3:param1=1/3" -c:v libx265   -x265-params "aq-mode=3" -crf 32   -preset slower   -tag:v hvc1  -sws_flags lanczos    "H265-720p/$g"
 		# If it's too sharp or is causing ringing, replace lanczos+accurate_rnd with bicubic+accurate_rnd:param0=1/3:param1=1/3.
 		# For AMD GPUs, use -c:v hevc_amf if you want hardware acceleration.
 	fi
-	exit 1
 	
 done

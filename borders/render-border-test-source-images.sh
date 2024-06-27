@@ -33,112 +33,86 @@ seq=1000
 render_scaled_variants() {
 	bfn=$1
 	
-	#  x = 155; while (x >= 5) {  console.log(x);  x *= 0.9; x = Math.floor(x); }
+	#  x = 155; while (x > 5) {  console.log(x);  x *= 0.9; x = Math.floor(x); }
+	# remixed with a 5% series around the scale=50%..30% mark as we know we rendered our text at fontsize 100
 	for s in 	\
 		155		\
 		139		\
 		125		\
 		112		\
-		100		\
+				\
 		90		\
 		81		\
 		72		\
+		68		\
 		64		\
+		60		\
 		57		\
+		54		\
 		51		\
+		48		\
 		45		\
-		40		\
-		36		\
-		32		\
-		28		\
+		42		\
+		39		\
+		37		\
+		35		\
+		33		\
+		31		\
+		29		\
+		27		\
 		25		\
-		22		\
+		23		\
+		21		\
 		19		\
+		18		\
 		17		\
-		15		\
+		16		\
+		14		\
 		13		\
+		12		\
 		11		\
+		10		\
 		9		\
 		8		\
 		7		\
 		6		\
-		5		\
 	; do
-		magick SRCIMG-F-${ffnm}/${bfn}.png   -resize "${s}%"      SRCIMG-F-${ffnm}/${bfn}-scale-${s}.png
+		magick ${bfn}.png   -resize "${s}%"      ${bfn}-scale-${s}.png
 	done
 }
 
 # function
 render_border_variants() {
 	src=$1
-	echo "BASE:$base"
-	echo "N:$n"
 	echo "SRC:$src"
 	echo "SEQ:$seq"
 
-	# x = 100; while (x >= 5) {  console.log(x);  x *= 0.982; x = Math.floor(x); }
+	# x = 100; while (x > 0) {  console.log(x);  x *= 0.94; x = Math.floor(x); }
 	for b in 	\
 		100		\
-		98		\
-		96		\
 		94		\
-		92		\
-		90		\
 		88		\
-		86		\
-		84		\
 		82		\
-		80		\
-		78		\
-		76		\
-		74		\
+		77		\
 		72		\
-		70		\
-		68		\
-		66		\
-		64		\
+		67		\
 		62		\
-		60		\
 		58		\
-		56		\
 		54		\
-		53		\
-		52		\
-		51		\
 		50		\
-		49		\
-		48		\
 		47		\
-		46		\
-		45		\
 		44		\
-		43		\
-		42		\
 		41		\
-		40		\
-		39		\
 		38		\
-		37		\
-		36		\
 		35		\
-		34		\
-		33		\
 		32		\
-		31		\
 		30		\
-		29		\
 		28		\
-		27		\
 		26		\
-		25		\
 		24		\
-		23		\
 		22		\
-		21		\
 		20		\
-		19		\
 		18		\
-		17		\
 		16		\
 		15		\
 		14		\
@@ -152,12 +126,13 @@ render_border_variants() {
 		6		\
 		5		\
 		4		\
+		3		\
+		2		\
+		1		\
 	; do
-		magick  SRCIMG-F-${ffnm}/${src}.png  -background white -undercolor white -fill white -bordercolor white   -gravity center        -border $n   +repage   SRCIMG-F-${ffnm}/${fn}-${seq}-F-${ffnm}-shaved-$n-border-$b.png
+		magick  ${src}.png  -background white -bordercolor white           -border $b      ${src}-border-$b.png
 		
-		render_scaled_variants   ${fn}-${seq}-F-${ffnm}-shaved-$n-border-$b
-		
-		((seq=seq+1))
+		render_scaled_variants   ${src}-border-$b
 	done
 }
 
@@ -180,22 +155,35 @@ cp    ${fn}-${seq}-F-${ffnm}.png    SRCIMG-F-${ffnm}/
 EOF
 		
 		./tmp-render.sh
-		
-		render_scaled_variants   ${fn}-${seq}-F-${ffnm}
-		
 
-
-		n=10
 		base=SRCIMG-F-${ffnm}/${fn}-${seq}-F-${ffnm}
 		((seq=seq+1))
-		while [ $n -ge 0 ] ; do
-			magick  ${base}.png  -background white -gravity center        -shave $n   +repage   SRCIMG-F-${ffnm}/${fn}-${seq}-F-${ffnm}-shaved-$n.png
-		
-			render_scaled_variants   	${fn}-${seq}-F-${ffnm}-shaved-$n
-		
-			render_border_variants      ${fn}-${seq}-F-${ffnm}-shaved-$n
 
+
+		render_scaled_variants   ${base}
+		
+		render_border_variants   ${base}
+		
+
+
+		# x = 10; while (x > 0) {  console.log(x);  x *= 0.75; x = Math.floor(x); }
+		for n in 	\
+			10		\
+			7		\
+			5		\
+			3		\
+			2		\
+			1		\
+		; do
+			name=SRCIMG-F-${ffnm}/${fn}-${seq}-F-${ffnm}-shaved-$n
+			magick  ${base}.png  -background white -gravity center        -shave $n   +repage   ${name}.png
+			
 			((seq=seq+1))
+		
+			render_scaled_variants   	${name}
+		
+			render_border_variants      ${name}
+
 			((n=n-1))
 		done
 	done

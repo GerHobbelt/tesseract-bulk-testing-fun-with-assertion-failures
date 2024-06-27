@@ -35,19 +35,25 @@ process.stdin.on('data', function(chunk) {
 
     surplus = lines.pop();
 
-	lines = lines.map(cvt_to_data);
+	lines = lines
+	.map(cvt_to_data)
+	.map(function (line) { return JSON.stringify(line); });
 
 	records = records.concat(lines);
 	
-    console.log({lines, count: records.length});
+    console.log('\n' + lines.join('\n') + '\n');
+    console.log({count: records.length});
 });
 
 process.stdin.on('end', function() {
     let lines = surplus.split("\n");
 
-	lines = lines.map(cvt_to_data);
+	lines = lines
+	.map(cvt_to_data)
+	.map(function (line) { return JSON.stringify(line); });
 
 	records = records.concat(lines);
 	
-    console.log({lines, count: records.length});
+    console.log('\n' + lines.join('\n') + '\n');
+    console.log({count: records.length});
 });

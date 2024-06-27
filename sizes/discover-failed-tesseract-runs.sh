@@ -5,6 +5,4 @@
 
 # find -type f -name '*debug-2.log' | xargs -n 100 grep -i -e 'assert failed' -l | xargs -n 10 rm
 
-# find -name '*.log' | xargs -n 10 grep -E '^real\s[2-9]'  >> wicked-timeouts-happening.md
-
-find -type f -name '*-debug-2.log' | xargs -n 10 grep -E '^real\s' | node ./calc_real_time_secs.js > tesseract-run-timings.jsonl.list
+find -type f -name '*-debug-2.log' | xargs -n 10 grep -i -e 'assert failed' -l | sed -E -e 's/^.*RUN_data-//' -e 's/-debug-2.log//' > failed-tesseract-runs.list

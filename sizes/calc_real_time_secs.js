@@ -3,6 +3,10 @@
 //
 
 function cvt_to_data(line) {
+	line = line.trim();
+	if (line.length === 0)
+		return null;
+	
 	let a = line.split('-debug-2');
 	let b = a[1].split(':real');
 	let t = b[1].split('m');
@@ -35,9 +39,13 @@ process.stdin.on('data', function(chunk) {
 
     surplus = lines.pop();
 
-	lines = lines
-	.map(cvt_to_data)
-	.map(function (line) { return JSON.stringify(line); });
+	try {
+		lines = lines
+		.map(cvt_to_data)
+		.map(function (line) { return JSON.stringify(line); });
+	} catch (ex) {
+		console.log({ex, lines});
+	}
 
 	records = records.concat(lines);
 	
@@ -48,11 +56,17 @@ process.stdin.on('data', function(chunk) {
 process.stdin.on('end', function() {
     let lines = surplus.split("\n");
 
-	lines = lines
-	.map(cvt_to_data)
-	.map(function (line) { return JSON.stringify(line); });
+	try {
+		lines = lines
+		.map(cvt_to_data)
+		.map(function (line) { return JSON.stringify(line); });
+	} catch (ex) {
+		console.log({ex, lines});
+	}
 
 	records = records.concat(lines);
+	records = records
+	.filter(function (line) { return line.length > 0; });
 	
     console.log('\n' + lines.join('\n') + '\n');
     console.log({count: records.length});

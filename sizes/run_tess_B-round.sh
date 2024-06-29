@@ -48,33 +48,38 @@ done
 #           for THRESH in 0 1 2 ; do
 for IMG in DERIVSRC-* ; do
     SIZE=$( echo "${IMG}" | sed -E -e 's/^.*([RDU]SIZE-)/\1/' -e 's/[.][^.]+$//' )
+    echo "IMG: ${IMG}"
     echo "SIZE=${SIZE}"
     for DATADIR in tessdata tessdata_fast tessdata_best ; do
-        mkdir ${DATADIR}
-        pushd ${DATADIR}
+        mkdir ${DATADIR}                                                        2> /dev/null
+        pushd ${DATADIR}                                                         > /dev/null
         for OEM in       3 ; do
-            mkdir OEM${OEM}
-            pushd OEM${OEM}
+            mkdir OEM${OEM}                                                     2> /dev/null
+            pushd OEM${OEM}                                                      > /dev/null
             REDUCE=0
             for PSM in  6     1 3 11 13 ; do
-                for THRESH in 1 0 2 ; do
-                    if ! test -f ./PSM${PSM}-TH${THRESH}-${SIZE}-cmdline.sh  ||  ! test -f ./PSM${PSM}-TH${THRESH}-${SIZE}-debug-2.log ; then
+                for THRESH in   0   ; do
+                    if ! test -f ./PSM${PSM}-TH${THRESH}-${SIZE}-cmdline.sh  ||  ! test -f ./PSM${PSM}-TH${THRESH}-${SIZE}-debug-2.log || test "$2" = "-f" ; then
                         REDUCE=1
                         cat > ./PSM${PSM}-TH${THRESH}-${SIZE}-cmdline.sh  <<EOT
-if ! test -f ./PSM${PSM}-TH${THRESH}-${SIZE}-debug-2.log ; then
+#! /bin/bash
+pushd \$( dirname \$0 )                                                       > /dev/null
+if ! test -f ./PSM${PSM}-TH${THRESH}-${SIZE}-debug-2.log || test "\$1" = "-f" ; then
 (
+    shift
     # sometimes a tesseract run hangs; haven't found a decent clue why, so we apply a fixed timeout/abort to keep the run going, no matter what happens.
-    (  time timeout -v -k 1s 3m   "${TESS}"  --loglevel ALL -l eng --psm ${PSM} --oem ${OEM} --tessdata-dir ../../../../${DATADIR} -c debug_file=PSM${PSM}-TH${THRESH}-${SIZE}-debug.log -c thresholding_method=${THRESH} -c document_title=${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SRCNAME}  ../../${IMG} PSM${PSM}-TH${THRESH}-${SIZE}  hocr     txt tsv  ../../../tess_run_01.conf )    > ./PSM${PSM}-TH${THRESH}-${SIZE}-debug-1.log   2> ./PSM${PSM}-TH${THRESH}-${SIZE}-debug-2.log
+    ( set -x ; echo "PWD: \$( pwd )" ;  time timeout -v -k 1s 3m   "${TESS}"  --loglevel ALL -l eng --psm ${PSM} --oem ${OEM} --tessdata-dir ../../../../${DATADIR} -c debug_file=PSM${PSM}-TH${THRESH}-${SIZE}-debug.log -c thresholding_method=${THRESH} -c document_title=${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SRCNAME}  ../../${IMG} PSM${PSM}-TH${THRESH}-${SIZE}  hocr     \$@     txt tsv  ../../../tess_run_01.conf )    > ./PSM${PSM}-TH${THRESH}-${SIZE}-debug-1.log   2> ./PSM${PSM}-TH${THRESH}-${SIZE}-debug-2.log
 ) &
 fi
+popd                                                                         > /dev/null
 EOT
-                        cat ./PSM${PSM}-TH${THRESH}-${SIZE}-cmdline.sh
+                        #cat ./PSM${PSM}-TH${THRESH}-${SIZE}-cmdline.sh
                         ./PSM${PSM}-TH${THRESH}-${SIZE}-cmdline.sh
                     fi
                 done
             done
 
-            if test ${REDUCE} != 0 ; then
+            if test ${REDUCE} != 0 && test "$2" != "-f" ; then
                 cat <<EOT
 
 
@@ -100,7 +105,7 @@ EOT
 
                 echo "Waiting for the tesseract runs to finish..."
                 while true ; do
-                    if test $( ps ax | grep -e tesseract | wc -l ) -le 2 ; then
+                    if test $( ps ax | grep -e tesseract | wc -l ) -le 6 ; then
                         break
                     fi
                     echo "sleep..."
@@ -114,13 +119,11 @@ EOT
                         rm $f
                     fi
                 done
-
-                rm *.pdf
             fi
 
-            popd
+            popd                                                                 > /dev/null
         done
-        popd
+        popd                                                                     > /dev/null
     done
 done
 

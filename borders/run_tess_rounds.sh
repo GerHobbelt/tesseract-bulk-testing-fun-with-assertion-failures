@@ -2,7 +2,7 @@
 #
 # Run as (example):
 #
-#     ./run_tess_rounds.sh 
+#     ./run_tess_rounds.sh
 #
 # to process all image files with names '1*.png' in the current directory.
 #
@@ -11,7 +11,7 @@ TESS=/c/Program\ Files/Tesseract-OCR/tesseract.exe
 
 
 
-rm -rf  RUN_data
+#rm -rf  RUN_data
 mkdir   RUN_data
 pushd   RUN_data
 
@@ -21,36 +21,41 @@ pushd   RUN_data
 #       for OEM in 0 1 2 3 ; do
 #           for THRESH in 0 1 2 ; do
 for IMG in ../1*.png ../SRCIMG-F-*/*.png ; do
-	# get the basename sans extension:
-	SRCNAME=$( basename "$IMG" .png )
-	echo "IMG:     ${IMG}"
-	echo "SRCNAME: ${SRCNAME}"
+    # get the basename sans extension:
+    SRCNAME=$( basename "$IMG" .png )
+    echo "IMG:     ${IMG}"
+    echo "SRCNAME: ${SRCNAME}"
     for DATADIR in tessdata tessdata_fast tessdata_best ; do
-        mkdir ${DATADIR}
-        pushd ${DATADIR}
+        mkdir ${DATADIR}                                                        2> /dev/null
+        pushd ${DATADIR}                                                         > /dev/null
         for OEM in       3 ; do
-            mkdir OEM${OEM}
-            pushd OEM${OEM}
+            mkdir OEM${OEM}                                                     2> /dev/null
+            pushd OEM${OEM}                                                      > /dev/null
             REDUCE=0
             for PSM in  6     1 3 11 13 ; do
                 for THRESH in   0   ; do
-                    if ! ( test -f ./PSM${PSM}-TH${THRESH}-${SRCNAME}-cmdline.sh  &&  test -f ./PSM${PSM}-TH${THRESH}-${SRCNAME}-debug-2.log ) ; then
+                    if ! test -f ./PSM${PSM}-TH${THRESH}-${SRCNAME}-cmdline.sh  ||   ! test -f ./PSM${PSM}-TH${THRESH}-${SRCNAME}-debug-2.log || test "$1" = "-f" ; then
                         REDUCE=1
                         cat > ./PSM${PSM}-TH${THRESH}-${SRCNAME}-cmdline.sh  <<EOT
-if ! test -f ./PSM${PSM}-TH${THRESH}-${SRCNAME}-debug-2.log ; then
+#! /bin/bash
+pushd \$( dirname \$0 )                                                       > /dev/null
+if ! test -f ./PSM${PSM}-TH${THRESH}-${SRCNAME}-debug-2.log || test "\$1" = "-f" ; then
 (
+    shift
     # sometimes a tesseract run hangs; haven't found a decent clue why, so we apply a fixed timeout/abort to keep the run going, no matter what happens.
-    (  time timeout -v -k 1s 3m   "${TESS}"  --loglevel ALL -l eng --psm ${PSM} --oem ${OEM} --tessdata-dir ../../../../${DATADIR} -c debug_file=PSM${PSM}-TH${THRESH}-${SRCNAME}-debug.log -c thresholding_method=${THRESH} -c document_title=${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SRCNAME}  ../../${IMG} PSM${PSM}-TH${THRESH}-${SRCNAME}  hocr     txt tsv  ../../../tess_run_01.conf )    > ./PSM${PSM}-TH${THRESH}-${SRCNAME}-debug-1.log   2> ./PSM${PSM}-TH${THRESH}-${SRCNAME}-debug-2.log
+    ( set -x ; echo "PWD: \$( pwd )" ;  time timeout -v -k 1s 3m   "${TESS}"  --loglevel ALL -l eng --psm ${PSM} --oem ${OEM} --tessdata-dir ../../../../${DATADIR} -c debug_file=PSM${PSM}-TH${THRESH}-${SRCNAME}-debug.log -c thresholding_method=${THRESH} -c document_title=${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SRCNAME}  ../../${IMG} PSM${PSM}-TH${THRESH}-${SRCNAME}  hocr     \$@     txt tsv  ../../../tess_run_01.conf )    > ./PSM${PSM}-TH${THRESH}-${SRCNAME}-debug-1.log   2> ./PSM${PSM}-TH${THRESH}-${SRCNAME}-debug-2.log
 ) &
 fi
+popd                                                                         > /dev/null
 EOT
-                        cat ./PSM${PSM}-TH${THRESH}-${SRCNAME}-cmdline.sh
+                        #cat ./PSM${PSM}-TH${THRESH}-${SRCNAME}-cmdline.sh
                         ./PSM${PSM}-TH${THRESH}-${SRCNAME}-cmdline.sh
                     fi
                 done
             done
 
-            if test ${REDUCE} != 0 ; then
+            if test ${REDUCE} != 0 && test "$1" != "-f" ; then
+              if false ; then
                 cat <<EOT
 
 
@@ -73,6 +78,7 @@ EOT
 
 
 EOT
+              fi
 
                 echo "Waiting for the tesseract runs to finish..."
                 while true ; do
@@ -83,6 +89,7 @@ EOT
                     sleep 1
                 done
 
+              if false ; then
                 echo "Reducing log files to reasonable size; only keeping their tails..."
                 for f in $( find . -name '*.log' -type f -mmin +15 -size +1M -print ) ; do
                     if test -f $f ; then
@@ -90,11 +97,12 @@ EOT
                         rm $f
                     fi
                 done
+              fi
             fi
 
-            popd
+            popd                                                                 > /dev/null
         done
-        popd
+        popd                                                                     > /dev/null
     done
 done
 

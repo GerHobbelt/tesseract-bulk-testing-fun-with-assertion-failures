@@ -42,7 +42,7 @@ process.stdin.on('data', function(chunk) {
 	try {
 		lines = lines
 		.map(cvt_to_data)
-		.map(function (line) { return JSON.stringify(line); });
+		.map(function (line) { return line ? JSON.stringify(line) : ""; });
 	} catch (ex) {
 		console.log({ex, lines});
 	}
@@ -59,14 +59,14 @@ process.stdin.on('end', function() {
 	try {
 		lines = lines
 		.map(cvt_to_data)
-		.map(function (line) { return JSON.stringify(line); });
+		.map(function (line) { return line ? JSON.stringify(line) : ""; });
 	} catch (ex) {
 		console.log({ex, lines});
 	}
 
 	records = records.concat(lines);
 	records = records
-	.filter(function (line) { return line.length > 0; });
+	.filter(function (line) { return line.trim().length > 0; });
 	
     console.log('\n' + lines.join('\n') + '\n');
     console.log({count: records.length});

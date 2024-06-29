@@ -105,7 +105,7 @@ EOT
 
                 echo "Waiting for the tesseract runs to finish..."
                 while true ; do
-                    if test $( ps ax | grep -e tesseract | wc -l ) -le 6 ; then
+                    if test $( ps ax | grep -e tesseract | wc -l ) -le 12 ; then
                         break
                     fi
                     echo "sleep..."
@@ -127,11 +127,11 @@ EOT
     done
 done
 
-# wait for the last dregs to completely finish, before we call it The End...
+# wait for the last dregs to (almost) completely finish, before we call it The End...
 
-echo "Waiting for the tesseract runs to finish..."
+echo "Waiting for the lingering tesseract runs to finish..."
 while true ; do
-    if test $( ps ax | grep -e tesseract | wc -l ) -eq 0 ; then
+    if test $( ps ax | grep -e tesseract | wc -l ) -le 6 ; then
         break
     fi
     echo "sleep..."

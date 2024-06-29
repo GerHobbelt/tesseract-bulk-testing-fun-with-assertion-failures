@@ -44,6 +44,8 @@ echo ""
 echo ""
 echo "### Checking if movie exists:     $( cat movie/image-name.txt | tr -d '\r\n' )_movie.mp4"
 if test -f $( cat movie/image-name.txt | tr -d '\r\n' )_movie.mp4 ; then
+    echo ""
+    echo ""
     echo ">>> Movie has already been produced previously:    $( cat movie/image-name.txt | tr -d '\r\n' )_movie.mp4"
     echo ""
     echo ""

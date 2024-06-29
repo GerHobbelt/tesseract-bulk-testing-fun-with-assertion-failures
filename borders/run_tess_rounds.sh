@@ -20,9 +20,11 @@ pushd   RUN_data
 #   for PSM in 0 1 3 4 5 6 7 8 9 10 11 12 13 ; do
 #       for OEM in 0 1 2 3 ; do
 #           for THRESH in 0 1 2 ; do
-for IMG in ../1*.png ; do
+for IMG in ../1*.png ../SRCIMG-F-*/*.png ; do
 	# get the basename sans extension:
 	SRCNAME=$( basename "$IMG" .png )
+	echo "IMG:     ${IMG}"
+	echo "SRCNAME: ${SRCNAME}"
     for DATADIR in tessdata tessdata_fast tessdata_best ; do
         mkdir ${DATADIR}
         pushd ${DATADIR}
@@ -32,7 +34,7 @@ for IMG in ../1*.png ; do
             REDUCE=0
             for PSM in  6     1 3 11 13 ; do
                 for THRESH in   0   ; do
-                    if ! test -f ./PSM${PSM}-TH${THRESH}-${SRCNAME}-cmdline.sh  ||  ! test -f ./PSM${PSM}-TH${THRESH}-${SRCNAME}-debug-2.log ; then
+                    if ! ( test -f ./PSM${PSM}-TH${THRESH}-${SRCNAME}-cmdline.sh  &&  test -f ./PSM${PSM}-TH${THRESH}-${SRCNAME}-debug-2.log ) ; then
                         REDUCE=1
                         cat > ./PSM${PSM}-TH${THRESH}-${SRCNAME}-cmdline.sh  <<EOT
 if ! test -f ./PSM${PSM}-TH${THRESH}-${SRCNAME}-debug-2.log ; then
@@ -74,7 +76,7 @@ EOT
 
                 echo "Waiting for the tesseract runs to finish..."
                 while true ; do
-                    if test $( ps ax | grep -e tesseract | wc -l ) -le 2 ; then
+                    if test $( ps ax | grep -e tesseract | wc -l ) -le 12 ; then
                         break
                     fi
                     echo "sleep..."
@@ -88,8 +90,6 @@ EOT
                         rm $f
                     fi
                 done
-
-                rm *.pdf
             fi
 
             popd

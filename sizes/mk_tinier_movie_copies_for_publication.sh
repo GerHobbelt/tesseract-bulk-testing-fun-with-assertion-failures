@@ -18,8 +18,8 @@ mkdir H265-720p
 # which don't carry a sensible, possibly complete set of tesseract diagnostic images already: we SHOULD redo 
 # those botched movies.
 
-find ./H265-1080p -maxdepth 1 -type f -name '*.mp4' -size -10k -delete -print
-find ./H265-720p  -maxdepth 1 -type f -name '*.mp4' -size -10k -delete -print
+find ./H265-1080p -maxdepth 1 -type f -name '*.mp4' -size -100k -delete -print
+find ./H265-720p  -maxdepth 1 -type f -name '*.mp4' -size -100k -delete -print
 
 
 
@@ -32,5 +32,4 @@ for f in $( find ./ -maxdepth 1 -type f -name '*.mp4' ) ; do
 		# If it's too sharp or is causing ringing, replace lanczos+accurate_rnd with bicubic+accurate_rnd:param0=1/3:param1=1/3.
 		# For AMD GPUs, use -c:v hevc_amf if you want hardware acceleration.
 	fi
-	
 done

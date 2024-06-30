@@ -9,4 +9,4 @@ APPDIR=$( dirname $0 )
 
 # find -name '*.log' | xargs -n 10 grep -E '^real\s[2-9]'  >> wicked-timeouts-happening.md
 
-find -type f -name '*-debug-2.log' | xargs -n 10 grep -E '^real\s' | node ${APPDIR}/calc_real_time_secs.js > tesseract-run-timings.jsonl.list
+find -type f -name '*-debug-2.log' | xargs -n 100 grep -E -w -e 'sending signal TERM' -l > tesseract-runs-forcibly-terminated.jsonl.list

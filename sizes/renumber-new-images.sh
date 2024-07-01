@@ -14,7 +14,7 @@ echo "Start at number: $n..."
 # simplify all filenames: no obnoxious spaces, etc.etc.
 find ./   -maxdepth 1 -type f > tmp_simplify.lst
 node $( dirname "$0" )/simplify_filenames_gen.js tmp_simplify.lst > tmp_simplify.sh
-#./tmp_simplify.sh
+./tmp_simplify.sh
 
 
 
@@ -31,4 +31,4 @@ for f in $( find ./ -maxdepth 1 -type f  | sed -E -e 's#./##' | grep -E -v -e '^
 done
 
 
-#rm   tmp_simplify.lst   tmp_simplify.sh
+rm   tmp_simplify.lst   tmp_simplify.sh

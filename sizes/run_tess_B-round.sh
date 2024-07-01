@@ -42,6 +42,7 @@ while true ; do
     sleep 1
 done
 
+ONSCREEN=1
 #for DATADIR in tessdata tessdata_fast tessdata_best ; do
 #   for PSM in 0 1 3 4 5 6 7 8 9 10 11 12 13 ; do
 #       for OEM in 0 1 2 3 ; do
@@ -56,11 +57,14 @@ for IMG in DERIVSRC-* ; do
         for OEM in       3 ; do
             mkdir OEM${OEM}                                                     2> /dev/null
             pushd OEM${OEM}                                                      > /dev/null
+            echo ""
+            echo "Next mini batch: ${DATADIR} PSM:6,1,3,11,13 OEM:${OEM} @ ${SIZE}"
+            echo ""
             REDUCE=0
             for PSM in  6     1 3 11 13 ; do
                 for THRESH in   0   ; do
                     if ! test -f ./PSM${PSM}-TH${THRESH}-${SIZE}-cmdline.sh  ||  ! test -f ./PSM${PSM}-TH${THRESH}-${SIZE}-debug-2.log || test "$2" = "-f" ; then
-                        REDUCE=1
+                        ((REDUCE=REDUCE+1))
                         cat > ./PSM${PSM}-TH${THRESH}-${SIZE}-cmdline.sh  <<EOT
 #! /bin/bash
 pushd \$( dirname \$0 )                                                       > /dev/null
@@ -80,7 +84,8 @@ EOT
             done
 
             if test ${REDUCE} != 0 && test "$2" != "-f" ; then
-                cat <<EOT
+                if test ${ONSCREEN} != 0 ; then
+                    cat <<EOT
 
 
 ######################################################################################
@@ -102,8 +107,10 @@ EOT
 
 
 EOT
+                    ONSCREEN=0
+                fi
 
-                echo "Waiting for the tesseract runs to finish..."
+                echo "Waiting for another ${REDUCE} tesseract runs to finish..."
                 while true ; do
                     if test $( ps ax | grep -e tesseract | wc -l ) -le 12 ; then
                         break

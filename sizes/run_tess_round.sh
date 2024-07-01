@@ -42,6 +42,7 @@ while true ; do
     sleep 1
 done
 
+ONSCREEN=1
 #for DATADIR in tessdata tessdata_fast tessdata_best ; do
 #   for PSM in 0 1 3 4 5 6 7 8 9 10 11 12 13 ; do
 #       for OEM in 0 1 2 3 ; do
@@ -56,31 +57,36 @@ for IMG in DERIVSRC-* ; do
         for OEM in 0 1 2 3 ; do
             mkdir OEM${OEM}                                                     2> /dev/null
             pushd OEM${OEM}                                                      > /dev/null
-            REDUCE=0
-            for PSM in  6  0 1 3 4 5  7 8 9 10 11 12 13 ; do
-                for THRESH in   0   ; do
-                    if ! test -f ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-cmdline.sh  ||  ! test -f ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug-2.log || test "$2" = "-f" ; then
-                        REDUCE=1
-                        cat >  ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-cmdline.sh  <<EOT
+            for PSMSET in  "6 0 1 3"   "4 5 7 8"   "9 10 11 12 13" ; do
+                echo ""
+                echo "Next mini batch: ${DATADIR} PSM:${PSMSET} OEM:${OEM} @ ${SIZE}"
+                echo ""
+                REDUCE=0
+                for PSM in ${PSMSET} ; do
+                    for THRESH in 1 0 2 ; do
+                        if ! test -f ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-cmdline.sh  ||  ! test -f ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug-2.log || test "$2" = "-f" ; then
+                            ((REDUCE=REDUCE+1))
+                            cat >  ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-cmdline.sh  <<EOT
 #! /bin/bash
 pushd \$( dirname \$0 )                                                       > /dev/null
 if ! test -f ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug-2.log || test "\$1" = "-f" ; then
 (
     shift
     # sometimes a tesseract run hangs; haven't found a decent clue why, so we apply a fixed timeout/abort to keep the run going, no matter what happens.
-    ( set -x ; echo "PWD: \$( pwd )" ;  time timeout -v -k 1s 3m   "${TESS}"  --loglevel ALL -l eng --psm ${PSM} --oem ${OEM} --tessdata-dir ../../../../${DATADIR} -c debug_file=${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug.log -c thresholding_method=${THRESH} -c document_title=${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SRCNAME}  ../../${IMG} ${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}  hocr     \$@     txt tsv  ../../../tess_run_01.conf )    > ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug-1.log   2> ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug-2.log
+    ( set -x ; echo "PWD: \$( pwd )" ;  time timeout -v -k 1s 3m   "${TESS}"  --loglevel ALL -l eng --psm ${PSM} --oem ${OEM} --tessdata-dir ../../../../${DATADIR} -c debug_file=${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug.log -c thresholding_method=${THRESH} -c document_title=${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SRCNAME}  ../../${IMG} ${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}  hocr     \$@     txt tsv wordstrbox   ../../../tess_run_01.conf )    > ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug-1.log   2> ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug-2.log
 ) &
 fi
 popd                                                                         > /dev/null
 EOT
-                    #cat ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-cmdline.sh
-                    ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-cmdline.sh
-                    fi
+                        #cat ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-cmdline.sh
+                        ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-cmdline.sh
+                        fi
+                    done
                 done
-            done
 
-            if test ${REDUCE} != 0 && test "$2" != "-f" ; then
-                cat <<EOT
+                if test ${REDUCE} != 0 && test "$2" != "-f" ; then
+                    if test ${ONSCREEN} != 0 ; then
+                        cat <<EOT
 
 
 ######################################################################################
@@ -102,24 +108,27 @@ EOT
 
 
 EOT
-
-                echo "Waiting for the tesseract runs to finish..."
-                while true ; do
-                    if test $( ps ax | grep -e tesseract | wc -l ) -le 6 ; then
-                        break
+                        ONSCREEN=0
                     fi
-                    echo "sleep..."
-                    sleep 1
-                done
 
-                echo "Reducing log files to reasonable size; only keeping their tails..."
-                for f in $( find . -name '*.log' -type f -mmin +15 -size +1M -print ) ; do
-                    if test -f $f ; then
-                        tail -n  8000 $f > $f.8Klines-reduced
-                        rm $f
-                    fi
-                done
-            fi
+                    echo "Waiting for another ${REDUCE} tesseract runs to finish..."
+                    while true ; do
+                        if test $( ps ax | grep -e tesseract | wc -l ) -le 6 ; then
+                            break
+                        fi
+                        echo "sleep..."
+                        sleep 1
+                    done
+
+                    echo "Reducing log files to reasonable size; only keeping their tails..."
+                    for f in $( find . -name '*.log' -type f -mmin +15 -size +1M -print ) ; do
+                        if test -f $f ; then
+                            tail -n  8000 $f > $f.8Klines-reduced
+                            rm $f
+                        fi
+                    done
+                fi
+            done
 
             popd                                                                 > /dev/null
         done

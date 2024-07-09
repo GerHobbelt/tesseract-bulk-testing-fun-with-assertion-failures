@@ -24,3 +24,11 @@ sizes/movie/
 /borders/SRCIMG-F-*
 
 /sizes/diagnostics-output
+
+# the scripts in this directory should be visible, but any output should possibly be hidden:
+/sizes/weird-segfault-hunted/*.log
+/sizes/weird-segfault-hunted/*.html
+/sizes/weird-segfault-hunted/*.tsv
+/sizes/weird-segfault-hunted/*.txt
+/sizes/weird-segfault-hunted/*.hocr
+

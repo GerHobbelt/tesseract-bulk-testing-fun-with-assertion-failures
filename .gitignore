@@ -31,4 +31,5 @@ sizes/movie/
 /sizes/weird-segfault-hunted/*.tsv
 /sizes/weird-segfault-hunted/*.txt
 /sizes/weird-segfault-hunted/*.hocr
+/sizes/weird-segfault-hunted/*.webp
 

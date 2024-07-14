@@ -18,6 +18,12 @@ sizes/movie/
 /sizes/data-*
 /sizes/B_RUN_data_*
 /sizes/data_*
+/sizes/A_RUN_data-*
+/sizes/A_RUN_data_*
+/sizes/C_RUN_data-*
+/sizes/C_RUN_data_*
+/sizes/D_RUN_data-*
+/sizes/D_RUN_data_*
 
 /borders/RUN_data*
 

@@ -7,7 +7,7 @@
 # to process all image files with names '1*.webp/jpg/etc.' in the current directory.
 #
 
-TESS=/c/Program\ Files/Tesseract-OCR/tesseract.exe
+TESS=/z/lib/tooling/qiqqa/MuPDF/platform/win32/bin/Release-Unicode-64bit-x64/tesseract.exe
 
 
 # get the basename sans extension:
@@ -23,9 +23,9 @@ if ! test -f ./${SRC} ; then
     exit 1
 fi
 
-#rm -rf B_RUN_data-$SRCNAME
-mkdir   B_RUN_data-$SRCNAME
-pushd   B_RUN_data-$SRCNAME
+#rm -rf C_RUN_data-$SRCNAME
+mkdir   C_RUN_data-$SRCNAME
+pushd   C_RUN_data-$SRCNAME
 
 magick identify -ping -format '%w %h DPI:%x/%y\n\n' ../${SRC} | tee srcimg-${SRCNAME}.dims.txt
 magick identify -verbose -moments ../${SRC}                  | tee srcimg-${SRCNAME}.dim-details.txt
@@ -54,16 +54,16 @@ for IMG in DERIVSRC-* ; do
     for DATADIR in tessdata tessdata_fast tessdata_best ; do
         mkdir ${DATADIR}                                                        2> /dev/null
         pushd ${DATADIR}                                                         > /dev/null
-        for OEM in       3 ; do
+        for OEM in 0 1 2 3 ; do
             mkdir OEM${OEM}                                                     2> /dev/null
             pushd OEM${OEM}                                                      > /dev/null
-            for PSMSET in  "6   1 3"   "  11  13" ; do
+            for PSMSET in  "6 0 1 3"   "4 5 7 8"   "9 10 11 12 13" ; do
                 echo ""
                 echo "Next mini batch: ${DATADIR} PSM:${PSMSET} OEM:${OEM} @ ${SIZE}"
                 echo ""
                 REDUCE=0
                 for PSM in ${PSMSET} ; do
-                    for THRESH in   0   ; do
+                    for THRESH in 1 0 2 ; do
                         if ! test -f ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-cmdline.sh  ||  ! test -f ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug-2.log || test "$2" = "-f" ; then
                             ((REDUCE=REDUCE+1))
                             cat >  ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-cmdline.sh  <<EOT
@@ -73,7 +73,7 @@ if ! test -f ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug-2.log ||
 (
     shift
     # sometimes a tesseract run hangs; haven't found a decent clue why, so we apply a fixed timeout/abort to keep the run going, no matter what happens.
-    ( set -x ; echo "PWD: \$( pwd )" ;  time timeout -v -k 1s 3m   "${TESS}"  --loglevel ALL -l eng --psm ${PSM} --oem ${OEM} --tessdata-dir ../../../../${DATADIR} -c debug_file=${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug.log -c thresholding_method=${THRESH} -c document_title=${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SRCNAME}  ../../${IMG} ${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}  hocr     \$@     txt tsv wordstrbox   ../../../tess_run_01.conf )    > ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug-1.log   2> ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug-2.log
+    ( set -x ; echo "PWD: \$( pwd )" ;  time timeout -v -k 1s 3m   "${TESS}"  --loglevel ALL -l eng --psm ${PSM} --oem ${OEM} --tessdata-dir ../../../../${DATADIR} -c debug_file=${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug.log -c thresholding_method=${THRESH} -c document_title=${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SRCNAME}  ../../${IMG} ${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}  hocr     \$@     txt tsv wordstrbox   ../../../tess_run_01_D_RUN.conf )    > ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug-1.log   2> ./${DATADIR}-PSM${PSM}-OEM${OEM}-TH${THRESH}-${SIZE}-debug-2.log
 ) &
 fi
 popd                                                                         > /dev/null

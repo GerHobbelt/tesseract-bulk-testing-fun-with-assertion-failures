@@ -23,9 +23,9 @@ if ! test -f ./${SRC} ; then
     exit 1
 fi
 
-#rm -rf data-$SRCNAME
-mkdir  data-$SRCNAME
-pushd  data-$SRCNAME
+#rm -rf A_RUN_data-$SRCNAME
+mkdir   A_RUN_data-$SRCNAME
+pushd   A_RUN_data-$SRCNAME
 
 magick identify -ping -format '%w %h DPI:%x/%y\n\n' ../${SRC} | tee srcimg-${SRCNAME}.dims.txt
 magick identify -verbose -moments ../${SRC}                  | tee srcimg-${SRCNAME}.dim-details.txt
@@ -113,7 +113,7 @@ EOT
 
                     echo "Waiting for another ${REDUCE} tesseract runs to finish..."
                     while true ; do
-                        if test $( ps ax | grep -e tesseract | wc -l ) -le 6 ; then
+                        if test $( ps ax | grep -e tesseract | wc -l ) -le 12 ; then
                             break
                         fi
                         echo "sleep..."

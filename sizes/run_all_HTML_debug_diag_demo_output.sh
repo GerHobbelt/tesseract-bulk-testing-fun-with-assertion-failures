@@ -30,7 +30,7 @@ if ! test -f ./${SRC}-diagnostics-log.html || test "\$1" = "-f" ; then
 (
     shift
     # sometimes a tesseract run hangs; haven't found a decent clue why, so we apply a fixed timeout/abort to keep the run going, no matter what happens.
-    ( set -x ; echo "PWD: \$( pwd )" ;  time timeout -v -k 1s 3m   "${TESS}"  --loglevel ALL -l eng --psm 1 --oem 3 --tessdata-dir ../../${DATADIR} -c debug_file=${SRC}-diagnostics-log.log -c thresholding_method=0 -c document_title=${DATADIR}-${SRCNAME}  ../${SRC}  ${SRC}-diagnostics-log  hocr     \$@     txt tsv  ../tess_run_htmldiag.conf )    > ./${SRC}-diagnostics-debug-1.log   2> ./${SRC}-diagnostics-debug-2.log
+    ( set -x ; echo "PWD: \$( pwd )" ;  time timeout -v -k 1s 3m   "${TESS}"  --loglevel ALL -l eng --psm 1 --oem 3 --tessdata-dir ../../${DATADIR} -c debug_file=${SRC}-diagnostics-log.log -c thresholding_method=0 -c document_title=${DATADIR}-${SRCNAME}  ../${SRC}  ${SRC}-diagnostics-log  hocr     \$@     txt tsv  ../tess_run_01_D_RUN.conf )    > ./${SRC}-diagnostics-debug-1.log   2> ./${SRC}-diagnostics-debug-2.log
 ) &
 fi
 popd                                                                         > /dev/null

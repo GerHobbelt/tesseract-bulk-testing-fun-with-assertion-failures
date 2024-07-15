@@ -6,8 +6,8 @@ set -v
 
 ( ./run_all_HTML_debug_diag_demo_output.sh )
 
-#( ./run_all_tess_A_rounds.sh ) &
-#( ./run_all_tess_B_rounds.sh ) &
+( ./run_all_tess_A_rounds.sh ) &
+( ./run_all_tess_B_rounds.sh ) &
 ( ./run_all_tess_C_rounds.sh ) &
 ( ./run_all_tess_D_rounds.sh ) &
 

@@ -5,7 +5,6 @@
 
 for f in 1* ; do 
 	./run_tess_D-round.sh $f   $@
-	break
 done
 
 

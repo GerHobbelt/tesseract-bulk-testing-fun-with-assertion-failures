@@ -116,7 +116,11 @@ EOT
                         if test $( ps ax | grep -e tesseract | wc -l ) -le 12 ; then
                             break
                         fi
-                        echo "sleep..."
+						CPU=$( wmic cpu get loadpercentage | grep -E '[0-9]' )
+						if test -n $CPU && test $CPU -lt 80 ; then
+							break
+						fi
+                        echo "sleep... (CPU load: $CPU)"
                         sleep 1
                     done
 

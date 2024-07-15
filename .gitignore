@@ -9,10 +9,8 @@ sizes/movie/
 /sizes/movie.mp4
 
 /sizes/ffmpeg.help.txt
-/sizes/tmp-ffmpeg-files-list
-/sizes/tmp-files-list
-/sizes/tmp-files-list.lst
-/sizes/tmp-files-list-process.sh
+/sizes/tmp-*
+/sizes/tmp_*
 
 /sizes/B_RUN_data-*
 /sizes/data-*
@@ -30,6 +28,7 @@ sizes/movie/
 /borders/SRCIMG-F-*
 
 /sizes/diagnostics-output
+/sizes/vanilla-output
 
 # the scripts in this directory should be visible, but any output should possibly be hidden:
 /sizes/weird-segfault-hunted/*.log
@@ -38,4 +37,5 @@ sizes/movie/
 /sizes/weird-segfault-hunted/*.txt
 /sizes/weird-segfault-hunted/*.hocr
 /sizes/weird-segfault-hunted/*.webp
+/sizes/weird-segfault-hunted/*.uzn
 

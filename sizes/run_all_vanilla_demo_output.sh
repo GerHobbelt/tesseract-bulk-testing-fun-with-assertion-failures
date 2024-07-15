@@ -13,46 +13,49 @@ mkdir vanilla-output
 REDUCE=0
 for f in 1* ; do 
 
-	# get the basename sans extension:
-	SRCNAME=$( echo "$f" | sed -E -e 's/[.][^.]+$//' )
-	SRC=$f
+    # get the basename sans extension:
+    SRCNAME=$( echo "$f" | sed -E -e 's/[.][^.]+$//' )
+    SRC=$f
 
-	echo "SRCNAME: ${SRCNAME}"
-	echo "SRC: ${SRC}"
+    echo "SRCNAME: ${SRCNAME}"
+    echo "SRC: ${SRC}"
 
-	if ! test -f ./vanilla-output/${SRC}-vanilla-debug-2.log || test "$2" = "-f" ; then
-		((REDUCE=REDUCE+1))
-        cat > ./vanilla-output/${SRC}-cmdline.sh  <<EOT
+    for PSM in  1 3 4 5 6 7 8 9 10 11 12 13 ; do
+
+        if ! test -f ./vanilla-output/${SRCNAME}-PSM${PSM}-vanilla-debug-2.log || test "$2" = "-f" ; then
+            ((REDUCE=REDUCE+1))
+            cat > ./vanilla-output/${SRCNAME}-PSM${PSM}-cmdline.sh  <<EOT
 #! /bin/bash
 pushd \$( dirname \$0 )                                                       > /dev/null
-if ! test -f ./${SRC}-vanilla-debug-2.log || test "\$1" = "-f" ; then
+if ! test -f ./${SRCNAME}-PSM${PSM}-vanilla-debug-2.log || test "\$1" = "-f" ; then
 (
     shift
     # sometimes a tesseract run hangs; haven't found a decent clue why, so we apply a fixed timeout/abort to keep the run going, no matter what happens.
-    ( set -x ; echo "PWD: \$( pwd )" ;  time timeout -v -k 1s 3m   "${TESS}"  --loglevel ALL -l eng --psm 1 --oem 3 --tessdata-dir ../../${DATADIR} -c debug_file=${SRC}-vanilla-log.log -c thresholding_method=0 -c document_title=${DATADIR}-${SRCNAME}  ../${SRC}  ${SRC}-vanilla-log  hocr     \$@     txt tsv  ../tess_run_01.conf )    > ./${SRC}-vanilla-debug-1.log   2> ./${SRC}-vanilla-debug-2.log
+    ( set -x ; echo "PWD: \$( pwd )" ;  time timeout -v -k 1s 3m   "${TESS}"  --loglevel ALL -l eng --psm ${PSM} --oem 3 --tessdata-dir ../../${DATADIR} -c debug_file=${SRCNAME}-PSM${PSM}-vanilla-log.log -c thresholding_method=0 -c document_title=${DATADIR}-${SRCNAME}-PSM${PSM}  ../${SRC}  ${SRCNAME}-PSM${PSM}-vanilla-log  hocr     \$@     txt tsv  ../tess_run_01.conf )    > ./${SRCNAME}-PSM${PSM}-vanilla-debug-1.log   2> ./${SRCNAME}-PSM${PSM}-vanilla-debug-2.log
 ) &
 fi
 popd                                                                         > /dev/null
 EOT
-		#cat ./vanilla-output/${SRC}-cmdline.sh
-		./vanilla-output/${SRC}-cmdline.sh
-	fi
-	
-	if test ${REDUCE} -eq 8 ; then
-		REDUCE=0
-		echo "Waiting for the tesseract runs to finish..."
-		while true ; do
-			if test $( ps ax | grep -e tesseract | wc -l ) -le 8 ; then
-				break
-			fi
-			CPU=$( wmic cpu get loadpercentage | grep -E '[0-9]' )
-			if test -n $CPU && test $CPU -lt 80 ; then
-				break
-			fi
-			echo "sleep... (CPU load: $CPU)"
-			sleep 1
-		done
-	fi
+            #cat ./vanilla-output/${SRCNAME}-PSM${PSM}-cmdline.sh
+            ./vanilla-output/${SRCNAME}-PSM${PSM}-cmdline.sh
+        fi
+    done
+    
+    if test ${REDUCE} -ge 8 ; then
+        REDUCE=0
+        echo "Waiting for the tesseract runs to finish..."
+        while true ; do
+            if test $( ps ax | grep -e tesseract | wc -l ) -le 8 ; then
+                break
+            fi
+            CPU=$( wmic cpu get loadpercentage | grep -E '[0-9]' )
+            if test -n $CPU && test $CPU -lt 80 ; then
+                break
+            fi
+            echo "sleep... (CPU load: $CPU)"
+            sleep 1
+        done
+    fi
 done
 
 

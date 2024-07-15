@@ -39,3 +39,5 @@ sizes/movie/
 /sizes/weird-segfault-hunted/*.webp
 /sizes/weird-segfault-hunted/*.uzn
 
+*~
+

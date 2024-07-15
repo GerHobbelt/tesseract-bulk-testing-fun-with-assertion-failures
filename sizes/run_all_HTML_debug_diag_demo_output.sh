@@ -21,25 +21,28 @@ for f in 1* ; do
 	echo "SRCNAME: ${SRCNAME}"
 	echo "SRC: ${SRC}"
 
-	if ! test -f ./diagnostics-output/${SRC}-diagnostics-debug-2.log || test "$2" = "-f" ; then
-		((REDUCE=REDUCE+1))
-        cat > ./diagnostics-output/${SRC}-cmdline.sh  <<EOT
+	for PSM in  1 3 4 5 6 7 8 9 10 11 12 13 ; do
+
+		if ! test -f ./diagnostics-output/${SRCNAME}-PSM${PSM}-diagnostics-debug-2.log || test "$2" = "-f" ; then
+			((REDUCE=REDUCE+1))
+			cat > ./diagnostics-output/${SRCNAME}-PSM${PSM}-cmdline.sh  <<EOT
 #! /bin/bash
 pushd \$( dirname \$0 )                                                       > /dev/null
-if ! test -f ./${SRC}-diagnostics-debug-2.log || test "\$1" = "-f" ; then
+if ! test -f ./${SRCNAME}-PSM${PSM}-diagnostics-debug-2.log || test "\$1" = "-f" ; then
 (
     shift
     # sometimes a tesseract run hangs; haven't found a decent clue why, so we apply a fixed timeout/abort to keep the run going, no matter what happens.
-    ( set -x ; echo "PWD: \$( pwd )" ;  time timeout -v -k 1s 3m   "${TESS}"  --loglevel ALL -l eng --psm 1 --oem 3 --tessdata-dir ../../${DATADIR} -c debug_file=${SRC}-diagnostics-log.log -c thresholding_method=0 -c document_title=${DATADIR}-${SRCNAME}  ../${SRC}  ${SRC}-diagnostics-log  hocr     \$@     txt tsv  ../tess_run_01_D_RUN.conf )    > ./${SRC}-diagnostics-debug-1.log   2> ./${SRC}-diagnostics-debug-2.log
+    ( set -x ; echo "PWD: \$( pwd )" ;  time timeout -v -k 1s 3m   "${TESS}"  --loglevel ALL -l eng --psm ${PSM} --oem 3 --tessdata-dir ../../${DATADIR} -c debug_file=${SRCNAME}-PSM${PSM}-diagnostics-log.log -c thresholding_method=0 -c document_title=${DATADIR}-${SRCNAME}-PSM${PSM}  ../${SRC}  ${SRCNAME}-PSM${PSM}-diagnostics-log  hocr     \$@     txt tsv  ../tess_run_01_D_RUN.conf )    > ./${SRCNAME}-PSM${PSM}-diagnostics-debug-1.log   2> ./${SRCNAME}-PSM${PSM}-diagnostics-debug-2.log
 ) &
 fi
 popd                                                                         > /dev/null
 EOT
-		#cat ./diagnostics-output/${SRC}-cmdline.sh
-		./diagnostics-output/${SRC}-cmdline.sh
-	fi
+			#cat ./diagnostics-output/${SRCNAME}-PSM${PSM}-cmdline.sh
+			./diagnostics-output/${SRCNAME}-PSM${PSM}-cmdline.sh
+		fi
+	done
 	
-	if test ${REDUCE} -eq 8 ; then
+	if test ${REDUCE} -ge 8 ; then
 		REDUCE=0
 		echo "Waiting for the tesseract runs to finish..."
 		while true ; do

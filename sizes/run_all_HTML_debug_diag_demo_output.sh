@@ -14,18 +14,18 @@ mkdir diagnostics-output
 REDUCE=0
 for f in 1* ; do 
 
-	# get the basename sans extension:
-	SRCNAME=$( echo "$f" | sed -E -e 's/[.][^.]+$//' )
-	SRC=$f
+    # get the basename sans extension:
+    SRCNAME=$( echo "$f" | sed -E -e 's/[.][^.]+$//' )
+    SRC=$f
 
-	echo "SRCNAME: ${SRCNAME}"
-	echo "SRC: ${SRC}"
+    echo "SRCNAME: ${SRCNAME}"
+    echo "SRC: ${SRC}"
 
-	for PSM in  1 3 4 5 6 7 8 9 10 11 12 13 ; do
+    for PSM in  1 3 4 5 6 7 8 9 10 11 12 13 ; do
 
-		if ! test -f ./diagnostics-output/${SRCNAME}-PSM${PSM}-diagnostics-debug-2.log || test "$2" = "-f" ; then
-			((REDUCE=REDUCE+1))
-			cat > ./diagnostics-output/${SRCNAME}-PSM${PSM}-cmdline.sh  <<EOT
+        if ! test -f ./diagnostics-output/${SRCNAME}-PSM${PSM}-diagnostics-debug-2.log || test "$2" = "-f" ; then
+            ((REDUCE=REDUCE+1))
+            cat > ./diagnostics-output/${SRCNAME}-PSM${PSM}-cmdline.sh  <<EOT
 #! /bin/bash
 pushd \$( dirname \$0 )                                                       > /dev/null
 if ! test -f ./${SRCNAME}-PSM${PSM}-diagnostics-debug-2.log || test "\$1" = "-f" ; then
@@ -37,26 +37,26 @@ if ! test -f ./${SRCNAME}-PSM${PSM}-diagnostics-debug-2.log || test "\$1" = "-f"
 fi
 popd                                                                         > /dev/null
 EOT
-			#cat ./diagnostics-output/${SRCNAME}-PSM${PSM}-cmdline.sh
-			./diagnostics-output/${SRCNAME}-PSM${PSM}-cmdline.sh
-		fi
-	done
-	
-	if test ${REDUCE} -ge 8 ; then
-		REDUCE=0
-		echo "Waiting for the tesseract runs to finish..."
-		while true ; do
-			if test $( ps ax | grep -e tesseract | wc -l ) -le 8 ; then
-				break
-			fi
-			CPU=$( wmic cpu get loadpercentage | grep -E '[0-9]' )
-			if test -n $CPU && test $CPU -lt 80 ; then
-				break
-			fi
-			echo "sleep... (CPU load: $CPU)"
-			sleep 1
-		done
-	fi
+            #cat ./diagnostics-output/${SRCNAME}-PSM${PSM}-cmdline.sh
+            ./diagnostics-output/${SRCNAME}-PSM${PSM}-cmdline.sh
+        fi
+    done
+    
+    if test ${REDUCE} -ge 8 ; then
+        REDUCE=0
+        echo "Waiting for the tesseract runs to finish..."
+        while true ; do
+            if test $( ps ax | grep -e tesseract | wc -l ) -le 8 ; then
+                break
+            fi
+            CPU=$( wmic cpu get loadpercentage | grep -E '[0-9]' )
+            if test -n $CPU && test $CPU -lt 80 ; then
+                break
+            fi
+            echo "sleep... (CPU load: $CPU)"
+            sleep 1
+        done
+    fi
 done
 
 

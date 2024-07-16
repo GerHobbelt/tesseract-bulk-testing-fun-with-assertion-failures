@@ -4,7 +4,8 @@ set -v
 
 ./renumber-new-images.sh
 
-( ./run_all_HTML_debug_diag_demo_output.sh )
+( ./run_all_HTML_debug_diag_demo_output.sh ) &
+( ./run_all_vanilla_demo_output.sh ) &
 
 ( ./run_all_tess_A_rounds.sh ) &
 ( ./run_all_tess_B_rounds.sh ) &

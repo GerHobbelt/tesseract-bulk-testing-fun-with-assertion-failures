@@ -124,13 +124,13 @@ EOT
                         sleep 1
                     done
 
-                    echo "Reducing log files to reasonable size; only keeping their tails..."
-                    for f in $( find . -name '*.log' -type f -mmin +15 -size +1M -print ) ; do
-                        if test -f $f ; then
-                            tail -n  8000 $f > $f.8Klines-reduced
-                            rm $f
-                        fi
-                    done
+                    #echo "Reducing log files to reasonable size; only keeping their tails..."
+                    #for f in $( find . -name '*.log' -type f -mmin +15 -size +1M -print ) ; do
+                    #    if test -f $f ; then
+                    #        tail -n  8000 $f > $f.8Klines-reduced
+                    #        rm $f
+                    #    fi
+                    #done
                 fi
             done
 

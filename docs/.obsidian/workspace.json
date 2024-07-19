@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wicked stuff - a tesseract threshold algo happening.md",
+                "file": "wicked-timeouts-happening.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wicked stuff - a tesseract threshold algo happening.md",
+                "file": "wicked-timeouts-happening.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wicked stuff - a tesseract threshold algo happening.md",
+                "file": "wicked-timeouts-happening.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wicked stuff - a tesseract threshold algo happening.md"
+                "file": "wicked-timeouts-happening.md"
               }
             }
           },
@@ -151,6 +151,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
       "publish:Publish changes...": false,
@@ -165,11 +166,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "8e13e0066220a9db",
+  "active": "e789328758fc1ad5",
   "lastOpenFiles": [
-    "Wicked stuff - a tesseract threshold algo happening.md",
     "B_RUN_data-1001-000-0003-b-leveled---something-wicked.md",
+    "B_RUN_data-1001-000-0003-b-leveled---something-wicked.html",
     "wicked-timeouts-happening.md",
+    "Wicked stuff - a tesseract threshold algo happening.md",
     "Speeding up the batch test script.md",
     "assets/B_RUN_data-1001-000-0003-b-leveled-movie.mp4",
     "Aside/Testing - nasty filenames - also on UNIX.md",
@@ -187,7 +189,6 @@
     "Aside/pack-b2f9b620572aa8b3f19c241ff2b0d12118b529ef.pack",
     "Aside/pack-33dee1e1ce82b2028ce3b7e8e7720d08c4f4ca42.pack",
     "Aside/pack-9ff17088e0b58e6a5956883ba528daf674bacf4e.pack",
-    "Aside/pack-335a121b7adfdfb0e549d1313f306b2c404d7573.pack",
     "Aside/Installing R + TeX-live + R bookdown for producing documentation.md",
     "Aside/Another possibly stupid idea to reduce the number of references in a unigram, bigram, trigram inverted index.md",
     "Aside/Searching PDFs on archive.org anno 2023,2024 after the bloody publishers' lawsuit(s).md",
@@ -202,7 +203,6 @@
     "Progress in Development/UI Development Notes/tesseract (web) UI/Testing web-based editors for REPL-style tesseract runs.md",
     "How to build Qiqqa from source.md",
     "Technology/Odds 'n' Ends/libglob - does not fare well when traversing non-Unicode-legal filenames.md",
-    "Technology/Odds 'n' Ends/Unicode - useful arrows.md",
     "Progress in Development/Testing & Evaluating/Collected RAW logbook notes - PDF bulktest + mutool_ex PDF + URL tests/Pasted image 20240227174308.png",
     "assets/tesseract-workflow-diagram.svg",
     "Progress in Development/Considering the Way Forward/assets/wavedrom16.png",

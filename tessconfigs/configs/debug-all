@@ -1,0 +1,571 @@
+#
+# debug-all preset: turns on ALMOST all debugging in tesseract
+#
+# Only the extreme loudmouths (in terms of output volume ;-) ) are toned down or disabled.
+# See the comments below for where this measure of restraint has been applied.
+#
+
+verbose_process                                       Y
+scrollview_support                                    Y
+
+textord_tabfind_show_images                           Y
+//textord_tabfind_show_vlines                         Y
+
+#if !GRAPHICS_DISABLED
+
+textord_tabfind_show_initial_partitions               Y
+textord_tabfind_show_reject_blobs                     Y
+textord_tabfind_show_partitions                       2
+textord_tabfind_show_columns                          Y
+textord_tabfind_show_blocks                           Y
+
+#endif
+
+textord_noise_debug                                   Y
+
+textord_oldbl_debug                                   Y
+# ^^^^^^^^^^^ very noisy output
+
+textord_baseline_debug                                Y
+textord_debug_block                                   9
+textord_debug_bugs                                    9
+
+textord_debug_tabfind                                 9
+# ^^^^^^^^^^^^^^^ = 9     --> very noisy output
+
+textord_debug_baselines                               Y
+textord_debug_blob                                    Y
+textord_debug_blob                                    Y
+textord_debug_pitch_metric                            Y
+textord_debug_fixed_pitch_test                        Y
+textord_debug_pitch                                   Y
+textord_debug_printable                               Y
+textord_debug_xheights                                Y
+textord_debug_xheights                                Y
+
+textord_show_initial_words                            Y
+textord_blocksall_fixed                               Y
+textord_blocksall_prop                                Y
+
+tessedit_create_hocr                                  Y
+tessedit_create_alto                                  Y
+tessedit_create_page_xml                              Y
+tessedit_create_tsv                                   Y
+tessedit_create_pdf                                   Y
+textonly_pdf                                                           n
+tessedit_write_unlv                                   Y
+tessedit_create_lstmbox                               Y
+tessedit_create_boxfile                               Y
+tessedit_create_wordstrbox                            Y
+tessedit_create_txt                                   Y
+
+tessedit_dump_choices                                 Y
+tessedit_dump_pageseg_images                          Y
+
+tessedit_write_images                                 Y
+
+tessedit_adaption_debug                               Y
+tessedit_debug_block_rejection                        Y
+tessedit_debug_doc_rejection                          Y
+tessedit_debug_fonts                                  Y
+tessedit_debug_quality_metrics                        Y
+
+tessedit_rejection_debug                              Y
+tessedit_timing_debug                                 Y
+
+tessedit_bigram_debug                                 Y
+
+tess_debug_lstm                                       9
+# ^^^^^^^^^^^^  >= 1   --> LSTM debug output is extremely noisy
+
+debug_noise_removal                                   Y
+
+classify_debug_level                                  9
+#^^^^^^^^^^^^^^^^^^^ > 1 --> LSTM debug output is extremely noisy
+
+classify_learning_debug_level                         9
+classify_debug_character_fragments                    Y
+classify_enable_adaptive_debugger                     Y
+
+matcher_debug_separate_windows                        Y
+matcher_debug_flags                                   Y
+matcher_debug_level                                   3
+
+multilang_debug_level                                 3
+
+paragraph_debug_level                                 3
+
+segsearch_debug_level                                 3
+
+stopper_debug_level                                   3
+
+superscript_debug                                     4
+
+crunch_debug                                          4
+
+dawg_debug_level                                      5
+// ^^^^^^^^^^^^^^^ = 1    --> noisy
+
+debug_fix_space_level                                 9
+debug_x_ht_level                                      3
+
+# debug_misc turns on most of the word display flags for the render-in-image debug display.
+debug_misc                                            Y
+
+hyphen_debug_level                                    3
+
+language_model_debug_level                            9
+# ^^^^^^^^^^^^^^^^^^^^ = 7     -- noisy
+
+tosp_debug_level                                      3
+
+wordrec_debug_level                                   3
+
+# Word for which stopper debug information should be printed to stdout:
+word_to_debug                                                              buggered
+
+hocr_font_info                                        Y
+hocr_char_boxes                                       Y
+hocr_images                                           Y
+
+thresholding_debug                                    Y
+
+#preprocess_graynorm_mode                                                  0
+# ^^^^^^^^^^^^^^^^^^^ = 0..3, 4..7, 8..11, 12.. -- see NormalizeImage() and environs in baseapi.cpp
+#
+# Not a debug mode but rather an image preprocessing stage setting.
+
+tessedit_bigram_debug                                 Y
+
+wordrec_debug_blamer                                  Y
+
+devanagari_split_debugimage                           Y
+devanagari_split_debuglevel                           3
+
+gapmap_debug                                          Y
+
+poly_debug                                            Y
+# ^^^^^^^^^^^^^ --> very noisy output
+
+edges_debug                                           Y
+
+ambigs_debug_level                                    3
+
+applybox_debug                                        Y
+
+bidi_debug                                            Y
+
+chop_debug                                            Y
+
+# removed from our own tesseract build, replaced by the ones below
+# debug_baseline_fit                                  5
+# # ^^^^^^^^^^^^^^^^^^   0..3
+#
+# debug_baseline_y_coord                              -2000
+
+debug_baseline_detector_level                         5
+debug_baseline_y_coord_start                          -2000
+debug_baseline_y_coord_end                            -3000
+
+
+
+debug_write_unlv                                      Y
+debug_line_finding                                    Y
+debug_image_normalization                             Y
+
+interactive_display_mode                              N
+# ^^^^^^^^^^^^^^^^^^^^^^^^ we're all about non-interactive BATCH MODE processing!
+
+debug_display_page                                    Y
+debug_display_page_blocks                             Y
+debug_display_page_baselines                          Y
+dump_segmented_word_images                            Y
+dump_osdetect_process_images                          Y
+
+# timeout which can be checked by the built-in monitor
+# activity_timeout_millisec                           180000
+
+
+# --------------------- the other parameters available to date ----------------------------
+
+debug_datadir_discovery                             1
+# debug_output_path
+universal_ambigs_debug_level                        1
+
+tessedit_display_outwords                           T
+wordrec_display_segmentations                       T
+
+# allow_blob_division
+# applybox_exposure_pattern
+# applybox_learn_chars_and_char_frags_mode
+# applybox_learn_ngrams_mode
+# applybox_page
+# assume_fixed_pitch_char_segment
+# bland_unrej
+# certainty_scale
+# chop_center_knob
+# chop_centered_maxwidth
+# chop_enable
+# chop_good_split
+# chop_inside_angle
+# chop_min_outline_area
+# chop_min_outline_points
+# chop_new_seam_pile
+# chop_ok_split
+# chop_overlap_knob
+# chop_same_distance
+# chop_seam_pile_size
+# chop_sharpness_knob
+# chop_split_dist_knob
+# chop_split_length
+# chop_vertical_creep
+# chop_width_change_knob
+# chop_x_y_weight
+# chs_leading_punct
+# chs_trailing_punct1
+# chs_trailing_punct2
+# classify_adapt_feature_threshold
+# classify_adapt_proto_threshold
+# classify_adapted_pruning_factor
+# classify_adapted_pruning_threshold
+# classify_bln_numeric_mode
+# classify_char_norm_range
+# classify_character_fragments_garbage_certainty_threshold
+# classify_class_pruner_multiplier
+# classify_class_pruner_threshold
+# classify_cp_cutoff_strength
+# classify_enable_adaptive_matcher
+# classify_enable_learning
+# classify_integer_matcher_multiplier
+# classify_learn_debug_str
+# classify_max_certainty_margin
+# classify_max_rating_ratio
+# classify_misfit_junk_penalty
+# classify_nonlinear_norm
+# classify_norm_method
+# classify_save_adapted_templates
+# classify_use_pre_adapted_templates
+# conflict_set_I_l_1
+# crunch_accept_ok
+# crunch_del_cert
+# crunch_del_high_word
+# crunch_del_low_word
+# crunch_del_max_ht
+# crunch_del_min_ht
+# crunch_del_min_width
+# crunch_del_rating
+# crunch_early_convert_bad_unlv_chs
+# crunch_early_merge_tess_fails
+# crunch_include_numerals
+# crunch_leave_accept_strings
+# crunch_leave_lc_strings
+# crunch_leave_ok_strings
+# crunch_leave_uc_strings
+# crunch_long_repetitions
+# crunch_poor_garbage_cert
+# crunch_poor_garbage_rate
+# crunch_pot_indicators
+# crunch_pot_poor_cert
+# crunch_pot_poor_rate
+# crunch_rating_max
+# crunch_small_outlines_size
+# crunch_terrible_garbage
+# crunch_terrible_rating
+# datadir_base_path
+# disable_character_fragments
+# doc_dict_certainty_threshold
+# doc_dict_pending_threshold
+# enable_noise_removal
+# file_type
+# fixsp_done_mode
+# fixsp_non_noise_limit
+# fixsp_small_outlines_size
+# force_word_assoc
+# invert_threshold
+# jpg_quality
+# language_model_min_compound_length
+# language_model_ngram_nonmatch_score
+# language_model_ngram_on
+# language_model_ngram_order
+# language_model_ngram_rating_factor
+# language_model_ngram_scale_factor
+# language_model_ngram_small_prob
+# language_model_ngram_space_delimited_language
+# language_model_ngram_use_only_first_uft8_step
+# language_model_penalty_case
+# language_model_penalty_chartype
+# language_model_penalty_font
+# language_model_penalty_increment
+# language_model_penalty_non_dict_word
+# language_model_penalty_non_freq_dict_word
+# language_model_penalty_punc
+# language_model_penalty_script
+# language_model_penalty_spacing
+# language_model_use_sigmoidal_certainty
+# language_model_viterbi_list_max_num_prunable
+# language_model_viterbi_list_max_size
+# load_bigram_dawg
+# load_freq_dawg
+# load_number_dawg
+# load_punc_dawg
+# load_system_dawg
+# load_unambig_dawg
+# lstm_choice_iterations
+# lstm_choice_mode
+# lstm_rating_coefficient
+# lstm_use_matrix
+# matcher_avg_noise_size
+# matcher_bad_match_pad
+# matcher_clustering_max_angle_delta
+# matcher_good_threshold
+# matcher_min_examples_for_prototyping
+# matcher_perfect_threshold
+# matcher_permanent_classes_min
+# matcher_rating_margin
+# matcher_reliable_adaptive_result
+# matcher_sufficient_examples_for_prototyping
+# max_page_gradient_recognize
+# max_permuter_attempts
+# merge_fragments_in_matrix
+# min_characters_to_try
+# min_orientation_margin
+# min_sane_x_ht_pixels
+# noise_cert_basechar
+# noise_cert_disjoint
+# noise_cert_factor
+# noise_cert_punc
+# noise_maxperblob
+# noise_maxperword
+# numeric_punctuation
+# ocr_devanagari_split_strategy
+# ok_repeated_ch_non_alphanum_wds
+# outlines_2
+# outlines_odd
+# output_ambig_words_file
+# page_separator
+# page_xml_level
+# page_xml_polygon
+# pageseg_apply_music_mask
+# pageseg_devanagari_split_strategy
+# paragraph_text_based
+# poly_allow_detailed_fx
+# preserve_interword_spaces
+# prioritize_division
+# quality_blob_pc
+# quality_char_pc
+# quality_min_initial_alphas_reqd
+# quality_outline_pc
+# quality_rej_pc
+# quality_rowrej_pc
+# rating_scale
+# rej_1Il_trust_permuter_type
+# rej_1Il_use_dict_word
+# rej_alphas_in_number_perm
+# rej_trust_doc_dawg
+# rej_use_good_perm
+# rej_use_sensible_wd
+# rej_use_tess_accepted
+# rej_use_tess_blanks
+# rej_whole_of_mostly_reject_word_fract
+# repair_unchopped_blobs
+# save_alt_choices
+# save_doc_words
+# segment_nonalphabetic_script
+# segment_penalty_dict_case_bad
+# segment_penalty_dict_case_ok
+# segment_penalty_dict_frequent_word
+# segment_penalty_dict_nonword
+# segment_penalty_garbage
+# segsearch_max_char_wh_ratio
+# segsearch_max_futile_classifications
+# segsearch_max_pain_points
+# speckle_large_max_size
+# speckle_rating_penalty
+# stopper_allowable_character_badness
+# stopper_certainty_per_char
+# stopper_no_acceptable_choices
+# stopper_nondict_certainty_base
+# stopper_phase2_certainty_rejection_offset
+# stopper_smallword_size
+# subscript_max_y_top
+# superscript_bettered_certainty
+# superscript_min_y_bottom
+# superscript_scaledown_ratio
+# superscript_worse_certainty
+# suspect_accept_rating
+# suspect_constrain_1Il
+# suspect_level
+# suspect_rating_per_ch
+# suspect_short_words
+# tess_bn_matching
+# tess_cn_matching
+# tessedit_ambigs_training
+# tessedit_certainty_threshold
+# tessedit_char_blacklist
+# tessedit_char_unblacklist
+# tessedit_char_whitelist
+# tessedit_class_miss_scale
+# tessedit_dont_blkrej_good_wds
+# tessedit_dont_rowrej_good_wds
+# tessedit_enable_bigram_correction
+# tessedit_enable_dict_correction
+# tessedit_enable_doc_dict
+# tessedit_fix_fuzzy_spaces
+# tessedit_fix_hyphens
+# tessedit_flip_0O
+# tessedit_font_id
+# tessedit_good_doc_still_rowrej_wd
+# tessedit_good_quality_unrej
+# tessedit_image_border
+# tessedit_init_config_only
+# tessedit_load_sublangs
+# tessedit_lower_flip_hyphen
+# tessedit_make_boxes_from_boxes
+# tessedit_minimal_rej_pass1
+# tessedit_minimal_rejection
+# tessedit_ocr_engine_mode
+# tessedit_override_permuter
+# tessedit_page_number
+# tessedit_pageseg_mode
+# tessedit_parallelize
+# tessedit_prefer_joined_punct
+# tessedit_preserve_blk_rej_perfect_wds
+# tessedit_preserve_min_wd_len
+# tessedit_preserve_row_rej_perfect_wds
+# tessedit_reject_bad_qual_wds
+# tessedit_reject_block_percent
+# tessedit_reject_doc_percent
+# tessedit_reject_mode
+# tessedit_reject_row_percent
+# tessedit_resegment_from_boxes
+# tessedit_resegment_from_line_boxes
+# tessedit_row_rej_good_docs
+# tessedit_tess_adaption_mode
+# tessedit_test_adaption
+# tessedit_train_from_boxes
+# tessedit_train_line_recognizer
+# tessedit_truncate_wordchoice_log
+# tessedit_unrej_any_wd
+# tessedit_upper_flip_hyphen
+# tessedit_use_primary_params_model
+# tessedit_use_reject_spaces
+# tessedit_whole_wd_rej_row_percent
+# tessedit_word_for_word
+# tessedit_write_block_separators
+# tessedit_write_params_to_file
+# tessedit_write_rep_codes
+# tessedit_zero_kelvin_rejection
+# tessedit_zero_rejection
+# test_pt
+# test_pt_x
+# test_pt_y
+# textord_blshift_maxshift
+# textord_blshift_xfraction
+# textord_equation_detect
+# textord_initialasc_ile
+# textord_initialx_ile
+# textord_max_noise_size
+# textord_no_rejects
+# textord_noise_area_ratio
+# textord_noise_hfract
+# textord_noise_normratio
+# textord_noise_rejrows
+# textord_noise_rejwords
+# textord_noise_rowratio
+# textord_noise_sizefraction
+# textord_noise_sizelimit
+# textord_noise_sncount
+# textord_noise_sxfract
+# textord_noise_syfract
+# textord_noise_translimit
+# textord_show_blobs
+# textord_show_boxes
+# textord_single_height_mode
+# textord_tabfind_aligned_gap_fraction
+# textord_tabfind_force_vertical_text
+# textord_tabfind_vertical_text
+# textord_tabfind_vertical_text_ratio
+# textord_use_cjk_fp_model
+# thresholding_kfactor
+# thresholding_method
+# thresholding_score_fraction
+# thresholding_smooth_kernel_size
+# thresholding_tile_size
+# thresholding_window_size
+# tosp_all_flips_fuzzy
+# tosp_block_use_cert_spaces
+# tosp_dont_fool_with_small_kerns
+# tosp_enough_small_gaps
+# tosp_enough_space_samples_for_median
+# tosp_few_samples
+# tosp_flip_caution
+# tosp_flip_fuzz_kn_to_sp
+# tosp_flip_fuzz_sp_to_kn
+# tosp_force_wordbreak_on_punct
+# tosp_fuzzy_kn_fraction
+# tosp_fuzzy_limit_all
+# tosp_fuzzy_sp_fraction
+# tosp_fuzzy_space_factor
+# tosp_fuzzy_space_factor1
+# tosp_fuzzy_space_factor2
+# tosp_gap_factor
+# tosp_ignore_big_gaps
+# tosp_ignore_very_big_gaps
+# tosp_improve_thresh
+# tosp_init_guess_kn_mult
+# tosp_init_guess_xht_mult
+# tosp_kern_gap_factor1
+# tosp_kern_gap_factor2
+# tosp_kern_gap_factor3
+# tosp_large_kerning
+# tosp_max_sane_kn_thresh
+# tosp_min_sane_kn_sp
+# tosp_narrow_aspect_ratio
+# tosp_narrow_blobs_not_cert
+# tosp_narrow_fraction
+# tosp_near_lh_edge
+# tosp_old_sp_kn_th_factor
+# tosp_old_to_bug_fix
+# tosp_old_to_constrain_sp_kn
+# tosp_old_to_method
+# tosp_only_small_gaps_for_kern
+# tosp_only_use_prop_rows
+# tosp_only_use_xht_gaps
+# tosp_pass_wide_fuzz_sp_to_context
+# tosp_recovery_isolated_row_stats
+# tosp_redo_kern_limit
+# tosp_rep_space
+# tosp_row_use_cert_spaces
+# tosp_row_use_cert_spaces1
+# tosp_rule_9_test_punct
+# tosp_sanity_method
+# tosp_short_row
+# tosp_silly_kn_sp_gap
+# tosp_stats_use_xht_gaps
+# tosp_table_fuzzy_kn_sp_ratio
+# tosp_table_kn_sp_ratio
+# tosp_table_xht_sp_ratio
+# tosp_threshold_bias1
+# tosp_threshold_bias2
+# tosp_use_pre_chopping
+# tosp_use_xht_gaps
+# tosp_wide_aspect_ratio
+# tosp_wide_fraction
+# tsv_lang_info
+# unlv_tilde_crunching
+# unrecognised_char
+# use_ambigs_for_adaption
+# user_defined_dpi
+# user_patterns_file
+# user_patterns_suffix
+# user_words_file
+# user_words_suffix
+# wordrec_enable_assoc
+# wordrec_max_join_chunks
+# wordrec_run_blamer
+# wordrec_skip_no_truth_words
+# x_ht_acceptance_tolerance
+# x_ht_min_change
+# xheight_penalty_inconsistent
+# xheight_penalty_subscripts
+

@@ -41,3 +41,5 @@ sizes/movie/
 
 *~
 
+# tracked by https://github.com/GerHobbelt/tesseract-bulk-testing-fun-with-assertion-failures-outputs repo instead.
+/setup.outputs-repo.configs.sh

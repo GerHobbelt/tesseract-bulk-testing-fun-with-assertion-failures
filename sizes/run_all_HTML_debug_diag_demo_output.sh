@@ -16,6 +16,7 @@ for f in 1* ; do
 
     # get the basename sans extension:
     SRCNAME=$( echo "$f" | sed -E -e 's/[.][^.]+$//' )
+    SRCNUM=$( echo "$f" | sed -E -e 's/[.][^.]+$//' -e 's/-.*$//' )
     SRC=$f
 
     echo "SRCNAME: ${SRCNAME}"
@@ -31,8 +32,9 @@ pushd \$( dirname \$0 )                                                       > 
 if ! test -f ./${SRCNAME}-PSM${PSM}-diagnostics-debug-2.log || test "\$1" = "-f" ; then
 (
     shift
+	mkdir ${SRCNUM}
     # sometimes a tesseract run hangs; haven't found a decent clue why, so we apply a fixed timeout/abort to keep the run going, no matter what happens.
-    ( set -x ; echo "PWD: \$( pwd )" ;  time timeout -v -k 1s 3m   "${TESS}"  --loglevel ALL -l eng --psm ${PSM} --oem 3 --tessdata-dir ../../${DATADIR} -c debug_file=${SRCNAME}-PSM${PSM}-diagnostics-log.log -c thresholding_method=0 -c document_title=${DATADIR}-${SRCNAME}-PSM${PSM}  ../${SRC}  ${SRCNAME}-PSM${PSM}-diagnostics-log  hocr     \$@     txt tsv  ../tess_run_01_D_RUN.conf )    > ./${SRCNAME}-PSM${PSM}-diagnostics-debug-1.log   2> ./${SRCNAME}-PSM${PSM}-diagnostics-debug-2.log
+    ( set -x ; echo "PWD: \$( pwd )" ;  time timeout -v -k 1s 3m   "${TESS}"  --loglevel ALL -l eng --psm ${PSM} --oem 3 --tessdata-dir ../../${DATADIR} -c debug_file=${SRCNAME}-PSM${PSM}-diagnostics-log.log -c thresholding_method=0 -c document_title=${DATADIR}-${SRCNAME}-PSM${PSM}  ../${SRC}  ${SRCNUM}/${SRCNAME}-PSM${PSM}-diagnostics-log  hocr     \$@     txt tsv  ../tess_run_01_D_RUN.conf )    > ./${SRCNAME}-PSM${PSM}-diagnostics-debug-1.log   2> ./${SRCNAME}-PSM${PSM}-diagnostics-debug-2.log
 ) &
 fi
 popd                                                                         > /dev/null

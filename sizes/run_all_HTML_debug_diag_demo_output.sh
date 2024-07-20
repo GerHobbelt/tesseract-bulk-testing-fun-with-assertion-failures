@@ -6,13 +6,13 @@
 # our local build:
 TESS=/z/lib/tooling/qiqqa/MuPDF/platform/win32/bin/Release-Unicode-64bit-x64/tesseract.exe
 
-DATADIR=tessdata 
+DATADIR=tessdata
 
 #rm -rf diagnostics-output
 mkdir diagnostics-output
 
 REDUCE=0
-for f in 1* ; do 
+for f in 1* ; do
 
     # get the basename sans extension:
     SRCNAME=$( echo "$f" | sed -E -e 's/[.][^.]+$//' )
@@ -32,7 +32,9 @@ pushd \$( dirname \$0 )                                                       > 
 if ! test -f ./${SRCNAME}-PSM${PSM}-diagnostics-debug-2.log || test "\$1" = "-f" ; then
 (
     shift
-	mkdir ${SRCNUM}
+    if ! test -d ${SRCNUM} ; then
+        mkdir ${SRCNUM}
+    fi
     # sometimes a tesseract run hangs; haven't found a decent clue why, so we apply a fixed timeout/abort to keep the run going, no matter what happens.
     ( set -x ; echo "PWD: \$( pwd )" ;  time timeout -v -k 1s 3m   "${TESS}"  --loglevel ALL -l eng --psm ${PSM} --oem 3 --tessdata-dir ../../${DATADIR} -c debug_file=${SRCNAME}-PSM${PSM}-diagnostics-log.log -c thresholding_method=0 -c document_title=${DATADIR}-${SRCNAME}-PSM${PSM}  ../${SRC}  ${SRCNUM}/${SRCNAME}-PSM${PSM}-diagnostics-log  hocr     \$@     txt tsv  ../tess_run_01_D_RUN.conf )    > ./${SRCNAME}-PSM${PSM}-diagnostics-debug-1.log   2> ./${SRCNAME}-PSM${PSM}-diagnostics-debug-2.log
 ) &
@@ -43,7 +45,7 @@ EOT
             ./diagnostics-output/${SRCNAME}-PSM${PSM}-cmdline.sh
         fi
     done
-    
+
     if test ${REDUCE} -ge 8 ; then
         REDUCE=0
         echo "Waiting for the tesseract runs to finish..."

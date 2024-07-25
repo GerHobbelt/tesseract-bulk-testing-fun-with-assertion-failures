@@ -195,6 +195,11 @@ universal_ambigs_debug_level                        1
 tessedit_display_outwords                           T
 wordrec_display_segmentations                       T
 
+
+debug_recog_word_recursion_depth                    T
+# recog_word_recursion_depth_limit                                  30
+
+
 # allow_blob_division
 # applybox_exposure_pattern
 # applybox_learn_chars_and_char_frags_mode
